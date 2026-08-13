@@ -1,5 +1,6 @@
 import React from "react";
 import { formatCategoryName } from "../utils/gameUtils";
+import { PWAInstallBanner } from "./PWAInstallBanner";
 
 interface HomeScreenProps {
   categories: string[];
@@ -25,6 +26,9 @@ export const HomeScreen: React.FC<HomeScreenProps> = ({
           Thử thách đoán nhanh cùng bạn bè với {totalCards} câu hỏi hấp dẫn!
         </p>
       </div>
+
+      {/* PWA Install Banner */}
+      <PWAInstallBanner />
 
       <div className="rules-card">
         <h2 className="rules-title">🎮 Cách chơi đơn giản</h2>

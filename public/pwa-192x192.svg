@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192" width="192" height="192">
+  <defs>
+    <linearGradient id="bgGrad192" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#be185d"/>
+      <stop offset="50%" stop-color="#7c3aed"/>
+      <stop offset="100%" stop-color="#4f46e5"/>
+    </linearGradient>
+    <linearGradient id="textGrad192" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#fbcfe8"/>
+    </linearGradient>
+  </defs>
+  
+  <rect width="192" height="192" rx="42" fill="#0f172a"/>
+  <rect x="10" y="10" width="172" height="172" rx="34" fill="url(#bgGrad192)"/>
+  
+  <text
+    x="96"
+    y="60"
+    fill="#fdf2f8"
+    font-family="system-ui, -apple-system, sans-serif"
+    font-size="16"
+    font-weight="900"
+    letter-spacing="4"
+    text-anchor="middle"
+    opacity="0.9"
+  >GỢI Ý</text>
+  
+  <text
+    x="96"
+    y="126"
+    fill="url(#textGrad192)"
+    font-family="system-ui, -apple-system, sans-serif"
+    font-size="62"
+    font-weight="900"
+    letter-spacing="1"
+    text-anchor="middle"
+  >100</text>
+
+  <rect x="56" y="140" width="80" height="20" rx="10" fill="rgba(0,0,0,0.3)"/>
+  <text
+    x="96"
+    y="154"
+    fill="#fbcfe8"
+    font-family="system-ui, -apple-system, sans-serif"
+    font-size="10"
+    font-weight="800"
+    letter-spacing="1"
+    text-anchor="middle"
+  >100S QUIZ</text>
+</svg>
