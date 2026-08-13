@@ -110,7 +110,6 @@ export const GamePlayScreen: React.FC<GamePlayScreenProps> = ({
   };
 
   const revealedCount = getRevealedHintsCount(timeLeft);
-  const visibleHints = card.hints.slice(0, revealedCount);
   const isUrgent = timeLeft <= 20;
 
   return (
@@ -150,21 +149,44 @@ export const GamePlayScreen: React.FC<GamePlayScreenProps> = ({
         <div className="answer-text">{card.answer}</div>
       </div>
 
-      {/* Revealed Hints */}
+      {/* Hints List (Revealed & Locked) */}
       <div className="hints-section">
         <div className="hints-header">
           <span>DANH SÁCH GỢI Ý</span>
           <span className="hints-count">
-            ({revealedCount}/{card.hints.length})
+            Đã mở: {revealedCount}/{card.hints?.length || 5}
           </span>
         </div>
         <div className="hints-list" aria-live="polite" aria-relevant="additions">
-          {visibleHints.map((hint, idx) => (
-            <div key={idx} className="hint-item hint-appear">
-              <span className="hint-num">{idx + 1}</span>
-              <span className="hint-content">{hint}</span>
-            </div>
-          ))}
+          {(card.hints || []).map((hint, idx) => {
+            const isRevealed = idx < revealedCount;
+            const isLatest = idx === revealedCount - 1 && revealedCount > 1;
+            const unlockAt = 100 - idx * 20;
+
+            if (isRevealed) {
+              return (
+                <div
+                  key={idx}
+                  className={`hint-item hint-revealed ${isLatest ? "hint-latest" : ""}`}
+                >
+                  <span className="hint-num">{idx + 1}</span>
+                  <div className="hint-body">
+                    <span className="hint-content">{hint}</span>
+                  </div>
+                </div>
+              );
+            }
+
+            return (
+              <div key={idx} className="hint-item hint-locked">
+                <span className="hint-num hint-num--locked">🔒</span>
+                <div className="hint-body">
+                  <span className="hint-locked-text">Gợi ý {idx + 1}</span>
+                  <span className="hint-lock-badge">Mở ở mốc {unlockAt}s</span>
+                </div>
+              </div>
+            );
+          })}
         </div>
       </div>
 
