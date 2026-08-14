@@ -14,7 +14,7 @@ export type ImageQuizQuestion = {
 };
 
 export type ImageQuizPack = {
-  id: "sea-landmarks-all" | "sea-heritage" | "sea-nature";
+  id: string;
   title: string;
   subtitle: string;
   icon: string;

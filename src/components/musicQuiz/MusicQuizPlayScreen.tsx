@@ -155,8 +155,6 @@ export const MusicQuizPlayScreen: React.FC<MusicQuizPlayScreenProps> = ({
     return () => window.removeEventListener("keydown", handleKeyDown);
   });
 
-  const timeLeft = Math.max(0, Math.ceil(remainingMs / 1000));
-  const _isUrgent = timeLeft <= 8 && !isAnswered;
   const isCorrectChoice =
     selectedOption !== null &&
     selectedOption.trim().toLowerCase() ===
