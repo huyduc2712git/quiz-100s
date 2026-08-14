@@ -48,6 +48,8 @@ button, input, select, textarea {
 html, body {
   width: 100%;
   min-height: 100%;
+  margin: 0;
+  padding: 0;
   background: radial-gradient(circle at 50% 0%, var(--bg-gradient-3), var(--bg-gradient-2) 40%, var(--bg-gradient-1) 100%);
   background-attachment: fixed;
   color: var(--text-main);
@@ -60,10 +62,10 @@ html, body {
   touch-action: manipulation;
 }
 
-
 body {
   min-height: 100vh;
   min-height: 100dvh;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: stretch;
@@ -74,6 +76,7 @@ body {
   max-width: 540px;
   min-height: 100vh;
   min-height: 100dvh;
+  height: 100%;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -81,6 +84,9 @@ body {
   box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
   background: #0f172a;
 }
+
+
+
 
 
 .sr-only {

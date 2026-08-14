@@ -7,33 +7,47 @@
   width: 100%;
 }
 
-.app-viewport:has(.app-main--playing) {
-  height: 100vh;
-  height: 100dvh;
-  overflow: hidden;
-}
-
 .app-main {
   flex: 1;
   display: flex;
   flex-direction: column;
-  padding: 14px 14px;
-  padding-bottom: calc(14px + env(safe-area-inset-bottom, 0px));
+  padding: 14px 14px calc(20px + env(safe-area-inset-bottom, 0px));
   width: 100%;
   max-width: 540px;
   margin: 0 auto;
-  min-height: 0;
 }
 
 .app-main:focus {
   outline: none;
 }
 
-.app-main--playing {
-  padding: 8px 12px calc(8px + env(safe-area-inset-bottom, 0px));
-  height: calc(100dvh - 52px);
+/* Gợi Ý 100: Locked single-screen viewport with internal wiki dialogue scroll */
+.app-viewport.mode-hint100:has(.app-main--playing) {
+  height: 100vh;
+  height: 100dvh;
+  max-height: 100dvh;
   overflow: hidden;
 }
+
+.mode-hint100 .app-main--playing {
+  padding: 8px 12px calc(8px + env(safe-area-inset-bottom, 0px));
+  flex: 1 1 0%;
+  min-height: 0;
+  height: 100%;
+  overflow: hidden !important;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Quiz Âm Nhạc: Natural scroll flow */
+.mode-musicQuiz .app-main--playing {
+  padding: 12px 14px calc(24px + env(safe-area-inset-bottom, 0px));
+  overflow-y: auto;
+}
+
+
+
+
 
 
 /* Header */
@@ -603,65 +617,66 @@
   min-height: 0;
   gap: 8px;
   overflow: hidden;
-  flex: 1;
 }
-
 
 .compact-status-bar {
   margin-bottom: 0;
 }
+
+
 
 /* Compact Combined Answer & Timer Card */
 .compact-answer-timer-card {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 10px;
+  gap: 8px;
   background: linear-gradient(135deg, rgba(30, 27, 75, 0.95), rgba(49, 16, 66, 0.95));
   border: 1.5px solid rgba(236, 72, 153, 0.45);
-  border-radius: var(--radius-lg);
-  padding: 8px 12px;
+  border-radius: var(--radius-md);
+  padding: 6px 10px;
   margin-bottom: 0;
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4), 0 0 16px rgba(236, 72, 153, 0.15);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.35), 0 0 12px rgba(236, 72, 153, 0.12);
   text-align: left;
+  flex-shrink: 0;
 }
-
 
 .answer-left-info {
   flex: 1;
   min-width: 0;
   display: flex;
   flex-direction: column;
-  gap: 4px;
+  gap: 3px;
 }
 
 /* Spoken Opening Prompt Box */
 .opening-clue-box {
   background: rgba(56, 189, 248, 0.12);
   border: 1px solid rgba(56, 189, 248, 0.35);
-  border-radius: 10px;
-  padding: 5px 9px;
+  border-radius: 8px;
+  padding: 3px 8px;
   display: flex;
   flex-direction: column;
   gap: 1px;
 }
 
 .opening-clue-tag {
-  font-size: 9px;
+  font-size: 8.5px;
   font-weight: 900;
   color: #38bdf8;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.4px;
   text-transform: uppercase;
 }
 
 .opening-clue-quote {
-  font-size: 13.5px;
+  font-size: 12.5px;
   font-weight: 800;
   color: #ffffff;
-  line-height: 1.3;
+  line-height: 1.25;
 }
 
 /* Main Answer Display */
+
 .answer-main-display {
   display: flex;
   align-items: baseline;
@@ -743,12 +758,18 @@
 }
 
 .wiki-dialogue-main-card {
-  flex: 1;
+  flex: 1 1 0%;
   min-height: 0;
   display: flex;
   flex-direction: column;
   margin-bottom: 0;
   padding: 12px 14px;
+  background: linear-gradient(135deg, rgba(30, 41, 59, 0.95), rgba(15, 23, 42, 0.98));
+  border: 1.5px solid rgba(56, 189, 248, 0.4);
+  border-radius: var(--radius-lg);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4), 0 0 20px rgba(56, 189, 248, 0.15);
+  text-align: left;
+  overflow: hidden;
 }
 
 .wiki-dialogue-header {
@@ -779,7 +800,6 @@
   padding: 1.5px 7px;
   letter-spacing: 0.3px;
 }
-
 
 .wiki-badge-icon {
   font-size: 18px;
@@ -812,12 +832,14 @@
 }
 
 .wiki-dialogue-body {
-  flex: 1;
+  flex: 1 1 0%;
   min-height: 0;
   display: flex;
   flex-direction: column;
-  overflow-y: auto;
+  overflow-y: auto !important;
   -webkit-overflow-scrolling: touch;
+  overscroll-behavior-y: contain;
+  touch-action: pan-y;
   padding-right: 4px;
 }
 
@@ -840,13 +862,9 @@
   background: rgba(56, 189, 248, 0.7);
 }
 
-.wiki-dialogue-scrollable {
-  overflow-y: auto;
-  -webkit-overflow-scrolling: touch;
-}
-
 
 .wiki-dialogue-loading {
+
   display: flex;
   align-items: center;
   justify-content: center;
@@ -941,13 +959,13 @@
 
 .hint-action-bar {
   display: grid;
-  grid-template-columns: 95px 1fr;
+  grid-template-columns: 88px 1fr;
   gap: 8px;
-  margin-top: 2px;
+  margin-top: 0;
+  padding-top: 2px;
   width: 100%;
   flex-shrink: 0;
 }
-
 
 .btn-skip {
   background: rgba(239, 68, 68, 0.18);
@@ -957,14 +975,16 @@
   font-weight: 900;
   font-size: 13px;
   border-radius: var(--radius-md);
-  padding: 8px 12px;
-  min-height: 44px;
+  padding: 0 10px;
+  min-height: 42px;
+  height: 42px;
   cursor: pointer;
   transition: all 0.2s ease;
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
 
 .btn-skip:hover:not(:disabled) {
   background: rgba(239, 68, 68, 0.3);
@@ -986,8 +1006,9 @@
   font-size: 15px;
   letter-spacing: 0.5px;
   border-radius: var(--radius-md);
-  padding: 8px 16px;
-  min-height: 44px;
+  padding: 0 16px;
+  min-height: 42px;
+  height: 42px;
   cursor: pointer;
   transition: all 0.2s ease;
   display: flex;
@@ -995,6 +1016,7 @@
   justify-content: center;
   box-shadow: 0 4px 14px rgba(16, 185, 129, 0.35);
 }
+
 
 .btn-correct:hover:not(:disabled) {
   transform: translateY(-1px);
@@ -1870,17 +1892,18 @@
 }
 
 /* ==========================================================================
-   MUSIC QUIZ PLAY SCREEN (Reference UI Style)
+/* ==========================================================================
+   MUSIC QUIZ PLAY SCREEN (Natural Proportional Layout & Scroll)
    ========================================================================== */
 .music-play-screen-ref {
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 14px;
   width: 100%;
   position: relative;
   padding-top: 4px;
+  padding-bottom: 24px;
 }
-
 
 /* 1. Top Status & Progress Bar */
 .quiz-top-status-row {
@@ -1889,7 +1912,7 @@
   justify-content: space-between;
   gap: 10px;
   width: 100%;
-  margin-bottom: 8px;
+  margin-bottom: 6px;
 }
 
 .status-pill-left {
@@ -1951,20 +1974,20 @@
   position: relative;
   background: linear-gradient(180deg, rgba(30, 41, 59, 0.95), rgba(15, 23, 42, 0.98));
   border: 2px solid rgba(255, 255, 255, 0.12);
-  border-radius: 26px;
-  padding: 22px 16px 16px;
-  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.5);
+  border-radius: 24px;
+  padding: 20px 14px 14px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.45);
   text-align: center;
   margin-top: 14px;
 }
 
 .floating-timer-bubble {
   position: absolute;
-  top: -20px;
+  top: -18px;
   left: 50%;
   transform: translateX(-50%);
-  width: 44px;
-  height: 44px;
+  width: 42px;
+  height: 42px;
   border-radius: 50%;
   background: #0f172a;
   border: 3px solid #8b5cf6;
@@ -2020,16 +2043,16 @@
 
 .card-question-title {
   font-family: var(--font-display);
-  font-size: 19px;
+  font-size: 18px;
   font-weight: 900;
   color: #ffffff;
-  margin-bottom: 10px;
+  margin-bottom: 8px;
   letter-spacing: -0.2px;
 }
 
 .highlight-num {
   color: #a855f7;
-  font-size: 21px;
+  font-size: 20px;
   margin-left: 2px;
 }
 
@@ -2074,11 +2097,10 @@
 }
 
 .app-audio-box {
-
   background: rgba(30, 27, 75, 0.65);
   border: 1.5px solid rgba(139, 92, 246, 0.3);
-  border-radius: 18px;
-  padding: 14px 12px;
+  border-radius: 16px;
+  padding: 12px 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -2087,8 +2109,8 @@
 }
 
 .center-play-circle {
-  width: 50px;
-  height: 50px;
+  width: 48px;
+  height: 48px;
   border-radius: 50%;
   background: linear-gradient(135deg, #8b5cf6, #6366f1);
   border: 2px solid rgba(255, 255, 255, 0.3);
@@ -2103,7 +2125,7 @@
 }
 
 .center-play-circle:hover {
-  transform: scale(1.08);
+  transform: scale(1.06);
   box-shadow: 0 8px 25px rgba(139, 92, 246, 0.7);
 }
 
@@ -2118,7 +2140,7 @@
 }
 
 .audio-box-status {
-  font-size: 12.5px;
+  font-size: 12px;
   font-weight: 700;
   color: #e2e8f0;
 }
@@ -2203,14 +2225,14 @@
 .card-dotted-divider {
   border-bottom: 2px dotted rgba(255, 255, 255, 0.15);
   width: 100%;
-  margin: 12px 0 10px;
+  margin: 10px 0 8px;
 }
 
 .card-prompt-text {
-  font-size: 15px;
+  font-size: 14.5px;
   font-weight: 800;
   color: #ffffff;
-  line-height: 1.4;
+  line-height: 1.35;
   text-align: center;
 }
 
@@ -2234,10 +2256,11 @@
   justify-content: space-between;
   gap: 12px;
   width: 100%;
-  padding: 13px 16px;
+  padding: 12px 16px;
+  min-height: 46px;
   background: rgba(15, 23, 42, 0.9);
   border: 1.5px solid rgba(255, 255, 255, 0.12);
-  border-radius: 18px;
+  border-radius: 16px;
   cursor: pointer;
   transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
@@ -2245,14 +2268,13 @@
 }
 
 .quiz-option-row:hover:not(:disabled) {
-  transform: translateY(-2px);
   border-color: #8b5cf6;
   background: rgba(139, 92, 246, 0.15);
   box-shadow: 0 6px 18px rgba(139, 92, 246, 0.25);
 }
 
 .option-row-text {
-  font-size: 14.5px;
+  font-size: 14px;
   font-weight: 700;
   color: #ffffff;
   flex: 1;
@@ -2332,7 +2354,7 @@
   background: rgba(15, 23, 42, 0.92);
   border: 1.5px solid rgba(255, 255, 255, 0.14);
   border-radius: var(--radius-md);
-  padding: 10px 14px;
+  padding: 8px 12px;
   text-align: center;
 }
 
@@ -2347,16 +2369,16 @@
 }
 
 .fb-headline {
-  font-size: 13.5px;
+  font-size: 13px;
   font-weight: 800;
   color: #ffffff;
-  margin-bottom: 3px;
+  margin-bottom: 2px;
 }
 
 .fb-ans-text {
   color: #cbd5e1;
   font-weight: 600;
-  margin-left: 6px;
+  margin-left: 4px;
 }
 
 .fb-ans-text strong {
@@ -2368,10 +2390,10 @@
   flex-wrap: wrap;
   justify-content: center;
   gap: 6px 12px;
-  font-size: 12px;
+  font-size: 11.5px;
   color: #fbcfe8;
   font-weight: 600;
-  margin-top: 4px;
+  margin-top: 3px;
 }
 
 /* 5. Bottom Next Button */
@@ -2382,16 +2404,17 @@
 
 .btn-quiz-next {
   width: 100%;
-  min-height: 50px;
+  min-height: 48px;
+  height: 48px;
   border-radius: var(--radius-full);
   background: linear-gradient(135deg, #8b5cf6, #6366f1);
   border: 1.5px solid rgba(255, 255, 255, 0.3);
   color: #ffffff;
   font-family: var(--font-display);
-  font-size: 16.5px;
+  font-size: 16px;
   font-weight: 900;
   cursor: pointer;
-  box-shadow: 0 8px 25px rgba(139, 92, 246, 0.5);
+  box-shadow: 0 6px 20px rgba(139, 92, 246, 0.45);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -2400,8 +2423,8 @@
 }
 
 .btn-quiz-next:hover:not(:disabled) {
-  transform: translateY(-2px);
-  box-shadow: 0 12px 30px rgba(139, 92, 246, 0.7);
+  transform: translateY(-1px);
+  box-shadow: 0 8px 25px rgba(139, 92, 246, 0.65);
 }
 
 .btn-quiz-next:disabled {
@@ -2409,6 +2432,7 @@
   cursor: not-allowed;
   filter: grayscale(40%);
 }
+
 
 /* Results Screen Music Extra */
 .music-score-card {
