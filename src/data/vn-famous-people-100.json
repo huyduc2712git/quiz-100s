@@ -1,0 +1,1302 @@
+[
+  {
+    "id": "nv-vn-001",
+    "category": "nhan-vat-noi-tieng",
+    "answer": "Trịnh Công Sơn",
+    "hints": [
+      "Nhạc sĩ tài hoa bậc nhất của nền tân nhạc Việt Nam",
+      "Tác giả các tuyệt phẩm 'Diễm xưa', 'Biển nhớ', 'Nối vòng tay lớn'",
+      "Được mệnh danh là tượng đài âm nhạc trữ tình Việt Nam",
+      "Gắn liền với hình ảnh cố đô Huế và giọng hát Khánh Ly"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/Trịnh_Công_Sơn"
+  },
+  {
+    "id": "nv-vn-002",
+    "category": "nhan-vat-noi-tieng",
+    "answer": "Ngô Bảo Châu",
+    "hints": [
+      "Nhà toán học kiệt xuất của Việt Nam và thế giới",
+      "Người Việt Nam đầu tiên đoạt Huy chương Fields danh giá năm 2010",
+      "Chứng minh thành công Bổ đề cơ bản cho các dạng tự đẳng cấu",
+      "Từng đạt hai Huy chương Vàng Olympic Toán học Quốc tế liên tiếp"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/Ngô_Bảo_Châu"
+  },
+  {
+    "id": "nv-vn-003",
+    "category": "nhan-vat-noi-tieng",
+    "answer": "Phạm Tuân",
+    "hints": [
+      "Phi công, phi hành gia anh hùng của Việt Nam",
+      "Người Việt Nam và châu Á đầu tiên bay vào vũ trụ (chuyến bay Soyuz 37 năm 1980)",
+      "Phi công đầu tiên bắn hạ máy bay B-52 của Mỹ từ trên không năm 1972",
+      "Được phong tặng danh hiệu Anh hùng Lao động và Anh hùng Liên Xô"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/Phạm_Tuân"
+  },
+  {
+    "id": "nv-vn-004",
+    "category": "nhan-vat-noi-tieng",
+    "answer": "Văn Cao",
+    "hints": [
+      "Nhạc sĩ, họa sĩ, nhà thơ kiệt xuất của Việt Nam",
+      "Tác giả của bài hát 'Tiến quân ca' - Quốc ca của nước Cộng hòa Xã hội Chủ nghĩa Việt Nam",
+      "Tác giả của các tuyệt phẩm trữ tình 'Thiên Thai', 'Suối mơ', 'Trương Chi'",
+      "Một trong những gương mặt tiên phong của phong trào Tân nhạc"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/Văn_Cao"
+  },
+  {
+    "id": "nv-vn-005",
+    "category": "nhan-vat-noi-tieng",
+    "answer": "Tô Hoài",
+    "hints": [
+      "Nhà văn lớn của nền văn học hiện đại Việt Nam",
+      "Tác giả kiệt tác truyện thiếu nhi 'Dế Mèn phiêu lưu ký'",
+      "Tác giả truyện ngắn nổi tiếng 'Vợ chồng A Phủ' về đồng bào vùng cao Tây Bắc",
+      "Được trao tặng Giải thưởng Hồ Chí Minh về Văn học - Nghệ thuật đợt I"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/Tô_Hoài"
+  },
+  {
+    "id": "nv-vn-006",
+    "category": "nhan-vat-noi-tieng",
+    "answer": "Nam Cao",
+    "hints": [
+      "Nhà văn hiện thực xuất sắc bậc nhất của văn học Việt Nam thế kỷ 20",
+      "Tác giả kiệt tác 'Chí Phèo' với hình tượng làng Vũ Đại",
+      "Tác giả các tác phẩm bất hủ như 'Lão Hạc', 'Đời thừa', 'Sống mòn'",
+      "Nhà văn chiến sĩ hy sinh trên đường công tác vùng địch hậu năm 1951"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/Nam_Cao"
+  },
+  {
+    "id": "nv-vn-007",
+    "category": "nhan-vat-noi-tieng",
+    "answer": "Nguyễn Du",
+    "hints": [
+      "Đại thi hào dân tộc, Danh nhân văn hóa thế giới",
+      "Tác giả kiệt tác bất hủ 'Đoạn trường tân thanh' (Truyện Kiều)",
+      "Nhà thơ kiệt xuất thời Hậu Lê và đầu thời Nguyễn với tên chữ Tố Như",
+      "Được UNESCO vinh danh kỷ niệm 250 năm ngày sinh vào năm 2015"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/Nguyễn_Du"
+  },
+  {
+    "id": "nv-vn-008",
+    "category": "nhan-vat-noi-tieng",
+    "answer": "Hồ Xuân Hương",
+    "hints": [
+      "Nữ thi sĩ kiệt xuất, được xưng tụng là 'Bà chúa thơ Nôm'",
+      "Tác giả các bài thơ Nôm nổi tiếng như 'Bánh trôi nước', 'Tự tình', 'Quả mít'",
+      "Thơ mang phong cách trào phúng, đề cao nữ quyền và vẻ đẹp người phụ nữ",
+      "Được UNESCO công nhận là Danh nhân văn hóa thế giới năm 2021"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/Hồ_Xuân_Hương"
+  },
+  {
+    "id": "nv-vn-009",
+    "category": "nhan-vat-noi-tieng",
+    "answer": "Xuân Diệu",
+    "hints": [
+      "Nhà thơ lớn, được mệnh danh là 'Ông hoàng thơ tình' của Việt Nam",
+      "Nhà thơ mới nhất trong phong trào Thơ mới với tập thơ 'Thơ thơ', 'Gửi hương cho gió'",
+      "Tác giả các thi phẩm bất hủ như 'Vội vàng', 'Yêu', 'Thơ duyên'",
+      "Viện sĩ thông tấn Viện Hàn lâm Nghệ thuật Cộng hòa Dân chủ Đức"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/Xuân_Diệu"
+  },
+  {
+    "id": "nv-vn-010",
+    "category": "nhan-vat-noi-tieng",
+    "answer": "Xuân Quỳnh",
+    "hints": [
+      "Nữ thi sĩ tài hoa hàng đầu của nền thơ ca hiện đại Việt Nam",
+      "Tác giả bài thơ tình bất hủ 'Sóng' và 'Thuyền và biển'",
+      "Tác giả bài thơ thiếu nhi nổi tiếng 'Tiếng gà trưa'",
+      "Vợ của nhà viết kịch, nhà thơ tài danh Lưu Quang Vũ"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/Xuân_Quỳnh"
+  },
+  {
+    "id": "nv-vn-011",
+    "category": "nhan-vat-noi-tieng",
+    "answer": "Lưu Quang Vũ",
+    "hints": [
+      "Nhà viết kịch, nhà thơ tài ba bậc nhất của sân khấu kịch nghệ Việt Nam",
+      "Tác giả các vở kịch kinh điển như 'Hồn Trương Ba da hàng thịt', 'Tôi và chúng ta'",
+      "Hiện tượng sân khấu Việt Nam thập niên 1980 với hàng chục vở diễn ăn khách",
+      "Chồng của nữ thi sĩ Xuân Quỳnh, qua đời trong tai nạn năm 1988"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/Lưu_Quang_Vũ"
+  },
+  {
+    "id": "nv-vn-012",
+    "category": "nhan-vat-noi-tieng",
+    "answer": "Nguyễn Nhật Ánh",
+    "hints": [
+      "Nhà văn hiện đại được đông đảo giới trẻ và thanh thiếu niên yêu thích nhất",
+      "Tác giả bộ truyện dài 54 tập nổi tiếng 'Kính vạn hoa'",
+      "Tác giả các cuốn sách ăn khách được chuyển thể phim như 'Mắt biếc', 'Tôi thấy hoa vàng trên cỏ xanh', 'Cô gái đến từ hôm qua'",
+      "Được trao giải thưởng Văn học ASEAN năm 2010"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/Nguyễn_Nhật_Ánh"
+  },
+  {
+    "id": "nv-vn-013",
+    "category": "nhan-vat-noi-tieng",
+    "answer": "Vũ Trọng Phụng",
+    "hints": [
+      "Nhà văn, nhà báo hiện thực phê phán xuất sắc với mệnh danh 'Ông vua phóng sự đất Bắc'",
+      "Tác giả tiểu thuyết trào phúng kinh điển 'Số đỏ' với nhân vật Xuân Tóc Đỏ",
+      "Tác giả các phóng sự và tiểu thuyết sắc sảo như 'Cơm thầy cơm cô', 'Giông tố', 'Kỹ nghệ lấy Tây'",
+      "Tài năng văn chương kiệt xuất qua đời khi mới 27 tuổi"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/Vũ_Trọng_Phụng"
+  },
+  {
+    "id": "nv-vn-014",
+    "category": "nhan-vat-noi-tieng",
+    "answer": "Bùi Xuân Phái",
+    "hints": [
+      "Họa sĩ tài danh của nền mỹ thuật hiện đại Việt Nam",
+      "Nổi tiếng với dòng tranh vẽ phố cổ Hà Nội mang tên gọi thân thương 'Phố Phái'",
+      "Thuộc thế hệ họa sĩ tốt nghiệp Trường Cao đẳng Mỹ thuật Đông Dương",
+      "Tên ông được đặt cho giải thưởng thường niên tôn vinh tình yêu Hà Nội"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/Bùi_Xuân_Phái"
+  },
+  {
+    "id": "nv-vn-015",
+    "category": "nhan-vat-noi-tieng",
+    "answer": "Tô Ngọc Vân",
+    "hints": [
+      "Họa sĩ tài hoa bậc thầy, một trong 'Tứ kiệt' của hội họa hiện đại Việt Nam",
+      "Tác giả kiệt tác hội họa 'Thiếu nữ bên hoa huệ'",
+      "Hiệu trưởng đầu tiên của Trường Mỹ thuật Việt Nam thời kháng chiến",
+      "Hy sinh tại đèo Lũng Lô năm 1954 trong chiến dịch Điện Biên Phủ"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/Tô_Ngọc_Vân"
+  },
+  {
+    "id": "nv-vn-016",
+    "category": "nhan-vat-noi-tieng",
+    "answer": "Đặng Thái Sơn",
+    "hints": [
+      "Nghệ sĩ dương cầm (pianist) lừng danh quốc tế người Việt Nam",
+      "Nghệ sĩ châu Á đầu tiên đoạt giải Nhất cuộc thi Piano Quốc tế Frédéric Chopin tại Ba Lan năm 1980",
+      "Được trao tặng Huân chương Công trạng Văn hóa Ba Lan",
+      "Giáo sư giảng dạy piano tại nhiều nhạc viện danh tiếng trên thế giới"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/Đặng_Thái_Sơn"
+  },
+  {
+    "id": "nv-vn-017",
+    "category": "nhan-vat-noi-tieng",
+    "answer": "Phạm Nhật Vượng",
+    "hints": [
+      "Doanh nhân, tỷ phú đô la đầu tiên của Việt Nam lọt vào danh sách Forbes",
+      "Người sáng lập và Chủ tịch Hội đồng Quản trị Tập đoàn Vingroup",
+      "Khởi nghiệp thành công tại Ukraine với thương hiệu mì ăn liền Mivina",
+      "Người sáng lập thương hiệu xe điện VinFast xuất khẩu ra thế giới"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/Phạm_Nhật_Vượng"
+  },
+  {
+    "id": "nv-vn-018",
+    "category": "nhan-vat-noi-tieng",
+    "answer": "Nguyễn Thị Phương Thảo",
+    "hints": [
+      "Nữ doanh nhân, nữ tỷ phú tự thân đầu tiên của Việt Nam và Đông Nam Á",
+      "Chủ tịch Hội đồng Quản trị hãng hàng không Vietjet Air",
+      "Phó Chủ tịch thường trực Ngân hàng HDBank",
+      "Từng nhiều lần lọt vào danh sách 100 phụ nữ quyền lực nhất thế giới của Forbes"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/Nguyễn_Thị_Phương_Thảo"
+  },
+  {
+    "id": "nv-vn-019",
+    "category": "nhan-vat-noi-tieng",
+    "answer": "Đặng Lê Nguyên Vũ",
+    "hints": [
+      "Doanh nhân nổi tiếng được mệnh danh là 'Vua cà phê' Việt Nam",
+      "Người sáng lập và Chủ tịch Tập đoàn Cà phê Trung Nguyên",
+      "Đưa thương hiệu cà phê G7 vươn ra thị trường quốc tế",
+      "Nổi tiếng với triết lý 'Cà phê đạo' và lối xưng hô 'Qua'"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/Đặng_Lê_Nguyên_Vũ"
+  },
+  {
+    "id": "nv-vn-020",
+    "category": "nhan-vat-noi-tieng",
+    "answer": "Trương Gia Bình",
+    "hints": [
+      "Doanh nhân tiên phong trong ngành công nghệ thông tin Việt Nam",
+      "Người đồng sáng lập và Chủ tịch Hội đồng Quản trị Tập đoàn FPT",
+      "Tiến sĩ Toán - Lý tốt nghiệp Đại học Tổng hợp Lomonosov (Nga)",
+      "Đóng góp to lớn trong việc đưa ngành công nghệ và phần mềm Việt Nam ra toàn cầu"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/Trương_Gia_Bình"
+  },
+  {
+    "id": "nv-vn-021",
+    "category": "nhan-vat-noi-tieng",
+    "answer": "Hoàng Xuân Vinh",
+    "hints": [
+      "Vận động viên bắn súng huyền thoại của thể thao Việt Nam",
+      "Vận động viên đầu tiên trong lịch sử giành Huy chương Vàng Olympic cho Việt Nam (Rio 2016)",
+      "Thiết lập kỷ lục Olympic ở nội dung 10m súng ngắn hơi nam",
+      "Đại tá Quân đội Nhân dân Việt Nam"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/Hoàng_Xuân_Vinh"
+  },
+  {
+    "id": "nv-vn-022",
+    "category": "nhan-vat-noi-tieng",
+    "answer": "Nguyễn Thị Ánh Viên",
+    "hints": [
+      "Kình ngư tài năng bậc nhất trong lịch sử bơi lội Việt Nam",
+      "Được mệnh danh là 'Tiểu tiên cá' với 25 Huy chương Vàng SEA Games",
+      "Đoạt Huy chương Đồng Asian Games và nhiều kỷ lục bơi lội quốc tế",
+      "Đại úy Quân nhân chuyên nghiệp Quân đội Nhân dân Việt Nam"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/Nguyễn_Thị_Ánh_Viên"
+  },
+  {
+    "id": "nv-vn-023",
+    "category": "nhan-vat-noi-tieng",
+    "answer": "Lê Quang Liêm",
+    "hints": [
+      "Đại kiện tướng cờ vua quốc tế hàng đầu Việt Nam",
+      "Vô địch cờ chớp thế giới năm 2013",
+      "Từng vô địch giải cờ vua danh giá Aeroflot Open hai năm liên tiếp",
+      "Hiện là huấn luyện viên trưởng đội tuyển cờ vua Đại học Webster (Mỹ)"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/Lê_Quang_Liêm"
+  },
+  {
+    "id": "nv-vn-024",
+    "category": "nhan-vat-noi-tieng",
+    "answer": "Lê Công Vinh",
+    "hints": [
+      "Tiền đạo huyền thoại của đội tuyển bóng đá quốc gia Việt Nam",
+      "Ghi bàn thắng lịch sử ở phút 94 đưa Việt Nam vô địch AFF Cup 2008",
+      "Cầu thủ giành 3 Quả bóng Vàng Việt Nam và giữ kỷ lục ghi nhiều bàn nhất cho đội tuyển",
+      "Cầu thủ Việt Nam đầu tiên thi đấu tại giải VĐQG Bồ Đào Nha (Leixões SC)"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/Lê_Công_Vinh"
+  },
+  {
+    "id": "nv-vn-025",
+    "category": "nhan-vat-noi-tieng",
+    "answer": "Nguyễn Quang Hải",
+    "hints": [
+      "Tiền vệ ngôi sao tài hoa của bóng đá Việt Nam đương đại",
+      "Nổi tiếng với bàn thắng 'Cầu vồng tuyết' tại Thường Châu trong giải U23 châu Á 2018",
+      "Cầu thủ xuất sắc nhất giải vô địch AFF Cup 2018 và Quả bóng Vàng Việt Nam 2018",
+      "Từng thi đấu cho câu lạc bộ Pau FC tại giải Ligue 2 (Pháp)"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/Nguyễn_Quang_Hải_(cầu_thủ_bóng_đá,_sinh_1997)"
+  },
+  {
+    "id": "nv-vn-026",
+    "category": "nhan-vat-noi-tieng",
+    "answer": "Huỳnh Như",
+    "hints": [
+      "Đội trưởng xuất sắc của đội tuyển bóng đá nữ quốc gia Việt Nam",
+      "Giữ kỷ lục 5 lần đoạt giải thưởng Quả bóng Vàng nữ Việt Nam",
+      "Dẫn dắt đội tuyển nữ giành vé tham dự Vòng chung kết FIFA World Cup nữ 2023",
+      "Cầu thủ nữ Việt Nam đầu tiên thi đấu chuyên nghiệp tại châu Âu (Länk FC Vilaverdense, Bồ Đào Nha)"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/Huỳnh_Như"
+  },
+  {
+    "id": "nv-vn-027",
+    "category": "nhan-vat-noi-tieng",
+    "answer": "Tôn Thất Tùng",
+    "hints": [
+      "Bác sĩ, giáo sư y khoa phẫu thuật gan lừng danh thế giới người Việt Nam",
+      "Người phát minh phương pháp cắt gan khô mang tên 'Phương pháp Tôn Thất Tùng'",
+      "Giám đốc đầu tiên của Bệnh viện Hữu nghị Việt Đức",
+      "Anh hùng Lao động, Viện sĩ Viện Hàn lâm Phẫu thuật Paris"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/Tôn_Thất_Tùng"
+  },
+  {
+    "id": "nv-vn-028",
+    "category": "nhan-vat-noi-tieng",
+    "answer": "Trần Đại Nghĩa",
+    "hints": [
+      "Giáo sư, viện sĩ, kỹ sư quân sự kiệt xuất của Việt Nam",
+      "Người chế tạo súng và đạn Bazooka, SKZ giúp quân đội Việt Nam đánh xe tăng và lô cốt địch",
+      "Cục trưởng đầu tiên của Cục Quân giới, Thứ trưởng Bộ Công thương",
+      "Được phong danh hiệu Anh hùng Lao động đợt đầu tiên năm 1952"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/Trần_Đại_Nghĩa"
+  },
+  {
+    "id": "nv-vn-029",
+    "category": "nhan-vat-noi-tieng",
+    "answer": "Lê Hữu Trác",
+    "hints": [
+      "Đại danh y kiệt xuất, được tôn xưng là 'Ông tổ ngành y học cổ truyền Việt Nam'",
+      "Hiệu là Hải Thượng Lãn Ông với bộ sách y học đồ sộ 'Hải Thượng y tông tâm lĩnh'",
+      "Tác giả tập ký sự đặc sắc 'Thượng kinh ký sự'",
+      "Được UNESCO vinh danh kỷ niệm 300 năm ngày sinh vào năm 2024"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/Lê_Hữu_Trác"
+  },
+  {
+    "id": "nv-vn-030",
+    "category": "nhan-vat-noi-tieng",
+    "answer": "Chu Văn An",
+    "hints": [
+      "Nhà giáo dục lỗi lạc, được tôn xưng là 'Vạn thế sư biểu' (Người thầy của muôn đời)",
+      "Từng giữ chức Tư nghiệp Quốc Tử Giám - trường đại học đầu tiên của Việt Nam",
+      "Người dâng 'Thất trảm sớ' xin chém 7 gian thần thời vua Trần Dụ Tông",
+      "Được thờ tại Văn Miếu - Quốc Tử Giám và UNESCO vinh danh danh nhân văn hóa"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/Chu_Văn_An"
+  },
+  {
+    "id": "nv-vn-031",
+    "category": "nhan-vat-noi-tieng",
+    "answer": "Mỹ Tâm",
+    "hints": [
+      "Nữ ca sĩ hàng đầu của làng nhạc nhẹ Việt Nam với biệt danh 'Họa mi tóc nâu'",
+      "Chủ nhân hàng loạt bản hit như 'Ước gì', 'Họa mi tóc nâu', 'Đúng cũng thành sai', 'Người hãy quên em đi'",
+      "Nghệ sĩ Việt Nam đầu tiên thực hiện liveshow cá nhân 'Tri Âm' tại sân vận động Mỹ Đình",
+      "Đoạt giải thưởng Mnet Asian Music Awards (MAMA) và World Music Awards"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/Mỹ_Tâm"
+  },
+  {
+    "id": "nv-vn-032",
+    "category": "nhan-vat-noi-tieng",
+    "answer": "Sơn Tùng M-TP",
+    "hints": [
+      "Ca sĩ, nhạc sĩ, nhà sản xuất âm nhạc đình đám hàng đầu V-Pop",
+      "Chủ nhân các siêu hit trăm triệu view như 'Lạc trôi', 'Nơi này có anh', 'Hãy trao cho anh', 'Chúng ta của hiện tại'",
+      "Chủ tịch công ty giải trí M-TP Entertainment",
+      "Nghệ sĩ Việt Nam hợp tác cùng huyền thoại rap thế giới Snoop Dogg"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/Sơn_Tùng_M-TP"
+  },
+  {
+    "id": "nv-vn-033",
+    "category": "nhan-vat-noi-tieng",
+    "answer": "Đen Vâu",
+    "hints": [
+      "Rapper, nhạc sĩ tài hoa được yêu mến hàng đầu Việt Nam với phong cách mộc mạc",
+      "Chủ nhân các bản rap triệu view như 'Đi về nhà', 'Bài này chill phết', 'Trốn tìm', 'Nấu ăn cho em'",
+      "Nghệ sĩ giữ kỷ lục có nhiều MV đạt Top 1 Trending YouTube Việt Nam nhất",
+      "Tích cực với dự án Nuôi Em và các hoạt động thiện nguyện vùng cao"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/Đen_Vâu"
+  },
+  {
+    "id": "nv-vn-034",
+    "category": "nhan-vat-noi-tieng",
+    "answer": "H'Hen Niê",
+    "hints": [
+      "Hoa hậu Hoàn vũ Việt Nam 2017 là người dân tộc thiểu số (Ê-đê) đầu tiên đăng quang",
+      "Lọt vào Top 5 Miss Universe 2018 - thành tích cao nhất trong lịch sử sắc đẹp Việt Nam tại đấu trường này",
+      "Gây xúc động toàn cầu với câu nói truyền cảm hứng: 'Tôi là H'Hen Niê, tôi làm được, bạn cũng làm được'",
+      "Tích cực xây dựng thư viện và hỗ trợ giáo dục cho trẻ em vùng sâu vùng xa"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/H'Hen_Niê"
+  },
+  {
+    "id": "nv-vn-035",
+    "category": "nhan-vat-noi-tieng",
+    "answer": "Nguyễn Thúc Thùy Tiên",
+    "hints": [
+      "Hoa hậu Hòa bình Quốc tế (Miss Grand International 2021) đầu tiên của Việt Nam",
+      "Gây ấn tượng mạnh với khả năng ứng xử và sử dụng thông thạo tiếng Anh, tiếng Thái",
+      "Người sáng lập các dự án thiện nguyện quốc tế nổi tiếng như 'Điểm trường ước mơ', mang nước sạch đến châu Phi (Angola)",
+      "Được vinh danh Gương mặt trẻ Việt Nam tiêu biểu năm 2021"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/Nguyễn_Thúc_Thùy_Tiên"
+  },
+  {
+    "id": "nv-vn-036",
+    "category": "nhan-vat-noi-tieng",
+    "answer": "Lại Văn Sâm",
+    "hints": [
+      "Người dẫn chương trình (MC), nhà báo kỳ cựu của Đài Truyền hình Việt Nam (VTV)",
+      "Gắn liền với các chương trình truyền hình đình đám như 'Ai là triệu phú', 'SV 96', 'Hãy chọn giá đúng', 'Ký ức vui vẻ'",
+      "Nguyên Trưởng ban Sản xuất các chương trình Giải trí VTV3",
+      "Được vinh danh giải thưởng Ấn tượng VTV - VTV Awards"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/Lại_Văn_Sâm"
+  },
+  {
+    "id": "nv-vn-037",
+    "category": "nhan-vat-noi-tieng",
+    "answer": "Xuân Bắc",
+    "hints": [
+      "Nghệ sĩ Nhân dân, diễn viên kịch nói và người dẫn chương trình nổi tiếng",
+      "Được khán giả yêu mến với vai 'Nam Tào' trong chương trình Gặp nhau cuối năm (Táo Quân)",
+      "MC duyên dáng của các gameshow 'Đuổi hình bắt chữ', 'Hỏi xoáy đáp xoay'",
+      "Hiện giữ chức Giám đốc Nhà hát Kịch Việt Nam"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/Xuân_Bắc"
+  },
+  {
+    "id": "nv-vn-038",
+    "category": "nhan-vat-noi-tieng",
+    "answer": "Trấn Thành",
+    "hints": [
+      "Nghệ sĩ đa tài, người dẫn chương trình, diễn viên kiêm đạo diễn điện ảnh đình đám",
+      "Đạo diễn các bộ phim điện ảnh giữ kỷ lục doanh thu phòng vé Việt Nam như 'Bố già', 'Nhà bà Nữ', 'Mai'",
+      "MC của các gameshow truyền hình ăn khách như 'Rap Việt', 'Người ấy là ai', 'Thách thức danh hài'",
+      "Một trong những nghệ sĩ có sức ảnh hưởng mạng xã hội lớn nhất Việt Nam"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/Trấn_Thành"
+  },
+  {
+    "id": "nv-vn-039",
+    "category": "nhan-vat-noi-tieng",
+    "answer": "Hoài Linh",
+    "hints": [
+      "Nghệ sĩ Ưu tú, danh hài hàng đầu của sân khấu kịch nghệ và hài kịch Việt Nam",
+      "Nổi tiếng với khả năng đóng nhiều vai diễn đa dạng, nói chuẩn giọng cả ba miền Bắc - Trung - Nam",
+      "Gắn liền với các tiểu phẩm hài kinh điển cùng nghệ sĩ Chí Tài",
+      "Người xây dựng công trình Nhà thờ Tổ nghiệp tâm linh tại TP. Hồ Chí Minh"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/Hoài_Linh"
+  },
+  {
+    "id": "nv-vn-040",
+    "category": "nhan-vat-noi-tieng",
+    "answer": "Thành Lộc",
+    "hints": [
+      "Nghệ sĩ Ưu tú được mệnh danh là 'Phù thủy sân khấu kịch' Việt Nam",
+      "Gắn bó và làm nên thành công của chuỗi kịch thiếu nhi 'Ngày xửa ngày xưa'",
+      "Người sáng lập và linh hồn của Sân khấu kịch Idecaf trong hơn hai thập kỷ",
+      "Tác giả tự truyện nổi tiếng 'Tâm thành và Lộc đời'"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/Thành_Lộc"
+  },
+  {
+    "id": "nv-vn-041",
+    "category": "nhan-vat-noi-tieng",
+    "answer": "Hoàng Thùy Linh",
+    "hints": [
+      "Nữ ca sĩ, diễn viên tiên phong kết hợp âm nhạc dân gian với âm nhạc điện tử hiện đại",
+      "Chủ nhân album thành công vang dội 'Hoàng' và 'LINK' với các hit 'Để Mị nói cho mà nghe', 'See Tình'",
+      "Ca khúc 'See Tình' trở thành hiện tượng âm nhạc lan tỏa toàn cầu trên TikTok",
+      "Đoạt hàng loạt giải thưởng Âm nhạc Cống hiến"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/Hoàng_Thùy_Linh"
+  },
+  {
+    "id": "nv-vn-042",
+    "category": "nhan-vat-noi-tieng",
+    "answer": "Trần Tiến",
+    "hints": [
+      "Nhạc sĩ nổi tiếng của dòng nhạc đương đại mang phong cách du ca phóng khoáng",
+      "Tác giả các ca khúc bất hủ như 'Mặt trời bé con', 'Chị tôi', 'Sắc màu', 'Tùy hứng lý qua cầu'",
+      "Thành viên nhóm 'Bộ tứ sông Hồng' lừng danh của tân nhạc Việt Nam",
+      "Được trao tặng Giải thưởng Nhà nước về Văn học - Nghệ thuật"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/Trần_Tiến"
+  },
+  {
+    "id": "nv-vn-043",
+    "category": "nhan-vat-noi-tieng",
+    "answer": "Lê Quý Đôn",
+    "hints": [
+      "Nhà bác học, bách khoa toàn thư vĩ đại nhất của Việt Nam thời trung đại",
+      "Tác giả các bộ sách khảo cứu đồ sộ như 'Vân đài loại ngữ', 'Phủ biên tạp lục', 'Đại Việt thông sử'",
+      "Đỗ Bảng nhãn thời vua Lê Hiển Tông, thông thấu thiên văn, địa lý, sử học, triết học",
+      "Tên ông được đặt cho rất nhiều trường học trọng điểm trên cả nước"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/Lê_Quý_Đôn"
+  },
+  {
+    "id": "nv-vn-044",
+    "category": "nhan-vat-noi-tieng",
+    "answer": "Lương Thế Vinh",
+    "hints": [
+      "Nhà toán học, danh nhân thời Hậu Lê với danh xưng dân gian 'Trạng Lường'",
+      "Đỗ Trạng nguyên thời vua Lê Thánh Tông",
+      "Tác giả cuốn sách toán học đầu tiên của Việt Nam 'Đại thành toán pháp'",
+      "Nổi tiếng với giai thoại cân voi và đo độ dày của tờ giấy mỏng"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/Lương_Thế_Vinh"
+  },
+  {
+    "id": "nv-vn-045",
+    "category": "nhan-vat-noi-tieng",
+    "answer": "Hàn Mặc Tử",
+    "hints": [
+      "Nhà thơ tài hoa nhưng có số phận bi thương nhất trong phong trào Thơ mới",
+      "Tác giả bài thơ trữ tình nổi tiếng 'Đây thôn Vĩ Dạ' và 'Mùa xuân chín'",
+      "Người khởi xướng trường phái Thơ Điên (Thơ Loạn) tại Quy Nhơn",
+      "Gắn liền với địa danh đồi Ghềnh Ráng và thung lũng Quy Hòa"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/Hàn_Mặc_Tử"
+  },
+  {
+    "id": "nv-vn-046",
+    "category": "nhan-vat-noi-tieng",
+    "answer": "Huy Cận",
+    "hints": [
+      "Nhà thơ lớn của phong trào Thơ mới và văn học cách mạng Việt Nam",
+      "Tác giả bài thơ nổi tiếng 'Tràng giang' trong tập thơ 'Lửa thiêng'",
+      "Tác giả bài thơ 'Đoàn thuyền đánh cá' khắc họa khí thế lao động mới",
+      "Từng giữ chức Bộ trưởng Bộ Canh nông và Thứ trưởng Bộ Văn hóa"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/Huy_Cận"
+  },
+  {
+    "id": "nv-vn-047",
+    "category": "nhan-vat-noi-tieng",
+    "answer": "Nguyễn Bính",
+    "hints": [
+      "Nhà thơ nổi tiếng được mệnh danh là 'Nhà thơ của đồng quê' hay 'Thi sĩ chân quê'",
+      "Tác giả các bài thơ đượm chất dân dã như 'Chân quê', 'Lỡ bước sang ngang', 'Mưa xuân'",
+      "Thơ mang âm hưởng ca dao, đậm đà phong vị làng quê Việt Nam truyền thống",
+      "Gương mặt tiêu biểu của phong trào Thơ mới mang hồn quê mộc mạc"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/Nguyễn_Bính"
+  },
+  {
+    "id": "nv-vn-048",
+    "category": "nhan-vat-noi-tieng",
+    "answer": "Chế Lan Viên",
+    "hints": [
+      "Nhà thơ lớn với phong cách suy tưởng, triết lý sắc sảo của thơ ca Việt Nam",
+      "Nổi tiếng từ năm 17 tuổi với tập thơ 'Điêu tàn' mang nỗi hoài niệm về tháp Chàm",
+      "Tác giả câu thơ bất hủ: 'Khi ta ở chỉ là nơi đất ở / Khi ta đi đất đã hóa tâm hồn' trong bài 'Tiếng hát con tàu'",
+      "Tác giả bài thơ 'Người đi tìm hình của Nước'"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/Chế_Lan_Viên"
+  },
+  {
+    "id": "nv-vn-049",
+    "category": "nhan-vat-noi-tieng",
+    "answer": "Nguyễn Tuân",
+    "hints": [
+      "Bậc thầy văn xuôi nghệ thuật với phong cách tài hoa, uyên bác và độc đáo",
+      "Tác giả tập tùy bút kinh điển 'Vang bóng một thời'",
+      "Tác giả thiên tùy bút 'Người lái đò sông Đà' miêu tả dòng sông Đà vừa hung bạo vừa trữ tình",
+      "Người cả đời đi tìm cái Đẹp và sự cầu kỳ trong từng câu chữ tiếng Việt"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/Nguyễn_Tuân"
+  },
+  {
+    "id": "nv-vn-050",
+    "category": "nhan-vat-noi-tieng",
+    "answer": "Thạch Lam",
+    "hints": [
+      "Nhà văn tài hoa của nhóm Tự Lực Văn Đoàn với lối viết nhẹ nhàng, tinh tế",
+      "Tác giả tập truyện ngắn 'Gió đầu mùa' và truyện ngắn 'Hai đứa trẻ'",
+      "Tác giả cuốn tùy bút ẩm thực nổi tiếng 'Hà Nội băm sáu phố phường'",
+      "Ngòi bút thấm đẫm tình người, miêu tả sâu sắc những biến chuyển tâm lý tinh vi"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/Thạch_Lam"
+  },
+  {
+    "id": "nv-vn-051",
+    "category": "nhan-vat-noi-tieng",
+    "answer": "Kim Lân",
+    "hints": [
+      "Nhà văn xuất sắc chuyên viết về nông thôn và người nông dân Bắc Bộ",
+      "Tác giả truyện ngắn bất hủ 'Vợ nhặt' trong bối cảnh nạn đói năm 1945",
+      "Tác giả truyện ngắn 'Làng' với nhân vật ông Hai yêu làng gắn liền với yêu nước",
+      "Diễn viên đóng vai Lão Hạc trong bộ phim điện ảnh kinh điển 'Làng Vũ Đại ngày ấy'"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/Kim_Lân"
+  },
+  {
+    "id": "nv-vn-052",
+    "category": "nhan-vat-noi-tieng",
+    "answer": "Đoàn Giỏi",
+    "hints": [
+      "Nhà văn Nam Bộ nổi tiếng với những trang văn giàu chất hào sảng về thiên nhiên",
+      "Tác giả tiểu thuyết kinh điển 'Đất rừng phương Nam'",
+      "Khắc họa sinh động cuộc sống của cậu bé An, thằng Cò và vùng rừng tràm U Minh",
+      "Tác phẩm được chuyển thể thành phim truyền hình và phim điện ảnh vang danh"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/Đoàn_Giỏi"
+  },
+  {
+    "id": "nv-vn-053",
+    "category": "nhan-vat-noi-tieng",
+    "answer": "Nguyễn Huy Tưởng",
+    "hints": [
+      "Nhà văn, nhà viết kịch lịch sử nổi tiếng của Việt Nam",
+      "Tác giả truyện lịch sử thiếu nhi bất hủ 'Lá cờ thêu sáu chữ vàng' về Trần Quốc Toản",
+      "Tác giả vở kịch kinh điển 'Vũ Như Tô' và tiểu thuyết 'Sống mãi với thủ đô'",
+      "Giám đốc đầu tiên của Nhà xuất bản Kim Đồng"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/Nguyễn_Huy_Tưởng"
+  },
+  {
+    "id": "nv-vn-054",
+    "category": "nhan-vat-noi-tieng",
+    "answer": "Nguyễn Đình Thi",
+    "hints": [
+      "Nhà văn, nhà thơ, nhạc sĩ, nhà viết kịch tài hoa của văn hóa kháng chiến",
+      "Tác giả bài thơ bất hủ 'Đất nước' với câu thơ 'Mùa thu nay khác rồi'",
+      "Tác giả ca khúc hào hùng 'Người Hà Nội' và 'Diệt phát xít'",
+      "Từng giữ chức Tổng Thư ký Hội Nhà văn Việt Nam trong nhiều năm"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/Nguyễn_Đình_Thi"
+  },
+  {
+    "id": "nv-vn-055",
+    "category": "nhan-vat-noi-tieng",
+    "answer": "Tố Hữu",
+    "hints": [
+      "Nhà thơ lớn, lá cờ đầu của nền thơ ca cách mạng Việt Nam hiện đại",
+      "Tác giả các tập thơ nổi tiếng như 'Từ ấy', 'Việt Bắc', 'Gió lộng', 'Ra trận'",
+      "Thơ mang tính trữ tình chính trị sâu sắc, gắn liền với các chặng đường lịch sử dân tộc",
+      "Từng giữ chức Phó Chủ tịch Hội đồng Bộ trưởng Việt Nam"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/Tố_Hữu"
+  },
+  {
+    "id": "nv-vn-056",
+    "category": "nhan-vat-noi-tieng",
+    "answer": "Phạm Tuyên",
+    "hints": [
+      "Nhạc sĩ gạo cội với kho tàng hàng trăm ca khúc đi cùng năm tháng",
+      "Tác giả ca khúc bất hủ 'Như có Bác trong ngày đại thắng' viết đêm 28/4/1975",
+      "Tác giả bài hát thiếu nhi nổi tiếng 'Chiếc đèn ông sao', 'Cánh én tuổi thơ'",
+      "Được trao tặng Giải thưởng Hồ Chí Minh về Văn học - Nghệ thuật"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/Phạm_Tuyên"
+  },
+  {
+    "id": "nv-vn-057",
+    "category": "nhan-vat-noi-tieng",
+    "answer": "Phó Đức Phương",
+    "hints": [
+      "Nhạc sĩ tài hoa thuộc nhóm 'Bộ tứ sông Hồng' của tân nhạc Việt Nam",
+      "Tác giả các ca khúc đậm đà âm hưởng dân gian Bắc Bộ như 'Chảy đi sông ơi', 'Trên đỉnh Phù Vân', 'Hồ trên núi'",
+      "Người sáng lập và Giám đốc đầu tiên của Trung tâm Bảo vệ Quyền tác giả Âm nhạc Việt Nam (VCPMC)",
+      "Được truy tặng Giải thưởng Nhà nước về Văn học - Nghệ thuật"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/Phó_Đức_Phương"
+  },
+  {
+    "id": "nv-vn-058",
+    "category": "nhan-vat-noi-tieng",
+    "answer": "Đỗ Nhuận",
+    "hints": [
+      "Nhạc sĩ tiên phong, Tổng Thư ký đầu tiên của Hội Nhạc sĩ Việt Nam",
+      "Tác giả ca khúc bất hủ 'Giải phóng Điện Biên' vang dội năm 1954",
+      "Tác giả vở nhạc kịch (opera) đầu tiên của Việt Nam 'Cô Sao'",
+      "Được truy tặng Giải thưởng Hồ Chí Minh về Văn học - Nghệ thuật đợt I"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/Đỗ_Nhuận"
+  },
+  {
+    "id": "nv-vn-059",
+    "category": "nhan-vat-noi-tieng",
+    "answer": "Hoàng Vân",
+    "hints": [
+      "Nhạc sĩ lớn của nền âm nhạc cách mạng Việt Nam",
+      "Tác giả ca khúc 'Hò kéo pháo' sáng tác ngay tại mặt trận Điện Biên Phủ",
+      "Tác giả các bài hát nổi tiếng 'Quảng Bình quê ta ơi', 'Bài ca xây dựng', 'Tôi là người thợ lò'",
+      "Được trao tặng Giải thưởng Hồ Chí Minh về Văn học - Nghệ thuật năm 2000"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/Hoàng_Vân"
+  },
+  {
+    "id": "nv-vn-060",
+    "category": "nhan-vat-noi-tieng",
+    "answer": "Nguyễn Gia Trí",
+    "hints": [
+      "Họa sĩ bậc thầy, người đưa nghệ thuật tranh sơn mài Việt Nam lên tầm cao thế giới",
+      "Đứng đầu trong 'Bộ tứ' danh họa hiện đại: Nhất Trí, nhì Vân, tam Lân, tứ Cẩn",
+      "Tác giả bảo vật quốc gia bức tranh sơn mài 'Vườn xuân Trung Nam Bắc'",
+      "Tốt nghiệp Trường Cao đẳng Mỹ thuật Đông Dương khóa 1936"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/Nguyễn_Gia_Trí"
+  },
+  {
+    "id": "nv-vn-061",
+    "category": "nhan-vat-noi-tieng",
+    "answer": "Nguyễn Phan Chánh",
+    "hints": [
+      "Danh họa bậc thầy của nghệ thuật tranh lụa hiện đại Việt Nam",
+      "Tác giả kiệt tác tranh lụa nổi tiếng thế giới 'Chơi ô ăn quan' (1931)",
+      "Tranh mang vẻ đẹp mộc mạc, tĩnh lặng và đậm đà bản sắc nông thôn Việt Nam",
+      "Được trao tặng Giải thưởng Hồ Chí Minh về Văn học - Nghệ thuật"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/Nguyễn_Phan_Chánh"
+  },
+  {
+    "id": "nv-vn-062",
+    "category": "nhan-vat-noi-tieng",
+    "answer": "Đan Trường",
+    "hints": [
+      "Nam ca sĩ thần tượng hàng đầu của làng nhạc trẻ Việt Nam thập niên 2000 với biệt danh 'Anh Bo'",
+      "Chủ nhân các ca khúc bất hủ 'Kiếp ve sầu', 'Mưa trên cuộc tình', 'Tình khúc vàng', 'Đi về nơi xa'",
+      "Nổi tiếng với phong cách tóc hai mái bổ luống tạo trào lưu cho giới trẻ",
+      "Nhiều năm liên tiếp đoạt giải Ca sĩ được yêu thích nhất của Làn Sóng Xanh"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/Đan_Trường"
+  },
+  {
+    "id": "nv-vn-063",
+    "category": "nhan-vat-noi-tieng",
+    "answer": "Lam Trường",
+    "hints": [
+      "Nam ca sĩ tiên phong mở đầu cho làn sóng nhạc trẻ Việt Nam với biệt danh 'Anh Hai'",
+      "Bản hit 'Tình thôi xót xa' năm 1997 đưa tên tuổi anh thành hiện tượng âm nhạc quốc gia",
+      "Gắn liền với các ca khúc 'Mưa phi trường', 'Gót hồng', 'Katy Katy'",
+      "Gương mặt tiêu biểu gắn liền với sự ra đời của bảng xếp hạng Làn Sóng Xanh"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/Lam_Trường"
+  },
+  {
+    "id": "nv-vn-064",
+    "category": "nhan-vat-noi-tieng",
+    "answer": "Cẩm Ly",
+    "hints": [
+      "Nữ ca sĩ nổi tiếng của dòng nhạc dân ca trữ tình và nhạc trẻ với biệt danh 'Chị Tư'",
+      "Chủ nhân các ca khúc 'Chim trắng mồ côi', 'Em sẽ là người ra đi', 'Người về cuối phố'",
+      "Cặp song ca ăn ý huyền thoại cùng ca sĩ Đan Trường",
+      "Huấn luyện viên của chương trình Giọng hát Việt nhí - The Voice Kids"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/Cẩm_Ly"
+  },
+  {
+    "id": "nv-vn-065",
+    "category": "nhan-vat-noi-tieng",
+    "answer": "Đàm Vĩnh Hưng",
+    "hints": [
+      "Nam ca sĩ nổi tiếng với chất giọng khàn đặc trưng và biệt danh 'Ông hoàng nhạc Việt' hay 'Mr. Đàm'",
+      "Chủ nhân các bản hit 'Tình ơi xin ngủ yên', 'Bình minh sẽ mang em đi', 'Nửa vầng trăng'",
+      "Nổi tiếng với phong cách biểu diễn sôi động và các liveshow hoành tráng",
+      "Từng nhiều lần đoạt giải thưởng Làn Sóng Xanh và Mai Vàng"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/Đàm_Vĩnh_Hưng"
+  },
+  {
+    "id": "nv-vn-066",
+    "category": "nhan-vat-noi-tieng",
+    "answer": "Hồ Ngọc Hà",
+    "hints": [
+      "Nữ ca sĩ, người mẫu được mệnh danh là 'Nữ hoàng giải trí' của showbiz Việt Nam",
+      "Chủ nhân các bản hit 'Tìm lại giấc mơ', 'Xin hãy thứ tha', 'Cả một trời thương nhớ', 'Cô đơn trên sofa'",
+      "Nổi tiếng với chuỗi đêm nhạc thương hiệu 'Love Songs'",
+      "Giám khảo và huấn luyện viên quyền lực của The Face, The Voice Việt Nam"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/Hồ_Ngọc_Hà"
+  },
+  {
+    "id": "nv-vn-067",
+    "category": "nhan-vat-noi-tieng",
+    "answer": "Tùng Dương",
+    "hints": [
+      "Nam ca sĩ sở hữu giọng hát nội lực bậc thầy và phong cách âm nhạc đương đại độc đáo",
+      "Giữ kỷ lục là nghệ sĩ đoạt nhiều giải thưởng Âm nhạc Cống hiến nhất trong lịch sử",
+      "Nổi tiếng từ cuộc thi Sao Mai điểm hẹn 2004 với các ca khúc 'Ôi quê tôi', 'Con cò', 'Mưa bay tháp cổ'",
+      "Được công nhận là một trong những giọng ca nam xuất sắc nhất Việt Nam"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/Tùng_Dương"
+  },
+  {
+    "id": "nv-vn-068",
+    "category": "nhan-vat-noi-tieng",
+    "answer": "Đông Nhi",
+    "hints": [
+      "Nữ ca sĩ ngôi sao của thế hệ ca sĩ bước ra từ trào lưu nhạc teen-pop Việt Nam",
+      "Chủ nhân các bản hit 'Khóc', 'Bối rối', 'Ngọt ngào', 'Bad Boy', 'Đôi mi em đang u sầu'",
+      "Quán quân chương trình The Remix (Hòa âm ánh sáng) mùa đầu tiên năm 2015",
+      "Đoạt giải thưởng Nghệ sĩ châu Á xuất sắc nhất tại giải MAMA năm 2015"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/Đông_Nhi"
+  },
+  {
+    "id": "nv-vn-069",
+    "category": "nhan-vat-noi-tieng",
+    "answer": "Noo Phước Thịnh",
+    "hints": [
+      "Nam ca sĩ nhạc pop trẻ trung và tài năng hàng đầu Việt Nam",
+      "Chủ nhân hàng loạt bản hit 'Mất em', 'Gạt đi nước mắt', 'Chờ ngày mưa tan', 'Cause I Love You'",
+      "Quán quân chương trình The Remix 2016 và Huấn luyện viên The Voice Việt Nam",
+      "Đại diện Việt Nam biểu diễn xuất sắc tại Asia Song Festival 2016 ở Hàn Quốc"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/Noo_Phước_Thịnh"
+  },
+  {
+    "id": "nv-vn-070",
+    "category": "nhan-vat-noi-tieng",
+    "answer": "Vũ",
+    "hints": [
+      "Nam ca sĩ, nhạc sĩ được mệnh danh là 'Hoàng tử Indie' của âm nhạc Việt Nam",
+      "Chủ nhân các bản tình ca da diết 'Lạ lùng', 'Bước qua nhau', 'Bước qua mùa cô đơn', 'Đông kiếm em'",
+      "Tên thật là Hoàng Thái Vũ, xuất thân là sĩ quan đặc công Quân đội",
+      "Tổ chức thành công chuỗi concert 'Một vạn năm' và 'Bảo tàng của nuối tiếc' thu hút hàng vạn khán giả"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/Vũ_(ca_sĩ)"
+  },
+  {
+    "id": "nv-vn-071",
+    "category": "nhan-vat-noi-tieng",
+    "answer": "Suboi",
+    "hints": [
+      "Nữ rapper tài năng được truyền thông quốc tế ca ngợi là 'Nữ hoàng nhạc hip-hop Việt Nam'",
+      "Rapper Việt Nam đầu tiên biểu diễn tại các lễ hội âm nhạc quốc tế lớn như SXSW (Mỹ)",
+      "Từng gây ấn tượng khi đọc rap giao lưu với Tổng thống Mỹ Barack Obama năm 2016 tại TP.HCM",
+      "Huấn luyện viên và giám khảo quyền lực của chương trình truyền hình 'Rap Việt'"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/Suboi"
+  },
+  {
+    "id": "nv-vn-072",
+    "category": "nhan-vat-noi-tieng",
+    "answer": "Trúc Nhân",
+    "hints": [
+      "Nam ca sĩ nổi tiếng với phong cách âm nhạc trào phúng, cá tính và độc nhất vô nhị",
+      "Chủ nhân các MV sáng tạo 'Bốn chữ lắm', 'Thật bất ngờ', 'Sáng mắt chưa', 'Có không giữ mất đừng tìm'",
+      "Trưởng thành từ chương trình Giọng hát Việt - The Voice 2012 dưới sự dẫn dắt của Thu Minh",
+      "Đoạt nhiều giải thưởng danh giá tại giải Âm nhạc Cống hiến và Làn Sóng Xanh"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/Trúc_Nhân"
+  },
+  {
+    "id": "nv-vn-073",
+    "category": "nhan-vat-noi-tieng",
+    "answer": "Hòa Minzy",
+    "hints": [
+      "Nữ ca sĩ sở hữu giọng hát cao vút, đầy cảm xúc và tính cách hài hước, thân thiện",
+      "Quán quân chương trình Học viện Ngôi sao năm 2014",
+      "Chủ nhân bản hit triệu view mang âm hưởng Bắc Bộ 'Thị Mầu' và bản ballad 'Không thể cùng nhau suốt kiếp'",
+      "Được khán giả yêu mến với vai trò thành viên nhóm 'Gia đình Hoa dâm bụt'"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/Hòa_Minzy"
+  },
+  {
+    "id": "nv-vn-074",
+    "category": "nhan-vat-noi-tieng",
+    "answer": "Soobin Hoàng Sơn",
+    "hints": [
+      "Nam ca sĩ, nhạc sĩ đa tài, người chơi thuần thục đàn bầu và sản xuất âm nhạc",
+      "Chủ nhân bản hit quốc dân 'Phía sau một cô gái' đạt hàng trăm triệu lượt nghe",
+      "Gây bão truyền hình với các tiết mục biểu diễn nhạc cụ dân tộc trong chương trình 'Anh trai vượt ngàn chông gai 2024'",
+      "Thành viên nổi bật của tổ đội âm nhạc SpaceSpeakers"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/Soobin_Hoàng_Sơn"
+  },
+  {
+    "id": "nv-vn-075",
+    "category": "nhan-vat-noi-tieng",
+    "answer": "Tự Long",
+    "hints": [
+      "Nghệ sĩ Nhân dân, nghệ sĩ chèo và diễn viên hài kịch tài danh của Việt Nam",
+      "Gắn liền với các vai diễn Táo Quân đa dạng và những màn hát chèo, ca tài tử đặc sắc",
+      "Đại tá, Phó Giám đốc Nhà hát Chèo Quân đội",
+      "Gây ấn tượng sâu sắc trong chương trình 'Anh trai vượt ngàn chông gai 2024'"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/Tự_Long"
+  },
+  {
+    "id": "nv-vn-076",
+    "category": "nhan-vat-noi-tieng",
+    "answer": "Hồng Vân",
+    "hints": [
+      "Nghệ sĩ Nhân dân, diễn viên sân khấu kịch nói và điện ảnh kỳ cựu của Việt Nam",
+      "Bà bầu sáng lập và điều hành Sân khấu kịch Phú Nhuận (TP. Hồ Chí Minh)",
+      "Nổi tiếng với vai Mẹ Đốp trong chèo cổ và hàng trăm vai diễn kịch nói xúc động",
+      "Đại biểu Hội đồng Nhân dân TP. Hồ Chí Minh khóa VIII"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/Hồng_Vân_(nghệ_sĩ)"
+  },
+  {
+    "id": "nv-vn-077",
+    "category": "nhan-vat-noi-tieng",
+    "answer": "Trường Giang",
+    "hints": [
+      "Diễn viên hài, người dẫn chương trình nổi tiếng với biệt danh 'Mười Khó'",
+      "Nổi tiếng từ tiểu phẩm 'Khó' tại liveshow Đàm Vĩnh Hưng năm 2011",
+      "MC của các gameshow ăn khách như 'Nhanh như chớp', 'Ơn giời cậu đây rồi', '2 Ngày 1 Đêm'",
+      "Chồng của nữ diễn viên Nhã Phương"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/Trường_Giang_(nghệ_sĩ)"
+  },
+  {
+    "id": "nv-vn-078",
+    "category": "nhan-vat-noi-tieng",
+    "answer": "Quyền Linh",
+    "hints": [
+      "Diễn viên điện ảnh, người dẫn chương trình được mệnh danh là 'MC của người nghèo'",
+      "Gắn liền với chương trình nhân đạo truyền hình 'Vượt lên chính mình' trong hơn một thập kỷ",
+      "Phó Chủ tịch Hội Điện ảnh Việt Nam, Giám đốc Hãng phim Hội Điện ảnh Việt Nam",
+      "Được yêu mến bởi phong cách giản dị đi dép tổ ong và tấm lòng thiện nguyện cao cả"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/Quyền_Linh"
+  },
+  {
+    "id": "nv-vn-079",
+    "category": "nhan-vat-noi-tieng",
+    "answer": "Lê Khanh",
+    "hints": [
+      "Nghệ sĩ Nhân dân, biểu tượng nhan sắc và tài năng của sân khấu kịch và điện ảnh Hà Nội",
+      "Người trẻ tuổi nhất được phong tặng danh hiệu Nghệ sĩ Nhân dân (năm 38 tuổi)",
+      "Nổi tiếng với các vai diễn trong phim 'Người Hà Nội', 'Gái già lắm chiêu', 'Mùa ổi'",
+      "Xuất thân trong gia đình nghệ thuật danh giá con gái của NSND Trần Tiến và NSƯT Lê Mai"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/Lê_Khanh"
+  },
+  {
+    "id": "nv-vn-080",
+    "category": "nhan-vat-noi-tieng",
+    "answer": "Như Quỳnh",
+    "hints": [
+      "Nghệ sĩ Nhân dân, nữ diễn viên gạo cội được xem là biểu tượng của điện ảnh Việt Nam",
+      "Đoạt giải Diễn viên xuất sắc nhất tại Liên hoan phim Việt Nam với vai Nết trong phim 'Đến hẹn lại lên' (1974)",
+      "Tham gia nhiều bộ phim quốc tế nổi tiếng như 'Mùi đu đủ xanh', 'Xích lô' của đạo diễn Trần Anh Hùng",
+      "Được trao tặng danh hiệu Nghệ sĩ Nhân dân năm 2007"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/Như_Quỳnh_(diễn_viên)"
+  },
+  {
+    "id": "nv-vn-081",
+    "category": "nhan-vat-noi-tieng",
+    "answer": "Nguyễn Công Phượng",
+    "hints": [
+      "Tiền đạo nổi tiếng của bóng đá Việt Nam trưởng thành từ lò đào tạo HAGL - Arsenal JMG",
+      "Nổi tiếng với bàn thắng solo siêu phẩm vào lưới U19 Úc năm 2014 tại Mỹ Đình",
+      "Cầu thủ Việt Nam từng thi đấu cho nhiều câu lạc bộ nước ngoài (Nhật Bản, Hàn Quốc, Bỉ)",
+      "Thành viên chủ chốt giành ngôi Á quân U23 châu Á 2018 và vô địch AFF Cup 2018"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/Nguyễn_Công_Phượng"
+  },
+  {
+    "id": "nv-vn-082",
+    "category": "nhan-vat-noi-tieng",
+    "answer": "Đoàn Văn Hậu",
+    "hints": [
+      "Hậu vệ cánh trái xuất sắc hàng đầu của bóng đá Việt Nam với thể hình và lối chơi hiện đại",
+      "Lập cú đúp bàn thắng giúp U22 Việt Nam đánh bại Indonesia 3-0 để đoạt HCV SEA Games 30 lịch sử",
+      "Cầu thủ Việt Nam đầu tiên gia nhập câu lạc bộ SC Heerenveen tại giải VĐQG Hà Lan",
+      "Trụ cột nơi hàng phòng ngự trong kỷ nguyên thành công của HLV Park Hang-seo"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/Đoàn_Văn_Hậu"
+  },
+  {
+    "id": "nv-vn-083",
+    "category": "nhan-vat-noi-tieng",
+    "answer": "Đỗ Hùng Dũng",
+    "hints": [
+      "Tiền vệ trung tâm mẫu mực, đội trưởng đội tuyển bóng đá quốc gia Việt Nam",
+      "Chủ nhân danh hiệu Quả bóng Vàng nam Việt Nam năm 2019",
+      "Đội trưởng dẫn dắt U22+2 Việt Nam đoạt hai Huy chương Vàng SEA Games liên tiếp (2019, 2021)",
+      "Nổi tiếng với lối chơi thông minh, bền bỉ và tính cách điềm đạm, khiêm nhường"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/Đỗ_Hùng_Dũng"
+  },
+  {
+    "id": "nv-vn-084",
+    "category": "nhan-vat-noi-tieng",
+    "answer": "Nguyễn Thùy Linh",
+    "hints": [
+      "Nữ vận động viên cầu lông số 1 Việt Nam với biệt danh 'Hot girl cầu lông'",
+      "Tay vợt nữ Việt Nam đầu tiên vươn lên hạng 20 thế giới trên bảng xếp hạng BWF",
+      "Đại diện thể thao Việt Nam tranh tài tại hai kỳ Thế vận hội Olympic liên tiếp (Tokyo 2020 và Paris 2024)",
+      "Vô địch giải cầu lông quốc tế Vietnam Open nhiều năm liên tiếp"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/Nguyễn_Thùy_Linh"
+  },
+  {
+    "id": "nv-vn-085",
+    "category": "nhan-vat-noi-tieng",
+    "answer": "Lý Hoàng Nam",
+    "hints": [
+      "Vận động viên quần vợt (tennis) xuất sắc nhất trong lịch sử thể thao Việt Nam",
+      "Vận động viên Việt Nam đầu tiên vô địch đôi nam trẻ tại giải Grand Slam Wimbledon (năm 2015)",
+      "Đoạt hai Huy chương Vàng đơn nam SEA Games liên tiếp (2019, 2021)",
+      "Từng vươn lên thứ hạng 231 đơn nam thế giới trên bảng xếp hạng ATP"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/Lý_Hoàng_Nam"
+  },
+  {
+    "id": "nv-vn-086",
+    "category": "nhan-vat-noi-tieng",
+    "answer": "Nguyễn Trần Duy Nhất",
+    "hints": [
+      "Võ sĩ huyền thoại của thể thao đối kháng Việt Nam với biệt danh 'Độc cô cầu bại'",
+      "7 lần vô địch giải Muay Thái thế giới (hạng bán chuyên)",
+      "Đoạt Huy chương Vàng giải World Games 2022 tại Mỹ và Huy chương Vàng SEA Games 31",
+      "Gây sốt truyền hình khi tham gia chương trình 'Anh trai vượt ngàn chông gai 2024'"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/Nguyễn_Trần_Duy_Nhất"
+  },
+  {
+    "id": "nv-vn-087",
+    "category": "nhan-vat-noi-tieng",
+    "answer": "Hoàng Anh Tuấn",
+    "hints": [
+      "Lực sĩ cử tạ xuất sắc của thể thao Việt Nam",
+      "Đoạt Huy chương Bạc Thế vận hội Olympic Bắc Kinh 2008 ở hạng cân 56kg nam",
+      "Vận động viên thứ hai trong lịch sử Việt Nam giành huy chương tại đấu trường Olympic",
+      "Từng đoạt Huy chương Vàng giải vô địch cử tạ châu Á"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/Hoàng_Anh_Tuấn_(vận_động_viên_cử_tạ)"
+  },
+  {
+    "id": "nv-vn-088",
+    "category": "nhan-vat-noi-tieng",
+    "answer": "Trần Đình Long",
+    "hints": [
+      "Doanh nhân, tỷ phú đô la được mệnh danh là 'Vua thép' của Việt Nam",
+      "Người sáng lập và Chủ tịch Hội đồng Quản trị Tập đoàn Hòa Phát",
+      "Đưa Hòa Phát trở thành nhà sản xuất thép lớn nhất khu vực Đông Nam Á",
+      "Nhiều năm liền có tên trong danh sách tỷ phú thế giới của tạp chí Forbes"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/Trần_Đình_Long"
+  },
+  {
+    "id": "nv-vn-089",
+    "category": "nhan-vat-noi-tieng",
+    "answer": "Đặng Văn Ngữ",
+    "hints": [
+      "Bác sĩ, giáo sư y khoa, nhà ký sinh trùng học hàng đầu Việt Nam",
+      "Người nghiên cứu và sản xuất thành công 'nước lọc Penicillin' trong rừng chiến khu thời kháng chiến",
+      "Viện trưởng đầu tiên của Viện Sốt rét - Ký sinh trùng - Côn trùng Trung ương",
+      "Hy sinh anh dũng trên chiến trường Thừa Thiên Huế năm 1967 do bom Mỹ"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/Đặng_Văn_Ngữ"
+  },
+  {
+    "id": "nv-vn-090",
+    "category": "nhan-vat-noi-tieng",
+    "answer": "Hoàng Tụy",
+    "hints": [
+      "Nhà toán học kiệt xuất, một trong hai cây đại thụ của toán học hiện đại Việt Nam (cùng GS Lê Văn Thiêm)",
+      "Người phát minh 'Lát cắt Tụy' (Tuy's cut), đặt nền móng cho ngành Tối ưu hóa toàn cục thế giới",
+      "Nguyên Viện trưởng Viện Toán học Việt Nam",
+      "Được trao tặng Giải thưởng Hồ Chí Minh đợt I về Khoa học và Công nghệ"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/Hoàng_Tụy"
+  },
+  {
+    "id": "nv-vn-091",
+    "category": "nhan-vat-noi-tieng",
+    "answer": "Đỗ Tất Lợi",
+    "hints": [
+      "Nhà dược học lừng danh, người đặt nền móng cho ngành Dược liệu học Việt Nam",
+      "Tác giả công trình nghiên cứu bách khoa đồ sộ 'Những cây thuốc và vị thuốc Việt Nam'",
+      "Được Viện Hàn lâm Khoa học Liên Xô trao bằng Tiến sĩ Khoa học danh dự",
+      "Được truy tặng Giải thưởng Hồ Chí Minh về Khoa học và Công nghệ"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/Đỗ_Tất_Lợi"
+  },
+  {
+    "id": "nv-vn-092",
+    "category": "nhan-vat-noi-tieng",
+    "answer": "Nguyễn Văn Hiệu",
+    "hints": [
+      "Giáo sư, Viện sĩ vật lý học hạt nhân lỗi lạc của Việt Nam",
+      "Viện trưởng Viện Khoa học Việt Nam (nay là Viện Hàn lâm Khoa học và Công nghệ Việt Nam)",
+      "Được trao Giải thưởng Lênin về Khoa học và Công nghệ năm 1986",
+      "Hiệu trưởng sáng lập Trường Đại học Công nghệ - ĐHQG Hà Nội"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/Nguyễn_Văn_Hiệu"
+  },
+  {
+    "id": "nv-vn-093",
+    "category": "nhan-vat-noi-tieng",
+    "answer": "Lê Viết Lam",
+    "hints": [
+      "Doanh nhân nổi tiếng, người sáng lập và Chủ tịch Hội đồng Quản trị Tập đoàn Sun Group",
+      "Khởi nghiệp thành công tại Ukraine cùng nhóm cựu du học sinh Việt Nam",
+      "Tập đoàn kiến tạo các công trình du lịch biểu tượng như Cầu Vàng Bà Nà Hills, cáp treo Fansipan",
+      "Đóng góp to lớn trong việc nâng tầm du lịch nghỉ dưỡng cao cấp tại Việt Nam"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/Lê_Viết_Lam"
+  },
+  {
+    "id": "nv-vn-094",
+    "category": "nhan-vat-noi-tieng",
+    "answer": "Trần Anh Hùng",
+    "hints": [
+      "Đạo diễn điện ảnh người Pháp gốc Việt tài danh lừng lẫy thế giới",
+      "Đạo diễn đoạt giải Cành cọ Vàng Camera d'Or tại Cannes với phim 'Mùi đu đủ xanh' (1993)",
+      "Đoạt giải Sư tử Vàng tại LHP Venice với phim 'Xích lô' (1995)",
+      "Đoạt giải Đạo diễn xuất sắc nhất tại LHP Cannes 2023 với phim 'Muôn vị nhân gian' (The Pot-au-Feu)"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/Trần_Anh_Hùng"
+  },
+  {
+    "id": "nv-vn-095",
+    "category": "nhan-vat-noi-tieng",
+    "answer": "Mai Phương Thúy",
+    "hints": [
+      "Hoa hậu Việt Nam 2006 sở hữu chiều cao kỷ lục 1m79 tại thời điểm đăng quang",
+      "Lọt vào Top 17 Miss World 2006 và được khán giả bình chọn là thí sinh được yêu thích nhất khu vực châu Á - Thái Bình Dương",
+      "Nổi tiếng với các hoạt động thiện nguyện xã hội tích cực trong nhiều năm",
+      "Thành công trong lĩnh vực kinh doanh và đầu tư tài chính"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/Mai_Phương_Thúy"
+  },
+  {
+    "id": "nv-vn-096",
+    "category": "nhan-vat-noi-tieng",
+    "answer": "Đặng Thu Thảo",
+    "hints": [
+      "Hoa hậu Việt Nam 2012 được công chúng ưu ái gọi là 'Hoa hậu của các hoa hậu' hay 'Thần tiên tỷ tỷ'",
+      "Người đẹp đầu tiên xuất thân từ miền Tây Nam Bộ (Bạc Liêu) đăng quang Hoa hậu Việt Nam",
+      "Được yêu mến bởi nhan sắc thanh tú, lối sống giản dị, không scandal",
+      "Tích cực tham gia các dự án quỹ học bổng và bảo trợ trẻ em nghèo"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/Đặng_Thu_Thảo_(hoa_hậu_2012)"
+  },
+  {
+    "id": "nv-vn-097",
+    "category": "nhan-vat-noi-tieng",
+    "answer": "Tuệ Tĩnh",
+    "hints": [
+      "Vị danh y kiệt xuất thời Trần, được tôn xưng là 'Ông tổ ngành Dược học cổ truyền Việt Nam'",
+      "Nổi tiếng với phương châm chữa bệnh kinh điển: 'Nam dược trị Nam nhân' (Thuốc Nam chữa bệnh cho người Nam)",
+      "Tác giả bộ sách y dược quý báu 'Nam dược thần hiệu' và 'Hồng nghĩa giác tư y thư'",
+      "Được nhân dân lập đền thờ tại đền Xưa và đền Bia (Hải Dương)"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/Tuệ_Tĩnh"
+  },
+  {
+    "id": "nv-vn-098",
+    "category": "nhan-vat-noi-tieng",
+    "answer": "Thu Minh",
+    "hints": [
+      "Nữ ca sĩ nổi tiếng sở hữu giọng hát 'khủng' và kỹ thuật thanh nhạc điêu luyện hàng đầu Việt Nam",
+      "Được mệnh danh là 'Nữ hoàng nhạc Dance' của V-Pop với các hit 'Đường cong', 'Bay', 'Chuông gió'",
+      "Huấn luyện viên đoạt cúp Quán quân Giọng hát Việt mùa đầu tiên (2012) với học trò Hương Tràm",
+      "Tích cực tham gia các chiến dịch quốc tế bảo vệ động vật hoang dã (tê giác, voi)"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/Thu_Minh"
+  },
+  {
+    "id": "nv-vn-099",
+    "category": "nhan-vat-noi-tieng",
+    "answer": "Trương Đình Hoàng",
+    "hints": [
+      "Võ sĩ Quyền Anh (Boxing) chuyên nghiệp hàng đầu Việt Nam",
+      "Võ sĩ Việt Nam đầu tiên đoạt đồng thời hai đai vô địch WBA Đông Á và WBA châu Á",
+      "Đoạt Huy chương Vàng SEA Games 28 môn Boxing hạng cân 75kg",
+      "Được mệnh danh là 'Nam vương Boxing Việt Nam' với lối đánh uy lực và tinh thần quả cảm"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/Trương_Đình_Hoàng"
+  },
+  {
+    "id": "nv-vn-100",
+    "category": "nhan-vat-noi-tieng",
+    "answer": "Thạch Kim Tuấn",
+    "hints": [
+      "Lực sĩ cử tạ xuất sắc hàng đầu của thể thao Việt Nam ở hạng cân 56kg",
+      "Vô địch cử tạ thế giới (HCV Cử đẩy và Tổng cử tại Giải Vô địch Thế giới 2017)",
+      "Đoạt Huy chương Vàng Đại hội Thể thao châu Á (ASIAD 2014) và 3 lần liên tiếp đoạt HCV SEA Games",
+      "Gương mặt trẻ Việt Nam tiêu biểu và Vận động viên tiêu biểu toàn quốc nhiều năm liền"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/Thạch_Kim_Tuấn"
+  }
+]

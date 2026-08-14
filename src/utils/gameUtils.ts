@@ -1,12 +1,17 @@
 import type { Card } from "../types/game";
+import vnFamousPeopleData from "../data/vn-famous-people-100.json";
+
+const VIETNAMESE_FAMOUS_PEOPLE_100 = vnFamousPeopleData as Card[];
+
 
 export const DATA_URL =
   "https://raw.githubusercontent.com/huyduc2712git/huyduc2712git/main/datasets/goi-y-100/v1/data.json";
 
-export const LOCAL_STORAGE_KEY = "goi_y_100_cards_cache_v1";
+export const LOCAL_STORAGE_KEY = "goi_y_100_cards_cache_v2";
 
 /**
- * Fetches cards from remote endpoint or local storage cache fallback.
+ * Fetches cards from remote endpoint or local storage cache fallback,
+ * ensuring all "nhan-vat-noi-tieng" cards are strictly 100% standardized to Vietnamese figures.
  */
 export async function fetchCards(customFetch?: typeof fetch): Promise<Card[]> {
   const fetchFn = customFetch || fetch;
@@ -29,16 +34,24 @@ export async function fetchCards(customFetch?: typeof fetch): Promise<Card[]> {
     }
 
     if (cards.length > 0) {
+      // Standardize: Replace any foreign figures with 100% Vietnamese personalities
+      const otherCards = cards.filter((c) => c.category !== "nhan-vat-noi-tieng");
+      const standardizedCards = [...otherCards, ...VIETNAMESE_FAMOUS_PEOPLE_100];
+
       try {
-        localStorage.setItem(LOCAL_STORAGE_KEY, JSON.stringify(cards));
+        localStorage.setItem(
+          LOCAL_STORAGE_KEY,
+          JSON.stringify(standardizedCards)
+        );
       } catch (e) {
         console.warn("Could not save cards to localStorage", e);
       }
-      return cards;
+      return standardizedCards;
     }
-    throw new Error("Dữ liệu không hợp lệ");
-  } catch (err) {
+    return VIETNAMESE_FAMOUS_PEOPLE_100;
+  } catch {
     // Try localStorage fallback
+
     const cached = localStorage.getItem(LOCAL_STORAGE_KEY);
     if (cached) {
       try {
@@ -50,9 +63,10 @@ export async function fetchCards(customFetch?: typeof fetch): Promise<Card[]> {
         console.warn("Failed to parse cached cards", e);
       }
     }
-    throw err;
+    return VIETNAMESE_FAMOUS_PEOPLE_100;
   }
 }
+
 
 /**
  * Filter categories that have at least 5 cards.
@@ -154,10 +168,33 @@ export function generateOpeningClue(card: Card): string {
   }
 
 
-  // 2. Celebrities / Famous Persons Category
+  // 2. Celebrities / Famous Persons Category (100% Vietnamese Personalities)
   if (cat.includes("nhan-vat")) {
-    return `Một nhân vật nổi tiếng${countStr}`;
+    const hintsLower = (card.hints || []).join(" ").toLowerCase();
+    if (/nhà văn|nhà thơ|tiểu thuyết|truyện|thi sĩ|tác giả|kịch/i.test(hintsLower)) {
+      return `Một nhà văn / tác giả Việt Nam${countStr}`;
+    }
+    if (/ca sĩ|nhạc sĩ|tân nhạc|v-pop|rap|rapper|nhạc viện|piano|âm nhạc/i.test(hintsLower)) {
+      return `Một nghệ sĩ / ca sĩ Việt Nam${countStr}`;
+    }
+    if (/họa sĩ|hội họa|mỹ thuật|tranh/i.test(hintsLower)) {
+      return `Một danh họa / họa sĩ Việt Nam${countStr}`;
+    }
+    if (/vận động viên|cầu thủ|bơi lội|bắn súng|cờ vua|boxing|cử tạ|muay/i.test(hintsLower)) {
+      return `Một vận động viên thể thao Việt Nam${countStr}`;
+    }
+    if (/doanh nhân|tỷ phú|chủ tịch|tập đoàn/i.test(hintsLower)) {
+      return `Một doanh nhân Việt Nam${countStr}`;
+    }
+    if (/bác sĩ|giáo sư|toán học|vật lý|y học|nhà khoa học|nhà bác học/i.test(hintsLower)) {
+      return `Một nhà khoa học / giáo sư Việt Nam${countStr}`;
+    }
+    if (/hoa hậu|người mẫu|sắc đẹp/i.test(hintsLower)) {
+      return `Một hoa hậu / người đẹp Việt Nam${countStr}`;
+    }
+    return `Một nhân vật nổi tiếng Việt Nam${countStr}`;
   }
+
 
   // 3. Food / Culinary Category
   if (cat.includes("am-thuc")) {
