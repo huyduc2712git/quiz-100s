@@ -196,11 +196,11 @@ export const MusicQuizPlayScreen: React.FC<MusicQuizPlayScreenProps> = ({
       {/* 2. Main Question Card with Floating Timer Bubble (Giống hình mẫu) */}
       <div className="quiz-main-card">
         {/* Floating Circular Timer on Top Border */}
-        <div className={`floating-timer-bubble ${isUrgent ? "urgent" : ""}`}>
+        {/* <div className={`floating-timer-bubble ${isUrgent ? "urgent" : ""}`}>
           <div className="timer-bubble-inner">
             <span className="timer-val">{timeLeft}</span>
           </div>
-        </div>
+        </div> */}
 
         {/* Top Hint / Pack Badge */}
         <div className="card-top-header">

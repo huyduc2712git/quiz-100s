@@ -18,19 +18,35 @@ interface GamePlayScreenProps {
 /**
  * Highlight answer keywords inside the Wikipedia text so Player 1 does not accidentally speak them out.
  */
-function renderHighlightedWikiText(text: string, answer: string): React.ReactNode {
+function renderHighlightedWikiText(
+  text: string,
+  answer: string,
+): React.ReactNode {
   if (!text || !answer) return text;
 
   const trimmed = answer.trim();
   const prefixes = [
-    "Chiến thắng", "Chiến dịch", "Trận", "Khởi nghĩa", "Cách mạng",
-    "Phong trào", "Hiệp định", "Hiệp ước", "Bài hát", "Ca khúc", "Bộ phim", "Hình"
+    "Chiến thắng",
+    "Chiến dịch",
+    "Trận",
+    "Khởi nghĩa",
+    "Cách mạng",
+    "Phong trào",
+    "Hiệp định",
+    "Hiệp ước",
+    "Bài hát",
+    "Ca khúc",
+    "Bộ phim",
+    "Hình",
   ];
 
   const searchTerms = [trimmed];
   for (const p of prefixes) {
     if (trimmed.toLowerCase().startsWith(p.toLowerCase())) {
-      const remainder = trimmed.slice(p.length).trim().replace(/^[-–—]\s*/, "");
+      const remainder = trimmed
+        .slice(p.length)
+        .trim()
+        .replace(/^[-–—]\s*/, "");
       if (remainder.length >= 2) {
         searchTerms.push(remainder);
       }
@@ -54,7 +70,7 @@ function renderHighlightedWikiText(text: string, answer: string): React.ReactNod
 
   return parts.map((part, idx) => {
     const isMatch = searchTerms.some(
-      (term) => term.toLowerCase() === part.toLowerCase()
+      (term) => term.toLowerCase() === part.toLowerCase(),
     );
     if (isMatch) {
       return (
@@ -80,7 +96,6 @@ export const GamePlayScreen: React.FC<GamePlayScreenProps> = ({
   onCorrectAnswer,
   onTimeout,
 }) => {
-
   const [timeLeft, setTimeLeft] = useState<number>(100);
   const [isLocked, setIsLocked] = useState<boolean>(false);
   const [wikiData, setWikiData] = useState<WikiExtract | null>(null);
@@ -222,16 +237,11 @@ export const GamePlayScreen: React.FC<GamePlayScreenProps> = ({
       <div className="compact-answer-timer-card">
         <div className="answer-left-info">
           {/* Spoken Opening Prompt for Player 1 */}
-          <div className="opening-clue-box">
-            <span className="opening-clue-tag">
-              📢 GỢI Ý MỞ ĐẦU (ĐỌC CHO BẠN ĐOÁN):
-            </span>
-            <div className="opening-clue-quote">"{openingClue}"</div>
-          </div>
+
+          <div className="opening-clue-quote">{openingClue}:</div>
 
           {/* Answer Display */}
           <div className="answer-main-display">
-            <span className="answer-badge-tag">🎯 ĐÁP ÁN:</span>
             <h2 className="compact-answer-title">{card.answer}</h2>
           </div>
         </div>
@@ -253,7 +263,9 @@ export const GamePlayScreen: React.FC<GamePlayScreenProps> = ({
             <span className="wiki-badge-title">
               DỮ KIỆN WIKIPEDIA ĐỐI THOẠI
             </span>
-            <span className="wiki-answer-warning-badge">⚠️ Chữ tô hồng = Đáp án</span>
+            <span className="wiki-answer-warning-badge">
+              ⚠️ Chữ tô hồng = Đáp án
+            </span>
           </div>
           <a
             href={wikiData?.pageUrl || card.source_url}
@@ -292,7 +304,9 @@ export const GamePlayScreen: React.FC<GamePlayScreenProps> = ({
                   {card.hints.map((hint, idx) => (
                     <div key={idx} className="wiki-clue-pill">
                       <span className="wiki-clue-dot">•</span>
-                      <span>{renderHighlightedWikiText(hint, card.answer)}</span>
+                      <span>
+                        {renderHighlightedWikiText(hint, card.answer)}
+                      </span>
                     </div>
                   ))}
                 </div>
@@ -301,8 +315,6 @@ export const GamePlayScreen: React.FC<GamePlayScreenProps> = ({
           )}
         </div>
       </div>
-
-
 
       {/* In-Flow Bottom Action Controls (Bỏ qua / Đúng) */}
       <div className="hint-action-bar">

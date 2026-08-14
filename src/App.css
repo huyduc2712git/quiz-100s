@@ -669,7 +669,7 @@
 }
 
 .opening-clue-quote {
-  font-size: 12.5px;
+  font-size: 13.5px;
   font-weight: 800;
   color: #ffffff;
   line-height: 1.25;
@@ -1045,116 +1045,223 @@
 }
 
 
-/* Timeout Screen */
+/* Timeout Screen (Compact Single-Screen with Internal Wiki Scroll) */
 .timeout-screen {
   display: flex;
   flex-direction: column;
-  gap: 18px;
+  height: 100%;
+  min-height: 0;
+  flex: 1 1 0%;
+  gap: 8px;
+  width: 100%;
+  overflow: hidden;
 }
 
 .timeout-banner {
-  text-align: center;
-  padding: 16px;
-  background: rgba(239, 68, 68, 0.12);
-  border: 1px solid rgba(239, 68, 68, 0.3);
-  border-radius: var(--radius-lg);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  padding: 6px 12px;
+  background: linear-gradient(135deg, rgba(239, 68, 68, 0.18), rgba(185, 28, 28, 0.28));
+  border: 1.5px solid rgba(239, 68, 68, 0.45);
+  border-radius: var(--radius-md);
+  box-shadow: 0 4px 14px rgba(239, 68, 68, 0.2);
+  flex-shrink: 0;
+}
+
+.timeout-banner-left {
+  display: flex;
+  align-items: center;
+  gap: 6px;
 }
 
 .timeout-icon {
-  font-size: 36px;
-  margin-bottom: 4px;
+  font-size: 18px;
+  margin-bottom: 0;
 }
 
 .timeout-title {
   font-family: var(--font-display);
-  font-size: 28px;
+  font-size: 15px;
   font-weight: 900;
   color: #fca5a5;
-  margin-bottom: 4px;
+  margin-bottom: 0;
+  letter-spacing: 0.4px;
 }
 
 .timeout-subtitle {
-  font-size: 14px;
-  color: var(--text-muted);
+  font-size: 11px;
+  color: #cbd5e1;
+  font-weight: 600;
+  margin-bottom: 0;
+  text-align: right;
 }
 
 .timeout-answer-box {
-  background: var(--card-bg);
-  border: 1px solid var(--card-border);
-  border-radius: var(--radius-lg);
-  padding: 20px 16px;
-  text-align: center;
+  background: linear-gradient(135deg, rgba(30, 41, 59, 0.95), rgba(15, 23, 42, 0.98));
+  border: 1.5px solid rgba(236, 72, 153, 0.45);
+  border-radius: var(--radius-md);
+  padding: 6px 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.3);
+  flex-shrink: 0;
+}
+
+.answer-label {
+  font-size: 10.5px;
+  font-weight: 800;
+  color: #f472b6;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
 }
 
 .timeout-answer-text {
   font-family: var(--font-display);
-  font-size: 28px;
+  font-size: 16.5px;
   font-weight: 900;
-  color: var(--text-highlight);
-  margin-top: 6px;
+  color: #ffffff;
+  margin-top: 0;
+  letter-spacing: -0.2px;
 }
 
-/* Wikipedia Box */
-.wiki-card {
-  background: rgba(30, 41, 59, 0.85);
-  border: 1px solid rgba(99, 102, 241, 0.3);
+/* Wikipedia Box on Timeout (Flex stretch with internal scroll) */
+.timeout-screen .wiki-card {
+  flex: 1 1 0%;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(135deg, rgba(30, 41, 59, 0.95), rgba(15, 23, 42, 0.98));
+  border: 1.5px solid rgba(56, 189, 248, 0.35);
   border-radius: var(--radius-lg);
-  padding: 18px;
+  padding: 10px 12px;
+  margin-bottom: 0;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+  overflow: hidden;
 }
 
-.wiki-header {
+.timeout-screen .wiki-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-size: 14px;
+  font-size: 12.5px;
   font-weight: 800;
-  color: #a5b4fc;
-  margin-bottom: 12px;
+  color: #38bdf8;
+  margin-bottom: 6px;
+  padding-bottom: 4px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  flex-shrink: 0;
+}
+
+.timeout-screen .wiki-body {
+  flex: 1 1 0%;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto !important;
+  -webkit-overflow-scrolling: touch;
+  overscroll-behavior-y: contain;
+  touch-action: pan-y;
+  padding-right: 4px;
+}
+
+/* Slim modern scrollbar for timeout wiki box */
+.timeout-screen .wiki-body::-webkit-scrollbar {
+  width: 4px;
+}
+
+.timeout-screen .wiki-body::-webkit-scrollbar-track {
+  background: rgba(15, 23, 42, 0.4);
+  border-radius: 4px;
+}
+
+.timeout-screen .wiki-body::-webkit-scrollbar-thumb {
+  background: rgba(56, 189, 248, 0.45);
+  border-radius: 4px;
+}
+
+.timeout-screen .wiki-body::-webkit-scrollbar-thumb:hover {
+  background: rgba(56, 189, 248, 0.7);
 }
 
 .wiki-source {
-  font-size: 11px;
-  background: rgba(165, 180, 252, 0.15);
-  padding: 2px 8px;
-  border-radius: var(--radius-sm);
-  color: #c7d2fe;
+  font-size: 10px;
+  background: rgba(56, 189, 248, 0.15);
+  border: 1px solid rgba(56, 189, 248, 0.3);
+  padding: 1.5px 7px;
+  border-radius: var(--radius-full);
+  color: #93c5fd;
+  font-weight: 800;
 }
 
 .wiki-extract {
-  font-size: 14px;
-  line-height: 1.6;
+  font-size: 13px;
+  line-height: 1.5;
   color: #e2e8f0;
-  margin-bottom: 14px;
+  margin-bottom: 8px;
 }
 
 .wiki-loading {
-  font-size: 14px;
+  font-size: 12.5px;
   color: var(--text-muted);
   text-align: center;
-  padding: 16px 0;
+  padding: 12px 0;
+}
+
+.wiki-link-wrapper {
+  margin-top: 2px;
 }
 
 .wiki-link {
   display: inline-flex;
   align-items: center;
-  gap: 6px;
-  color: #818cf8;
-  font-size: 14px;
+  gap: 5px;
+  color: #38bdf8;
+  font-size: 12px;
   font-weight: 700;
   text-decoration: none;
+  background: rgba(56, 189, 248, 0.12);
+  border: 1px solid rgba(56, 189, 248, 0.3);
+  padding: 3px 9px;
+  border-radius: var(--radius-full);
+  transition: all 0.2s ease;
 }
 
 .wiki-link:hover,
 .wiki-link:focus-visible {
-  text-decoration: underline;
-  color: #a5b4fc;
+  background: rgba(56, 189, 248, 0.25);
+  color: #ffffff;
 }
 
-/* Results Screen */
+.timeout-action-bar {
+  width: 100%;
+  margin-top: auto;
+  padding-top: 2px;
+  flex-shrink: 0;
+}
+
+.btn-next {
+  width: 100%;
+  min-height: 44px;
+  height: 44px;
+  font-family: var(--font-display);
+  font-size: 15px;
+  font-weight: 900;
+  border-radius: var(--radius-full);
+  letter-spacing: 0.4px;
+}
+
+
+/* Results Screen (Mobile Scaled & Modern Aesthetics) */
 .results-screen {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 14px;
+  width: 100%;
+  padding-bottom: 24px;
 }
 
 .results-header {
@@ -1162,68 +1269,80 @@
 }
 
 .results-medal {
-  font-size: 56px;
-  margin-bottom: 8px;
+  font-size: 48px;
+  margin-bottom: 4px;
+  animation: bounceMedal 1s ease-in-out infinite alternate;
+}
+
+@keyframes bounceMedal {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-6px); }
 }
 
 .results-title {
   font-family: var(--font-display);
-  font-size: 30px;
+  font-size: 24px;
   font-weight: 900;
-  margin-bottom: 4px;
+  color: #ffffff;
+  margin-bottom: 2px;
+  letter-spacing: -0.2px;
 }
 
 .results-category-tag {
-  font-size: 14px;
-  color: var(--text-muted);
+  font-size: 13px;
+  color: #cbd5e1;
   font-weight: 600;
 }
 
 .results-score-card {
-  background: var(--card-bg);
-  border: 1px solid var(--card-border);
+  background: linear-gradient(135deg, rgba(30, 41, 59, 0.95), rgba(15, 23, 42, 0.98));
+  border: 1.5px solid rgba(255, 255, 255, 0.12);
   border-radius: var(--radius-lg);
-  padding: 24px 16px;
+  padding: 18px 14px;
   text-align: center;
-  box-shadow: var(--card-shadow);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.45);
 }
 
 .score-main {
-  font-size: 18px;
-  margin-bottom: 8px;
+  font-size: 16.5px;
+  font-weight: 700;
+  color: #e2e8f0;
+  margin-bottom: 4px;
 }
 
 .highlight-score {
-  color: #6ee7b7;
-  font-size: 22px;
+  color: #34d399;
+  font-size: 20px;
+  font-weight: 900;
 }
 
 .score-percentage {
   font-family: var(--font-display);
-  font-size: 48px;
+  font-size: 42px;
   font-weight: 900;
   background: linear-gradient(135deg, #10b981, #6366f1);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  margin-bottom: 4px;
+  margin-bottom: 2px;
 }
 
 .score-grade {
-  font-size: 15px;
-  font-weight: 700;
-  color: var(--text-highlight);
+  font-size: 14px;
+  font-weight: 800;
+  color: #fef08a;
 }
 
 .results-list-section {
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 8px;
 }
 
 .section-title {
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 800;
-  color: var(--text-muted);
+  color: #94a3b8;
+  padding-left: 2px;
 }
 
 .results-list {
@@ -1233,14 +1352,15 @@
 }
 
 .result-item {
-  background: var(--card-bg);
-  border: 1px solid var(--card-border);
+  background: rgba(15, 23, 42, 0.85);
+  border: 1.5px solid rgba(255, 255, 255, 0.1);
   border-radius: var(--radius-md);
-  padding: 12px 14px;
+  padding: 10px 14px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 12px;
+  gap: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
 }
 
 .result-item.correct {
@@ -1259,44 +1379,66 @@
 }
 
 .result-index {
-  font-size: 11px;
+  font-size: 10.5px;
   font-weight: 800;
-  color: var(--text-muted);
+  color: #94a3b8;
 }
 
 .result-answer {
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 700;
-  color: var(--text-main);
+  color: #ffffff;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
 
 .result-tag {
-  font-size: 12px;
+  font-size: 11.5px;
   font-weight: 800;
-  padding: 4px 10px;
+  padding: 3px 9px;
   border-radius: var(--radius-full);
   white-space: nowrap;
+  flex-shrink: 0;
 }
 
 .tag-correct {
   background: rgba(16, 185, 129, 0.2);
   color: #6ee7b7;
+  border: 1px solid rgba(16, 185, 129, 0.35);
 }
 
 .tag-timeout {
   background: rgba(239, 68, 68, 0.2);
   color: #fca5a5;
+  border: 1px solid rgba(239, 68, 68, 0.35);
 }
 
 .results-actions {
   display: flex;
   flex-direction: column;
-  gap: 12px;
-  margin-top: 10px;
+  gap: 10px;
+  margin-top: 6px;
 }
+
+.btn-replay {
+  min-height: 48px;
+  height: 48px;
+  font-family: var(--font-display);
+  font-size: 15.5px;
+  font-weight: 900;
+  border-radius: var(--radius-full);
+}
+
+.btn-home {
+  min-height: 46px;
+  height: 46px;
+  font-family: var(--font-display);
+  font-size: 15px;
+  font-weight: 900;
+  border-radius: var(--radius-full);
+}
+
 
 /* PWA Install Banner */
 .pwa-banner {

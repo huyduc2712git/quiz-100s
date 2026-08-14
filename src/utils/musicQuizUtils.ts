@@ -1,7 +1,4 @@
-import type {
-  MusicQuizPack,
-  MusicQuizQuestion,
-} from "../types/musicQuiz";
+import type { MusicQuizPack, MusicQuizQuestion } from "../types/musicQuiz";
 import vnMovie100Data from "../data/vn-movie-music-quiz-100.json";
 import vpop100Data from "../data/vpop-2013-2025-100.json";
 import movie50Data from "../data/50-music-movie.json";
@@ -87,7 +84,7 @@ export function getYouTubeEmbedUrl(
   url: string,
   startSeconds = 30,
   durationSeconds = 30,
-  autoplay = 1
+  autoplay = 1,
 ): string {
   const videoId = extractYouTubeId(url);
   if (!videoId) return "";
@@ -96,7 +93,6 @@ export function getYouTubeEmbedUrl(
   const end = start + duration;
   return `https://www.youtube-nocookie.com/embed/${videoId}?start=${start}&end=${end}&autoplay=${autoplay}&rel=0&modestbranding=1&playsinline=1&enablejsapi=1`;
 }
-
 
 /**
  * Parse Vietnamese Movie Music 100 Quiz Dataset (taking from `sets`)
@@ -109,8 +105,10 @@ export function parseVnMovie100(rawData: unknown): MusicQuizQuestion[] {
 
   for (const set of data.sets) {
     const defaultUrl = set.youtube_url || "";
-    const defaultStart = typeof set.audio_start === "number" ? set.audio_start : 30;
-    const defaultDuration = typeof set.audio_duration === "number" ? set.audio_duration : 30;
+    const defaultStart =
+      typeof set.audio_start === "number" ? set.audio_start : 30;
+    const defaultDuration =
+      typeof set.audio_duration === "number" ? set.audio_duration : 30;
     const meta = set.metadata || {};
 
     if (Array.isArray(set.questions)) {
@@ -119,8 +117,12 @@ export function parseVnMovie100(rawData: unknown): MusicQuizQuestion[] {
           id: `vn-movie-100-${q.id || questions.length + 1}`,
           question: q.question,
           youtube_url: q.youtube_url || defaultUrl,
-          audio_start: typeof q.audio_start === "number" ? q.audio_start : defaultStart,
-          audio_duration: typeof q.audio_duration === "number" ? q.audio_duration : defaultDuration,
+          audio_start:
+            typeof q.audio_start === "number" ? q.audio_start : defaultStart,
+          audio_duration:
+            typeof q.audio_duration === "number"
+              ? q.audio_duration
+              : defaultDuration,
           options: q.options || [],
           correct_answer: q.correct_answer,
           song: meta.song,
@@ -155,14 +157,20 @@ export function parseVpop100(rawData: unknown): MusicQuizQuestion[] {
   const questions: MusicQuizQuestion[] = [];
 
   for (const q of data.quizzes) {
-    const matchedSong = q.song ? songMap.get(q.song.trim().toLowerCase()) : undefined;
+    const matchedSong = q.song
+      ? songMap.get(q.song.trim().toLowerCase())
+      : undefined;
 
     questions.push({
       id: `vpop-100-${q.id || questions.length + 1}`,
       question: q.question,
-      youtube_url: q.youtube_url || (matchedSong?.youtube_url || ""),
-      audio_start: typeof q.audio_start === "number" ? q.audio_start : (matchedSong?.start || 30),
-      audio_duration: typeof q.audio_duration === "number" ? q.audio_duration : 30,
+      youtube_url: q.youtube_url || matchedSong?.youtube_url || "",
+      audio_start:
+        typeof q.audio_start === "number"
+          ? q.audio_start
+          : matchedSong?.start || 30,
+      audio_duration:
+        typeof q.audio_duration === "number" ? q.audio_duration : 30,
       options: q.options || [],
       correct_answer: q.correct_answer,
       song: q.song || matchedSong?.song,
@@ -192,7 +200,8 @@ export function parseMovie50(rawData: unknown): MusicQuizQuestion[] {
       question: q.question,
       youtube_url: q.youtube_url || "",
       audio_start: typeof q.audio_start === "number" ? q.audio_start : 30,
-      audio_duration: typeof q.audio_duration === "number" ? q.audio_duration : 30,
+      audio_duration:
+        typeof q.audio_duration === "number" ? q.audio_duration : 30,
       options: q.options || [],
       correct_answer: q.correct_answer,
       packId: "vn-movie-50",
@@ -248,7 +257,7 @@ export function getAllMusicQuizPacks(): MusicQuizPack[] {
 export function pickRandomMusicQuestions(
   questions: MusicQuizQuestion[],
   count = 10,
-  shuffleOptions = true
+  shuffleOptions = true,
 ): MusicQuizQuestion[] {
   if (!questions || questions.length === 0) return [];
 
@@ -295,7 +304,10 @@ export function pickRandomMusicQuestions(
   // Final shuffle of the selected questions list
   for (let i = selectedQuestions.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
-    [selectedQuestions[i], selectedQuestions[j]] = [selectedQuestions[j], selectedQuestions[i]];
+    [selectedQuestions[i], selectedQuestions[j]] = [
+      selectedQuestions[j],
+      selectedQuestions[i],
+    ];
   }
 
   if (!shuffleOptions) return selectedQuestions;
@@ -313,4 +325,3 @@ export function pickRandomMusicQuestions(
     };
   });
 }
-

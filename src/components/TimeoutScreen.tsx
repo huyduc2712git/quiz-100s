@@ -62,16 +62,21 @@ export const TimeoutScreen: React.FC<TimeoutScreenProps> = ({
 
   return (
     <div className="timeout-screen fade-in">
+      {/* 1. Compact Timeout Alert Banner */}
       <div className="timeout-banner" role="alert">
-        <div className="timeout-icon" aria-hidden="true">⏰</div>
-        <h2 className="timeout-title">HẾT GIỜ!</h2>
-        <p className="timeout-subtitle">Rất tiếc, người chơi chưa đoán kịp trong 100 giây.</p>
+        <div className="timeout-banner-left">
+          <span className="timeout-icon" aria-hidden="true">⏰</span>
+          <h2 className="timeout-title">HẾT GIỜ!</h2>
+        </div>
+        <p className="timeout-subtitle">Chưa đoán kịp trong 100 giây</p>
       </div>
 
+      {/* 2. Compact Answer Box */}
       <div className="timeout-answer-box">
-        <span className="answer-label">ĐÁP ÁN ĐÚNG LÀ:</span>
+        <span className="answer-label">ĐÁP ÁN:</span>
         <h3 className="timeout-answer-text">{card.answer}</h3>
       </div>
+
 
       {/* Wikipedia Learn More Box */}
       <div className="wiki-card">

@@ -309,7 +309,7 @@ function App() {
         ref={mainRef}
         tabIndex={-1}
         className={`app-main ${
-          (appMode === "hint100" && phase === "playing") ||
+          (appMode === "hint100" && (phase === "playing" || phase === "timeout")) ||
           (appMode === "musicQuiz" && musicPhase === "playing")
             ? "app-main--playing"
             : ""

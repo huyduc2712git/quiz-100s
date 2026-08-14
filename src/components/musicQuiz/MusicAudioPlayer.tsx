@@ -1,5 +1,8 @@
 import React, { useEffect, useRef, useState } from "react";
-import { extractYouTubeId, getYouTubeEmbedUrl } from "../../utils/musicQuizUtils";
+import {
+  extractYouTubeId,
+  getYouTubeEmbedUrl,
+} from "../../utils/musicQuizUtils";
 
 interface MusicAudioPlayerProps {
   youtubeUrl: string;
@@ -45,12 +48,12 @@ export const MusicAudioPlayer: React.FC<MusicAudioPlayerProps> = ({
       if (isPlaying) {
         iframeRef.current.contentWindow.postMessage(
           JSON.stringify({ event: "command", func: "playVideo", args: "" }),
-          "*"
+          "*",
         );
       } else {
         iframeRef.current.contentWindow.postMessage(
           JSON.stringify({ event: "command", func: "pauseVideo", args: "" }),
-          "*"
+          "*",
         );
       }
     } catch {
@@ -82,7 +85,7 @@ export const MusicAudioPlayer: React.FC<MusicAudioPlayerProps> = ({
     youtubeUrl,
     audioStart,
     showVideo ? 600 : audioDuration,
-    1
+    1,
   );
 
   const formatSeconds = (sec: number) => {
@@ -94,7 +97,9 @@ export const MusicAudioPlayer: React.FC<MusicAudioPlayerProps> = ({
   return (
     <div className="audio-player-stage">
       {/* Hidden YouTube Engine (Always mounted during the question so pause/resume is instant) */}
-      <div className={`hidden-audio-engine ${showVideo ? "show-as-video" : ""}`}>
+      <div
+        className={`hidden-audio-engine ${showVideo ? "show-as-video" : ""}`}
+      >
         <iframe
           key={`${key}-${showVideo ? "vid" : "audio"}`}
           ref={iframeRef}
@@ -129,14 +134,17 @@ export const MusicAudioPlayer: React.FC<MusicAudioPlayerProps> = ({
             ) : isAnswered ? (
               <span className="status-idle-text">✓ Đã kết thúc câu hỏi</span>
             ) : (
-              <span className="status-idle-text">Đã tạm dừng (Nhấn để nghe tiếp)</span>
+              <span className="status-idle-text">
+                Đã tạm dừng (Nhấn để nghe tiếp)
+              </span>
             )}
           </div>
 
           {/* Equalizer Wave / Clip Info */}
           <div className="audio-wave-row">
             <span className="audio-clip-time">
-              {formatSeconds(audioStart)} – {formatSeconds(audioStart + audioDuration)} ({audioDuration}s)
+              {formatSeconds(audioStart)} –{" "}
+              {formatSeconds(audioStart + audioDuration)} ({audioDuration}s)
             </span>
           </div>
 
