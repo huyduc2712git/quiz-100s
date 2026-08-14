@@ -156,11 +156,12 @@ export const MusicQuizPlayScreen: React.FC<MusicQuizPlayScreenProps> = ({
   });
 
   const timeLeft = Math.max(0, Math.ceil(remainingMs / 1000));
-  const isUrgent = timeLeft <= 8 && !isAnswered;
+  const _isUrgent = timeLeft <= 8 && !isAnswered;
   const isCorrectChoice =
     selectedOption !== null &&
     selectedOption.trim().toLowerCase() ===
       question.correct_answer.trim().toLowerCase();
+
 
   const progressPercent = Math.max(
     0,

@@ -1,0 +1,518 @@
+{
+  "version": "1.0",
+  "title": "Nhìn Hình Đoán Địa Danh Đông Nam Á",
+  "total_quizzes": 40,
+  "description": "Bộ câu hỏi hình ảnh các danh lam thắng cảnh, di sản thế giới và công trình biểu tượng nổi tiếng khắp 11 quốc gia Đông Nam Á.",
+  "landmarks": [
+    {
+      "id": 1,
+      "question": "Đây là danh lam thắng cảnh nào của Việt Nam được UNESCO công nhận là Di sản Thiên nhiên Thế giới?",
+      "image_url": "https://images.unsplash.com/photo-1528127269322-539801943592?auto=format&fit=crop&w=1000&q=80",
+      "landmark_name": "Vịnh Hạ Long",
+      "country": "Việt Nam",
+      "location_detail": "Quảng Ninh, Việt Nam",
+      "category": "Kỳ quan thiên nhiên",
+      "options": [
+        "Vịnh Hạ Long",
+        "Vịnh Lan Hạ",
+        "Vịnh Bái Tử Long",
+        "Vịnh Nha Trang"
+      ],
+      "correct_answer": "Vịnh Hạ Long",
+      "fun_fact": "Vịnh Hạ Long sở hữu gần 2.000 hòn đảo đá vôi lớn nhỏ nhô lên từ làn nước xanh ngọc bích, hai lần được UNESCO vinh danh là Di sản Thiên nhiên Thế giới."
+    },
+    {
+      "id": 2,
+      "question": "Quần thể đền đài tôn giáo cổ kính lớn nhất thế giới này nằm ở quốc gia nào?",
+      "image_url": "https://images.unsplash.com/photo-1569154941061-e231b4725ef1?auto=format&fit=crop&w=1000&q=80",
+      "landmark_name": "Đền Angkor Wat",
+      "country": "Campuchia",
+      "location_detail": "Siem Reap, Campuchia",
+      "category": "Di sản thế giới",
+      "options": [
+        "Đền Angkor Wat",
+        "Đền Bayon",
+        "Đền Ta Prohm",
+        "Đền Banteay Srei"
+      ],
+      "correct_answer": "Đền Angkor Wat",
+      "fun_fact": "Angkor Wat được xây dựng vào đầu thế kỷ 12 dưới triều vua Suryavarman II, là công trình tôn giáo lớn nhất hành tinh và xuất hiện trang trọng trên quốc kỳ Campuchia."
+    },
+    {
+      "id": 3,
+      "question": "Tòa tháp đôi chọc trời nổi tiếng này là biểu tượng của thủ đô nào ở Đông Nam Á?",
+      "image_url": "https://images.unsplash.com/photo-1596422846543-75c6fc197f07?auto=format&fit=crop&w=1000&q=80",
+      "landmark_name": "Tháp đôi Petronas",
+      "country": "Malaysia",
+      "location_detail": "Kuala Lumpur, Malaysia",
+      "category": "Kiến trúc biểu tượng",
+      "options": [
+        "Tháp đôi Petronas",
+        "Tháp KL Tower",
+        "Tháp Merdeka 118",
+        "Tháp Baiyoke 2"
+      ],
+      "correct_answer": "Tháp đôi Petronas",
+      "fun_fact": "Tháp đôi Petronas cao 451,9m (88 tầng), từng giữ danh hiệu tòa nhà cao nhất thế giới từ năm 1998 đến năm 2004 và có chiếc cầu trên không Skybridge nối giữa 2 tòa tháp."
+    },
+    {
+      "id": 4,
+      "question": "Ngôi đền Phật giáo bằng đá đồ sộ xây dựng từ thế kỷ thứ 9 này tọa lạc tại quốc gia nào?",
+      "image_url": "https://images.unsplash.com/photo-1596401057633-54a8fe8ef647?auto=format&fit=crop&w=1000&q=80",
+      "landmark_name": "Đền Borobudur",
+      "country": "Indonesia",
+      "location_detail": "Trung Java, Indonesia",
+      "category": "Di sản thế giới",
+      "options": [
+        "Đền Borobudur",
+        "Đền Prambanan",
+        "Đền Tanah Lot",
+        "Đền Uluwatu"
+      ],
+      "correct_answer": "Đền Borobudur",
+      "fun_fact": "Borobudur là di tích Phật giáo lớn nhất thế giới, được xếp từ hơn 2 triệu khối đá núi lửa và có tới 72 tháp xá lợi hình chuông rỗng chứa các pho tượng Phật bên trong."
+    },
+    {
+      "id": 5,
+      "question": "Tổ hợp nghỉ dưỡng và sòng bài với hồ bơi vô cực trên cao hình con thuyền này nằm ở đâu?",
+      "image_url": "https://images.unsplash.com/photo-1525625293386-3f8f99389edd?auto=format&fit=crop&w=1000&q=80",
+      "landmark_name": "Marina Bay Sands",
+      "country": "Singapore",
+      "location_detail": "Vịnh Marina, Singapore",
+      "category": "Kiến trúc biểu tượng",
+      "options": [
+        "Marina Bay Sands",
+        "Resorts World Sentosa",
+        "Jewel Changi",
+        "The Fullerton Hotel"
+      ],
+      "correct_answer": "Marina Bay Sands",
+      "fun_fact": "Marina Bay Sands gồm 3 tòa tháp 55 tầng nâng đỡ công viên SkyPark hình con thuyền dài 340m, nơi có hồ bơi vô cực cao nhất thế giới."
+    },
+    {
+      "id": 6,
+      "question": "Ngôi chùa tháp Phật giáo linh thiêng dát vàng lộng lẫy cao 99m này là biểu tượng của thành phố nào?",
+      "image_url": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1000&q=80",
+      "landmark_name": "Chùa Vàng Shwedagon",
+      "country": "Myanmar",
+      "location_detail": "Yangon, Myanmar",
+      "category": "Đền chùa cổ kính",
+      "options": [
+        "Chùa Vàng Shwedagon",
+        "Chùa Ananda",
+        "Chùa Shwezigon",
+        "Chùa Mahamuni"
+      ],
+      "correct_answer": "Chùa Vàng Shwedagon",
+      "fun_fact": "Chùa Shwedagon được dát hàng tấn vàng nguyên chất và đính hơn 7.000 viên kim cương, hồng ngọc và đá quý quý giá, được cho là lưu giữ 8 sợi tóc của Đức Phật."
+    },
+    {
+      "id": 7,
+      "question": "Ngôi đền cổ bên bờ sông Chao Phraya với ngọn tháp sứ khảm lộng lẫy này tên là gì?",
+      "image_url": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=1000&q=80",
+      "landmark_name": "Chùa Wat Arun (Chùa Bình Minh)",
+      "country": "Thái Lan",
+      "location_detail": "Bangkok, Thái Lan",
+      "category": "Đền chùa cổ kính",
+      "options": [
+        "Chùa Wat Arun",
+        "Chùa Wat Phra Kaew",
+        "Chùa Wat Pho",
+        "Chùa Wat Saket"
+      ],
+      "correct_answer": "Chùa Wat Arun",
+      "fun_fact": "Wat Arun (chùa Bình Minh) cao hơn 70m, bề mặt được trang trí thủ công tinh xảo bằng hàng triệu mảnh gốm sứ nhiều màu sắc phản chiếu ánh mặt trời rực rỡ."
+    },
+    {
+      "id": 8,
+      "question": "Cây cầu đi bộ độc đáo với bàn tay khổng lồ phủ rêu phong nâng đỡ này ở địa điểm du lịch nào?",
+      "image_url": "https://images.unsplash.com/photo-1559592413-7cec4d0cae2b?auto=format&fit=crop&w=1000&q=80",
+      "landmark_name": "Cầu Vàng (Bà Nà Hills)",
+      "country": "Việt Nam",
+      "location_detail": "Đà Nẵng, Việt Nam",
+      "category": "Kiến trúc biểu tượng",
+      "options": [
+        "Cầu Vàng (Bà Nà Hills)",
+        "Cầu Rồng (Đà Nẵng)",
+        "Cầu Kính Rồng Mây (Lai Châu)",
+        "Cầu Tình Yêu (Đà Nẵng)"
+      ],
+      "correct_answer": "Cầu Vàng (Bà Nà Hills)",
+      "fun_fact": "Cầu Vàng nằm ở độ cao 1.414m so với mực nước biển, từng được tạp chí Time danh tiếng bình chọn trong Top 100 điểm đến tuyệt vời nhất thế giới."
+    },
+    {
+      "id": 9,
+      "question": "Đại kỳ quan ruộng bậc thang cổ hơn 2.000 năm tuổi do người bản địa đắp trên sườn núi này ở nước nào?",
+      "image_url": "https://images.unsplash.com/photo-1518509562904-e7ef99cdcc86?auto=format&fit=crop&w=1000&q=80",
+      "landmark_name": "Ruộng bậc thang Banaue",
+      "country": "Philippines",
+      "location_detail": "Ifugao, Philippines",
+      "category": "Di sản thế giới",
+      "options": [
+        "Ruộng bậc thang Banaue",
+        "Ruộng bậc thang Mù Cang Chải",
+        "Ruộng bậc thang Jatiluwih",
+        "Ruộng bậc thang Sa Pa"
+      ],
+      "correct_answer": "Ruộng bậc thang Banaue",
+      "fun_fact": "Ruộng bậc thang Banaue được người Ifugao tạc thủ công hoàn toàn vào các triền núi bằng công cụ thô sơ, được ví như 'Kỳ quan thứ 8 của thế giới'."
+    },
+    {
+      "id": 10,
+      "question": "Nhà thờ Hồi giáo lộng lẫy với mái vòm vàng rực rỡ soi bóng trên đầm nước nhân tạo này ở quốc gia nào?",
+      "image_url": "https://images.unsplash.com/photo-1584824486509-112e4181ff6b?auto=format&fit=crop&w=1000&q=80",
+      "landmark_name": "Nhà thờ Hồi giáo Sultan Omar Ali Saifuddien",
+      "country": "Brunei",
+      "location_detail": "Bandar Seri Begawan, Brunei",
+      "category": "Kiến trúc biểu tượng",
+      "options": [
+        "Nhà thờ Sultan Omar Ali Saifuddien",
+        "Nhà thờ Jame' Asr Hassanil Bolkiah",
+        "Nhà thờ Putra",
+        "Nhà thờ Sheikh Zayed"
+      ],
+      "correct_answer": "Nhà thờ Sultan Omar Ali Saifuddien",
+      "fun_fact": "Mái vòm chính của nhà thờ được dát bằng vàng nguyên chất 24-carat, bên cạnh có mô hình chiếc thuyền hoàng gia ngự giữa đầm nước thơ mộng."
+    },
+    {
+      "id": 11,
+      "question": "Cố đô cổ kính nằm giữa hai dòng sông Mê Kông và Nam Khan với kiến trúc đền chùa thanh bình này là ở đâu?",
+      "image_url": "https://images.unsplash.com/photo-1540611025311-01df3cef54b5?auto=format&fit=crop&w=1000&q=80",
+      "landmark_name": "Cố đô Luang Prabang",
+      "country": "Lào",
+      "location_detail": "Luang Prabang, Lào",
+      "category": "Thành phố lịch sử",
+      "options": [
+        "Cố đô Luang Prabang",
+        "Thủ đô Vientiane",
+        "Thị trấn Vang Vieng",
+        "Cố đô Champasak"
+      ],
+      "correct_answer": "Cố đô Luang Prabang",
+      "fun_fact": "Luang Prabang được UNESCO công nhận là Di sản Thế giới từ năm 1995 nhờ sự hòa quyện tuyệt mỹ giữa kiến trúc truyền thống Lào và phong cách Pháp thời thuộc địa."
+    },
+    {
+      "id": 12,
+      "question": "Quần thể kiến trúc đền tháp Hindu giáo cổ kính lớn nhất Indonesia này tên là gì?",
+      "image_url": "https://images.unsplash.com/photo-1588668214407-6ea9a6d8c272?auto=format&fit=crop&w=1000&q=80",
+      "landmark_name": "Đền Prambanan",
+      "country": "Indonesia",
+      "location_detail": "Yogyakarta, Indonesia",
+      "category": "Di sản thế giới",
+      "options": [
+        "Đền Prambanan",
+        "Đền Borobudur",
+        "Đền Besakih",
+        "Đền Candi Sukuh"
+      ],
+      "correct_answer": "Đền Prambanan",
+      "fun_fact": "Prambanan được xây dựng vào thế kỷ thứ 9, thờ ba vị thần tối cao của đạo Hindu (Trimurti): Brahma (thần Sáng tạo), Vishnu (thần Bảo hộ) và Shiva (thần Hủy diệt)."
+    },
+    {
+      "id": 13,
+      "question": "Công viên sinh thái tương lai với những 'Siêu cây' Supertree khổng lồ phát sáng này ở đâu?",
+      "image_url": "https://images.unsplash.com/photo-1508964942454-1a56651d54ac?auto=format&fit=crop&w=1000&q=80",
+      "landmark_name": "Gardens by the Bay",
+      "country": "Singapore",
+      "location_detail": "Singapore",
+      "category": "Kiến trúc biểu tượng",
+      "options": [
+        "Gardens by the Bay",
+        "Singapore Botanic Gardens",
+        "Jurong Bird Park",
+        "Night Safari"
+      ],
+      "correct_answer": "Gardens by the Bay",
+      "fun_fact": "Khu vườn có 18 'Siêu cây' cao từ 25-50m đóng vai trò như các khu vườn thẳng đứng thu gom nước mưa và năng lượng mặt trời cung cấp cho toàn công viên."
+    },
+    {
+      "id": 14,
+      "question": "Đô thị cổ duyên dáng bên dòng sông Hoài với những dãy nhà tường vàng mái ngói rêu phong này tên là gì?",
+      "image_url": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&w=1000&q=80",
+      "landmark_name": "Phố cổ Hội An",
+      "country": "Việt Nam",
+      "location_detail": "Quảng Nam, Việt Nam",
+      "category": "Thành phố lịch sử",
+      "options": [
+        "Phố cổ Hội An",
+        "Phố cổ Hà Nội",
+        "Cố đô Huế",
+        "Làng cổ Đường Lâm"
+      ],
+      "correct_answer": "Phố cổ Hội An",
+      "fun_fact": "Hội An từng là một trong những thương cảng quốc tế sầm uất nhất Đông Nam Á từ thế kỷ 15 đến thế kỷ 19, nơi giao thoa văn hóa Việt, Nhật Bản, Trung Hoa và phương Tây."
+    },
+    {
+      "id": 15,
+      "question": "Quần thể đền thờ với 216 khuôn mặt đá mỉm cười bí ẩn ở trung tâm Angkor Thom tên là gì?",
+      "image_url": "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1000&q=80",
+      "landmark_name": "Đền Bayon",
+      "country": "Campuchia",
+      "location_detail": "Siem Reap, Campuchia",
+      "category": "Di sản thế giới",
+      "options": [
+        "Đền Bayon",
+        "Đền Angkor Wat",
+        "Đền Baphuon",
+        "Đền Ta Keo"
+      ],
+      "correct_answer": "Đền Bayon",
+      "fun_fact": "Đền Bayon nổi tiếng với 54 tòa tháp đá lớn nhỏ, mỗi tòa tạc 4 khuôn mặt khổng lồ với 'nụ cười Angkor' huyền bí nhìn ra 4 hướng."
+    },
+    {
+      "id": 16,
+      "question": "Kỳ quan địa chất với hơn 1.200 ngọn đồi hình nón chuyển sang màu nâu vào mùa khô này ở đâu?",
+      "image_url": "https://images.unsplash.com/photo-1518509562904-e7ef99cdcc86?auto=format&fit=crop&w=1000&q=80",
+      "landmark_name": "Đồi Socola (Chocolate Hills)",
+      "country": "Philippines",
+      "location_detail": "Bohol, Philippines",
+      "category": "Kỳ quan thiên nhiên",
+      "options": [
+        "Đồi Socola (Chocolate Hills)",
+        "Núi lửa Mayon",
+        "Núi lửa Taal",
+        "Đảo Boracay"
+      ],
+      "correct_answer": "Đồi Socola (Chocolate Hills)",
+      "fun_fact": "Vào mùa khô, lớp cỏ xanh phủ trên hơn 1.200 quả đồi bị khô cháy chuyển sang màu nâu sô-cô-la đều tăm tắp, tạo nên cảnh quan độc nhất vô nhị."
+    },
+    {
+      "id": 17,
+      "question": "Quần thể chùa Phật Ngọc tráng lệ nằm bên trong Hoàng cung Bangkok này tên là gì?",
+      "image_url": "https://images.unsplash.com/photo-1508009603885-50cf7c579365?auto=format&fit=crop&w=1000&q=80",
+      "landmark_name": "Chùa Wat Phra Kaew",
+      "country": "Thái Lan",
+      "location_detail": "Bangkok, Thái Lan",
+      "category": "Đền chùa cổ kính",
+      "options": [
+        "Chùa Wat Phra Kaew",
+        "Chùa Wat Arun",
+        "Chùa Wat Mahathat",
+        "Chùa Wat Traimit"
+      ],
+      "correct_answer": "Chùa Wat Phra Kaew",
+      "fun_fact": "Wat Phra Kaew là ngôi chùa hoàng gia linh thiêng bậc nhất Thái Lan, nơi lưu giữ tượng Phật ngọc nguyên khối quý hiếm được đích thân Nhà Vua thay pháp y theo từng mùa."
+    },
+    {
+      "id": 18,
+      "question": "Hệ thống hang động núi đá vôi linh thiêng có tượng thần Murugan mạ vàng cao 42,7m này ở đâu?",
+      "image_url": "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?auto=format&fit=crop&w=1000&q=80",
+      "landmark_name": "Động Batu",
+      "country": "Malaysia",
+      "location_detail": "Gombak, Malaysia",
+      "category": "Đền chùa cổ kính",
+      "options": [
+        "Động Batu",
+        "Hang Mulu",
+        "Hang Gomantong",
+        "Đền Kek Lok Si"
+      ],
+      "correct_answer": "Động Batu",
+      "fun_fact": "Để lên đến đền thờ chính trong hang động, du khách phải leo 272 bậc thang rực rỡ sắc màu được canh giữ bởi bức tượng thần Murugan cao nhất thế giới ngoài Ấn Độ."
+    },
+    {
+      "id": 19,
+      "question": "Ngôi đền nổi tiếng nằm cheo leo trên tảng đá giữa biển khơi sóng vỗ tại đảo Bali này tên là gì?",
+      "image_url": "https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=1000&q=80",
+      "landmark_name": "Đền Tanah Lot",
+      "country": "Indonesia",
+      "location_detail": "Bali, Indonesia",
+      "category": "Đền chùa cổ kính",
+      "options": [
+        "Đền Tanah Lot",
+        "Đền Uluwatu",
+        "Đền Ulun Danu Beratan",
+        "Đền Tirta Empul"
+      ],
+      "correct_answer": "Đền Tanah Lot",
+      "fun_fact": "Đền Tanah Lot được xây dựng trên một khối đá đại dương khổng lồ. Khi thủy triều dâng cao, ngôi đền hoàn toàn tách biệt khỏi bờ, trở thành một ốc đảo linh thiêng giữa đại dương."
+    },
+    {
+      "id": 20,
+      "question": "Tháp Phật giáo dát vàng cao 45m là biểu tượng quốc gia và bảo vật thiêng liêng nhất nước Lào này tên là gì?",
+      "image_url": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1000&q=80",
+      "landmark_name": "Tháp Pha That Luang",
+      "country": "Lào",
+      "location_detail": "Vientiane, Lào",
+      "category": "Đền chùa cổ kính",
+      "options": [
+        "Tháp Pha That Luang",
+        "Chùa Wat Si Saket",
+        "Chùa Wat Ho Phra Keo",
+        "Chùa Wat Xieng Thong"
+      ],
+      "correct_answer": "Tháp Pha That Luang",
+      "fun_fact": "Pha That Luang được xây dựng từ thế kỷ 16 dưới triều vua Setthathirath, toàn bộ bề mặt được dát vàng lấp lánh và hình ảnh bảo tháp xuất hiện trên quốc huy của Lào."
+    },
+    {
+      "id": 21,
+      "question": "Quần thể di tích đền đài Chăm Pa cổ kính ẩn mình trong thung lũng ở Quảng Nam này là gì?",
+      "image_url": "https://images.unsplash.com/photo-1583417319070-4a69db38a482?auto=format&fit=crop&w=1000&q=80",
+      "landmark_name": "Thánh địa Mỹ Sơn",
+      "country": "Việt Nam",
+      "location_detail": "Quảng Nam, Việt Nam",
+      "category": "Di sản thế giới",
+      "options": [
+        "Thánh địa Mỹ Sơn",
+        "Tháp Po Nagar",
+        "Tháp Chăm Poklong Garai",
+        "Tháp Nhạn"
+      ],
+      "correct_answer": "Thánh địa Mỹ Sơn",
+      "fun_fact": "Mỹ Sơn là trung tâm tôn giáo và tín ngưỡng của vương quốc Chăm Pa cổ từ thế kỷ 4 đến thế kỷ 14, với kỹ thuật xây gạch không cần chất kết dính lộ ra ngoài vô cùng kỳ bí."
+    },
+    {
+      "id": 22,
+      "question": "Thung lũng ngút ngàn với hơn 2.000 ngôi đền tháp gạch nung cổ kính nhìn từ khinh khí cầu này ở đâu?",
+      "image_url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1000&q=80",
+      "landmark_name": "Quần thể đền đài Bagan",
+      "country": "Myanmar",
+      "location_detail": "Bagan, Myanmar",
+      "category": "Di sản thế giới",
+      "options": [
+        "Quần thể đền đài Bagan",
+        "Cố đô Mrauk U",
+        "Cố đô Mandalay",
+        "Thị trấn Mingun"
+      ],
+      "correct_answer": "Quần thể đền đài Bagan",
+      "fun_fact": "Từ thế kỷ 9 đến thế kỷ 13, hơn 10.000 ngôi chùa, đền và tu viện đã được xây dựng trên đồng bằng Bagan. Ngày nay vẫn còn hơn 2.200 di tích tồn tại."
+    },
+    {
+      "id": 23,
+      "question": "Núi lửa đang hoạt động với cảnh quan hùng vĩ như trên sao Hỏa nằm giữa 'Biển Cát' này tên là gì?",
+      "image_url": "https://images.unsplash.com/photo-1588668214407-6ea9a6d8c272?auto=format&fit=crop&w=1000&q=80",
+      "landmark_name": "Núi lửa Bromo",
+      "country": "Indonesia",
+      "location_detail": "Đông Java, Indonesia",
+      "category": "Kỳ quan thiên nhiên",
+      "options": [
+        "Núi lửa Bromo",
+        "Núi lửa Krakatoa",
+        "Núi lửa Merapi",
+        "Núi lửa Rinjani"
+      ],
+      "correct_answer": "Núi lửa Bromo",
+      "fun_fact": "Núi lửa Bromo (cao 2.329m) nằm giữa lòng chảo cát Tengger rộng lớn, là một trong những điểm ngắm bình minh trên miệng núi lửa kỳ vĩ nhất thế giới."
+    },
+    {
+      "id": 24,
+      "question": "Khu bảo tồn thiên nhiên hoang dã là quê hương duy nhất của loài thằn lằn rồng khổng lồ này tên là gì?",
+      "image_url": "https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=1000&q=80",
+      "landmark_name": "Vườn quốc gia Komodo",
+      "country": "Indonesia",
+      "location_detail": "Quần đảo Sunda Nhỏ, Indonesia",
+      "category": "Di sản thế giới",
+      "options": [
+        "Vườn quốc gia Komodo",
+        "Vườn quốc gia Ujung Kulon",
+        "Vườn quốc gia Gunung Leuser",
+        "Vườn quốc gia Bunaken"
+      ],
+      "correct_answer": "Vườn quốc gia Komodo",
+      "fun_fact": "Rồng Komodo là loài thằn lằn còn sống lớn nhất trên Trái Đất, có thể dài tới 3 mét và nặng hơn 70kg, được bảo tồn nghiêm ngặt trong vườn quốc gia."
+    },
+    {
+      "id": 25,
+      "question": "Quần thể danh thắng non nước hữu tình kết hợp di sản văn hóa và thiên nhiên hỗn hợp đầu tiên của Việt Nam là gì?",
+      "image_url": "https://images.unsplash.com/photo-1528127269322-539801943592?auto=format&fit=crop&w=1000&q=80",
+      "landmark_name": "Quần thể danh thắng Tràng An",
+      "country": "Việt Nam",
+      "location_detail": "Ninh Bình, Việt Nam",
+      "category": "Di sản thế giới",
+      "options": [
+        "Quần thể danh thắng Tràng An",
+        "Tam Cốc - Bích Động",
+        "Vườn quốc gia Cúc Phương",
+        "Khu bảo tồn Vân Long"
+      ],
+      "correct_answer": "Quần thể danh thắng Tràng An",
+      "fun_fact": "Tràng An là Di sản Văn hóa và Thiên nhiên Thế giới hỗn hợp duy nhất ở Đông Nam Á, nổi tiếng với hệ thống hang động xuyên thủy và thung lũng nước ngập trong vắt."
+    },
+    {
+      "id": 26,
+      "question": "Bức tượng Chúa Kitô Vua khổng lồ cao 27m đứng trên quả địa cầu nhìn ra biển này ở quốc gia nào?",
+      "image_url": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1000&q=80",
+      "landmark_name": "Tượng Chúa Kitô Vua (Cristo Rei)",
+      "country": "Đông Timor",
+      "location_detail": "Dili, Đông Timor",
+      "category": "Kiến trúc biểu tượng",
+      "options": [
+        "Tượng Chúa Kitô Vua (Dili)",
+        "Tượng Chúa Kito Vũng Tàu",
+        "Tượng Chúa cứu thế Rio",
+        "Tượng Chúa Jesus Manado"
+      ],
+      "correct_answer": "Tượng Chúa Kitô Vua (Dili)",
+      "fun_fact": "Bức tượng Cristo Rei ở Dili cao 27m tượng trưng cho 27 tỉnh của Indonesia vào thời điểm công trình được khánh thành năm 1996."
+    },
+    {
+      "id": 27,
+      "question": "Thác nước tự nhiên xanh ngọc bích nhiều tầng đẹp như tiên cảnh gần cố đô Luang Prabang này tên là gì?",
+      "image_url": "https://images.unsplash.com/photo-1540611025311-01df3cef54b5?auto=format&fit=crop&w=1000&q=80",
+      "landmark_name": "Thác Kuang Si",
+      "country": "Lào",
+      "location_detail": "Luang Prabang, Lào",
+      "category": "Kỳ quan thiên nhiên",
+      "options": [
+        "Thác Kuang Si",
+        "Thác Khone Phapheng",
+        "Thác Tad Fane",
+        "Thác Tad Sae"
+      ],
+      "correct_answer": "Thác Kuang Si",
+      "fun_fact": "Thác Kuang Si gồm tầng thác chính cao 60m đổ xuống các hồ nước bậc thang tự nhiên chứa nhiều khoáng chất canxi cacbonat tạo nên màu xanh ngọc bích mê hoặc."
+    },
+    {
+      "id": 28,
+      "question": "Hòn đá thiêng dát vàng nằm cheo leo trên đỉnh vách đá hiểm trở nhìn như sắp rơi này ở nước nào?",
+      "image_url": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1000&q=80",
+      "landmark_name": "Hòn đá Vàng (Chùa Kyaiktiyo)",
+      "country": "Myanmar",
+      "location_detail": "Bang Mon, Myanmar",
+      "category": "Đền chùa cổ kính",
+      "options": [
+        "Hòn đá Vàng (Chùa Kyaiktiyo)",
+        "Chùa Shwedagon",
+        "Chùa Kuthodaw",
+        "Chùa Chaukhtatgyi"
+      ],
+      "correct_answer": "Hòn đá Vàng (Chùa Kyaiktiyo)",
+      "fun_fact": "Tảng đá granit dát vàng cao 7,3m nằm cân bằng kỳ diệu trên rìa vách đá ở độ cao 1.100m, được truyền thuyết kể rằng được giữ thăng bằng nhờ sợi tóc Phật đặt bên trong bảo tháp."
+    },
+    {
+      "id": 29,
+      "question": "Ngôi đền Angkor độc đáo bị rễ của những cây Tung và Knia khổng lồ bóp nghẹt nổi tiếng trong phim Tomb Raider này tên là gì?",
+      "image_url": "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1000&q=80",
+      "landmark_name": "Đền Ta Prohm",
+      "country": "Campuchia",
+      "location_detail": "Siem Reap, Campuchia",
+      "category": "Di sản thế giới",
+      "options": [
+        "Đền Ta Prohm",
+        "Đền Preah Khan",
+        "Đền Banteay Kdei",
+        "Đền Neak Pean"
+      ],
+      "correct_answer": "Đền Ta Prohm",
+      "fun_fact": "Ta Prohm được xây dựng năm 1186 dưới triều vua Jayavarman VII. Ngôi đền được giữ nguyên hiện trạng với rễ cây cổ thụ khổng lồ quấn chặt các khối đá đổ nát."
+    },
+    {
+      "id": 30,
+      "question": "Hồ nước ngọt trên núi cao với những ngư dân Intha chèo thuyền một chân độc đáo này ở quốc gia nào?",
+      "image_url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1000&q=80",
+      "landmark_name": "Hồ Inle",
+      "country": "Myanmar",
+      "location_detail": "Bang Shan, Myanmar",
+      "category": "Kỳ quan thiên nhiên",
+      "options": [
+        "Hồ Inle",
+        "Biển Hồ Tonle Sap",
+        "Hồ Toba",
+        "Hồ Songkhla"
+      ],
+      "correct_answer": "Hồ Inle",
+      "fun_fact": "Người dân Intha trên hồ Inle phát triển kỹ thuật chèo thuyền độc nhất vô nhị bằng một chân đứng thăng bằng ở đuôi thuyền và quấn chân còn lại vào mái chèo để rảnh tay kéo lưới."
+    }
+  ]
+}

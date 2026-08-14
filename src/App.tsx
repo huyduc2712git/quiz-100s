@@ -1,6 +1,7 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import type { Card, GamePhase, QuestionResult } from "./types/game";
 import type { AppMode, MusicQuizPhase, MusicQuizResult, MusicQuizQuestion } from "./types/musicQuiz";
+import type { ImageQuizPhase, ImageQuizQuestion, ImageQuizResult } from "./types/imageQuiz";
 import {
   fetchCards,
   getValidCategories,
@@ -10,6 +11,10 @@ import {
   getAllMusicQuizPacks,
   pickRandomMusicQuestions,
 } from "./utils/musicQuizUtils";
+import {
+  getImageQuizPacks,
+  pickRandomImageQuestions,
+} from "./utils/imageQuizUtils";
 import { Header } from "./components/Header";
 import { LoadingSkeleton } from "./components/LoadingSkeleton";
 import { ErrorState } from "./components/ErrorState";
@@ -21,11 +26,14 @@ import { ResultsScreen } from "./components/ResultsScreen";
 import { MusicQuizHomeScreen } from "./components/musicQuiz/MusicQuizHomeScreen";
 import { MusicQuizPlayScreen } from "./components/musicQuiz/MusicQuizPlayScreen";
 import { MusicQuizResultsScreen } from "./components/musicQuiz/MusicQuizResultsScreen";
+import { ImageQuizHomeScreen } from "./components/imageQuiz/ImageQuizHomeScreen";
+import { ImageQuizPlayScreen } from "./components/imageQuiz/ImageQuizPlayScreen";
+import { ImageQuizResultsScreen } from "./components/imageQuiz/ImageQuizResultsScreen";
 import "./App.css";
 
 function App() {
   // Global Mode Switcher
-  const [appMode, setAppMode] = useState<AppMode>("musicQuiz");
+  const [appMode, setAppMode] = useState<AppMode>("imageQuiz");
 
   // Hint 100 State
   const [phase, setPhase] = useState<GamePhase>("loading");
@@ -65,6 +73,20 @@ function App() {
   const [musicStreak, setMusicStreak] = useState<number>(0);
   const [musicMaxStreak, setMusicMaxStreak] = useState<number>(0);
   const [musicResults, setMusicResults] = useState<MusicQuizResult[]>([]);
+
+  // Image / Landmark Quiz State
+  const imagePacks = useMemo(() => getImageQuizPacks(), []);
+  const [imagePhase, setImagePhase] = useState<ImageQuizPhase>("home");
+  const [activeImagePackId, setActiveImagePackId] = useState<string>("geo-vietnam-world-1");
+  const [activeImagePackTitle, setActiveImagePackTitle] = useState<string>("Địa Lý #1: VN & Thế Giới");
+
+  const [imageMatchQuestions, setImageMatchQuestions] = useState<ImageQuizQuestion[]>([]);
+  const [currentImageIndex, setCurrentImageIndex] = useState<number>(0);
+  const [imageScore, setImageScore] = useState<number>(0);
+  const [imageStreak, setImageStreak] = useState<number>(0);
+  const [imageMaxStreak, setImageMaxStreak] = useState<number>(0);
+  const [imageResults, setImageResults] = useState<ImageQuizResult[]>([]);
+
 
   const mainRef = useRef<HTMLElement>(null);
 
@@ -112,15 +134,16 @@ function App() {
     });
 
     return () => window.cancelAnimationFrame(frameId);
-  }, [phase, musicPhase, appMode]);
+  }, [phase, musicPhase, imagePhase, appMode]);
 
   // Mode switching
   const handleSwitchMode = (newMode: AppMode) => {
     if (newMode === appMode) return;
     const isPlayingHint = ["randomizing", "playing", "timeout"].includes(phase);
     const isPlayingMusic = musicPhase === "playing";
+    const isPlayingImage = imagePhase === "playing";
 
-    if (isPlayingHint || isPlayingMusic) {
+    if (isPlayingHint || isPlayingMusic || isPlayingImage) {
       if (!window.confirm("Thoát ván chơi hiện tại để chuyển chế độ?")) {
         return;
       }
@@ -165,8 +188,8 @@ function App() {
       timeSpentSeconds,
     };
 
-    setScore((prev) => prev + 1);
     setResults((prev) => [...prev, newResult]);
+    setScore((prev) => prev + 1);
 
     if (currentIndex < matchQuestions.length - 1) {
       setCurrentIndex((prev) => prev + 1);
@@ -198,19 +221,18 @@ function App() {
     }
   };
 
-  const handleGoHomeHint = () => {
-    setPhase("home");
-  };
-
   const handleExitMatchHint = () => {
-    const shouldConfirm = ["randomizing", "playing", "timeout"].includes(phase);
     if (
-      shouldConfirm &&
-      !window.confirm("Thoát ván hiện tại và quay về trang đầu?")
+      ["playing", "timeout"].includes(phase) &&
+      !window.confirm("Thoát ván chơi hiện tại để về màn hình chính?")
     ) {
       return;
     }
-    handleGoHomeHint();
+    setPhase("home");
+  };
+
+  const handleGoHomeHint = () => {
+    setPhase("home");
   };
 
   // ========== MUSIC QUIZ HANDLERS ==========
@@ -280,18 +302,79 @@ function App() {
     setMusicPhase("home");
   };
 
+  // ========== IMAGE / LANDMARK QUIZ HANDLERS ==========
+  const handleStartImageQuiz = (packId: string) => {
+    const selectedPack =
+      imagePacks.find((p) => p.id === packId) || imagePacks[0];
+    if (!selectedPack || selectedPack.questions.length === 0) return;
+
+    const questions = pickRandomImageQuestions(
+      selectedPack.questions,
+      Math.min(10, selectedPack.questions.length)
+    );
+
+    setActiveImagePackId(selectedPack.id);
+    setActiveImagePackTitle(selectedPack.title);
+    setImageMatchQuestions(questions);
+    setCurrentImageIndex(0);
+    setImageScore(0);
+    setImageStreak(0);
+    setImageMaxStreak(0);
+    setImageResults([]);
+    setImagePhase("playing");
+  };
+
+  const handleAnswerImageQuestion = (result: ImageQuizResult) => {
+    setImageResults((prev) => [...prev, result]);
+
+    if (result.isCorrect) {
+      const bonus = imageStreak * 10;
+      const points = 100 + bonus;
+      setImageScore((prev) => prev + points);
+      setImageStreak((prev) => {
+        const nextStreak = prev + 1;
+        setImageMaxStreak((max) => Math.max(max, nextStreak));
+        return nextStreak;
+      });
+    } else {
+      setImageStreak(0);
+    }
+
+    if (currentImageIndex < imageMatchQuestions.length - 1) {
+      setCurrentImageIndex((prev) => prev + 1);
+    } else {
+      setImagePhase("finished");
+    }
+  };
+
+  const handleExitImageMatch = () => {
+    if (
+      imagePhase === "playing" &&
+      !window.confirm("Thoát ván Đoán Địa Danh hiện tại?")
+    ) {
+      return;
+    }
+    setImagePhase("home");
+  };
+
   const isMatchActive =
     appMode === "hint100"
       ? ["randomizing", "playing", "timeout"].includes(phase)
-      : musicPhase === "playing";
+      : appMode === "musicQuiz"
+      ? musicPhase === "playing"
+      : imagePhase === "playing";
 
   const handleHeaderGoHome =
     appMode === "hint100"
       ? isMatchActive
         ? handleExitMatchHint
         : undefined
+      : appMode === "musicQuiz"
+      ? isMatchActive
+        ? handleExitMusicMatch
+        : undefined
       : isMatchActive
-      ? handleExitMusicMatch
+      ? handleExitImageMatch
       : undefined;
 
   return (
@@ -310,11 +393,57 @@ function App() {
         tabIndex={-1}
         className={`app-main ${
           (appMode === "hint100" && (phase === "playing" || phase === "timeout")) ||
-          (appMode === "musicQuiz" && musicPhase === "playing")
+          (appMode === "musicQuiz" && musicPhase === "playing") ||
+          (appMode === "imageQuiz" && imagePhase === "playing")
             ? "app-main--playing"
             : ""
         }`}
       >
+        {/* ================= MODE: NHÌN HÌNH ĐOÁN ĐỊA DANH ================= */}
+        {appMode === "imageQuiz" && (
+          <>
+            {imagePhase === "home" && (
+              <ImageQuizHomeScreen
+                packs={imagePacks}
+                selectedPackId={activeImagePackId}
+                onSelectPack={(packId) => {
+                  setActiveImagePackId(packId);
+                  const found = imagePacks.find((p) => p.id === packId);
+                  if (found) setActiveImagePackTitle(found.title);
+                }}
+                onStartGame={handleStartImageQuiz}
+              />
+            )}
+
+            {imagePhase === "playing" &&
+              imageMatchQuestions[currentImageIndex] && (
+                <ImageQuizPlayScreen
+                  key={imageMatchQuestions[currentImageIndex].id}
+                  question={imageMatchQuestions[currentImageIndex]}
+                  questionIndex={currentImageIndex}
+                  totalQuestions={imageMatchQuestions.length}
+                  score={imageScore}
+                  streak={imageStreak}
+                  soundEnabled={soundEnabled}
+                  onAnswerQuestion={handleAnswerImageQuestion}
+                  onExitQuiz={handleExitImageMatch}
+                />
+              )}
+
+            {imagePhase === "finished" && (
+              <ImageQuizResultsScreen
+                packTitle={activeImagePackTitle}
+                results={imageResults}
+                score={imageScore}
+                maxStreak={imageMaxStreak}
+                onPlayAgain={() => handleStartImageQuiz(activeImagePackId)}
+                onChangePack={() => setImagePhase("home")}
+                onGoHome={() => setImagePhase("home")}
+              />
+            )}
+          </>
+        )}
+
         {/* ================= MODE: QUIZ ÂM NHẠC ================= */}
         {appMode === "musicQuiz" && (
           <>

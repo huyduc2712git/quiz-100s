@@ -1,11 +1,57 @@
-import { defineConfig } from 'vite'
+import { defineConfig, type Plugin } from 'vite'
 import react from '@vitejs/plugin-react'
 import { VitePWA } from 'vite-plugin-pwa'
+import https from 'https'
+
+function ttsProxyPlugin(): Plugin {
+  return {
+    name: 'tts-proxy-plugin',
+    configureServer(server) {
+      server.middlewares.use('/api/tts', (req, res) => {
+        const url = new URL(req.url || '', `http://${req.headers.host}`);
+        const text = url.searchParams.get('q') || '';
+        if (!text) {
+          res.statusCode = 400;
+          res.end('Missing text parameter');
+          return;
+        }
+
+        const ttsUrl = `https://translate.google.com/translate_tts?ie=UTF-8&q=${encodeURIComponent(text)}&tl=vi&client=tw-ob`;
+        
+        const proxyReq = https.get(
+          ttsUrl,
+          {
+            headers: {
+              'User-Agent':
+                'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+              'Referer': 'https://translate.google.com/',
+            },
+          },
+          (proxyRes) => {
+            res.writeHead(proxyRes.statusCode || 200, {
+              'Content-Type': 'audio/mpeg',
+              'Access-Control-Allow-Origin': '*',
+              'Cache-Control': 'public, max-age=86400',
+            });
+            proxyRes.pipe(res);
+          }
+        );
+
+        proxyReq.on('error', (err) => {
+          console.error('TTS Proxy Error:', err);
+          res.statusCode = 500;
+          res.end('TTS Proxy Error');
+        });
+      });
+    },
+  };
+}
 
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [
     react(),
+    ttsProxyPlugin(),
     VitePWA({
       registerType: 'autoUpdate',
       injectRegister: 'auto',

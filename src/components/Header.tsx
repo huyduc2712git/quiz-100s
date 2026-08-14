@@ -22,12 +22,22 @@ export const Header: React.FC<HeaderProps> = ({
     <header className="game-header">
       <div className="header-brand">
         <span
-          className={`logo-badge ${mode === "musicQuiz" ? "logo-badge--music" : ""}`}
+          className={`logo-badge ${
+            mode === "musicQuiz"
+              ? "logo-badge--music"
+              : mode === "imageQuiz"
+              ? "logo-badge--image"
+              : ""
+          }`}
         >
-          {mode === "musicQuiz" ? "🎵" : "100"}
+          {mode === "musicQuiz" ? "🎵" : mode === "imageQuiz" ? "📸" : "100"}
         </span>
         <span className="logo-title">
-          {mode === "musicQuiz" ? "QUIZ ÂM NHẠC" : "GỢI Ý 100"}
+          {mode === "musicQuiz"
+            ? "QUIZ ÂM NHẠC"
+            : mode === "imageQuiz"
+            ? "QUIZ ĐỊA DANH"
+            : "GỢI Ý 100"}
         </span>
       </div>
 
@@ -50,8 +60,17 @@ export const Header: React.FC<HeaderProps> = ({
           >
             🎵 Quiz Âm Nhạc
           </button>
+          <button
+            type="button"
+            className={`mode-nav-btn ${mode === "imageQuiz" ? "active" : ""}`}
+            onClick={() => onSwitchMode("imageQuiz")}
+            aria-pressed={mode === "imageQuiz"}
+          >
+            📸 Đoán Địa Danh
+          </button>
         </div>
       )}
+
 
       <div className="header-actions">
         {onGoHome && (

@@ -33,6 +33,7 @@ export type MusicQuizResult = {
   timeSpentSeconds: number; // 0..30
 };
 
-export type AppMode = "hint100" | "musicQuiz";
+export type AppMode = "hint100" | "musicQuiz" | "imageQuiz";
+
 
 export type MusicQuizPhase = "home" | "playing" | "finished";
