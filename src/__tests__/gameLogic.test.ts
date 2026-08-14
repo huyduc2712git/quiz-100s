@@ -141,4 +141,28 @@ describe("Web Game 'Gợi Ý 100' Logic Unit Tests", () => {
     expect(isFinished).toBe(true);
     expect(currentIndex).toBe(4); // index of 5th question (0-indexed)
   });
+
+  it("8. Bộ 100 câu hỏi Lịch Sử #1 và #2 đạt chuẩn dữ liệu Wikipedia", async () => {
+    const history1Data = (await import("../data/vn-history-quiz-1.json")).default;
+    const history2Data = (await import("../data/vn-history-quiz-2.json")).default;
+
+    expect(history1Data.length).toBe(100);
+    expect(history2Data.length).toBe(100);
+
+    for (const card of history1Data) {
+      expect(card.id).toBeTruthy();
+      expect(card.category).toBe("lich-su-1");
+      expect(card.answer.trim().length).toBeGreaterThan(0);
+      expect(card.hints.length).toBeGreaterThanOrEqual(4);
+      expect(card.source_url).toMatch(/^https:\/\/vi\.wikipedia\.org\//);
+    }
+
+    for (const card of history2Data) {
+      expect(card.id).toBeTruthy();
+      expect(card.category).toBe("lich-su-2");
+      expect(card.answer.trim().length).toBeGreaterThan(0);
+      expect(card.hints.length).toBeGreaterThanOrEqual(4);
+      expect(card.source_url).toMatch(/^https:\/\/vi\.wikipedia\.org\//);
+    }
+  });
 });

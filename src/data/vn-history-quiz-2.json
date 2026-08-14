@@ -1,0 +1,1302 @@
+[
+  {
+    "id": "ls-tg-001",
+    "category": "lich-su-2",
+    "answer": "Trận Waterloo",
+    "hints": [
+      "Trận chiến diễn ra vào ngày 18 tháng 6 năm 1815 tại Vương quốc Liên hiệp Hà Lan (nay thuộc Bỉ)",
+      "Cuộc đối đầu đỉnh điểm giữa quân đội Pháp với liên minh do Công tước Wellington và Thống chế Blücher chỉ huy",
+      "Đánh dấu sự thất bại hoàn toàn của Hoàng đế Napoléon Bonaparte và chấm dứt Triều đại 100 ngày",
+      "Sau trận chiến này, Napoléon bị lưu đày ra hòn đảo xa xôi Saint Helena ở Nam Đại Tây Dương"
+    ],
+    "difficulty": "medium",
+    "source_url": "https://vi.wikipedia.org/wiki/Trận_Waterloo"
+  },
+  {
+    "id": "ls-tg-002",
+    "category": "lich-su-2",
+    "answer": "Đế quốc La Mã",
+    "hints": [
+      "Một trong những đế chế hùng mạnh và vĩ đại bậc nhất thời kỳ cổ đại quanh Địa Trung Hải",
+      "Bắt đầu từ thời kỳ Hoàng đế Augustus cai trị năm 27 TCN sau khi nền Cộng hòa La Mã sụp đổ",
+      "Nổi tiếng với hệ thống luật pháp tiên tiến, mạng lưới đường sá quân sự và đấu trường Colosseum",
+      "Từng kiểm soát lãnh thổ rộng lớn trải dài qua cả 3 châu lục: Châu Âu, Bắc Phi và Tây Á"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/Đế_quốc_La_Mã"
+  },
+  {
+    "id": "ls-tg-003",
+    "category": "lich-su-2",
+    "answer": "Cách mạng Hoa Kỳ",
+    "hints": [
+      "Cuộc cách mạng chính trị nổ ra vào nửa cuối thế kỷ 18 ở khu vực Bắc Mỹ",
+      "13 thuộc địa Bắc Mỹ đứng lên khởi nghĩa lật đổ ách thống trị của Vương quốc Anh",
+      "Gắn liền với sự kiện Tiệc trà Boston năm 1773 và bản Tuyên ngôn Độc lập năm 1776",
+      "Dẫn tới việc thành lập Hợp chúng quốc Hoa Kỳ dưới sự lãnh đạo của George Washington"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/Cách_mạng_Hoa_Kỳ"
+  },
+  {
+    "id": "ls-tg-004",
+    "category": "lich-su-2",
+    "answer": "Cách mạng Công nghiệp",
+    "hints": [
+      "Thời kỳ chuyển đổi nền sản xuất từ thủ công lao động chân tay sang máy móc cơ khí",
+      "Bắt đầu tại nước Anh vào giữa thế kỷ 18 trước khi lan rộng ra toàn châu Âu và thế giới",
+      "Đột phá nhờ những phát minh như động cơ hơi nước của James Watt và máy kéo sợi",
+      "Làm thay đổi căn bản diện mạo kinh tế, xã hội và thúc đẩy quá trình đô thị hóa toàn cầu"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/Cách_mạng_Công_nghiệp"
+  },
+  {
+    "id": "ls-tg-005",
+    "category": "lich-su-2",
+    "answer": "Chiến tranh thế giới thứ hai",
+    "hints": [
+      "Cuộc chiến tranh tàn khốc và có quy mô lớn nhất trong toàn bộ lịch sử nhân loại (1939 - 1945)",
+      "Cuộc đụng độ toàn cầu giữa phe Đồng Minh và phe Trục gồm phát xít Đức, Ý và Đế quốc Nhật Bản",
+      "Bắt đầu khi phát xít Đức tấn công Ba Lan và kết thúc khi Nhật Bản đầu hàng ngày 2/9/1945",
+      "Dẫn tới sự ra đời của Liên Hiệp Quốc và trật tự Chiến tranh Lạnh hai cực"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/Chiến_tranh_thế_giới_thứ_hai"
+  },
+  {
+    "id": "ls-tg-006",
+    "category": "lich-su-2",
+    "answer": "Bảng chữ cái Latinh",
+    "hints": [
+      "Hệ thống chữ viết ký tự ngữ âm phổ biến và được sử dụng rộng rãi nhất trên thế giới hiện nay",
+      "Có nguồn gốc ban đầu từ bảng chữ cái Etruscan và Hy Lạp cổ đại ở bán đảo Ý",
+      "Được Đế quốc La Mã hoàn thiện, truyền bá khắp châu Âu và làm nền tảng cho chữ Quốc ngữ Việt Nam",
+      "Bao gồm các ký tự chữ cái quen thuộc khởi đầu bằng A, B, C, D, E..."
+    ],
+    "difficulty": "medium",
+    "source_url": "https://vi.wikipedia.org/wiki/Bảng_chữ_cái_Latinh"
+  },
+  {
+    "id": "ls-tg-007",
+    "category": "lich-su-2",
+    "answer": "Đế quốc Anh",
+    "hints": [
+      "Đế quốc thực dân có diện tích lãnh thổ và tầm ảnh hưởng lớn nhất trong lịch sử nhân loại",
+      "Từng được mệnh danh là 'Đế quốc mặt trời không bao giờ lặn' vào thế kỷ 19 và đầu thế kỷ 20",
+      "Cai trị gần một phần tư diện tích đất liền và dân số trên toàn cầu",
+      "Bao gồm các thuộc địa trù phú như Ấn Độ, Canada, Úc, New Zealand và Hong Kong"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/Đế_quốc_Anh"
+  },
+  {
+    "id": "ls-tg-008",
+    "category": "lich-su-2",
+    "answer": "Chiến tranh Trăm Năm",
+    "hints": [
+      "Chuỗi xung đột quân sự kéo dài giữa Hoàng gia Anh và Hoàng gia Pháp thời kỳ Trung Cổ",
+      "Trên thực tế cuộc chiến này diễn ra trong suốt 116 năm, từ năm 1337 đến năm 1453",
+      "Nổi tiếng với các trận đánh lớn như Crécy, Agincourt và sự xuất hiện của nữ anh hùng Jeanne d'Arc",
+      "Kết thúc với thắng lợi quyết định của Pháp, chấm dứt quyền kiểm soát của Anh trên lục địa châu Âu"
+    ],
+    "difficulty": "medium",
+    "source_url": "https://vi.wikipedia.org/wiki/Chiến_tranh_Trăm_Năm"
+  },
+  {
+    "id": "ls-tg-009",
+    "category": "lich-su-2",
+    "answer": "George Washington",
+    "hints": [
+      "Vị tướng lãnh đạo phong trào đấu tranh giành độc lập của 13 thuộc địa Bắc Mỹ",
+      "Tổng tư lệnh Quân đội Lục địa trong cuộc Chiến tranh Cách mạng Hoa Kỳ",
+      "Tổng thống đầu tiên của Hợp chúng quốc Hoa Kỳ, đảm nhiệm hai nhiệm kỳ từ 1789 đến 1797",
+      "Được tôn vinh là Người cha già của nước Mỹ và chân dung được in trang trọng trên tờ 1 USD"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/George_Washington"
+  },
+  {
+    "id": "ls-tg-010",
+    "category": "lich-su-2",
+    "answer": "Chiến tranh Lạnh",
+    "hints": [
+      "Thời kỳ cạnh tranh địa chính trị, ý thức hệ và quân sự gay gắt kéo dài từ sau Thế chiến II đến năm 1991",
+      "Cuộc đối đầu không tiếng súng trực tiếp giữa hai khối: Tư bản do Mỹ đứng đầu và Xã hội chủ nghĩa do Liên Xô dẫn dắt",
+      "Gắn liền với cuộc chạy đua vũ trang hạt nhân, thám hiểm không gian và các cuộc chiến tranh cục bộ",
+      "Khép lại hoàn toàn sau khi Bức tường Berlin sụp đổ năm 1989 và Liên Xô chính thức tan rã năm 1991"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/Chiến_tranh_Lạnh"
+  },
+  {
+    "id": "ls-tg-011",
+    "category": "lich-su-2",
+    "answer": "Cách mạng Pháp",
+    "hints": [
+      "Sự kiện biến động chính trị xã hội mang tính bước ngoặt sâu sắc bắt đầu vào năm 1789",
+      "Lật đổ chế độ phong kiến chuyên chế Bourbon và quyền lực đặc quyền của giới quý tộc",
+      "Khởi đầu với sự kiện quần chúng nhân dân tấn công phá ngục Bastille ngày 14 tháng 7 năm 1789",
+      "Đưa ra bản Tuyên ngôn Nhân quyền và Dân quyền với khẩu hiệu bất hủ: Tự do - Bình đẳng - Bác ái"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/Cách_mạng_Pháp"
+  },
+  {
+    "id": "ls-vn-012",
+    "category": "lich-su-2",
+    "answer": "Hồ Chí Minh",
+    "hints": [
+      "Vị lãnh tụ vĩ đại của phong trào giải phóng dân tộc Việt Nam, danh nhân văn hóa thế giới",
+      "Người sáng lập Đảng Cộng sản Việt Nam và khai sinh ra nước Việt Nam Dân chủ Cộng hòa",
+      "Tác giả của bản Tuyên ngôn Độc lập bất hủ đọc tại Quảng trường Ba Đình ngày 2 tháng 9 năm 1945",
+      "Chủ tịch nước đầu tiên của Việt Nam, được nhân dân cả nước kính trọng gọi là Bác Hồ"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/Hồ_Chí_Minh"
+  },
+  {
+    "id": "ls-tg-013",
+    "category": "lich-su-2",
+    "answer": "Đấu trường La Mã",
+    "hints": [
+      "Kiến trúc đấu trường hình elip bằng đá và bê tông khổng lồ tọa lạc ở trung tâm thủ đô Roma, Ý",
+      "Công trình kiệt tác được xây dựng dưới triều đại các hoàng đế Vespasian và Titus thời La Mã cổ đại",
+      "Từng có sức chứa hơn 50.000 khán giả đến xem các trận giác đấu và biểu diễn kịch nghệ",
+      "Một trong bảy kỳ quan thế giới mới, còn được biết đến với tên gọi Colosseum"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/Đấu_trường_La_Mã"
+  },
+  {
+    "id": "ls-vn-014",
+    "category": "lich-su-2",
+    "answer": "Nhà Lý",
+    "hints": [
+      "Triều đại phong kiến phát triển rực rỡ và đặt nền móng quốc gia vững chắc của Việt Nam (1009 - 1225)",
+      "Khởi đầu khi vua Lý Thái Tổ lên ngôi và ban Chiếu dời đô từ Hoa Lư về Thăng Long năm 1010",
+      "Gắn liền với bản tuyên ngôn độc lập đầu tiên 'Nam quốc sơn hà' của Lý Thường Kiệt trên sông Như Nguyệt",
+      "Thời kỳ xây dựng Văn Miếu - Quốc Tử Giám và đưa Phật giáo trở thành quốc giáo"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/Nhà_Lý"
+  },
+  {
+    "id": "ls-tg-015",
+    "category": "lich-su-2",
+    "answer": "Văn minh Maya",
+    "hints": [
+      "Một nền văn minh cổ đại Mesoamerica rực rỡ tại khu vực Trung Mỹ (Mexico, Guatemala, Honduras)",
+      "Nổi tiếng với hệ thống chữ tượng hình hoàn chỉnh bậc nhất châu Mỹ thời tiền Columbus",
+      "Đạt nhiều thành tựu vượt bậc về nghệ thuật kiến trúc kim tự tháp bậc thang, toán học và thiên văn",
+      "Sở hữu hệ thống lịch Maya phức tạp và các thành phố cổ nổi tiếng như Tikal, Chichen Itza"
+    ],
+    "difficulty": "medium",
+    "source_url": "https://vi.wikipedia.org/wiki/Văn_minh_Maya"
+  },
+  {
+    "id": "ls-tg-016",
+    "category": "lich-su-2",
+    "answer": "Chiến tranh thế giới thứ nhất",
+    "hints": [
+      "Cuộc đại chiến thế giới đẫm máu diễn ra chủ yếu tại lục địa châu Âu từ năm 1914 đến 1918",
+      "Bùng nổ sau sự kiện ám sát Thái tử Áo-Hung Franz Ferdinand tại Sarajevo",
+      "Cuộc đối đầu khốc liệt giữa phe Hiệp ước (Anh, Pháp, Nga, Mỹ) và phe Liên minh (Đức, Áo-Hung, Ottoman)",
+      "Đặc trưng bởi chiến tranh chiến hào và kết thúc bằng việc ký Hiệp định đình chiến ngày 11/11/1918"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/Chiến_tranh_thế_giới_thứ_nhất"
+  },
+  {
+    "id": "ls-vn-017",
+    "category": "lich-su-2",
+    "answer": "Chiến dịch Điện Biên Phủ",
+    "hints": [
+      "Trận quyết chiến chiến lược chấn động địa cầu diễn ra vào năm 1954 tại lòng chảo Tây Bắc",
+      "Quân đội Nhân dân Việt Nam dưới sự chỉ huy tài ba của Đại tướng Võ Nguyên Giáp đã bao vây tập đoàn cứ điểm Pháp",
+      "Kéo dài suốt 56 ngày đêm 'khoét núi, ngủ hầm, mưa dầm, cơm vắt'",
+      "Kết thúc thắng lợi vang dội ngày 7/5/1954, buộc thực dân Pháp phải ký kết Hiệp định Genève"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/Chiến_dịch_Điện_Biên_Phủ"
+  },
+  {
+    "id": "ls-tg-018",
+    "category": "lich-su-2",
+    "answer": "Simón Bolívar",
+    "hints": [
+      "Nhà lãnh đạo quân sự và chính trị kiệt xuất của phong trào giải phóng dân tộc ở Nam Mỹ",
+      "Được nhân dân tôn xưng danh hiệu cao quý 'El Libertador' (Người giải phóng)",
+      "Lãnh đạo các cuộc khởi nghĩa lật đổ ách thống trị của thực dân Tây Ban Nha tại nhiều nước Nam Mỹ",
+      "Tên của ông được đặt cho đất nước Bolivia và đơn vị tiền tệ của Venezuela"
+    ],
+    "difficulty": "medium",
+    "source_url": "https://vi.wikipedia.org/wiki/Simón_Bolívar"
+  },
+  {
+    "id": "ls-tg-019",
+    "category": "lich-su-2",
+    "answer": "Tuyên ngôn độc lập Hoa Kỳ",
+    "hints": [
+      "Văn kiện lịch sử được Quốc hội Lục địa Mỹ chính thức thông qua vào ngày 4 tháng 7 năm 1776",
+      "Tuyên bố 13 thuộc địa Bắc Mỹ chính thức tách khỏi sự cai trị của Vương quốc Anh",
+      "Soạn thảo chủ yếu bởi Thomas Jefferson với sự đóng góp của Benjamin Franklin và John Adams",
+      "Khẳng định quyền con người bất khả xâm phạm: Quyền được sống, quyền tự do và quyền mưu cầu hạnh phúc"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/Tuyên_ngôn_độc_lập_Hoa_Kỳ"
+  },
+  {
+    "id": "ls-vn-020",
+    "category": "lich-su-2",
+    "answer": "Lê Lợi",
+    "hints": [
+      "Vị anh hùng dân tộc lãnh đạo cuộc Khởi nghĩa Lam Sơn đánh đuổi hoàn toàn giặc Minh xâm lược",
+      "Vua sáng lập ra triều đại Hậu Lê thịnh trị và lâu dài nhất trong lịch sử phong kiến Việt Nam",
+      "Gắn liền với hội thề Lũng Nhai và sự phò tá của quân sư tài ba Nguyễn Trãi",
+      "Truyền thuyết hoàn gươm thần Thuận Thiên cho Rùa Vàng tại Hồ Lục Thủy (Hồ Gươm)"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/Lê_Thái_Tổ"
+  },
+  {
+    "id": "ls-tg-021",
+    "category": "lich-su-2",
+    "answer": "Tần Thủy Hoàng",
+    "hints": [
+      "Vị hoàng đế đầu tiên thống nhất toàn bộ lãnh thổ Trung Hoa sau thời kỳ Chiến Quốc năm 221 TCN",
+      "Người sáng lập ra nhà Tần và tự xưng tước hiệu Thủy Hoàng Đế",
+      "Chủ trương thống nhất tiền tệ, văn tự, đo lường và bắt đầu khởi công xây dựng Vạn Lý Trường Thành",
+      "Nổi tiếng với lăng mộ ngầm kỳ vĩ được bảo vệ bởi đội quân đất nung (Terracotta Army)"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/Tần_Thủy_Hoàng"
+  },
+  {
+    "id": "ls-tg-022",
+    "category": "lich-su-2",
+    "answer": "Con đường tơ lụa",
+    "hints": [
+      "Mạng lưới các tuyến đường thương mại cổ đại nối liền phương Đông và phương Tây kéo dài hàng ngàn cây số",
+      "Khởi đầu từ thành Trường An (Trung Quốc) qua Trung Á, Trung Đông đến vùng Địa Trung Hải và châu Âu",
+      "Không chỉ vận chuyển tơ lụa, gia vị, gốm sứ mà còn là cầu nối giao lưu văn hóa, tôn giáo và khoa học",
+      "Được mở mang mạnh mẽ từ thời nhà Hán nhờ những chuyến đi sứ của Trương Khiên"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/Con_đường_tơ_lụa"
+  },
+  {
+    "id": "ls-vn-023",
+    "category": "lich-su-2",
+    "answer": "Thời kỳ Bắc thuộc",
+    "hints": [
+      "Giai đoạn lịch sử kéo dài hơn một ngàn năm từ năm 179 TCN đến năm 938 SCN của Việt Nam",
+      "Đất nước chịu sự đô hộ, bóc lột và chính sách đồng hóa của các triều đại phong kiến phương Bắc",
+      "Chứng kiến các cuộc khởi nghĩa anh dũng như Hai Bà Trưng, Bà Triệu, Lý Bí, Mai Thúc Loan",
+      "Chính thức kết thúc sau chiến thắng Bạch Đằng lịch sử năm 938 của Ngô Quyền"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/Bắc_thuộc"
+  },
+  {
+    "id": "ls-tg-024",
+    "category": "lich-su-2",
+    "answer": "Đế chế Inca",
+    "hints": [
+      "Đế chế bản địa hùng mạnh và lớn nhất ở Nam Mỹ thời kỳ tiền Colombo",
+      "Phát triển rực rỡ dọc theo dãy núi Andes với kinh đô Cuzco (thuộc lãnh thổ Peru ngày nay)",
+      "Nổi tiếng với kỹ thuật xây dựng bằng đá ghép khít tinh xảo và hệ thống giao thông đường núi đồ sộ",
+      "Sở hữu di tích thành phố trên mây Machu Picchu tuyệt mỹ nằm trên sườn núi dốc"
+    ],
+    "difficulty": "medium",
+    "source_url": "https://vi.wikipedia.org/wiki/Đế_chế_Inca"
+  },
+  {
+    "id": "ls-vn-025",
+    "category": "lich-su-2",
+    "answer": "Cách mạng Tháng Tám",
+    "hints": [
+      "Cuộc tổng khởi nghĩa giành chính quyền vĩ đại của nhân dân Việt Nam diễn ra vào năm 1945",
+      "Lật đổ ách thống trị hơn 80 năm của thực dân Pháp và sự chiếm đóng của phát xít Nhật",
+      "Xóa bỏ hoàn toàn chế độ phong kiến hàng ngàn năm khi vua Bảo Đại tuyên bố thoái vị",
+      "Mở đường cho sự ra đời của nước Việt Nam Dân chủ Cộng hòa ngày 2/9/1945"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/Cách_mạng_Tháng_Tám"
+  },
+  {
+    "id": "ls-tg-026",
+    "category": "lich-su-2",
+    "answer": "Franklin D. Roosevelt",
+    "hints": [
+      "Vị Tổng thống thứ 32 của Hoa Kỳ và là tổng thống duy nhất đắc cử 4 nhiệm kỳ liên tiếp",
+      "Đưa nước Mỹ vượt qua cuộc Đại suy thoái kinh tế tồi tệ những năm 1930 bằng Chính sách Kinh tế Mới (New Deal)",
+      "Lãnh đạo nhân dân Mỹ và liên minh Đồng Minh giành thắng lợi trong Chiến tranh Thế giới thứ hai",
+      "Cùng với Churchill và Stalin định hình trật tự thế giới thời hậu chiến tại Hội nghị Yalta"
+    ],
+    "difficulty": "medium",
+    "source_url": "https://vi.wikipedia.org/wiki/Franklin_D._Roosevelt"
+  },
+  {
+    "id": "ls-tg-027",
+    "category": "lich-su-2",
+    "answer": "Phong trào Dân quyền Mỹ",
+    "hints": [
+      "Phong trào đấu tranh xã hội quy mô lớn ở Mỹ nhằm chấm dứt nạn phân biệt chủng tộc với người da màu",
+      "Diễn ra mạnh mẽ nhất trong thập niên 1950 và 1960 dưới sự lãnh đạo của Martin Luther King Jr.",
+      "Sử dụng các biện pháp đấu tranh bất bạo động, tuần hành và bất tuân dân sự",
+      "Dẫn tới việc thông qua Đạo luật Dân quyền năm 1964 cấm phân biệt đối xử tại nơi công cộng"
+    ],
+    "difficulty": "medium",
+    "source_url": "https://vi.wikipedia.org/wiki/Phong_trào_Dân_quyền_(1896–1954)"
+  },
+  {
+    "id": "ls-tg-028",
+    "category": "lich-su-2",
+    "answer": "Vương triều Windsor",
+    "hints": [
+      "Hoàng gia trị vì hiện tại của Vương quốc Liên hiệp Anh và Bắc Ireland cũng như các vương quốc Khối thịnh vượng chung",
+      "Được thành lập và chính thức đổi tên từ triều đại Sachsen-Coburg và Gotha vào năm 1917 bởi Vua George V",
+      "Gắn liền với triều đại trị vì dài kỷ lục hơn 70 năm của Nữ hoàng Elizabeth II",
+      "Hiện do Vua Charles III đứng đầu hoàng tộc"
+    ],
+    "difficulty": "medium",
+    "source_url": "https://vi.wikipedia.org/wiki/Vương_triều_Windsor"
+  },
+  {
+    "id": "ls-tg-029",
+    "category": "lich-su-2",
+    "answer": "Cách mạng Văn hóa",
+    "hints": [
+      "Phong trào chính trị - xã hội sâu rộng diễn ra tại Trung Quốc từ năm 1966 đến năm 1976",
+      "Được khởi xướng bởi Chủ tịch Mao Trạch Đông với lực lượng nòng cốt là lực lượng Hồng vệ binh",
+      "Tác động lớn đến hệ thống giáo dục, văn hóa truyền thống, nghệ thuật và xã hội Trung Quốc thời bấy giờ",
+      "Chính thức chấm dứt sau sự sụp đổ của 'Bè lũ bốn tên' vào năm 1976"
+    ],
+    "difficulty": "medium",
+    "source_url": "https://vi.wikipedia.org/wiki/Cách_mạng_Văn_hóa"
+  },
+  {
+    "id": "ls-tg-030",
+    "category": "lich-su-2",
+    "answer": "Anh em nhà Wright",
+    "hints": [
+      "Hai nhà phát minh tiên phong người Mỹ gồm Orville và Wilbur Wright",
+      "Những người đầu tiên chế tạo và điều khiển thành công chiếc máy bay gắn động cơ có người lái",
+      "Thực hiện chuyến bay lịch sử đầu tiên vào ngày 17 tháng 12 năm 1903 tại đồi Kitty Hawk, North Carolina",
+      "Mở ra kỷ nguyên phát triển rực rỡ của ngành hàng không thế giới hiện đại"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/Anh_em_nhà_Wright"
+  },
+  {
+    "id": "ls-tg-031",
+    "category": "lich-su-2",
+    "answer": "Đế quốc Ottoman",
+    "hints": [
+      "Đế quốc Hồi giáo rộng lớn và tồn tại hơn 6 thế kỷ (1299 - 1922) do người Thổ Nhĩ Kỳ sáng lập",
+      "Đạt bước ngoặt chấn động khi chiếm giữ kinh đô Constantinople của Byzantine vào năm 1453 và đổi tên thành Istanbul",
+      "Kiểm soát các tuyến giao thương huyết mạch nối liền Đông Nam Âu, Tây Á và Bắc Phi",
+      "Suy yếu và tan rã sau Thế chiến thứ nhất, mở đường cho nước Cộng hòa Thổ Nhĩ Kỳ ra đời"
+    ],
+    "difficulty": "medium",
+    "source_url": "https://vi.wikipedia.org/wiki/Đế_quốc_Ottoman"
+  },
+  {
+    "id": "ls-tg-032",
+    "category": "lich-su-2",
+    "answer": "Mikhail Gorbachev",
+    "hints": [
+      "Vị Tổng Bí thư cuối cùng của Đảng Cộng sản Liên Xô và Tổng thống duy nhất của Liên Xô",
+      "Khởi xướng các chính sách cải tổ sâu rộng mang tên Perestroika (Tái tổ chức) và Glasnost (Công khai)",
+      "Đóng vai trò quan trọng trong việc đàm phán với Tổng thống Mỹ Ronald Reagan để hạ nhiệt Chiến tranh Lạnh",
+      "Được trao giải Nobel Hòa bình năm 1990 trước khi Liên bang Xô Viết tan rã vào cuối năm 1991"
+    ],
+    "difficulty": "medium",
+    "source_url": "https://vi.wikipedia.org/wiki/Mikhail_Gorbachev"
+  },
+  {
+    "id": "ls-tg-033",
+    "category": "lich-su-2",
+    "answer": "Nhà Tần",
+    "hints": [
+      "Triều đại phong kiến đầu tiên thống nhất toàn bộ đất nước Trung Quốc (221 TCN - 206 TCN)",
+      "Chấm dứt thời kỳ phân tranh Xuân Thu - Chiến Quốc đẫm máu kéo dài hàng thế kỷ",
+      "Gắn liền với tên tuổi của vị hoàng đế đầu tiên Tần Thủy Hoàng và tể tướng Lý Tư",
+      "Áp dụng pháp gia nghiêm ngặt, thống nhất chữ viết, tiền tệ và quy chuẩn trục bánh xe"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/Nhà_Tần"
+  },
+  {
+    "id": "ls-tg-034",
+    "category": "lich-su-2",
+    "answer": "Đế quốc Aztec",
+    "hints": [
+      "Nền văn minh và đế chế bản địa hùng mạnh thống trị thung lũng miền Trung Mexico trước khi người Tây Ban Nha tới",
+      "Kinh đô Tenochtitlan tráng lệ được xây dựng kỳ công trên một hòn đảo giữa hồ Texcoco",
+      "Nổi tiếng với kiến trúc đền tháp kim tự tháp Templo Mayor và nghi lễ tôn giáo thần Mặt Trời",
+      "Bị chinh phục và sụp đổ vào năm 1521 dưới tay đoàn thám hiểm của Hernán Cortés"
+    ],
+    "difficulty": "medium",
+    "source_url": "https://vi.wikipedia.org/wiki/Đế_quốc_Aztec"
+  },
+  {
+    "id": "ls-tg-035",
+    "category": "lich-su-2",
+    "answer": "Chiến tranh Ba mươi năm",
+    "hints": [
+      "Một trong những cuộc xung đột tôn giáo và địa chính trị đẫm máu nhất trong lịch sử châu Âu (1618 - 1648)",
+      "Bắt nguồn từ mâu thuẫn tôn giáo giữa phe Công giáo và Kháng cách trong lòng Đế quốc La Mã Thần thánh",
+      "Cuộc chiến lan rộng và lôi kéo gần như toàn bộ các cường quốc lớn ở châu Âu tham chiến",
+      "Khép lại bằng Hòa ước Westphalia năm 1648, đặt nền móng cho hệ thống chủ quyền quốc gia hiện đại"
+    ],
+    "difficulty": "hard",
+    "source_url": "https://vi.wikipedia.org/wiki/Chiến_tranh_Ba_mươi_năm"
+  },
+  {
+    "id": "ls-tg-036",
+    "category": "lich-su-2",
+    "answer": "Mahatma Gandhi",
+    "hints": [
+      "Nhà lãnh đạo phong trào đấu tranh giành độc lập vĩ đại của nhân dân Ấn Độ khỏi ách thống trị của Anh",
+      "Tiên phong thực hành triết lý đấu tranh bất bạo động nổi tiếng Satyagraha",
+      "Gắn liền với cuộc Tuần hành Muối lịch sử năm 1930 và phong trào Rời khỏi Ấn Độ năm 1942",
+      "Được nhân dân tôn kính gọi là 'Mahatma' (Linh hồn vĩ đại) và ngày sinh của ông là Ngày Quốc tế Bất bạo động"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/Mahatma_Gandhi"
+  },
+  {
+    "id": "ls-tg-037",
+    "category": "lich-su-2",
+    "answer": "Đế quốc Đông La Mã",
+    "hints": [
+      "Phần phía Đông còn tiếp tục tồn tại hơn 1.000 năm của Đế quốc La Mã cổ đại thời Trung Cổ",
+      "Được biết đến phổ biến trong lịch sử với tên gọi Đế quốc Byzantine",
+      "Kinh đô Constantinople hoa lệ nằm ở vị trí chiến lược nối liền châu Âu và châu Á",
+      "Nổi tiếng với kiệt tác thánh đường Hagia Sophia và sụp đổ hoàn toàn trước quân Ottoman năm 1453"
+    ],
+    "difficulty": "medium",
+    "source_url": "https://vi.wikipedia.org/wiki/Đế_quốc_Đông_La_Mã"
+  },
+  {
+    "id": "ls-tg-038",
+    "category": "lich-su-2",
+    "answer": "Đế quốc Mali",
+    "hints": [
+      "Đế quốc thịnh vượng bậc nhất ở Tây Phi thời kỳ Trung Cổ từ thế kỷ 13 đến thế kỷ 17",
+      "Nổi tiếng khắp thế giới nhờ nguồn tài nguyên vàng và muối trù phú qua các tuyến thương mại xuyên Sahara",
+      "Gắn liền với vị vua giàu có huyền thoại Mansa Musa và chuyến hành hương lộng lẫy đến Mecca",
+      "Sở hữu trung tâm học thuật và văn hóa Hồi giáo danh tiếng Timbuktu"
+    ],
+    "difficulty": "hard",
+    "source_url": "https://vi.wikipedia.org/wiki/Đế_quốc_Mali"
+  },
+  {
+    "id": "ls-tg-039",
+    "category": "lich-su-2",
+    "answer": "Thành Cát Tư Hãn",
+    "hints": [
+      "Vị thủ lĩnh quân sự kiệt xuất đã thống nhất các bộ lạc du mục trên thảo nguyên Mông Cổ",
+      "Người sáng lập ra Đế quốc Mông Cổ - đế quốc có lãnh thổ liền kề rộng lớn nhất trong lịch sử",
+      "Được tôn xưng là Thành Cát Tư Hãn (Genghis Khan) vào năm 1206",
+      "Tổ chức quân đội kỵ binh Mông Cổ kỷ luật thép và thực hiện các chiến dịch chinh phục khắp Á - Âu"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/Thành_Cát_Tư_Hãn"
+  },
+  {
+    "id": "ls-tg-040",
+    "category": "lich-su-2",
+    "answer": "Thời kỳ hoàng kim của Pericles",
+    "hints": [
+      "Thời kỳ đỉnh cao của nền văn minh Hy Lạp cổ đại tại thành bang Athens vào thế kỷ thứ 5 TCN",
+      "Gắn liền với sự lãnh đạo của nhà chính trị dân chủ kiệt xuất Pericles",
+      "Thời kỳ nền dân chủ trực tiếp phát triển mạnh mẽ cùng triết học của Socrates và kịch nghệ",
+      "Khởi công xây dựng ngôi đền Parthenon huyền thoại trên đồi Acropolis"
+    ],
+    "difficulty": "hard",
+    "source_url": "https://vi.wikipedia.org/wiki/Thời_kỳ_hoàng_kim_của_Pericles"
+  },
+  {
+    "id": "ls-tg-041",
+    "category": "lich-su-2",
+    "answer": "Thomas Jefferson",
+    "hints": [
+      "Tác giả chính của bản Tuyên ngôn Độc lập Hoa Kỳ năm 1776 bất hủ",
+      "Vị Tổng thống thứ 3 của Hợp chúng quốc Hoa Kỳ (nhiệm kỳ 1801 - 1809)",
+      "Người thực hiện thương vụ mua lại vùng đất rộng lớn Louisiana từ Pháp năm 1803",
+      "Một trong những Người cha Lập quốc được tạc tượng trên Đài tưởng niệm Núi Rushmore"
+    ],
+    "difficulty": "medium",
+    "source_url": "https://vi.wikipedia.org/wiki/Thomas_Jefferson"
+  },
+  {
+    "id": "ls-tg-042",
+    "category": "lich-su-2",
+    "answer": "Thời kỳ Phục Hưng",
+    "hints": [
+      "Phong trào văn hóa và tư tưởng bùng nổ mạnh mẽ tại châu Âu từ thế kỷ 14 đến thế kỷ 17",
+      "Bắt đầu tại các thành bang miền Bắc nước Ý, đặc biệt là thành phố Florence",
+      "Tôn vinh chủ nghĩa nhân văn, tái khám phá các giá trị nghệ thuật và triết học Hy-La cổ đại",
+      "Thời đại của các thiên tài vĩ đại như Leonardo da Vinci, Michelangelo, Raphael và Galileo"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/Thời_kỳ_Phục_Hưng"
+  },
+  {
+    "id": "ls-tg-043",
+    "category": "lich-su-2",
+    "answer": "Thời kỳ Edo",
+    "hints": [
+      "Giai đoạn lịch sử hơn 250 năm thái bình và ổn định của Nhật Bản (1603 - 1867)",
+      "Được cai trị bởi Mạc phủ Tokugawa do tướng quân Tokugawa Ieyasu thành lập",
+      "Thực thi chính sách bế quan tỏa cảng nghiêm ngặt (Sakoku) đối với hầu hết các nước phương Tây",
+      "Thời kỳ phát triển rực rỡ của văn hóa Geisha, nghệ thuật kịch Kabuki và tranh khắc gỗ Ukiyo-e"
+    ],
+    "difficulty": "medium",
+    "source_url": "https://vi.wikipedia.org/wiki/Thời_kỳ_Edo"
+  },
+  {
+    "id": "ls-tg-044",
+    "category": "lich-su-2",
+    "answer": "Văn minh Sumer",
+    "hints": [
+      "Một trong những nền văn minh lâu đời và cổ xưa nhất trong lịch sử nhân loại tại vùng Lưỡng Hà",
+      "Phát triển rực rỡ ở miền Nam Iraq ngày nay giữa lưu vực hai con sông Tigris và Euphrates",
+      "Sáng tạo ra hệ thống chữ viết hình nêm (chữ nêm - cuneiform) đầu tiên trên thế giới",
+      "Tiên phong phát minh ra bánh xe, hệ thống thủy lợi kênh mương và kiến trúc đền Ziggurat"
+    ],
+    "difficulty": "hard",
+    "source_url": "https://vi.wikipedia.org/wiki/Văn_minh_Sumer"
+  },
+  {
+    "id": "ls-tg-045",
+    "category": "lich-su-2",
+    "answer": "Nội chiến Hoa Kỳ",
+    "hints": [
+      "Cuộc nội chiến đẫm máu diễn ra trên đất Mỹ kéo dài suốt 4 năm từ 1861 đến 1865",
+      "Xung đột giữa Liên bang miền Bắc (Union) và Liên minh miền Nam (Confederacy) ủng hộ chế độ nô lệ",
+      "Dưới sự lãnh đạo kiên cường của Tổng thống Abraham Lincoln và tướng Ulysses S. Grant",
+      "Kết thúc với chiến thắng của phe miền Bắc, bãi bỏ hoàn toàn chế độ nô lệ trên toàn nước Mỹ"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/Nội_chiến_Hoa_Kỳ"
+  },
+  {
+    "id": "ls-tg-046",
+    "category": "lich-su-2",
+    "answer": "Albert Einstein",
+    "hints": [
+      "Nhà vật lý lý thuyết vĩ đại người Đức gốc Do Thái của thế kỷ 20",
+      "Người phát triển Thuyết Tương đối đặc biệt và Thuyết Tương đối rộng làm thay đổi vật lý hiện đại",
+      "Tác giả của phương trình liên hệ năng lượng và khối lượng nổi tiếng nhất thế giới: E = mc²",
+      "Đoạt giải Nobel Vật lý năm 1921 nhờ khám phá ra định luật của hiệu ứng quang điện"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/Albert_Einstein"
+  },
+  {
+    "id": "ls-tg-047",
+    "category": "lich-su-2",
+    "answer": "Ai Cập cổ đại",
+    "hints": [
+      "Nền văn minh lâu đời và huyền bí bậc nhất phát triển dọc theo hạ lưu dòng sông Nile ở Đông Bắc Phi",
+      "Được cai trị bởi các vị vua mang tước hiệu Pharaoh được tôn kính như con của thần linh",
+      "Nổi tiếng với hệ thống chữ tượng hình, thuật ướp xác tạo nên các xác ướp nghìn năm",
+      "Sở hữu các công trình kỳ vĩ như Đại kim tự tháp Giza và tượng Nhân sư khổng lồ"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/Ai_Cập_cổ_đại"
+  },
+  {
+    "id": "ls-tg-048",
+    "category": "lich-su-2",
+    "answer": "Napoléon Bonaparte",
+    "hints": [
+      "Nhà quân sự thiên tài và chính khách kiệt xuất đã vươn lên nắm quyền sau Cách mạng Pháp",
+      "Lên ngôi Hoàng đế nước Pháp vào năm 1804 tại Nhà thờ Đức Bà Paris",
+      "Chỉ huy quân đội Pháp bách chiến bách thắng trong các cuộc chiến tranh Napoléon khắp châu Âu",
+      "Người ban hành Bộ luật Dân sự Napoléon có tầm ảnh hưởng sâu rộng đến luật pháp hiện đại"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/Napoléon_Bonaparte"
+  },
+  {
+    "id": "ls-tg-049",
+    "category": "lich-su-2",
+    "answer": "Vasco da Gama",
+    "hints": [
+      "Nhà hàng hải và thám hiểm dũng cảm người Bồ Đào Nha thời kỳ Đại Khám Phá",
+      "Người châu Âu đầu tiên tìm ra tuyến đường biển trực tiếp vòng qua Mũi Hảo Vọng để đến Ấn Độ",
+      "Cập cảng Calicut ở bờ biển Tây Nam Ấn Độ vào năm 1498",
+      "Mở ra con đường thương mại gia vị đường biển trực tiếp giữa châu Âu và châu Á"
+    ],
+    "difficulty": "medium",
+    "source_url": "https://vi.wikipedia.org/wiki/Vasco_da_Gama"
+  },
+  {
+    "id": "ls-tg-050",
+    "category": "lich-su-2",
+    "answer": "Tôn Trung Sơn",
+    "hints": [
+      "Nhà cách mạng dân chủ tiên phong đã lãnh đạo cuộc Cách mạng Tân Hợi năm 1911",
+      "Lật đổ nhà Thanh và chấm dứt hơn 2.000 năm chế độ phong kiến quân chủ tại Trung Quốc",
+      "Được bầu làm Tổng thống lâm thời đầu tiên của nước Trung Hoa Dân Quốc",
+      "Tác giả của học thuyết 'Chủ nghĩa Tam Dân' nổi tiếng: Dân tộc độc lập, Dân quyền tự do, Dân sinh hạnh phúc"
+    ],
+    "difficulty": "medium",
+    "source_url": "https://vi.wikipedia.org/wiki/Tôn_Trung_Sơn"
+  },
+  {
+    "id": "ls-tg-051",
+    "category": "lich-su-2",
+    "answer": "Bức tường Berlin",
+    "hints": [
+      "Công trình bê tông kiên cố ngăn cách giữa Đông Berlin và Tây Berlin từ năm 1961 đến 1989",
+      "Biểu tượng vật lý rõ ràng nhất của 'Bức màn sắt' chia cắt châu Âu thời kỳ Chiến tranh Lạnh",
+      "Được chính quyền Đông Đức dựng lên nhằm ngăn chặn dòng người di cư sang Tây Berlin",
+      "Sự kiện bức tường bị phá đổ ngày 9 tháng 11 năm 1989 đã mở đường cho sự thống nhất nước Đức"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/Bức_tường_Berlin"
+  },
+  {
+    "id": "ls-tg-052",
+    "category": "lich-su-2",
+    "answer": "Nelson Mandela",
+    "hints": [
+      "Nhà hoạt động cách mạng vĩ đại chống lại chế độ phân biệt chủng tộc Apartheid ở Nam Phi",
+      "Bị giam cầm suốt 27 năm trong tù, đặc biệt là tại nhà tù trên đảo Robben",
+      "Tổng thống da màu đầu tiên của Nam Phi được bầu cử dân chủ đại diện đa sắc tộc (1994 - 1999)",
+      "Được trao giải Nobel Hòa bình năm 1993 vì sự nghiệp hòa giải dân tộc cao cả"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/Nelson_Mandela"
+  },
+  {
+    "id": "ls-tg-053",
+    "category": "lich-su-2",
+    "answer": "Hy Lạp cổ đại",
+    "hints": [
+      "Nền văn minh rực rỡ được coi là cái nôi của nền văn minh phương Tây hiện đại",
+      "Tập hợp các thành bang độc lập nổi tiếng như Athens, Sparta, Corinth và Thebes",
+      "Nơi khởi nguồn của chế độ dân chủ, Thế vận hội Olympic, kịch nghệ và triết học phương Tây",
+      "Quê hương của các triết gia kiệt xuất như Socrates, Plato và Aristotle"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/Hy_Lạp_cổ_đại"
+  },
+  {
+    "id": "ls-tg-054",
+    "category": "lich-su-2",
+    "answer": "Christopher Columbus",
+    "hints": [
+      "Nhà hàng hải và thám hiểm người Genoa (Ý) phục vụ cho Hoàng gia Tây Ban Nha",
+      "Thực hiện chuyến hải hành vượt Đại Tây Dương lịch sử trên 3 con tàu Santa Maria, Pinta và Niña",
+      "Cập bến châu Mỹ vào ngày 12 tháng 10 năm 1492 dù ban đầu ông tin rằng mình đã tới Ấn Độ",
+      "Chuyến đi mở ra kỷ nguyên khám phá và định cư quy mô lớn của người châu Âu tại Tân Thế Giới"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/Cristoforo_Colombo"
+  },
+  {
+    "id": "ls-tg-055",
+    "category": "lich-su-2",
+    "answer": "Nhà Minh",
+    "hints": [
+      "Triều đại phong kiến cai trị Trung Quốc kéo dài từ năm 1368 đến năm 1644",
+      "Do Chu Nguyên Chương (Minh Thái Tổ) thành lập sau khi lật đổ triều đại nhà Nguyên của người Mông Cổ",
+      "Thời kỳ xây dựng quần thể Tử Cấm Thành tráng lệ tại Bắc Kinh và tu bổ Vạn Lý Trường Thành",
+      "Nổi tiếng với 7 chuyến thám hiểm đại dương lừng lẫy khắp Ấn Độ Dương của đô đốc Trịnh Hòa"
+    ],
+    "difficulty": "medium",
+    "source_url": "https://vi.wikipedia.org/wiki/Nhà_Minh"
+  },
+  {
+    "id": "ls-tg-056",
+    "category": "lich-su-2",
+    "answer": "Trận Stalingrad",
+    "hints": [
+      "Trận đánh quy mô đẫm máu nhất trong Thế chiến II diễn ra từ tháng 8/1942 đến tháng 2/1943",
+      "Cuộc đọ sức sống còn giữa Hồng quân Liên Xô và quân đội phát xít Đức tại thành phố bên bờ sông Volga",
+      "Hồng quân Liên Xô bao vây và tiêu diệt hoàn toàn Tập đoàn quân số 6 của Thống chế Friedrich Paulus",
+      "Được coi là bước ngoặt quyết định đảo chiều hoàn toàn cục diện chiến tranh tại Mặt trận phía Đông"
+    ],
+    "difficulty": "medium",
+    "source_url": "https://vi.wikipedia.org/wiki/Trận_Stalingrad"
+  },
+  {
+    "id": "ls-tg-057",
+    "category": "lich-su-2",
+    "answer": "Văn minh lưu vực sông Ấn",
+    "hints": [
+      "Nền văn minh thời kỳ đồ đồng cổ đại rực rỡ phát triển tại khu vực Nam Á (nay thuộc Pakistan và Tây Bắc Ấn Độ)",
+      "Phát triển thịnh vượng từ khoảng năm 2500 TCN bên cạnh dòng sông Ấn màu mỡ",
+      "Nổi tiếng với hai đô thị cổ quy hoạch hiện đại đáng kinh ngạc: Harappa và Mohenjo-daro",
+      "Sở hữu hệ thống cấp thoát nước ngầm và nhà tắm công cộng tiên tiến hàng đầu thời cổ đại"
+    ],
+    "difficulty": "hard",
+    "source_url": "https://vi.wikipedia.org/wiki/Văn_minh_lưu_vực_sông_Ấn"
+  },
+  {
+    "id": "ls-tg-058",
+    "category": "lich-su-2",
+    "answer": "Charles de Gaulle",
+    "hints": [
+      "Vị tướng quân đội kiệt xuất và nhà lãnh đạo phong trào Nước Pháp Tự do trong Thế chiến II",
+      "Phát lời kêu gọi lịch sử ngày 18 tháng 6 năm 1940 trên đài BBC khích lệ nhân dân Pháp kháng chiến",
+      "Người sáng lập và Tổng thống đầu tiên của nền Đệ ngũ Cộng hòa Pháp (1959 - 1969)",
+      "Tên của ông được đặt trang trọng cho sân bay quốc tế lớn nhất Paris và tàu sân bay hạt nhân của Pháp"
+    ],
+    "difficulty": "medium",
+    "source_url": "https://vi.wikipedia.org/wiki/Charles_de_Gaulle"
+  },
+  {
+    "id": "ls-tg-059",
+    "category": "lich-su-2",
+    "answer": "Liên Hợp Quốc",
+    "hints": [
+      "Tổ chức liên chính phủ toàn cầu lớn nhất hành tinh được thành lập vào ngày 24 tháng 10 năm 1945",
+      "Ra đời ngay sau khi Thế chiến II kết thúc với mục tiêu hàng đầu là duy trì hòa bình và an ninh quốc tế",
+      "Ban đầu gồm 51 quốc gia thành viên ký Hiến chương tại San Francisco, Mỹ",
+      "Trụ sở chính đặt tại thành phố New York với cơ quan quyền lực cao nhất là Hội đồng Bảo an"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/Liên_Hợp_Quốc"
+  },
+  {
+    "id": "ls-tg-060",
+    "category": "lich-su-2",
+    "answer": "Charles Darwin",
+    "hints": [
+      "Nhà tự nhiên học và địa chất học lỗi lạc người Anh của thế kỷ 19",
+      "Người đề xuất Thuyết tiến hóa thông qua cơ chế chọn lọc tự nhiên làm thay đổi căn bản sinh học",
+      "Thu thập những bằng chứng quý giá trong chuyến hải hành 5 năm trên con tàu HMS Beagle",
+      "Tác giả của cuốn sách khoa học mang tính cách mạng 'Nguồn gốc các loài' xuất bản năm 1859"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/Charles_Darwin"
+  },
+  {
+    "id": "ls-tg-061",
+    "category": "lich-su-2",
+    "answer": "Muhammad",
+    "hints": [
+      "Nhà lãnh đạo tôn giáo, chính trị và quân sự sinh ra tại thành phố Mecca ở bán đảo Ả Rập",
+      "Được các tín đồ Hồi giáo tôn kính là vị Thiên sứ và Tiên tri cuối cùng của Thượng đế (Allah)",
+      "Người thành lập đạo Hồi và thống nhất các bộ lạc bán đảo Ả Rập thành một nhà nước Hồi giáo",
+      "Văn bản những lời mạc khải của ông được tập hợp thành cuốn kinh thánh thiêng liêng Qur'an"
+    ],
+    "difficulty": "medium",
+    "source_url": "https://vi.wikipedia.org/wiki/Muhammad"
+  },
+  {
+    "id": "ls-tg-062",
+    "category": "lich-su-2",
+    "answer": "Thành cổ Petra",
+    "hints": [
+      "Thành phố cổ kỳ vĩ được đẽo tạc trực tiếp vào các vách đá sa thạch màu hồng đỏ ở miền Nam Jordan",
+      "Từng là kinh đô hưng thịnh của Vương quốc Nabataean từ thế kỷ thứ 4 TCN",
+      "Nổi tiếng với hệ thống đường ống dẫn nước ngầm giữa lòng sa mạc và đền thờ Al-Khazneh (Kho báu)",
+      "Được UNESCO công nhận là Di sản Thế giới và được chọn là một trong Bảy kỳ quan thế giới mới"
+    ],
+    "difficulty": "hard",
+    "source_url": "https://vi.wikipedia.org/wiki/Petra"
+  },
+  {
+    "id": "ls-tg-063",
+    "category": "lich-su-2",
+    "answer": "Oa Khoát Đài",
+    "hints": [
+      "Vị Đại Hãn thứ hai của Đế quốc Mông Cổ, con trai thứ ba của Thành Cát Tư Hãn",
+      "Kế vị ngai vàng và tiếp tục mở rộng lãnh thổ Mông Cổ sang vùng Trung Á, Nga và Đông Âu",
+      "Người cho xây dựng kinh đô cố định đầu tiên của Đế quốc Mông Cổ tại Karakorum",
+      "Tiêu diệt hoàn toàn triều đại nhà Kim ở phương Bắc Trung Quốc vào năm 1234"
+    ],
+    "difficulty": "hard",
+    "source_url": "https://vi.wikipedia.org/wiki/Oa_Khoát_Đài"
+  },
+  {
+    "id": "ls-tg-064",
+    "category": "lich-su-2",
+    "answer": "BRICS",
+    "hints": [
+      "Khối hợp tác kinh tế - chính trị quốc tế của các nền kinh tế mới nổi có quy mô hàng đầu thế giới",
+      "Tên viết tắt ban đầu gồm 5 chữ cái đầu của các nước: Brazil, Nga, Ấn Độ, Trung Quốc và Nam Phi",
+      "Đại diện cho hơn 40% dân số toàn cầu và một phần tư sản lượng kinh tế thế giới",
+      "Thành lập Ngân hàng Phát triển Mới (NDB) nhằm tăng cường liên kết tài chính độc lập"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/BRICS"
+  },
+  {
+    "id": "ls-tg-065",
+    "category": "lich-su-2",
+    "answer": "Thế vận hội Mùa hè 1896",
+    "hints": [
+      "Kỳ Thế vận hội Olympic hiện đại đầu tiên được tổ chức sau hơn 1.500 năm gián đoạn",
+      "Diễn ra tại thủ đô Athens, Hy Lạp - quê hương của Thế vận hội cổ đại",
+      "Được khởi xướng và vận động thành lập bởi Nam tước người Pháp Pierre de Coubertin",
+      "Thu hút vận động viên từ 14 quốc gia tranh tài tại sân vận động Panathenaic lịch sử"
+    ],
+    "difficulty": "medium",
+    "source_url": "https://vi.wikipedia.org/wiki/Thế_vận_hội_Mùa_hè_1896"
+  },
+  {
+    "id": "ls-tg-066",
+    "category": "lich-su-2",
+    "answer": "Henry VIII của Anh",
+    "hints": [
+      "Vị vua nổi tiếng và quyền lực thuộc triều đại Tudor của Vương quốc Anh thế kỷ 16",
+      "Người tách Giáo hội Anh ra khỏi quyền kiểm soát của Tòa thánh Vatican và Giáo hoàng La Mã",
+      "Tự xưng là Người đứng đầu tối cao của Giáo hội Anh, mở đầu phong trào Cải cách Anh giáo",
+      "Nổi tiếng trong lịch sử với việc kết hôn với 6 người vợ liên tiếp"
+    ],
+    "difficulty": "medium",
+    "source_url": "https://vi.wikipedia.org/wiki/Henry_VIII_của_Anh"
+  },
+  {
+    "id": "ls-tg-067",
+    "category": "lich-su-2",
+    "answer": "Máy hơi nước",
+    "hints": [
+      "Phát minh cơ khí mang tính đột phá then chốt thúc đẩy cuộc Cách mạng Công nghiệp thế giới",
+      "Chuyển hóa năng lượng nhiệt từ hơi nước đun sôi thành cơ năng chuyển động cơ học",
+      "Được cải tiến vượt bậc bởi kỹ sư người Scotland James Watt vào thập niên 1760 - 1770",
+      "Ứng dụng rộng rãi trong các nhà máy dệt, tàu thủy chạy bằng hơi nước và đầu máy xe lửa"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/Máy_hơi_nước"
+  },
+  {
+    "id": "ls-tg-068",
+    "category": "lich-su-2",
+    "answer": "Otto von Bismarck",
+    "hints": [
+      "Vị Thủ tướng tài ba của Vương quốc Phổ và Thủ tướng đầu tiên của Đế quốc Đức",
+      "Người có công thống nhất hàng chục tiểu bang Đức rời rạc thành một Đế quốc Đức hùng mạnh vào năm 1871",
+      "Được mệnh danh là 'Thủ tướng Thép' (The Iron Chancellor) với chính sách 'Sắt và Máu'",
+      "Kiến trúc sư của hệ thống liên minh ngoại giao phức tạp tại châu Âu cuối thế kỷ 19"
+    ],
+    "difficulty": "hard",
+    "source_url": "https://vi.wikipedia.org/wiki/Otto_von_Bismarck"
+  },
+  {
+    "id": "ls-tg-069",
+    "category": "lich-su-2",
+    "answer": "Cái chết Đen",
+    "hints": [
+      "Đại dịch hạch kinh hoàng và tàn khốc nhất trong lịch sử nhân loại xảy ra vào giữa thế kỷ 14 (1346 - 1353)",
+      "Bùng phát từ châu Á rồi lan tràn khắp lục địa châu Âu qua các tuyến tàu buôn trên biển",
+      "Do vi khuẩn Yersinia pestis truyền từ bọ chét ký sinh trên chuột đen gây ra",
+      "Ước tính đã cướp đi sinh mạng của 30% đến 60% tổng dân số châu Âu thời bấy giờ"
+    ],
+    "difficulty": "medium",
+    "source_url": "https://vi.wikipedia.org/wiki/Cái_chết_Đen"
+  },
+  {
+    "id": "ls-tg-070",
+    "category": "lich-su-2",
+    "answer": "Persepolis",
+    "hints": [
+      "Cố đô nghi lễ hoa lệ của Đế quốc Ba Tư cổ đại (Đế quốc Achaemenid) xây dựng từ thế kỷ thứ 6 TCN",
+      "Được khởi công xây dựng dưới triều vua Darius Đại đế và nằm ở miền Nam Iran ngày nay",
+      "Nổi tiếng với cung điện Apadana, Cổng Tất cả các Dân tộc và các bức phù điêu chạm khắc bằng đá tinh xảo",
+      "Bị đại quân của Alexandros Đại đế đốt phá và tàn phá sau khi Ba Tư thất thủ năm 330 TCN"
+    ],
+    "difficulty": "hard",
+    "source_url": "https://vi.wikipedia.org/wiki/Persepolis"
+  },
+  {
+    "id": "ls-tg-071",
+    "category": "lich-su-2",
+    "answer": "Apollo 11",
+    "hints": [
+      "Sứ mệnh không gian lịch sử đưa con người lần đầu tiên đặt chân lên Mặt Trăng của cơ quan NASA (Mỹ)",
+      "Tàu vũ trụ mang theo 3 phi hành gia: Neil Armstrong, Buzz Aldrin và Michael Collins",
+      "Module Mặt Trăng 'Eagle' đáp an toàn xuống vùng Biển Tĩnh Lặng vào ngày 20 tháng 7 năm 1969",
+      "Gắn liền với câu nói bất hủ: 'Đây là một bước lùi nhỏ của một con người, nhưng là bước tiến khổng lồ của nhân loại'"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/Apollo_11"
+  },
+  {
+    "id": "ls-tg-072",
+    "category": "lich-su-2",
+    "answer": "Internet",
+    "hints": [
+      "Hệ thống thông tin toàn cầu liên kết các mạng máy tính với nhau bằng bộ giao thức TCP/IP",
+      "Có nguồn gốc ban đầu từ mạng ARPANET do Bộ Quốc phòng Mỹ tài trợ nghiên cứu từ cuối thập niên 1960",
+      "Bùng nổ toàn cầu vào đầu thập niên 1990 nhờ phát minh ra World Wide Web của Tim Berners-Lee",
+      "Đã làm thay đổi hoàn toàn cách nhân loại giao tiếp, tìm kiếm thông tin, kinh doanh và giải trí"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/Internet"
+  },
+  {
+    "id": "ls-tg-073",
+    "category": "lich-su-2",
+    "answer": "Edward Gibbon",
+    "hints": [
+      "Nhà sử học và nghị sĩ nổi tiếng người Anh của thế kỷ 18",
+      "Tác giả của bộ tác phẩm lịch sử kinh điển 'Lịch sử suy tàn và sụp đổ của Đế quốc La Mã'",
+      "Tiên phong trong việc sử dụng phương pháp khảo cứu tài liệu gốc khách quan và chỉ trích tôn giáo",
+      "Tác phẩm của ông vẫn là tài liệu tham khảo mẫu mực về lịch sử phương Tây thời cổ-trung đại"
+    ],
+    "difficulty": "hard",
+    "source_url": "https://vi.wikipedia.org/wiki/Edward_Gibbon"
+  },
+  {
+    "id": "ls-tg-074",
+    "category": "lich-su-2",
+    "answer": "Angkor Wat",
+    "hints": [
+      "Quần thể đền đài tôn giáo bằng đá lớn nhất trên thế giới tọa lạc tại Siem Reap, Campuchia",
+      "Được xây dựng vào đầu thế kỷ 12 dưới triều vua Suryavarman II của Đế quốc Khmer",
+      "Ban đầu là ngôi đền Hindu thờ thần Vishnu, sau này trở thành trung tâm Phật giáo linh thiêng",
+      "Biểu tượng kiêu hãnh của đất nước Campuchia và xuất hiện trang trọng trên quốc kỳ nước này"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/Angkor_Wat"
+  },
+  {
+    "id": "ls-tg-075",
+    "category": "lich-su-2",
+    "answer": "Tutankhamun",
+    "hints": [
+      "Vị Pharaoh trẻ tuổi thuộc Vương triều thứ 18 thời kỳ Tân Vương quốc Ai Cập cổ đại",
+      "Lên ngôi khi mới khoảng 9 tuổi và qua đời bí ẩn khi chỉ khoảng 18 - 19 tuổi",
+      "Nổi tiếng toàn cầu khi lăng mộ gần như nguyên vẹn KV62 được nhà khảo cổ Howard Carter phát hiện năm 1922",
+      "Chiếc mặt nạ tang lễ bằng vàng ròng tinh xảo của ông là biểu tượng nổi tiếng nhất của Ai Cập cổ đại"
+    ],
+    "difficulty": "medium",
+    "source_url": "https://vi.wikipedia.org/wiki/Tutankhamun"
+  },
+  {
+    "id": "ls-tg-076",
+    "category": "lich-su-2",
+    "answer": "Thành phố Florence",
+    "hints": [
+      "Thành phố lịch sử tráng lệ thuộc vùng Toscana ở miền Trung nước Ý",
+      "Được ca ngợi là 'Cái nôi của phong trào Phục Hưng' và thủ đô nghệ thuật của châu Âu thời Trung Cổ",
+      "Nơi gia tộc Medici bảo trợ cho hàng loạt nghệ sĩ, kiến trúc sư và học giả vĩ đại",
+      "Nổi tiếng với nhà thờ chính tòa Duomo di Firenze mái vòm kỳ vĩ và phòng trưng bày Uffizi"
+    ],
+    "difficulty": "medium",
+    "source_url": "https://vi.wikipedia.org/wiki/Firenze"
+  },
+  {
+    "id": "ls-tg-077",
+    "category": "lich-su-2",
+    "answer": "Augustus",
+    "hints": [
+      "Vị Hoàng đế đầu tiên của Đế quốc La Mã cổ đại, tên khai sinh là Gaius Octavius",
+      "Cháu trai và là con nuôi thừa kế hợp pháp của nhà độc tài quân sự Julius Caesar",
+      "Đánh bại Mark Antony và Cleopatra tại trận thủy chiến Actium năm 31 TCN để thâu tóm toàn bộ quyền lực",
+      "Mở ra kỷ nguyên 'Pax Romana' (Hòa bình La Mã) thái bình thịnh trị kéo dài suốt hơn hai thế kỷ"
+    ],
+    "difficulty": "medium",
+    "source_url": "https://vi.wikipedia.org/wiki/Augustus"
+  },
+  {
+    "id": "ls-tg-078",
+    "category": "lich-su-2",
+    "answer": "James Watt",
+    "hints": [
+      "Nhà phát minh và kỹ sư cơ khí xuất chúng người Scotland của thế kỷ 18",
+      "Người cải tiến động cơ hơi nước Newcomen bằng phát minh buồng ngưng tụ hơi nước riêng biệt năm 1769",
+      "Tăng hiệu suất vượt trội cho động cơ hơi nước, tạo động lực cốt lõi cho cuộc Cách mạng Công nghiệp",
+      "Tên của ông được vinh danh làm đơn vị đo công suất trong Hệ đo lường quốc tế (Watt - W)"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/James_Watt"
+  },
+  {
+    "id": "ls-tg-079",
+    "category": "lich-su-2",
+    "answer": "Hiệp ước Versailles",
+    "hints": [
+      "Bản hiệp ước hòa bình quan trọng nhất chính thức khép lại Thế chiến thứ nhất",
+      "Được ký kết ngày 28 tháng 6 năm 1919 tại Phòng Gương thuộc Cung điện Versailles gần Paris, Pháp",
+      "Buộc nước Đức bại trận phải chấp nhận toàn bộ trách nhiệm gây chiến, cắt giảm lãnh thổ và bồi thường chiến phí khổng lồ",
+      "Những điều khoản khắc nghiệt của hiệp ước này đã tạo mầm mống cho sự trỗi dậy của chủ nghĩa phát xít sau này"
+    ],
+    "difficulty": "medium",
+    "source_url": "https://vi.wikipedia.org/wiki/Hiệp_ước_Versailles"
+  },
+  {
+    "id": "ls-tg-080",
+    "category": "lich-su-2",
+    "answer": "Quyền bầu cử của phụ nữ",
+    "hints": [
+      "Phong trào đấu tranh bình đẳng quyền công dân đòi quyền bỏ phiếu hợp pháp cho nữ giới",
+      "New Zealand là quốc gia tự trị đầu tiên trên thế giới trao quyền bầu cử cho phụ nữ vào năm 1893",
+      "Phong trào Suffragette diễn ra sôi nổi tại Anh và Mỹ vào cuối thế kỷ 19 và đầu thế kỷ 20",
+      "Đánh dấu bước ngoặt vĩ đại trong lịch sử tiến bộ quyền con người và bình đẳng giới"
+    ],
+    "difficulty": "medium",
+    "source_url": "https://vi.wikipedia.org/wiki/Quyền_bầu_cử_của_phụ_nữ"
+  },
+  {
+    "id": "ls-tg-081",
+    "category": "lich-su-2",
+    "answer": "Thủ đô Berlin",
+    "hints": [
+      "Thành phố thủ đô và là đô thị lớn nhất của nước Đức cả về diện tích lẫn dân số",
+      "Từng là thủ đô của Vương quốc Phổ, Đế quốc Đức, Cộng hòa Weimar và Đức Quốc xã",
+      "Bị chia cắt thành hai nửa Đông - Tây trong suốt thời kỳ Chiến tranh Lạnh",
+      "Chính thức trở lại làm thủ đô của toàn bộ nước Đức thống nhất vào năm 1990"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/Berlin"
+  },
+  {
+    "id": "ls-tg-082",
+    "category": "lich-su-2",
+    "answer": "Chiến dịch đổ bộ Normandie",
+    "hints": [
+      "Chiến dịch đổ bộ đường biển và đường không lớn nhất trong toàn bộ lịch sử quân sự thế giới",
+      "Bắt đầu vào ngày 'D-Day' (6 tháng 6 năm 1944) tại bờ biển vùng Normandie ở miền Bắc nước Pháp",
+      "Lực lượng Đồng Minh do Tướng Mỹ Dwight D. Eisenhower làm Tổng tư lệnh tối cao",
+      "Mở ra mặt trận thứ hai tại Tây Âu, đẩy nhanh sự sụp đổ của phát xít Đức trong Thế chiến II"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/Chiến_dịch_Overlord"
+  },
+  {
+    "id": "ls-tg-083",
+    "category": "lich-su-2",
+    "answer": "Cách mạng Tháng Mười",
+    "hints": [
+      "Cuộc cách mạng vô sản nổ ra tại nước Nga vào ngày 25 tháng 10 năm 1917 (theo lịch Julius)",
+      "Dưới sự lãnh đạo trực tiếp của Vladimir Lenin và Đảng Bolshevik",
+      "Lật đổ Chính phủ Lâm thời tư sản và tấn công Cung điện Mùa Đông tại Petrograd",
+      "Dẫn tới việc thành lập nhà nước xã hội chủ nghĩa công nông đầu tiên trên thế giới"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/Cách_mạng_Tháng_Mười"
+  },
+  {
+    "id": "ls-tg-084",
+    "category": "lich-su-2",
+    "answer": "Lưỡng Hà",
+    "hints": [
+      "Vùng địa lý lịch sử nằm ở Tây Á thuộc khu vực 'Lưỡi liềm Màu mỡ' (chủ yếu thuộc Iraq ngày nay)",
+      "Được mệnh danh là 'Vùng đất giữa hai con sông' - sông Tigris và sông Euphrates",
+      "Nơi khai sinh của nhiều nền văn minh cổ đại đầu tiên như Sumer, Akkad, Babylon và Assyria",
+      "Nơi ra đời bộ luật Hammurabi khắc trên đá nổi tiếng với nguyên tắc 'Mắt đền mắt, răng đền răng'"
+    ],
+    "difficulty": "medium",
+    "source_url": "https://vi.wikipedia.org/wiki/Lưỡng_Hà"
+  },
+  {
+    "id": "ls-tg-085",
+    "category": "lich-su-2",
+    "answer": "Cách mạng Hồi giáo Iran",
+    "hints": [
+      "Cuộc cách mạng chính trị - tôn giáo diễn ra vào năm 1979 tại đất nước Iran",
+      "Lật đổ chế độ quân chủ chuyên chế thân phương Tây của Quốc vương Mohammad Reza Pahlavi",
+      "Thành lập nước Cộng hòa Hồi giáo Iran dưới sự lãnh đạo tinh thần tối cao của Ayatollah Ruhollah Khomeini",
+      "Làm thay đổi căn bản cục diện quan hệ quốc tế và bản đồ chính trị khu vực Trung Đông"
+    ],
+    "difficulty": "medium",
+    "source_url": "https://vi.wikipedia.org/wiki/Cách_mạng_Hồi_giáo_Iran"
+  },
+  {
+    "id": "ls-tg-086",
+    "category": "lich-su-2",
+    "answer": "Kievan Rus'",
+    "hints": [
+      "Liên bang các bộ tộc Đông Slav thời Trung Cổ tồn tại từ cuối thế kỷ thứ 9 đến giữa thế kỷ 13",
+      "Được xem là tiền thân chung về lịch sử và văn hóa của ba quốc gia hiện đại: Nga, Ukraine và Belarus",
+      "Kinh đô đặt tại thành phố Kiev dọc theo tuyến đường thương mại từ người Varangian đến Hy Lạp",
+      "Dưới thời Đại công tước Vladimir Đại đế, Kievan Rus' đã chính thức tiếp nhận Kitô giáo Chính thống giáo năm 988"
+    ],
+    "difficulty": "hard",
+    "source_url": "https://vi.wikipedia.org/wiki/Kievan_Rus%27"
+  },
+  {
+    "id": "ls-vn-087",
+    "category": "lich-su-2",
+    "answer": "Trần Hưng Đạo",
+    "hints": [
+      "Vị danh tướng kiệt xuất, anh hùng dân tộc vĩ đại thời nhà Trần (tên thật là Trần Quốc Tuấn)",
+      "Tiết chế Quốc công chỉ huy quân đội Đại Việt ba lần đánh tan quân xâm lược Nguyên - Mông hung hãn",
+      "Tác giả áng văn yêu nước bất hủ 'Hịch tướng sĩ' khích lệ tinh thần ba quân quyết chiến",
+      "Chiến thắng vang dội trên sông Bạch Đằng năm 1288 với kế sách cọc gỗ bọc sắt cắm dưới lòng sông"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/Trần_Hưng_Đạo"
+  },
+  {
+    "id": "ls-vn-088",
+    "category": "lich-su-2",
+    "answer": "Quang Trung",
+    "hints": [
+      "Vị hoàng đế anh minh và thiên tài quân sự bách chiến bách thắng của phong trào khởi nghĩa Tây Sơn (Nguyễn Huệ)",
+      "Chỉ huy quân Tây Sơn đánh tan 5 vạn quân Xiêm trong trận Rạch Gầm - Xoài Mút năm 1785",
+      "Hành quân thần tốc ra Bắc đánh tan 29 vạn quân Mãn Thanh trong trận Ngọc Hồi - Đống Đa Tết Kỷ Dậu 1789",
+      "Một trong những vị tướng lĩnh kiệt xuất và được nhân dân tôn kính bậc nhất trong lịch sử Việt Nam"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/Quang_Trung"
+  },
+  {
+    "id": "ls-vn-089",
+    "category": "lich-su-2",
+    "answer": "Chiến dịch Hồ Chí Minh",
+    "hints": [
+      "Chiến dịch quân sự quy mô lớn nhất và là chiến dịch giải phóng cuối cùng trong cuộc kháng chiến chống Mỹ cứu nước",
+      "Diễn ra từ ngày 26 đến ngày 30 tháng 4 năm 1975 nhằm giải phóng hoàn toàn miền Nam",
+      "Được vinh dự mang tên Chủ tịch Hồ Chí Minh vĩ đại",
+      "Thời khắc xe tăng húc đổ cánh cổng Dinh Độc Lập trưa ngày 30/4/1975 đánh dấu non sông thu về một mối"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/Chiến_dịch_Hồ_Chí_Minh"
+  },
+  {
+    "id": "ls-vn-090",
+    "category": "lich-su-2",
+    "answer": "Võ Nguyên Giáp",
+    "hints": [
+      "Vị Đại tướng đầu tiên, Tổng tư lệnh Quân đội Nhân dân Việt Nam anh hùng",
+      "Người anh cả của lực lượng vũ trang nhân dân Việt Nam, học trò xuất sắc của Chủ tịch Hồ Chí Minh",
+      "Tổng chỉ huy lập nên chiến thắng lịch sử Điện Biên Phủ năm 1954 lừng lẫy năm châu",
+      "Được thế giới đánh giá là một trong những nhà quân sự tài ba và danh tướng kiệt xuất nhất thế kỷ 20"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/Võ_Nguyên_Giáp"
+  },
+  {
+    "id": "ls-vn-091",
+    "category": "lich-su-2",
+    "answer": "Nhà Trần",
+    "hints": [
+      "Triều đại phong kiến oanh liệt kéo dài 175 năm (1225 - 1400) trong lịch sử Việt Nam",
+      "Lập nên chiến công hiển hách ba lần đánh tan quân xâm lược Mông - Nguyên hùng mạnh bậc nhất thế giới",
+      "Gắn liền với các nhân vật kiệt xuất như Trần Hưng Đạo, Trần Thủ Độ, Trần Nhân Tông, Trần Quốc Toản",
+      "Tạo nên hào khí Đông A bất diệt và sáng lập nên Thiền phái Trúc Lâm Yên Tử"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/Nhà_Trần"
+  },
+  {
+    "id": "ls-vn-092",
+    "category": "lich-su-2",
+    "answer": "Nhà Nguyễn",
+    "hints": [
+      "Triều đại phong kiến cuối cùng cai trị toàn vẹn lãnh thổ Việt Nam (1802 - 1945)",
+      "Do vua Gia Long (Nguyễn Ánh) sáng lập sau khi đánh bại nhà Tây Sơn và chọn kinh đô tại Huế",
+      "Thời kỳ hoàn thiện cương vực lãnh thổ hình chữ S trải dài từ Lũng Cú đến Mũi Cà Mau",
+      "Để lại Quần thể di tích Cố đô Huế và Nhã nhạc Cung đình Huế được UNESCO công nhận là Di sản Thế giới"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/Nhà_Nguyễn"
+  },
+  {
+    "id": "ls-vn-093",
+    "category": "lich-su-2",
+    "answer": "Khởi nghĩa Hai Bà Trưng",
+    "hints": [
+      "Cuộc khởi nghĩa vũ trang đầu tiên của người Việt chống lại ách đô hộ của phong kiến phương Bắc (năm 40 SCN)",
+      "Do hai nữ anh hùng Trưng Trắc và Trưng Nhị lãnh đạo tại vùng Mê Linh",
+      "Đánh đuổi thái thú Tô Định tàn bạo, giành lại độc lập và xưng vương tại thành Mê Linh",
+      "Gắn liền với lời thề xuất quân hào hùng: 'Một xin rửa sạch nước thù, Hai xin đem lại nghiệp xưa họ Hùng'"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/Hai_Bà_Trưng"
+  },
+  {
+    "id": "ls-vn-094",
+    "category": "lich-su-2",
+    "answer": "Chiến thắng Bạch Đằng",
+    "hints": [
+      "Trận thủy chiến lịch sử vang dội diễn ra vào mùa đông năm 938 trên dòng sông Bạch Đằng",
+      "Anh hùng dân tộc Ngô Quyền chỉ huy quân dân ta đón đánh quân xâm lược Nam Hán",
+      "Sử dụng kế sách cắm bãi cọc nhọn bọc sắt dưới lòng sông lúc thủy triều lên để bẫy chiến thuyền địch",
+      "Chấm dứt hoàn toàn hơn 1.000 năm Bắc thuộc tăm tối, mở ra kỷ nguyên độc lập tự chủ lâu dài cho dân tộc"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/Trận_Bạch_Đằng_(938)"
+  },
+  {
+    "id": "ls-vn-095",
+    "category": "lich-su-2",
+    "answer": "Chiến dịch Tây Nguyên",
+    "hints": [
+      "Chiến dịch mở màn mang tính then chốt chiến lược trong cuộc Tổng tiến công và nổi dậy mùa Xuân năm 1975",
+      "Bắt đầu bằng trận đánh nghi binh tài tình và đòn điểm huyệt bất ngờ vào thị xã Buôn Ma Thuột ngày 10/3/1975",
+      "Làm rung chuyển và phá vỡ toàn bộ thế trận phòng ngự chiến lược của quân đội Sài Gòn",
+      "Buộc địch phải rút lui hoảng loạn khỏi vùng Cao nguyên Trung phần, tạo thế chẻ tre giải phóng miền Nam"
+    ],
+    "difficulty": "medium",
+    "source_url": "https://vi.wikipedia.org/wiki/Chiến_dịch_Tây_Nguyên"
+  },
+  {
+    "id": "ls-tg-096",
+    "category": "lich-su-2",
+    "answer": "Chiến tranh Triều Tiên",
+    "hints": [
+      "Cuộc chiến tranh lớn giữa hai miền bán đảo Triều Tiên diễn ra từ năm 1950 đến năm 1953",
+      "Xung đột ủy nhiệm đầu tiên thời Chiến tranh Lạnh có sự can dự của Mỹ, Liên Xô và Chí nguyện quân Trung Quốc",
+      "Gắn liền với cuộc đổ bộ Incheon và những trận giao tranh ác liệt quanh vĩ tuyến 38",
+      "Tạm thời khép lại bằng Hiệp định đình chiến Bàn Môn Điếm năm 1953 và thiết lập Khu phi quân sự (DMZ)"
+    ],
+    "difficulty": "medium",
+    "source_url": "https://vi.wikipedia.org/wiki/Chiến_tranh_Triều_Tiên"
+  },
+  {
+    "id": "ls-tg-097",
+    "category": "lich-su-2",
+    "answer": "Khủng hoảng tên lửa Cuba",
+    "hints": [
+      "Thời điểm nguy hiểm nhất kéo dài 13 ngày vào tháng 10 năm 1962 suýt đẩy thế giới vào chiến tranh hạt nhân",
+      "Mỹ phát hiện Liên Xô bí mật triển khai các bệ phóng tên lửa đạn đạo mang đầu đạn hạt nhân tại đảo quốc Cuba",
+      "Cuộc đối đầu căng thẳng tột độ giữa Tổng thống Mỹ John F. Kennedy và nhà lãnh đạo Liên Xô Nikita Khrushchev",
+      "Được giải quyết bằng thỏa thuận ngoại giao bí mật: Liên Xô rút tên lửa khỏi Cuba và Mỹ cam kết không tấn công Cuba"
+    ],
+    "difficulty": "hard",
+    "source_url": "https://vi.wikipedia.org/wiki/Khủng_hoảng_tên_lửa_Cuba"
+  },
+  {
+    "id": "ls-tg-098",
+    "category": "lich-su-2",
+    "answer": "Liên Xô",
+    "hints": [
+      "Nhà nước xã hội chủ nghĩa liên bang rộng lớn nhất thế giới từng tồn tại từ năm 1922 đến năm 1991",
+      "Một trong hai siêu cường quốc tế giữ vai trò trụ cột đối đầu với Mỹ trong thời kỳ Chiến tranh Lạnh",
+      "Góp công đầu quyết định đánh bại chủ nghĩa phát xít trong cuộc Chiến tranh Vệ quốc Vĩ đại",
+      "Quốc gia đầu tiên phóng thành công vệ tinh nhân tạo Sputnik 1 và đưa phi hành gia Yuri Gagarin vào vũ trụ"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/Liên_Xô"
+  },
+  {
+    "id": "ls-tg-099",
+    "category": "lich-su-2",
+    "answer": "Nhà Đường",
+    "hints": [
+      "Triều đại phong kiến phát triển cực thịnh và rực rỡ bậc nhất trong lịch sử Trung Quốc (618 - 907)",
+      "Do Đường Cao Tổ (Lý Uyên) thành lập và đạt đỉnh cao phồn vinh dưới thời Đường Thái Tông (Trinh Quán chi trị)",
+      "Đô thị kinh đô Trường An trở thành trung tâm kinh tế và văn hóa quốc tế lớn nhất thế giới thời bấy giờ",
+      "Thời kỳ hoàng kim của thi ca với các đại thi hào lừng danh muôn đời như Lý Bạch, Đỗ Phủ và Bạch Cư Dị"
+    ],
+    "difficulty": "medium",
+    "source_url": "https://vi.wikipedia.org/wiki/Nhà_Đường"
+  },
+  {
+    "id": "ls-tg-100",
+    "category": "lich-su-2",
+    "answer": "Leonardo da Vinci",
+    "hints": [
+      "Đại thiên tài toàn năng người Ý tiêu biểu bậc nhất cho thời kỳ văn hóa Phục Hưng",
+      "Họa sĩ kiệt xuất, nhà điêu khắc, kiến trúc sư, kỹ sư quân sự, nhà giải phẫu học và nhà khoa học lỗi lạc",
+      "Tác giả của những kiệt tác hội họa bất hủ của nhân loại như 'Mona Lisa' và 'Bữa ăn tối cuối cùng'",
+      "Để lại hàng ngàn trang bản thảo ghi chép chi tiết về các thiết kế máy bay, dù lượn và xe tăng đi trước thời đại"
+    ],
+    "difficulty": "easy",
+    "source_url": "https://vi.wikipedia.org/wiki/Leonardo_da_Vinci"
+  }
+]

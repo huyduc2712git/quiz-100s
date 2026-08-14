@@ -1,8 +1,11 @@
 import type { Card } from "../types/game";
 import vnFamousPeopleData from "../data/vn-famous-people-100.json";
+import vnHistory1Data from "../data/vn-history-quiz-1.json";
+import vnHistory2Data from "../data/vn-history-quiz-2.json";
 
 const VIETNAMESE_FAMOUS_PEOPLE_100 = vnFamousPeopleData as Card[];
-
+const VIETNAMESE_HISTORY_1_100 = vnHistory1Data as Card[];
+const VIETNAMESE_HISTORY_2_100 = vnHistory2Data as Card[];
 
 export const DATA_URL =
   "https://raw.githubusercontent.com/huyduc2712git/huyduc2712git/main/datasets/goi-y-100/v1/data.json";
@@ -11,7 +14,7 @@ export const LOCAL_STORAGE_KEY = "goi_y_100_cards_cache_v2";
 
 /**
  * Fetches cards from remote endpoint or local storage cache fallback,
- * ensuring all "nhan-vat-noi-tieng" cards are strictly 100% standardized to Vietnamese figures.
+ * ensuring all "nhan-vat-noi-tieng", "lich-su-1", and "lich-su-2" cards are strictly standardized to curated Wikipedia datasets.
  */
 export async function fetchCards(customFetch?: typeof fetch): Promise<Card[]> {
   const fetchFn = customFetch || fetch;
@@ -34,9 +37,25 @@ export async function fetchCards(customFetch?: typeof fetch): Promise<Card[]> {
     }
 
     if (cards.length > 0) {
-      // Standardize: Replace any foreign figures with 100% Vietnamese personalities
-      const otherCards = cards.filter((c) => c.category !== "nhan-vat-noi-tieng");
-      const standardizedCards = [...otherCards, ...VIETNAMESE_FAMOUS_PEOPLE_100];
+      // Standardize: Map history cards into lich-su-1 and add lich-su-2
+      const otherCards = cards
+        .filter(
+          (c) =>
+            c.category !== "nhan-vat-noi-tieng" &&
+            c.category !== "lich-su-2"
+        )
+        .map((c) => {
+          if (c.category === "lich-su-viet-nam" || c.category === "lich-su") {
+            return { ...c, category: "lich-su-1" };
+          }
+          return c;
+        });
+
+      const standardizedCards = [
+        ...otherCards,
+        ...VIETNAMESE_FAMOUS_PEOPLE_100,
+        ...VIETNAMESE_HISTORY_2_100,
+      ];
 
       try {
         localStorage.setItem(
@@ -48,10 +67,13 @@ export async function fetchCards(customFetch?: typeof fetch): Promise<Card[]> {
       }
       return standardizedCards;
     }
-    return VIETNAMESE_FAMOUS_PEOPLE_100;
+    return [
+      ...VIETNAMESE_FAMOUS_PEOPLE_100,
+      ...VIETNAMESE_HISTORY_1_100,
+      ...VIETNAMESE_HISTORY_2_100,
+    ];
   } catch {
     // Try localStorage fallback
-
     const cached = localStorage.getItem(LOCAL_STORAGE_KEY);
     if (cached) {
       try {
@@ -63,7 +85,11 @@ export async function fetchCards(customFetch?: typeof fetch): Promise<Card[]> {
         console.warn("Failed to parse cached cards", e);
       }
     }
-    return VIETNAMESE_FAMOUS_PEOPLE_100;
+    return [
+      ...VIETNAMESE_FAMOUS_PEOPLE_100,
+      ...VIETNAMESE_HISTORY_1_100,
+      ...VIETNAMESE_HISTORY_2_100,
+    ];
   }
 }
 
@@ -90,7 +116,10 @@ export function getCategoryEmoji(cat: string | null): string {
     "am-nhac-viet-nam": "🎵",
     "dia-ly": "🗺️",
     "khoa-hoc": "🔬",
+    "lich-su": "🏛️",
+    "lich-su-1": "🏛️",
     "lich-su-viet-nam": "🏛️",
+    "lich-su-2": "📜",
     "toan-hoc": "📐",
     "nhan-vat-noi-tieng": "👑",
     "am-thuc-viet-nam": "🍜",
@@ -111,7 +140,10 @@ export function formatCategoryShortName(cat: string): string {
     "dia-ly": "Địa Lý",
     "dia-ly-viet-nam": "Địa Lý",
     "khoa-hoc": "Khoa Học",
-    "lich-su-viet-nam": "Lịch Sử",
+    "lich-su": "Lịch Sử",
+    "lich-su-1": "Lịch Sử #1",
+    "lich-su-viet-nam": "Lịch Sử #1",
+    "lich-su-2": "Lịch Sử #2",
     "lich-su-van-hoa": "Văn Hóa",
     "toan-hoc": "Toán Học",
     "nhan-vat-noi-tieng": "Nhân Vật",
@@ -269,7 +301,10 @@ export function formatCategoryName(cat: string): string {
     "am-nhac-viet-nam": "Âm Nhạc Việt Nam",
     "dia-ly": "Địa Lý",
     "khoa-hoc": "Khoa Học",
+    "lich-su": "Lịch Sử",
+    "lich-su-1": "Lịch Sử #1: Việt Nam",
     "lich-su-viet-nam": "Lịch Sử Việt Nam",
+    "lich-su-2": "Lịch Sử #2: Khám Phá Thế Giới",
     "toan-hoc": "Toán Học",
     "nhan-vat-noi-tieng": "Nhân Vật Nổi Tiếng",
     "am-thuc-viet-nam": "Ẩm Thực Việt Nam",
