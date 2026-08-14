@@ -68,9 +68,166 @@ export function getValidCategories(cards: Card[]): string[] {
 }
 
 /**
+ * Get colorful emoji icon for category identifier
+ */
+export function getCategoryEmoji(cat: string | null): string {
+  if (!cat) return "🎲";
+  const iconMap: Record<string, string> = {
+    "am-nhac-viet-nam": "🎵",
+    "dia-ly": "🗺️",
+    "khoa-hoc": "🔬",
+    "lich-su-viet-nam": "🏛️",
+    "toan-hoc": "📐",
+    "nhan-vat-noi-tieng": "👑",
+    "am-thuc-viet-nam": "🍜",
+    "dia-ly-viet-nam": "🏝️",
+    "phim-anh-giai-tri": "🎬",
+    "lich-su-van-hoa": "📜",
+    "the-thao": "⚽",
+  };
+  return iconMap[cat] || "💡";
+}
+
+/**
+ * Format category identifier into compact title for mobile icon grids
+ */
+export function formatCategoryShortName(cat: string): string {
+  const shortMap: Record<string, string> = {
+    "am-nhac-viet-nam": "Âm Nhạc",
+    "dia-ly": "Địa Lý",
+    "dia-ly-viet-nam": "Địa Lý",
+    "khoa-hoc": "Khoa Học",
+    "lich-su-viet-nam": "Lịch Sử",
+    "lich-su-van-hoa": "Văn Hóa",
+    "toan-hoc": "Toán Học",
+    "nhan-vat-noi-tieng": "Nhân Vật",
+    "am-thuc-viet-nam": "Ẩm Thực",
+    "phim-anh-giai-tri": "Phim Ảnh",
+    "the-thao": "Thể Thao",
+  };
+  if (shortMap[cat]) return shortMap[cat];
+  return formatCategoryName(cat);
+}
+
+/**
+ * Generate a natural spoken introductory clue (e.g. "Một nhân vật lịch sử gồm 2 từ")
+ */
+export function generateOpeningClue(card: Card): string {
+  const ans = (card.answer || "").trim();
+  const ansLower = ans.toLowerCase();
+  const cat = (card.category || "").toLowerCase();
+  const wordCount = ans.split(/\s+/).filter(Boolean).length;
+  const countStr = wordCount > 0 ? ` gồm ${wordCount} từ` : "";
+
+  // 1. History Category
+  if (cat.includes("lich-su")) {
+    // Check specific event / battle / campaign prefixes in ANSWER first
+    if (
+      /^(chiến thắng|chiến dịch|trận|khởi nghĩa|cách mạng|phong trào|hiệp định|hiệp ước|hội nghị|kháng chiến|cuộc|binh biến|vụ án|sự kiện|tổng khởi nghĩa)/i.test(
+        ansLower
+      )
+    ) {
+      return `Một sự kiện lịch sử${countStr}`;
+    }
+    // Check historical monuments / temples / relics
+    if (
+      /^(đền|chùa|lăng|lăng mộ|miếu|đình|nhà thờ|tháp|cố đô|kinh thành|địa đạo|khu di tích|di tích)/i.test(
+        ansLower
+      )
+    ) {
+      return `Một di tích lịch sử${countStr}`;
+    }
+    // Check ancient kingdoms / states
+    if (
+      /^(âu lạc|văn lang|đại việt|đại cồ việt|phù nam|chăm pa|champa|vạn xuân|đại ngu|nam việt|nhà nước|quốc gia cổ)/i.test(
+        ansLower
+      )
+    ) {
+      return `Một nhà nước / thời kỳ lịch sử${countStr}`;
+    }
+    // Check historical dynasties / eras
+    if (/^(triều|nhà|thời kỳ|thời đại|vương triều)/i.test(ansLower)) {
+      return `Một triều đại lịch sử${countStr}`;
+    }
+    // In Vietnamese history quizzes, almost all individual proper names (e.g. Võ Thị Sáu, Nguyễn Trãi, Quang Trung, Hai Bà Trưng, v.v.) are Historical Figures
+    return `Một nhân vật lịch sử${countStr}`;
+  }
+
+
+  // 2. Celebrities / Famous Persons Category
+  if (cat.includes("nhan-vat")) {
+    return `Một nhân vật nổi tiếng${countStr}`;
+  }
+
+  // 3. Food / Culinary Category
+  if (cat.includes("am-thuc")) {
+    return `Một món ăn đặc sản / ẩm thực${countStr}`;
+  }
+
+  // 4. Geography Category
+  if (cat.includes("dia-ly")) {
+    if (
+      /^(vịnh|sông|núi|đèo|đảo|quần đảo|hồ|biển|thác|hang|động|rừng|mũi|suối|bán đảo|bãi biển|vườn quốc gia)/i.test(
+        ansLower
+      )
+    ) {
+      return `Một danh lam thắng cảnh${countStr}`;
+    }
+    if (/^(tỉnh|thành phố|thị xã|huyện|quận|thủ đô|thành)/i.test(ansLower)) {
+      return `Một tỉnh thành / địa danh${countStr}`;
+    }
+    return `Một địa danh / địa lý${countStr}`;
+  }
+
+  // 5. Music Category
+  if (cat.includes("am-nhac")) {
+    const hintsLower = (card.hints || []).join(" ").toLowerCase();
+    if (
+      /ca sĩ|nhạc sĩ|ban nhạc|nghệ sĩ|thành viên|rapper/i.test(hintsLower) &&
+      !/sáng tác bài|bài hát mang tên|ca khúc/i.test(hintsLower)
+    ) {
+      return `Một ca sĩ / nghệ sĩ âm nhạc${countStr}`;
+    }
+    return `Một bài hát / ca khúc âm nhạc${countStr}`;
+  }
+
+  // 6. Cinema / Entertainment Category
+  if (cat.includes("phim-anh") || cat.includes("giai-tri")) {
+    const hintsLower = (card.hints || []).join(" ").toLowerCase();
+    if (/diễn viên|đạo diễn|nghệ sĩ ưu tú|nghệ sĩ nhân dân/i.test(hintsLower)) {
+      return `Một diễn viên / nghệ sĩ điện ảnh${countStr}`;
+    }
+    return `Một bộ phim / tác phẩm điện ảnh${countStr}`;
+  }
+
+  // 7. Sports Category
+  if (cat.includes("the-thao")) {
+    const hintsLower = (card.hints || []).join(" ").toLowerCase();
+    if (/cầu thủ|vận động viên|tiền đạo|thủ môn|huấn luyện viên/i.test(hintsLower)) {
+      return `Một vận động viên thể thao${countStr}`;
+    }
+    return `Một môn thể thao / giải đấu${countStr}`;
+  }
+
+  // 8. Science Category
+  if (cat.includes("khoa-hoc")) {
+    return `Một phát minh / khái niệm khoa học${countStr}`;
+  }
+
+  // 9. Math Category
+  if (cat.includes("toan-hoc")) {
+    return `Một khái niệm toán học${countStr}`;
+  }
+
+  return `Một kiến thức chủ đề ${formatCategoryName(card.category || "Tổng hợp")}${countStr}`;
+}
+
+
+/**
  * Format category identifier into user-friendly Vietnamese title.
  */
 export function formatCategoryName(cat: string): string {
+
   const map: Record<string, string> = {
     "am-nhac-viet-nam": "Âm Nhạc Việt Nam",
     "dia-ly": "Địa Lý",
@@ -92,20 +249,30 @@ export function formatCategoryName(cat: string): string {
     .join(" ");
 }
 
+
+
+
 /**
- * Randomly select `count` unique cards from a category without duplicates.
+ * Randomly select `count` unique cards from a category or all cards without duplicates.
+ * If count is omitted, returns all available unique cards shuffled.
  */
 export function pickRandomQuestions(
   cards: Card[],
-  category: string,
-  count = 5
+  category?: string | null,
+  count?: number
 ): Card[] {
-  const filtered = cards.filter((c) => c.category === category);
-  if (filtered.length < count) {
+  let filtered = cards;
+  if (category && category !== "all") {
+    filtered = cards.filter((c) => c.category === category);
+  }
+
+  if (filtered.length === 0) {
     throw new Error(
-      `Chủ đề ${category} không có đủ ${count} câu hỏi (chỉ có ${filtered.length})`
+      category ? `Chủ đề ${category} không có câu hỏi nào.` : "Không có câu hỏi nào."
     );
   }
+
+  const targetCount = count && count > 0 ? Math.min(count, filtered.length) : filtered.length;
 
   // Shuffle copy using Fisher-Yates
   const shuffled = [...filtered];
@@ -114,31 +281,20 @@ export function pickRandomQuestions(
     [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
   }
 
-  const selected = shuffled.slice(0, count);
-
   // Extra safety: ensure unique IDs
   const uniqueIds = new Set<string>();
   const result: Card[] = [];
-  for (const card of selected) {
+  for (const card of shuffled) {
     if (!uniqueIds.has(card.id)) {
       uniqueIds.add(card.id);
       result.push(card);
-    }
-  }
-
-  // If duplicate IDs existed in raw dataset, grab more unique ones
-  if (result.length < count) {
-    for (const card of shuffled) {
-      if (!uniqueIds.has(card.id)) {
-        uniqueIds.add(card.id);
-        result.push(card);
-        if (result.length === count) break;
-      }
+      if (result.length === targetCount) break;
     }
   }
 
   return result;
 }
+
 
 /**
  * Determines revealed hints count based on remaining time (100 -> 0).

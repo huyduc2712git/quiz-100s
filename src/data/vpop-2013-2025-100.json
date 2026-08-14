@@ -1,0 +1,1691 @@
+{
+  "version": "1.0",
+  "title": "Music Việt Nam 2013–2025",
+  "total_quizzes": 100,
+  "structure": "20 ca khúc × 5 câu hỏi liên quan",
+  "source_note": "YouTube URLs ưu tiên video chính thức/nguồn nghệ sĩ. Timestamp 30 giây là mốc thử nghiệm để kiểm tra player; cần spot-check trước khi đưa vào production.",
+  "songs": [
+    {
+      "song": "Lạc Trôi",
+      "artist": "Sơn Tùng M-TP",
+      "composer": "Sơn Tùng M-TP",
+      "year": 2017,
+      "youtube_url": "https://www.youtube.com/watch?v=Llw9Q6akRo4",
+      "start": 30,
+      "category": "V-pop"
+    },
+    {
+      "song": "Nơi Này Có Anh",
+      "artist": "Sơn Tùng M-TP",
+      "composer": "Sơn Tùng M-TP",
+      "year": 2017,
+      "youtube_url": "https://www.youtube.com/watch?v=FN7ALfpGxiI",
+      "start": 30,
+      "category": "V-pop"
+    },
+    {
+      "song": "Hãy Trao Cho Anh",
+      "artist": "Sơn Tùng M-TP, Snoop Dogg",
+      "composer": "Sơn Tùng M-TP",
+      "year": 2019,
+      "youtube_url": "https://www.youtube.com/watch?v=knW7-x7Y7RE",
+      "start": 30,
+      "category": "V-pop"
+    },
+    {
+      "song": "Muộn Rồi Mà Sao Còn",
+      "artist": "Sơn Tùng M-TP",
+      "composer": "Sơn Tùng M-TP",
+      "year": 2021,
+      "youtube_url": "https://www.youtube.com/watch?v=xypzmu5mMPY",
+      "start": 30,
+      "category": "V-pop"
+    },
+    {
+      "song": "Đừng Làm Trái Tim Anh Đau",
+      "artist": "Sơn Tùng M-TP",
+      "composer": "Sơn Tùng M-TP",
+      "year": 2024,
+      "youtube_url": "https://www.youtube.com/watch?v=abPmZCZZrFA",
+      "start": 30,
+      "category": "V-pop"
+    },
+    {
+      "song": "Ghen",
+      "artist": "MIN, ERIK",
+      "composer": "Khắc Hưng",
+      "year": 2017,
+      "youtube_url": "https://www.youtube.com/watch?v=Vk8_0QaJr3I",
+      "start": 30,
+      "category": "V-pop"
+    },
+    {
+      "song": "Rời Bỏ",
+      "artist": "Hòa Minzy",
+      "composer": "Vũ Huy Hoàng",
+      "year": 2018,
+      "youtube_url": "https://www.youtube.com/watch?v=zQwKxVCR1y8",
+      "start": 30,
+      "category": "V-pop"
+    },
+    {
+      "song": "Cứ Chill Thôi",
+      "artist": "Chillies, Suni Hạ Linh, Rhymastic",
+      "composer": "Trần Duy Khang, Rhymastic",
+      "year": 2020,
+      "youtube_url": "https://www.youtube.com/watch?v=LZN4I3K8SC0",
+      "start": 30,
+      "category": "V-pop"
+    },
+    {
+      "song": "Nàng Thơ",
+      "artist": "Hoàng Dũng",
+      "composer": "Hoàng Dũng",
+      "year": 2020,
+      "youtube_url": "https://www.youtube.com/watch?v=Zzn9-ATB9aU",
+      "start": 30,
+      "category": "V-pop"
+    },
+    {
+      "song": "Để Mị Nói Cho Mà Nghe",
+      "artist": "Hoàng Thùy Linh",
+      "composer": "DTAP",
+      "year": 2019,
+      "youtube_url": "https://www.youtube.com/watch?v=JAhdeizXpaQ",
+      "start": 30,
+      "category": "V-pop"
+    },
+    {
+      "song": "Waiting For You",
+      "artist": "MONO",
+      "composer": "MONO",
+      "year": 2022,
+      "youtube_url": "https://www.youtube.com/watch?v=okz5RIZRT0U",
+      "start": 30,
+      "category": "V-pop"
+    },
+    {
+      "song": "Nghe Như Tình Yêu",
+      "artist": "HIEUTHUHAI",
+      "composer": "HIEUTHUHAI, Kewtiie",
+      "year": 2024,
+      "youtube_url": "https://www.youtube.com/watch?v=llf_L0i9OdA",
+      "start": 30,
+      "category": "V-pop"
+    },
+    {
+      "song": "Cắt Đôi Nỗi Sầu",
+      "artist": "Tăng Duy Tân, Drum7",
+      "composer": "Tăng Duy Tân, Drum7",
+      "year": 2023,
+      "youtube_url": "https://www.youtube.com/watch?v=GpmOn4RyzZI",
+      "start": 30,
+      "category": "V-pop"
+    },
+    {
+      "song": "Có Chàng Trai Viết Lên Cây",
+      "artist": "Phan Mạnh Quỳnh",
+      "composer": "Phan Mạnh Quỳnh",
+      "year": 2019,
+      "youtube_url": "https://www.youtube.com/watch?v=0VC6euBtKkk",
+      "start": 30,
+      "category": "OST/V-pop"
+    },
+    {
+      "song": "Từ Đó",
+      "artist": "Phan Mạnh Quỳnh",
+      "composer": "Phan Mạnh Quỳnh",
+      "year": 2019,
+      "youtube_url": "https://www.youtube.com/watch?v=HsgTIMDA6ps",
+      "start": 30,
+      "category": "OST/V-pop"
+    },
+    {
+      "song": "Điều Cha Chưa Nói",
+      "artist": "Ali Hoàng Dương",
+      "composer": "Nguyễn Hải Phong",
+      "year": 2021,
+      "youtube_url": "https://www.youtube.com/watch?v=xwgS5ktvQxk",
+      "start": 30,
+      "category": "OST/V-pop"
+    },
+    {
+      "song": "Diễm Xưa",
+      "artist": "Hoàng Dũng",
+      "composer": "Trịnh Công Sơn",
+      "year": 2022,
+      "youtube_url": "https://www.youtube.com/watch?v=3aEGk-fDyXo",
+      "start": 300,
+      "category": "OST/V-pop"
+    },
+    {
+      "song": "Dao Ánh's Theme",
+      "artist": "Trần Hữu Tuấn Bách",
+      "composer": "Trần Hữu Tuấn Bách",
+      "year": 2022,
+      "youtube_url": "https://www.youtube.com/watch?v=3aEGk-fDyXo",
+      "start": 430,
+      "category": "OST/V-pop"
+    },
+    {
+      "song": "Yêu Là Tha Thu",
+      "artist": "Only C",
+      "composer": "Nguyễn Phúc Thiện",
+      "year": 2017,
+      "youtube_url": "https://www.youtube.com/watch?v=-nnWBhKZeg0",
+      "start": 30,
+      "category": "OST/V-pop"
+    },
+    {
+      "song": "Em Chưa 18",
+      "artist": "Will",
+      "composer": "Only C",
+      "year": 2017,
+      "youtube_url": "https://www.youtube.com/watch?v=cdkSV-mBg0s",
+      "start": 30,
+      "category": "OST/V-pop"
+    }
+  ],
+  "quizzes": [
+    {
+      "id": 1,
+      "question": "Đây là bài hát nào?",
+      "youtube_url": "https://www.youtube.com/watch?v=Llw9Q6akRo4",
+      "audio_start": 30,
+      "audio_duration": 30,
+      "song": "Lạc Trôi",
+      "options": [
+        "Dao Ánh's Theme",
+        "Nghe Như Tình Yêu",
+        "Lạc Trôi",
+        "Hãy Trao Cho Anh"
+      ],
+      "correct_answer": "Lạc Trôi"
+    },
+    {
+      "id": 2,
+      "question": "Ai thể hiện ca khúc này?",
+      "youtube_url": "https://www.youtube.com/watch?v=Llw9Q6akRo4",
+      "audio_start": 30,
+      "audio_duration": 30,
+      "song": "Lạc Trôi",
+      "options": [
+        "Ali Hoàng Dương",
+        "Tăng Duy Tân, Drum7",
+        "Sơn Tùng M-TP",
+        "Trần Hữu Tuấn Bách"
+      ],
+      "correct_answer": "Sơn Tùng M-TP"
+    },
+    {
+      "id": 3,
+      "question": "Ai là người sáng tác ca khúc này?",
+      "youtube_url": "https://www.youtube.com/watch?v=Llw9Q6akRo4",
+      "audio_start": 30,
+      "audio_duration": 30,
+      "song": "Lạc Trôi",
+      "options": [
+        "Sơn Tùng M-TP",
+        "MONO",
+        "Khắc Hưng",
+        "DTAP"
+      ],
+      "correct_answer": "Sơn Tùng M-TP"
+    },
+    {
+      "id": 4,
+      "question": "Ca khúc này được phát hành vào năm nào?",
+      "youtube_url": "https://www.youtube.com/watch?v=Llw9Q6akRo4",
+      "audio_start": 30,
+      "audio_duration": 30,
+      "song": "Lạc Trôi",
+      "options": [
+        "2019",
+        "2022",
+        "2017",
+        "2024"
+      ],
+      "correct_answer": "2017"
+    },
+    {
+      "id": 5,
+      "question": "Đây là ca khúc thuộc giai đoạn nhạc Việt nào?",
+      "youtube_url": "https://www.youtube.com/watch?v=Llw9Q6akRo4",
+      "audio_start": 30,
+      "audio_duration": 30,
+      "song": "Lạc Trôi",
+      "options": [
+        "2013–2015",
+        "2022–2025",
+        "2016–2018",
+        "2019–2021"
+      ],
+      "correct_answer": "2016–2018"
+    },
+    {
+      "id": 6,
+      "question": "Đây là bài hát nào?",
+      "youtube_url": "https://www.youtube.com/watch?v=FN7ALfpGxiI",
+      "audio_start": 30,
+      "audio_duration": 30,
+      "song": "Nơi Này Có Anh",
+      "options": [
+        "Từ Đó",
+        "Nơi Này Có Anh",
+        "Cắt Đôi Nỗi Sầu",
+        "Muộn Rồi Mà Sao Còn"
+      ],
+      "correct_answer": "Nơi Này Có Anh"
+    },
+    {
+      "id": 7,
+      "question": "Ai thể hiện ca khúc này?",
+      "youtube_url": "https://www.youtube.com/watch?v=FN7ALfpGxiI",
+      "audio_start": 30,
+      "audio_duration": 30,
+      "song": "Nơi Này Có Anh",
+      "options": [
+        "Will",
+        "Only C",
+        "Sơn Tùng M-TP",
+        "MIN, ERIK"
+      ],
+      "correct_answer": "Sơn Tùng M-TP"
+    },
+    {
+      "id": 8,
+      "question": "Ai là người sáng tác ca khúc này?",
+      "youtube_url": "https://www.youtube.com/watch?v=FN7ALfpGxiI",
+      "audio_start": 30,
+      "audio_duration": 30,
+      "song": "Nơi Này Có Anh",
+      "options": [
+        "DTAP",
+        "Sơn Tùng M-TP",
+        "Nguyễn Phúc Thiện",
+        "Only C"
+      ],
+      "correct_answer": "Sơn Tùng M-TP"
+    },
+    {
+      "id": 9,
+      "question": "Ca khúc này được phát hành vào năm nào?",
+      "youtube_url": "https://www.youtube.com/watch?v=FN7ALfpGxiI",
+      "audio_start": 30,
+      "audio_duration": 30,
+      "song": "Nơi Này Có Anh",
+      "options": [
+        "2018",
+        "2023",
+        "2020",
+        "2017"
+      ],
+      "correct_answer": "2017"
+    },
+    {
+      "id": 10,
+      "question": "Đây là ca khúc thuộc giai đoạn nhạc Việt nào?",
+      "youtube_url": "https://www.youtube.com/watch?v=FN7ALfpGxiI",
+      "audio_start": 30,
+      "audio_duration": 30,
+      "song": "Nơi Này Có Anh",
+      "options": [
+        "2013–2015",
+        "2019–2021",
+        "2022–2025",
+        "2016–2018"
+      ],
+      "correct_answer": "2016–2018"
+    },
+    {
+      "id": 11,
+      "question": "Đây là bài hát nào?",
+      "youtube_url": "https://www.youtube.com/watch?v=knW7-x7Y7RE",
+      "audio_start": 30,
+      "audio_duration": 30,
+      "song": "Hãy Trao Cho Anh",
+      "options": [
+        "Hãy Trao Cho Anh",
+        "Diễm Xưa",
+        "Yêu Là Tha Thu",
+        "Muộn Rồi Mà Sao Còn"
+      ],
+      "correct_answer": "Hãy Trao Cho Anh"
+    },
+    {
+      "id": 12,
+      "question": "Ai thể hiện ca khúc này?",
+      "youtube_url": "https://www.youtube.com/watch?v=knW7-x7Y7RE",
+      "audio_start": 30,
+      "audio_duration": 30,
+      "song": "Hãy Trao Cho Anh",
+      "options": [
+        "HIEUTHUHAI",
+        "Hoàng Thùy Linh",
+        "Sơn Tùng M-TP, Snoop Dogg",
+        "Sơn Tùng M-TP"
+      ],
+      "correct_answer": "Sơn Tùng M-TP, Snoop Dogg"
+    },
+    {
+      "id": 13,
+      "question": "Ai là người sáng tác ca khúc này?",
+      "youtube_url": "https://www.youtube.com/watch?v=knW7-x7Y7RE",
+      "audio_start": 30,
+      "audio_duration": 30,
+      "song": "Hãy Trao Cho Anh",
+      "options": [
+        "Trịnh Công Sơn",
+        "Hoàng Dũng",
+        "Only C",
+        "Sơn Tùng M-TP"
+      ],
+      "correct_answer": "Sơn Tùng M-TP"
+    },
+    {
+      "id": 14,
+      "question": "Ca khúc này được phát hành vào năm nào?",
+      "youtube_url": "https://www.youtube.com/watch?v=knW7-x7Y7RE",
+      "audio_start": 30,
+      "audio_duration": 30,
+      "song": "Hãy Trao Cho Anh",
+      "options": [
+        "2019",
+        "2021",
+        "2024",
+        "2018"
+      ],
+      "correct_answer": "2019"
+    },
+    {
+      "id": 15,
+      "question": "Đây là ca khúc thuộc giai đoạn nhạc Việt nào?",
+      "youtube_url": "https://www.youtube.com/watch?v=knW7-x7Y7RE",
+      "audio_start": 30,
+      "audio_duration": 30,
+      "song": "Hãy Trao Cho Anh",
+      "options": [
+        "2016–2018",
+        "2013–2015",
+        "2019–2021",
+        "2022–2025"
+      ],
+      "correct_answer": "2019–2021"
+    },
+    {
+      "id": 16,
+      "question": "Đây là bài hát nào?",
+      "youtube_url": "https://www.youtube.com/watch?v=xypzmu5mMPY",
+      "audio_start": 30,
+      "audio_duration": 30,
+      "song": "Muộn Rồi Mà Sao Còn",
+      "options": [
+        "Em Chưa 18",
+        "Muộn Rồi Mà Sao Còn",
+        "Có Chàng Trai Viết Lên Cây",
+        "Nơi Này Có Anh"
+      ],
+      "correct_answer": "Muộn Rồi Mà Sao Còn"
+    },
+    {
+      "id": 17,
+      "question": "Ai thể hiện ca khúc này?",
+      "youtube_url": "https://www.youtube.com/watch?v=xypzmu5mMPY",
+      "audio_start": 30,
+      "audio_duration": 30,
+      "song": "Muộn Rồi Mà Sao Còn",
+      "options": [
+        "Phan Mạnh Quỳnh",
+        "Sơn Tùng M-TP, Snoop Dogg",
+        "Hòa Minzy",
+        "Sơn Tùng M-TP"
+      ],
+      "correct_answer": "Sơn Tùng M-TP"
+    },
+    {
+      "id": 18,
+      "question": "Ai là người sáng tác ca khúc này?",
+      "youtube_url": "https://www.youtube.com/watch?v=xypzmu5mMPY",
+      "audio_start": 30,
+      "audio_duration": 30,
+      "song": "Muộn Rồi Mà Sao Còn",
+      "options": [
+        "Sơn Tùng M-TP",
+        "Hoàng Dũng",
+        "Trần Duy Khang, Rhymastic",
+        "DTAP"
+      ],
+      "correct_answer": "Sơn Tùng M-TP"
+    },
+    {
+      "id": 19,
+      "question": "Ca khúc này được phát hành vào năm nào?",
+      "youtube_url": "https://www.youtube.com/watch?v=xypzmu5mMPY",
+      "audio_start": 30,
+      "audio_duration": 30,
+      "song": "Muộn Rồi Mà Sao Còn",
+      "options": [
+        "2021",
+        "2019",
+        "2020",
+        "2024"
+      ],
+      "correct_answer": "2021"
+    },
+    {
+      "id": 20,
+      "question": "Đây là ca khúc thuộc giai đoạn nhạc Việt nào?",
+      "youtube_url": "https://www.youtube.com/watch?v=xypzmu5mMPY",
+      "audio_start": 30,
+      "audio_duration": 30,
+      "song": "Muộn Rồi Mà Sao Còn",
+      "options": [
+        "2019–2021",
+        "2022–2025",
+        "2013–2015",
+        "2016–2018"
+      ],
+      "correct_answer": "2019–2021"
+    },
+    {
+      "id": 21,
+      "question": "Đây là bài hát nào?",
+      "youtube_url": "https://www.youtube.com/watch?v=abPmZCZZrFA",
+      "audio_start": 30,
+      "audio_duration": 30,
+      "song": "Đừng Làm Trái Tim Anh Đau",
+      "options": [
+        "Đừng Làm Trái Tim Anh Đau",
+        "Từ Đó",
+        "Em Chưa 18",
+        "Yêu Là Tha Thu"
+      ],
+      "correct_answer": "Đừng Làm Trái Tim Anh Đau"
+    },
+    {
+      "id": 22,
+      "question": "Ai thể hiện ca khúc này?",
+      "youtube_url": "https://www.youtube.com/watch?v=abPmZCZZrFA",
+      "audio_start": 30,
+      "audio_duration": 30,
+      "song": "Đừng Làm Trái Tim Anh Đau",
+      "options": [
+        "Hoàng Thùy Linh",
+        "Sơn Tùng M-TP",
+        "HIEUTHUHAI",
+        "Phan Mạnh Quỳnh"
+      ],
+      "correct_answer": "Sơn Tùng M-TP"
+    },
+    {
+      "id": 23,
+      "question": "Ai là người sáng tác ca khúc này?",
+      "youtube_url": "https://www.youtube.com/watch?v=abPmZCZZrFA",
+      "audio_start": 30,
+      "audio_duration": 30,
+      "song": "Đừng Làm Trái Tim Anh Đau",
+      "options": [
+        "Trần Duy Khang, Rhymastic",
+        "Vũ Huy Hoàng",
+        "Sơn Tùng M-TP",
+        "Phan Mạnh Quỳnh"
+      ],
+      "correct_answer": "Sơn Tùng M-TP"
+    },
+    {
+      "id": 24,
+      "question": "Ca khúc này được phát hành vào năm nào?",
+      "youtube_url": "https://www.youtube.com/watch?v=abPmZCZZrFA",
+      "audio_start": 30,
+      "audio_duration": 30,
+      "song": "Đừng Làm Trái Tim Anh Đau",
+      "options": [
+        "2018",
+        "2023",
+        "2022",
+        "2024"
+      ],
+      "correct_answer": "2024"
+    },
+    {
+      "id": 25,
+      "question": "Đây là ca khúc thuộc giai đoạn nhạc Việt nào?",
+      "youtube_url": "https://www.youtube.com/watch?v=abPmZCZZrFA",
+      "audio_start": 30,
+      "audio_duration": 30,
+      "song": "Đừng Làm Trái Tim Anh Đau",
+      "options": [
+        "2016–2018",
+        "2019–2021",
+        "2022–2025",
+        "2013–2015"
+      ],
+      "correct_answer": "2022–2025"
+    },
+    {
+      "id": 26,
+      "question": "Đây là bài hát nào?",
+      "youtube_url": "https://www.youtube.com/watch?v=Vk8_0QaJr3I",
+      "audio_start": 30,
+      "audio_duration": 30,
+      "song": "Ghen",
+      "options": [
+        "Dao Ánh's Theme",
+        "Ghen",
+        "Nàng Thơ",
+        "Cắt Đôi Nỗi Sầu"
+      ],
+      "correct_answer": "Ghen"
+    },
+    {
+      "id": 27,
+      "question": "Ai thể hiện ca khúc này?",
+      "youtube_url": "https://www.youtube.com/watch?v=Vk8_0QaJr3I",
+      "audio_start": 30,
+      "audio_duration": 30,
+      "song": "Ghen",
+      "options": [
+        "Sơn Tùng M-TP",
+        "MIN, ERIK",
+        "Sơn Tùng M-TP",
+        "HIEUTHUHAI"
+      ],
+      "correct_answer": "MIN, ERIK"
+    },
+    {
+      "id": 28,
+      "question": "Ai là người sáng tác ca khúc này?",
+      "youtube_url": "https://www.youtube.com/watch?v=Vk8_0QaJr3I",
+      "audio_start": 30,
+      "audio_duration": 30,
+      "song": "Ghen",
+      "options": [
+        "Trịnh Công Sơn",
+        "Trần Duy Khang, Rhymastic",
+        "Khắc Hưng",
+        "Only C"
+      ],
+      "correct_answer": "Khắc Hưng"
+    },
+    {
+      "id": 29,
+      "question": "Ca khúc này được phát hành vào năm nào?",
+      "youtube_url": "https://www.youtube.com/watch?v=Vk8_0QaJr3I",
+      "audio_start": 30,
+      "audio_duration": 30,
+      "song": "Ghen",
+      "options": [
+        "2022",
+        "2021",
+        "2017",
+        "2018"
+      ],
+      "correct_answer": "2017"
+    },
+    {
+      "id": 30,
+      "question": "Đây là ca khúc thuộc giai đoạn nhạc Việt nào?",
+      "youtube_url": "https://www.youtube.com/watch?v=Vk8_0QaJr3I",
+      "audio_start": 30,
+      "audio_duration": 30,
+      "song": "Ghen",
+      "options": [
+        "2016–2018",
+        "2019–2021",
+        "2013–2015",
+        "2022–2025"
+      ],
+      "correct_answer": "2016–2018"
+    },
+    {
+      "id": 31,
+      "question": "Đây là bài hát nào?",
+      "youtube_url": "https://www.youtube.com/watch?v=zQwKxVCR1y8",
+      "audio_start": 30,
+      "audio_duration": 30,
+      "song": "Rời Bỏ",
+      "options": [
+        "Hãy Trao Cho Anh",
+        "Rời Bỏ",
+        "Đừng Làm Trái Tim Anh Đau",
+        "Yêu Là Tha Thu"
+      ],
+      "correct_answer": "Rời Bỏ"
+    },
+    {
+      "id": 32,
+      "question": "Ai thể hiện ca khúc này?",
+      "youtube_url": "https://www.youtube.com/watch?v=zQwKxVCR1y8",
+      "audio_start": 30,
+      "audio_duration": 30,
+      "song": "Rời Bỏ",
+      "options": [
+        "Chillies, Suni Hạ Linh, Rhymastic",
+        "Tăng Duy Tân, Drum7",
+        "Hòa Minzy",
+        "Trần Hữu Tuấn Bách"
+      ],
+      "correct_answer": "Hòa Minzy"
+    },
+    {
+      "id": 33,
+      "question": "Ai là người sáng tác ca khúc này?",
+      "youtube_url": "https://www.youtube.com/watch?v=zQwKxVCR1y8",
+      "audio_start": 30,
+      "audio_duration": 30,
+      "song": "Rời Bỏ",
+      "options": [
+        "Vũ Huy Hoàng",
+        "Trần Duy Khang, Rhymastic",
+        "Trần Hữu Tuấn Bách",
+        "Nguyễn Hải Phong"
+      ],
+      "correct_answer": "Vũ Huy Hoàng"
+    },
+    {
+      "id": 34,
+      "question": "Ca khúc này được phát hành vào năm nào?",
+      "youtube_url": "https://www.youtube.com/watch?v=zQwKxVCR1y8",
+      "audio_start": 30,
+      "audio_duration": 30,
+      "song": "Rời Bỏ",
+      "options": [
+        "2018",
+        "2017",
+        "2021",
+        "2023"
+      ],
+      "correct_answer": "2018"
+    },
+    {
+      "id": 35,
+      "question": "Đây là ca khúc thuộc giai đoạn nhạc Việt nào?",
+      "youtube_url": "https://www.youtube.com/watch?v=zQwKxVCR1y8",
+      "audio_start": 30,
+      "audio_duration": 30,
+      "song": "Rời Bỏ",
+      "options": [
+        "2016–2018",
+        "2022–2025",
+        "2013–2015",
+        "2019–2021"
+      ],
+      "correct_answer": "2016–2018"
+    },
+    {
+      "id": 36,
+      "question": "Đây là bài hát nào?",
+      "youtube_url": "https://www.youtube.com/watch?v=LZN4I3K8SC0",
+      "audio_start": 30,
+      "audio_duration": 30,
+      "song": "Cứ Chill Thôi",
+      "options": [
+        "Cắt Đôi Nỗi Sầu",
+        "Cứ Chill Thôi",
+        "Yêu Là Tha Thu",
+        "Đừng Làm Trái Tim Anh Đau"
+      ],
+      "correct_answer": "Cứ Chill Thôi"
+    },
+    {
+      "id": 37,
+      "question": "Ai thể hiện ca khúc này?",
+      "youtube_url": "https://www.youtube.com/watch?v=LZN4I3K8SC0",
+      "audio_start": 30,
+      "audio_duration": 30,
+      "song": "Cứ Chill Thôi",
+      "options": [
+        "HIEUTHUHAI",
+        "MIN, ERIK",
+        "Chillies, Suni Hạ Linh, Rhymastic",
+        "Hoàng Thùy Linh"
+      ],
+      "correct_answer": "Chillies, Suni Hạ Linh, Rhymastic"
+    },
+    {
+      "id": 38,
+      "question": "Ai là người sáng tác ca khúc này?",
+      "youtube_url": "https://www.youtube.com/watch?v=LZN4I3K8SC0",
+      "audio_start": 30,
+      "audio_duration": 30,
+      "song": "Cứ Chill Thôi",
+      "options": [
+        "Trần Duy Khang, Rhymastic",
+        "DTAP",
+        "Trịnh Công Sơn",
+        "Tăng Duy Tân, Drum7"
+      ],
+      "correct_answer": "Trần Duy Khang, Rhymastic"
+    },
+    {
+      "id": 39,
+      "question": "Ca khúc này được phát hành vào năm nào?",
+      "youtube_url": "https://www.youtube.com/watch?v=LZN4I3K8SC0",
+      "audio_start": 30,
+      "audio_duration": 30,
+      "song": "Cứ Chill Thôi",
+      "options": [
+        "2020",
+        "2017",
+        "2024",
+        "2018"
+      ],
+      "correct_answer": "2020"
+    },
+    {
+      "id": 40,
+      "question": "Đây là ca khúc thuộc giai đoạn nhạc Việt nào?",
+      "youtube_url": "https://www.youtube.com/watch?v=LZN4I3K8SC0",
+      "audio_start": 30,
+      "audio_duration": 30,
+      "song": "Cứ Chill Thôi",
+      "options": [
+        "2016–2018",
+        "2013–2015",
+        "2022–2025",
+        "2019–2021"
+      ],
+      "correct_answer": "2019–2021"
+    },
+    {
+      "id": 41,
+      "question": "Đây là bài hát nào?",
+      "youtube_url": "https://www.youtube.com/watch?v=Zzn9-ATB9aU",
+      "audio_start": 30,
+      "audio_duration": 30,
+      "song": "Nàng Thơ",
+      "options": [
+        "Dao Ánh's Theme",
+        "Nàng Thơ",
+        "Muộn Rồi Mà Sao Còn",
+        "Cắt Đôi Nỗi Sầu"
+      ],
+      "correct_answer": "Nàng Thơ"
+    },
+    {
+      "id": 42,
+      "question": "Ai thể hiện ca khúc này?",
+      "youtube_url": "https://www.youtube.com/watch?v=Zzn9-ATB9aU",
+      "audio_start": 30,
+      "audio_duration": 30,
+      "song": "Nàng Thơ",
+      "options": [
+        "Ali Hoàng Dương",
+        "MONO",
+        "Phan Mạnh Quỳnh",
+        "Hoàng Dũng"
+      ],
+      "correct_answer": "Hoàng Dũng"
+    },
+    {
+      "id": 43,
+      "question": "Ai là người sáng tác ca khúc này?",
+      "youtube_url": "https://www.youtube.com/watch?v=Zzn9-ATB9aU",
+      "audio_start": 30,
+      "audio_duration": 30,
+      "song": "Nàng Thơ",
+      "options": [
+        "Trần Duy Khang, Rhymastic",
+        "Hoàng Dũng",
+        "Trịnh Công Sơn",
+        "Tăng Duy Tân, Drum7"
+      ],
+      "correct_answer": "Hoàng Dũng"
+    },
+    {
+      "id": 44,
+      "question": "Ca khúc này được phát hành vào năm nào?",
+      "youtube_url": "https://www.youtube.com/watch?v=Zzn9-ATB9aU",
+      "audio_start": 30,
+      "audio_duration": 30,
+      "song": "Nàng Thơ",
+      "options": [
+        "2019",
+        "2020",
+        "2017",
+        "2018"
+      ],
+      "correct_answer": "2020"
+    },
+    {
+      "id": 45,
+      "question": "Đây là ca khúc thuộc giai đoạn nhạc Việt nào?",
+      "youtube_url": "https://www.youtube.com/watch?v=Zzn9-ATB9aU",
+      "audio_start": 30,
+      "audio_duration": 30,
+      "song": "Nàng Thơ",
+      "options": [
+        "2016–2018",
+        "2022–2025",
+        "2013–2015",
+        "2019–2021"
+      ],
+      "correct_answer": "2019–2021"
+    },
+    {
+      "id": 46,
+      "question": "Đây là bài hát nào?",
+      "youtube_url": "https://www.youtube.com/watch?v=JAhdeizXpaQ",
+      "audio_start": 30,
+      "audio_duration": 30,
+      "song": "Để Mị Nói Cho Mà Nghe",
+      "options": [
+        "Lạc Trôi",
+        "Cắt Đôi Nỗi Sầu",
+        "Dao Ánh's Theme",
+        "Để Mị Nói Cho Mà Nghe"
+      ],
+      "correct_answer": "Để Mị Nói Cho Mà Nghe"
+    },
+    {
+      "id": 47,
+      "question": "Ai thể hiện ca khúc này?",
+      "youtube_url": "https://www.youtube.com/watch?v=JAhdeizXpaQ",
+      "audio_start": 30,
+      "audio_duration": 30,
+      "song": "Để Mị Nói Cho Mà Nghe",
+      "options": [
+        "Tăng Duy Tân, Drum7",
+        "Hoàng Thùy Linh",
+        "Sơn Tùng M-TP",
+        "Sơn Tùng M-TP"
+      ],
+      "correct_answer": "Hoàng Thùy Linh"
+    },
+    {
+      "id": 48,
+      "question": "Ai là người sáng tác ca khúc này?",
+      "youtube_url": "https://www.youtube.com/watch?v=JAhdeizXpaQ",
+      "audio_start": 30,
+      "audio_duration": 30,
+      "song": "Để Mị Nói Cho Mà Nghe",
+      "options": [
+        "Only C",
+        "Tăng Duy Tân, Drum7",
+        "HIEUTHUHAI, Kewtiie",
+        "DTAP"
+      ],
+      "correct_answer": "DTAP"
+    },
+    {
+      "id": 49,
+      "question": "Ca khúc này được phát hành vào năm nào?",
+      "youtube_url": "https://www.youtube.com/watch?v=JAhdeizXpaQ",
+      "audio_start": 30,
+      "audio_duration": 30,
+      "song": "Để Mị Nói Cho Mà Nghe",
+      "options": [
+        "2020",
+        "2023",
+        "2019",
+        "2022"
+      ],
+      "correct_answer": "2019"
+    },
+    {
+      "id": 50,
+      "question": "Đây là ca khúc thuộc giai đoạn nhạc Việt nào?",
+      "youtube_url": "https://www.youtube.com/watch?v=JAhdeizXpaQ",
+      "audio_start": 30,
+      "audio_duration": 30,
+      "song": "Để Mị Nói Cho Mà Nghe",
+      "options": [
+        "2019–2021",
+        "2013–2015",
+        "2022–2025",
+        "2016–2018"
+      ],
+      "correct_answer": "2019–2021"
+    },
+    {
+      "id": 51,
+      "question": "Đây là bài hát nào?",
+      "youtube_url": "https://www.youtube.com/watch?v=okz5RIZRT0U",
+      "audio_start": 30,
+      "audio_duration": 30,
+      "song": "Waiting For You",
+      "options": [
+        "Đừng Làm Trái Tim Anh Đau",
+        "Waiting For You",
+        "Cắt Đôi Nỗi Sầu",
+        "Dao Ánh's Theme"
+      ],
+      "correct_answer": "Waiting For You"
+    },
+    {
+      "id": 52,
+      "question": "Ai thể hiện ca khúc này?",
+      "youtube_url": "https://www.youtube.com/watch?v=okz5RIZRT0U",
+      "audio_start": 30,
+      "audio_duration": 30,
+      "song": "Waiting For You",
+      "options": [
+        "Hoàng Dũng",
+        "Phan Mạnh Quỳnh",
+        "Sơn Tùng M-TP",
+        "MONO"
+      ],
+      "correct_answer": "MONO"
+    },
+    {
+      "id": 53,
+      "question": "Ai là người sáng tác ca khúc này?",
+      "youtube_url": "https://www.youtube.com/watch?v=okz5RIZRT0U",
+      "audio_start": 30,
+      "audio_duration": 30,
+      "song": "Waiting For You",
+      "options": [
+        "MONO",
+        "Hoàng Dũng",
+        "HIEUTHUHAI, Kewtiie",
+        "Only C"
+      ],
+      "correct_answer": "MONO"
+    },
+    {
+      "id": 54,
+      "question": "Ca khúc này được phát hành vào năm nào?",
+      "youtube_url": "https://www.youtube.com/watch?v=okz5RIZRT0U",
+      "audio_start": 30,
+      "audio_duration": 30,
+      "song": "Waiting For You",
+      "options": [
+        "2018",
+        "2022",
+        "2024",
+        "2021"
+      ],
+      "correct_answer": "2022"
+    },
+    {
+      "id": 55,
+      "question": "Đây là ca khúc thuộc giai đoạn nhạc Việt nào?",
+      "youtube_url": "https://www.youtube.com/watch?v=okz5RIZRT0U",
+      "audio_start": 30,
+      "audio_duration": 30,
+      "song": "Waiting For You",
+      "options": [
+        "2019–2021",
+        "2016–2018",
+        "2022–2025",
+        "2013–2015"
+      ],
+      "correct_answer": "2022–2025"
+    },
+    {
+      "id": 56,
+      "question": "Đây là bài hát nào?",
+      "youtube_url": "https://www.youtube.com/watch?v=llf_L0i9OdA",
+      "audio_start": 30,
+      "audio_duration": 30,
+      "song": "Nghe Như Tình Yêu",
+      "options": [
+        "Từ Đó",
+        "Dao Ánh's Theme",
+        "Nghe Như Tình Yêu",
+        "Cắt Đôi Nỗi Sầu"
+      ],
+      "correct_answer": "Nghe Như Tình Yêu"
+    },
+    {
+      "id": 57,
+      "question": "Ai thể hiện ca khúc này?",
+      "youtube_url": "https://www.youtube.com/watch?v=llf_L0i9OdA",
+      "audio_start": 30,
+      "audio_duration": 30,
+      "song": "Nghe Như Tình Yêu",
+      "options": [
+        "Tăng Duy Tân, Drum7",
+        "HIEUTHUHAI",
+        "Sơn Tùng M-TP",
+        "Sơn Tùng M-TP"
+      ],
+      "correct_answer": "HIEUTHUHAI"
+    },
+    {
+      "id": 58,
+      "question": "Ai là người sáng tác ca khúc này?",
+      "youtube_url": "https://www.youtube.com/watch?v=llf_L0i9OdA",
+      "audio_start": 30,
+      "audio_duration": 30,
+      "song": "Nghe Như Tình Yêu",
+      "options": [
+        "Phan Mạnh Quỳnh",
+        "Trần Duy Khang, Rhymastic",
+        "Khắc Hưng",
+        "HIEUTHUHAI, Kewtiie"
+      ],
+      "correct_answer": "HIEUTHUHAI, Kewtiie"
+    },
+    {
+      "id": 59,
+      "question": "Ca khúc này được phát hành vào năm nào?",
+      "youtube_url": "https://www.youtube.com/watch?v=llf_L0i9OdA",
+      "audio_start": 30,
+      "audio_duration": 30,
+      "song": "Nghe Như Tình Yêu",
+      "options": [
+        "2021",
+        "2023",
+        "2022",
+        "2024"
+      ],
+      "correct_answer": "2024"
+    },
+    {
+      "id": 60,
+      "question": "Đây là ca khúc thuộc giai đoạn nhạc Việt nào?",
+      "youtube_url": "https://www.youtube.com/watch?v=llf_L0i9OdA",
+      "audio_start": 30,
+      "audio_duration": 30,
+      "song": "Nghe Như Tình Yêu",
+      "options": [
+        "2013–2015",
+        "2022–2025",
+        "2016–2018",
+        "2019–2021"
+      ],
+      "correct_answer": "2022–2025"
+    },
+    {
+      "id": 61,
+      "question": "Đây là bài hát nào?",
+      "youtube_url": "https://www.youtube.com/watch?v=GpmOn4RyzZI",
+      "audio_start": 30,
+      "audio_duration": 30,
+      "song": "Cắt Đôi Nỗi Sầu",
+      "options": [
+        "Muộn Rồi Mà Sao Còn",
+        "Cắt Đôi Nỗi Sầu",
+        "Có Chàng Trai Viết Lên Cây",
+        "Hãy Trao Cho Anh"
+      ],
+      "correct_answer": "Cắt Đôi Nỗi Sầu"
+    },
+    {
+      "id": 62,
+      "question": "Ai thể hiện ca khúc này?",
+      "youtube_url": "https://www.youtube.com/watch?v=GpmOn4RyzZI",
+      "audio_start": 30,
+      "audio_duration": 30,
+      "song": "Cắt Đôi Nỗi Sầu",
+      "options": [
+        "Phan Mạnh Quỳnh",
+        "Tăng Duy Tân, Drum7",
+        "Sơn Tùng M-TP",
+        "Sơn Tùng M-TP"
+      ],
+      "correct_answer": "Tăng Duy Tân, Drum7"
+    },
+    {
+      "id": 63,
+      "question": "Ai là người sáng tác ca khúc này?",
+      "youtube_url": "https://www.youtube.com/watch?v=GpmOn4RyzZI",
+      "audio_start": 30,
+      "audio_duration": 30,
+      "song": "Cắt Đôi Nỗi Sầu",
+      "options": [
+        "Only C",
+        "Hoàng Dũng",
+        "Nguyễn Phúc Thiện",
+        "Tăng Duy Tân, Drum7"
+      ],
+      "correct_answer": "Tăng Duy Tân, Drum7"
+    },
+    {
+      "id": 64,
+      "question": "Ca khúc này được phát hành vào năm nào?",
+      "youtube_url": "https://www.youtube.com/watch?v=GpmOn4RyzZI",
+      "audio_start": 30,
+      "audio_duration": 30,
+      "song": "Cắt Đôi Nỗi Sầu",
+      "options": [
+        "2022",
+        "2020",
+        "2023",
+        "2018"
+      ],
+      "correct_answer": "2023"
+    },
+    {
+      "id": 65,
+      "question": "Đây là ca khúc thuộc giai đoạn nhạc Việt nào?",
+      "youtube_url": "https://www.youtube.com/watch?v=GpmOn4RyzZI",
+      "audio_start": 30,
+      "audio_duration": 30,
+      "song": "Cắt Đôi Nỗi Sầu",
+      "options": [
+        "2022–2025",
+        "2016–2018",
+        "2013–2015",
+        "2019–2021"
+      ],
+      "correct_answer": "2022–2025"
+    },
+    {
+      "id": 66,
+      "question": "Đây là bài hát nào?",
+      "youtube_url": "https://www.youtube.com/watch?v=0VC6euBtKkk",
+      "audio_start": 30,
+      "audio_duration": 30,
+      "song": "Có Chàng Trai Viết Lên Cây",
+      "options": [
+        "Em Chưa 18",
+        "Từ Đó",
+        "Có Chàng Trai Viết Lên Cây",
+        "Hãy Trao Cho Anh"
+      ],
+      "correct_answer": "Có Chàng Trai Viết Lên Cây"
+    },
+    {
+      "id": 67,
+      "question": "Ai thể hiện ca khúc này?",
+      "youtube_url": "https://www.youtube.com/watch?v=0VC6euBtKkk",
+      "audio_start": 30,
+      "audio_duration": 30,
+      "song": "Có Chàng Trai Viết Lên Cây",
+      "options": [
+        "Hoàng Thùy Linh",
+        "Phan Mạnh Quỳnh",
+        "Will",
+        "Ali Hoàng Dương"
+      ],
+      "correct_answer": "Phan Mạnh Quỳnh"
+    },
+    {
+      "id": 68,
+      "question": "Ai là người sáng tác ca khúc này?",
+      "youtube_url": "https://www.youtube.com/watch?v=0VC6euBtKkk",
+      "audio_start": 30,
+      "audio_duration": 30,
+      "song": "Có Chàng Trai Viết Lên Cây",
+      "options": [
+        "MONO",
+        "Nguyễn Hải Phong",
+        "Phan Mạnh Quỳnh",
+        "Nguyễn Phúc Thiện"
+      ],
+      "correct_answer": "Phan Mạnh Quỳnh"
+    },
+    {
+      "id": 69,
+      "question": "Ca khúc này được phát hành vào năm nào?",
+      "youtube_url": "https://www.youtube.com/watch?v=0VC6euBtKkk",
+      "audio_start": 30,
+      "audio_duration": 30,
+      "song": "Có Chàng Trai Viết Lên Cây",
+      "options": [
+        "2022",
+        "2019",
+        "2020",
+        "2018"
+      ],
+      "correct_answer": "2019"
+    },
+    {
+      "id": 70,
+      "question": "Đây là ca khúc thuộc giai đoạn nhạc Việt nào?",
+      "youtube_url": "https://www.youtube.com/watch?v=0VC6euBtKkk",
+      "audio_start": 30,
+      "audio_duration": 30,
+      "song": "Có Chàng Trai Viết Lên Cây",
+      "options": [
+        "2022–2025",
+        "2016–2018",
+        "2019–2021",
+        "2013–2015"
+      ],
+      "correct_answer": "2019–2021"
+    },
+    {
+      "id": 71,
+      "question": "Đây là bài hát nào?",
+      "youtube_url": "https://www.youtube.com/watch?v=HsgTIMDA6ps",
+      "audio_start": 30,
+      "audio_duration": 30,
+      "song": "Từ Đó",
+      "options": [
+        "Em Chưa 18",
+        "Ghen",
+        "Từ Đó",
+        "Nơi Này Có Anh"
+      ],
+      "correct_answer": "Từ Đó"
+    },
+    {
+      "id": 72,
+      "question": "Ai thể hiện ca khúc này?",
+      "youtube_url": "https://www.youtube.com/watch?v=HsgTIMDA6ps",
+      "audio_start": 30,
+      "audio_duration": 30,
+      "song": "Từ Đó",
+      "options": [
+        "Phan Mạnh Quỳnh",
+        "Hoàng Dũng",
+        "Sơn Tùng M-TP",
+        "Hòa Minzy"
+      ],
+      "correct_answer": "Phan Mạnh Quỳnh"
+    },
+    {
+      "id": 73,
+      "question": "Ai là người sáng tác ca khúc này?",
+      "youtube_url": "https://www.youtube.com/watch?v=HsgTIMDA6ps",
+      "audio_start": 30,
+      "audio_duration": 30,
+      "song": "Từ Đó",
+      "options": [
+        "HIEUTHUHAI, Kewtiie",
+        "Sơn Tùng M-TP",
+        "Phan Mạnh Quỳnh",
+        "Trịnh Công Sơn"
+      ],
+      "correct_answer": "Phan Mạnh Quỳnh"
+    },
+    {
+      "id": 74,
+      "question": "Ca khúc này được phát hành vào năm nào?",
+      "youtube_url": "https://www.youtube.com/watch?v=HsgTIMDA6ps",
+      "audio_start": 30,
+      "audio_duration": 30,
+      "song": "Từ Đó",
+      "options": [
+        "2023",
+        "2022",
+        "2024",
+        "2019"
+      ],
+      "correct_answer": "2019"
+    },
+    {
+      "id": 75,
+      "question": "Đây là ca khúc thuộc giai đoạn nhạc Việt nào?",
+      "youtube_url": "https://www.youtube.com/watch?v=HsgTIMDA6ps",
+      "audio_start": 30,
+      "audio_duration": 30,
+      "song": "Từ Đó",
+      "options": [
+        "2013–2015",
+        "2022–2025",
+        "2019–2021",
+        "2016–2018"
+      ],
+      "correct_answer": "2019–2021"
+    },
+    {
+      "id": 76,
+      "question": "Đây là bài hát nào?",
+      "youtube_url": "https://www.youtube.com/watch?v=xwgS5ktvQxk",
+      "audio_start": 30,
+      "audio_duration": 30,
+      "song": "Điều Cha Chưa Nói",
+      "options": [
+        "Có Chàng Trai Viết Lên Cây",
+        "Điều Cha Chưa Nói",
+        "Em Chưa 18",
+        "Muộn Rồi Mà Sao Còn"
+      ],
+      "correct_answer": "Điều Cha Chưa Nói"
+    },
+    {
+      "id": 77,
+      "question": "Ai thể hiện ca khúc này?",
+      "youtube_url": "https://www.youtube.com/watch?v=xwgS5ktvQxk",
+      "audio_start": 30,
+      "audio_duration": 30,
+      "song": "Điều Cha Chưa Nói",
+      "options": [
+        "Phan Mạnh Quỳnh",
+        "Ali Hoàng Dương",
+        "Tăng Duy Tân, Drum7",
+        "Trần Hữu Tuấn Bách"
+      ],
+      "correct_answer": "Ali Hoàng Dương"
+    },
+    {
+      "id": 78,
+      "question": "Ai là người sáng tác ca khúc này?",
+      "youtube_url": "https://www.youtube.com/watch?v=xwgS5ktvQxk",
+      "audio_start": 30,
+      "audio_duration": 30,
+      "song": "Điều Cha Chưa Nói",
+      "options": [
+        "Nguyễn Phúc Thiện",
+        "HIEUTHUHAI, Kewtiie",
+        "Hoàng Dũng",
+        "Nguyễn Hải Phong"
+      ],
+      "correct_answer": "Nguyễn Hải Phong"
+    },
+    {
+      "id": 79,
+      "question": "Ca khúc này được phát hành vào năm nào?",
+      "youtube_url": "https://www.youtube.com/watch?v=xwgS5ktvQxk",
+      "audio_start": 30,
+      "audio_duration": 30,
+      "song": "Điều Cha Chưa Nói",
+      "options": [
+        "2021",
+        "2024",
+        "2017",
+        "2023"
+      ],
+      "correct_answer": "2021"
+    },
+    {
+      "id": 80,
+      "question": "Đây là ca khúc thuộc giai đoạn nhạc Việt nào?",
+      "youtube_url": "https://www.youtube.com/watch?v=xwgS5ktvQxk",
+      "audio_start": 30,
+      "audio_duration": 30,
+      "song": "Điều Cha Chưa Nói",
+      "options": [
+        "2016–2018",
+        "2019–2021",
+        "2022–2025",
+        "2013–2015"
+      ],
+      "correct_answer": "2019–2021"
+    },
+    {
+      "id": 81,
+      "question": "Đây là bài hát nào?",
+      "youtube_url": "https://www.youtube.com/watch?v=3aEGk-fDyXo",
+      "audio_start": 300,
+      "audio_duration": 30,
+      "song": "Diễm Xưa",
+      "options": [
+        "Để Mị Nói Cho Mà Nghe",
+        "Nàng Thơ",
+        "Diễm Xưa",
+        "Từ Đó"
+      ],
+      "correct_answer": "Diễm Xưa"
+    },
+    {
+      "id": 82,
+      "question": "Ai thể hiện ca khúc này?",
+      "youtube_url": "https://www.youtube.com/watch?v=3aEGk-fDyXo",
+      "audio_start": 300,
+      "audio_duration": 30,
+      "song": "Diễm Xưa",
+      "options": [
+        "Tăng Duy Tân, Drum7",
+        "Hoàng Dũng",
+        "Sơn Tùng M-TP",
+        "Sơn Tùng M-TP, Snoop Dogg"
+      ],
+      "correct_answer": "Hoàng Dũng"
+    },
+    {
+      "id": 83,
+      "question": "Ai là người sáng tác ca khúc này?",
+      "youtube_url": "https://www.youtube.com/watch?v=3aEGk-fDyXo",
+      "audio_start": 300,
+      "audio_duration": 30,
+      "song": "Diễm Xưa",
+      "options": [
+        "HIEUTHUHAI, Kewtiie",
+        "Phan Mạnh Quỳnh",
+        "Trịnh Công Sơn",
+        "Vũ Huy Hoàng"
+      ],
+      "correct_answer": "Trịnh Công Sơn"
+    },
+    {
+      "id": 84,
+      "question": "Ca khúc này được phát hành vào năm nào?",
+      "youtube_url": "https://www.youtube.com/watch?v=3aEGk-fDyXo",
+      "audio_start": 300,
+      "audio_duration": 30,
+      "song": "Diễm Xưa",
+      "options": [
+        "2017",
+        "2019",
+        "2021",
+        "2022"
+      ],
+      "correct_answer": "2022"
+    },
+    {
+      "id": 85,
+      "question": "Đây là ca khúc thuộc giai đoạn nhạc Việt nào?",
+      "youtube_url": "https://www.youtube.com/watch?v=3aEGk-fDyXo",
+      "audio_start": 300,
+      "audio_duration": 30,
+      "song": "Diễm Xưa",
+      "options": [
+        "2016–2018",
+        "2019–2021",
+        "2022–2025",
+        "2013–2015"
+      ],
+      "correct_answer": "2022–2025"
+    },
+    {
+      "id": 86,
+      "question": "Đây là bài hát nào?",
+      "youtube_url": "https://www.youtube.com/watch?v=3aEGk-fDyXo",
+      "audio_start": 430,
+      "audio_duration": 30,
+      "song": "Dao Ánh's Theme",
+      "options": [
+        "Để Mị Nói Cho Mà Nghe",
+        "Dao Ánh's Theme",
+        "Hãy Trao Cho Anh",
+        "Lạc Trôi"
+      ],
+      "correct_answer": "Dao Ánh's Theme"
+    },
+    {
+      "id": 87,
+      "question": "Ai thể hiện ca khúc này?",
+      "youtube_url": "https://www.youtube.com/watch?v=3aEGk-fDyXo",
+      "audio_start": 430,
+      "audio_duration": 30,
+      "song": "Dao Ánh's Theme",
+      "options": [
+        "Hoàng Dũng",
+        "Sơn Tùng M-TP",
+        "Sơn Tùng M-TP",
+        "Trần Hữu Tuấn Bách"
+      ],
+      "correct_answer": "Trần Hữu Tuấn Bách"
+    },
+    {
+      "id": 88,
+      "question": "Ai là người sáng tác ca khúc này?",
+      "youtube_url": "https://www.youtube.com/watch?v=3aEGk-fDyXo",
+      "audio_start": 430,
+      "audio_duration": 30,
+      "song": "Dao Ánh's Theme",
+      "options": [
+        "Trần Hữu Tuấn Bách",
+        "Tăng Duy Tân, Drum7",
+        "Hoàng Dũng",
+        "Phan Mạnh Quỳnh"
+      ],
+      "correct_answer": "Trần Hữu Tuấn Bách"
+    },
+    {
+      "id": 89,
+      "question": "Ca khúc này được phát hành vào năm nào?",
+      "youtube_url": "https://www.youtube.com/watch?v=3aEGk-fDyXo",
+      "audio_start": 430,
+      "audio_duration": 30,
+      "song": "Dao Ánh's Theme",
+      "options": [
+        "2019",
+        "2021",
+        "2024",
+        "2022"
+      ],
+      "correct_answer": "2022"
+    },
+    {
+      "id": 90,
+      "question": "Đây là ca khúc thuộc giai đoạn nhạc Việt nào?",
+      "youtube_url": "https://www.youtube.com/watch?v=3aEGk-fDyXo",
+      "audio_start": 430,
+      "audio_duration": 30,
+      "song": "Dao Ánh's Theme",
+      "options": [
+        "2022–2025",
+        "2016–2018",
+        "2013–2015",
+        "2019–2021"
+      ],
+      "correct_answer": "2022–2025"
+    },
+    {
+      "id": 91,
+      "question": "Đây là bài hát nào?",
+      "youtube_url": "https://www.youtube.com/watch?v=-nnWBhKZeg0",
+      "audio_start": 30,
+      "audio_duration": 30,
+      "song": "Yêu Là Tha Thu",
+      "options": [
+        "Cứ Chill Thôi",
+        "Nàng Thơ",
+        "Điều Cha Chưa Nói",
+        "Yêu Là Tha Thu"
+      ],
+      "correct_answer": "Yêu Là Tha Thu"
+    },
+    {
+      "id": 92,
+      "question": "Ai thể hiện ca khúc này?",
+      "youtube_url": "https://www.youtube.com/watch?v=-nnWBhKZeg0",
+      "audio_start": 30,
+      "audio_duration": 30,
+      "song": "Yêu Là Tha Thu",
+      "options": [
+        "Hoàng Dũng",
+        "Tăng Duy Tân, Drum7",
+        "Only C",
+        "Chillies, Suni Hạ Linh, Rhymastic"
+      ],
+      "correct_answer": "Only C"
+    },
+    {
+      "id": 93,
+      "question": "Ai là người sáng tác ca khúc này?",
+      "youtube_url": "https://www.youtube.com/watch?v=-nnWBhKZeg0",
+      "audio_start": 30,
+      "audio_duration": 30,
+      "song": "Yêu Là Tha Thu",
+      "options": [
+        "Hoàng Dũng",
+        "Tăng Duy Tân, Drum7",
+        "Only C",
+        "Nguyễn Phúc Thiện"
+      ],
+      "correct_answer": "Nguyễn Phúc Thiện"
+    },
+    {
+      "id": 94,
+      "question": "Ca khúc này được phát hành vào năm nào?",
+      "youtube_url": "https://www.youtube.com/watch?v=-nnWBhKZeg0",
+      "audio_start": 30,
+      "audio_duration": 30,
+      "song": "Yêu Là Tha Thu",
+      "options": [
+        "2022",
+        "2017",
+        "2018",
+        "2020"
+      ],
+      "correct_answer": "2017"
+    },
+    {
+      "id": 95,
+      "question": "Đây là ca khúc thuộc giai đoạn nhạc Việt nào?",
+      "youtube_url": "https://www.youtube.com/watch?v=-nnWBhKZeg0",
+      "audio_start": 30,
+      "audio_duration": 30,
+      "song": "Yêu Là Tha Thu",
+      "options": [
+        "2013–2015",
+        "2019–2021",
+        "2016–2018",
+        "2022–2025"
+      ],
+      "correct_answer": "2016–2018"
+    },
+    {
+      "id": 96,
+      "question": "Đây là bài hát nào?",
+      "youtube_url": "https://www.youtube.com/watch?v=cdkSV-mBg0s",
+      "audio_start": 30,
+      "audio_duration": 30,
+      "song": "Em Chưa 18",
+      "options": [
+        "Em Chưa 18",
+        "Điều Cha Chưa Nói",
+        "Từ Đó",
+        "Ghen"
+      ],
+      "correct_answer": "Em Chưa 18"
+    },
+    {
+      "id": 97,
+      "question": "Ai thể hiện ca khúc này?",
+      "youtube_url": "https://www.youtube.com/watch?v=cdkSV-mBg0s",
+      "audio_start": 30,
+      "audio_duration": 30,
+      "song": "Em Chưa 18",
+      "options": [
+        "HIEUTHUHAI",
+        "Ali Hoàng Dương",
+        "Only C",
+        "Will"
+      ],
+      "correct_answer": "Will"
+    },
+    {
+      "id": 98,
+      "question": "Ai là người sáng tác ca khúc này?",
+      "youtube_url": "https://www.youtube.com/watch?v=cdkSV-mBg0s",
+      "audio_start": 30,
+      "audio_duration": 30,
+      "song": "Em Chưa 18",
+      "options": [
+        "DTAP",
+        "Khắc Hưng",
+        "Sơn Tùng M-TP",
+        "Only C"
+      ],
+      "correct_answer": "Only C"
+    },
+    {
+      "id": 99,
+      "question": "Ca khúc này được phát hành vào năm nào?",
+      "youtube_url": "https://www.youtube.com/watch?v=cdkSV-mBg0s",
+      "audio_start": 30,
+      "audio_duration": 30,
+      "song": "Em Chưa 18",
+      "options": [
+        "2024",
+        "2017",
+        "2020",
+        "2021"
+      ],
+      "correct_answer": "2017"
+    },
+    {
+      "id": 100,
+      "question": "Đây là ca khúc thuộc giai đoạn nhạc Việt nào?",
+      "youtube_url": "https://www.youtube.com/watch?v=cdkSV-mBg0s",
+      "audio_start": 30,
+      "audio_duration": 30,
+      "song": "Em Chưa 18",
+      "options": [
+        "2016–2018",
+        "2013–2015",
+        "2022–2025",
+        "2019–2021"
+      ],
+      "correct_answer": "2016–2018"
+    }
+  ]
+}

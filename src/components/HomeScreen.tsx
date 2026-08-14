@@ -1,6 +1,6 @@
 import React from "react";
-import { formatCategoryName } from "../utils/gameUtils";
-import { PWAInstallBanner } from "./PWAInstallBanner";
+import { formatCategoryName, formatCategoryShortName, getCategoryEmoji } from "../utils/gameUtils";
+
 
 interface HomeScreenProps {
   categories: string[];
@@ -17,68 +17,125 @@ export const HomeScreen: React.FC<HomeScreenProps> = ({
   onSelectCategory,
   onStartGame,
 }) => {
+  const currentCategoryName = selectedCategory
+    ? formatCategoryName(selectedCategory)
+    : "Ngẫu Nhiên Tất Cả Chủ Đề";
+  const currentCategoryEmoji = getCategoryEmoji(selectedCategory);
+
   return (
     <div className="home-screen fade-in">
-      <div className="hero-banner">
-        <div className="hero-badge">Game Show 2 Người</div>
-        <h1 className="hero-title">GỢI Ý 100</h1>
-        <p className="hero-subtitle">
-          Thử thách đoán nhanh cùng bạn bè với {totalCards} câu hỏi hấp dẫn!
-        </p>
-      </div>
-
-      {/* PWA Install Banner */}
-      <PWAInstallBanner />
-
-      <div className="rules-card">
-        <h2 className="rules-title">🎮 Cách chơi đơn giản</h2>
-        <div className="rules-steps">
-          <div className="rule-step">
-            <span className="step-num">1</span>
-            <div className="step-text">
-              <strong>Người 1 cầm điện thoại:</strong> Nhìn đáp án và đọc từng gợi ý xuất hiện.
-            </div>
-          </div>
-          <div className="rule-step">
-            <span className="step-num">2</span>
-            <div className="step-text">
-              <strong>Người 2 quay đi:</strong> Không nhìn màn hình và liên tục đoán đáp án.
-            </div>
-          </div>
-          <div className="rule-step">
-            <span className="step-num">3</span>
-            <div className="step-text">
-              <strong>Thời gian & Nút bấm:</strong> Mỗi câu có <strong>100 giây</strong>. Đoán đúng bấm <strong>"Đúng"</strong> ngay!
-            </div>
+      {/* App Mascot Top Hero Card */}
+      <div className="app-mascot-hero-card">
+        <div className="hero-card-content">
+          <div className="hero-card-tag">🎮 GAME SHOW 2 NGƯỜI</div>
+          <h1 className="hero-card-headline">Gợi Ý 100!</h1>
+          <p className="hero-card-subline">
+            Người cầm máy dựa vào Wikipedia đối thoại, người đối diện hỏi và đoán đáp án!
+          </p>
+        </div>
+        <div className="hero-card-mascot" aria-hidden="true">
+          <div className="mascot-disc-bubble">
+            <span className="mascot-icon">🎯</span>
           </div>
         </div>
       </div>
 
-      <fieldset className="category-selection-box">
-        <legend className="section-label">Chủ đề bài chơi:</legend>
-        <div className="category-chips">
-          <button
-            type="button"
-            className={`chip ${selectedCategory === null ? "active" : ""}`}
-            onClick={() => onSelectCategory(null)}
-            aria-pressed={selectedCategory === null}
-          >
-            🎲 Ngẫu nhiên tất cả
-          </button>
-          {categories.map((cat) => (
+      {/* Rules Mini Bar */}
+      <div className="rules-mini-banner">
+        <div className="rule-mini-item">
+          <span className="rule-dot dot-1" />
+          <span>100s Đếm ngược</span>
+        </div>
+        <div className="rule-mini-item">
+          <span className="rule-dot dot-2" />
+          <span>Wiki đối thoại</span>
+        </div>
+        <div className="rule-mini-item">
+          <span className="rule-dot dot-3" />
+          <span>Đoán đúng bấm điểm</span>
+        </div>
+      </div>
+
+      {/* Category Section Header */}
+      <div className="category-section-title-row">
+        <span className="category-section-heading">CHỌN CHỦ ĐỀ CHƠI</span>
+        <span className="category-count-tag">{categories.length + 1} chủ đề</span>
+      </div>
+
+      {/* 4-Column Category App-Icon Grid */}
+      <div
+        className="category-icons-grid"
+        role="group"
+        aria-label="Chủ đề bài chơi"
+      >
+        {/* All Random Option */}
+        <button
+          type="button"
+          className={`category-icon-item cat-theme-magenta ${selectedCategory === null ? "is-selected" : ""}`}
+          onClick={() => onSelectCategory(null)}
+          aria-pressed={selectedCategory === null}
+          aria-label="Ngẫu nhiên tất cả"
+        >
+          <div className="category-icon-bubble">
+            <span className="cat-emoji">🎲</span>
+            {selectedCategory === null && <span className="cat-active-check">✓</span>}
+          </div>
+          <span className="category-item-label">Tất Cả</span>
+          <span className="category-item-count">{totalCards} câu</span>
+        </button>
+
+        {/* Dynamic Categories */}
+        {categories.map((cat, idx) => {
+          const isSelected = selectedCategory === cat;
+          const emoji = getCategoryEmoji(cat);
+          const shortName = formatCategoryShortName(cat);
+          const themeClasses = [
+            "cat-theme-amber",
+            "cat-theme-violet",
+            "cat-theme-cyan",
+            "cat-theme-magenta",
+          ];
+          const themeClass = themeClasses[idx % themeClasses.length];
+
+          return (
             <button
               key={cat}
               type="button"
-              className={`chip ${selectedCategory === cat ? "active" : ""}`}
+              className={`category-icon-item ${themeClass} ${isSelected ? "is-selected" : ""}`}
               onClick={() => onSelectCategory(cat)}
-              aria-pressed={selectedCategory === cat}
+              aria-pressed={isSelected}
             >
-              {formatCategoryName(cat)}
+              <div className="category-icon-bubble">
+                <span className="cat-emoji">{emoji}</span>
+                {isSelected && <span className="cat-active-check">✓</span>}
+              </div>
+              <span className="category-item-label">{shortName}</span>
+              <span className="category-item-count">Chủ đề</span>
             </button>
-          ))}
-        </div>
-      </fieldset>
+          );
+        })}
+      </div>
 
+      {/* Selected Category Banner Info */}
+      <div className="selected-category-banner fade-in">
+        <div className="sel-cat-icon">{currentCategoryEmoji}</div>
+        <div className="sel-cat-text">
+          <div className="sel-cat-title">
+            {currentCategoryName}{" "}
+            <span className="sel-cat-badge">
+              {selectedCategory === null ? `${totalCards} câu hỏi` : "Toàn bộ chủ đề"}
+            </span>
+          </div>
+          <div className="sel-cat-desc">
+            {selectedCategory === null
+              ? `Chơi liên tục qua toàn bộ kho ${totalCards} câu hỏi ngẫu nhiên`
+              : `Chơi liên tục qua tất cả các câu hỏi thuộc chủ đề ${currentCategoryName}`}
+          </div>
+        </div>
+      </div>
+
+
+      {/* Start Game Action Button */}
       <div className="action-area">
         <button
           type="button"

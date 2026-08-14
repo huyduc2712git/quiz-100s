@@ -146,6 +146,69 @@ export function playClickSound(enabled: boolean): void {
 }
 
 /**
+ * Play wrong answer sound (dull descending tone).
+ */
+export function playWrongSound(enabled: boolean): void {
+  if (!enabled) return;
+  const ctx = getAudioContext();
+  if (!ctx) return;
+
+  try {
+    const now = ctx.currentTime;
+    const osc = ctx.createOscillator();
+    const gain = ctx.createGain();
+
+    osc.type = "sawtooth";
+    osc.frequency.setValueAtTime(180, now);
+    osc.frequency.linearRampToValueAtTime(120, now + 0.25);
+
+    gain.gain.setValueAtTime(0.2, now);
+    gain.gain.exponentialRampToValueAtTime(0.001, now + 0.3);
+
+    osc.connect(gain);
+    gain.connect(ctx.destination);
+
+    osc.start(now);
+    osc.stop(now + 0.3);
+  } catch (e) {
+    console.warn("Audio play error", e);
+  }
+
+  triggerVibration([120, 60, 120]);
+}
+
+/**
+ * Play combo streak sound with higher pitch per streak.
+ */
+export function playStreakSound(streak: number, enabled: boolean): void {
+  if (!enabled || streak < 2) return;
+  const ctx = getAudioContext();
+  if (!ctx) return;
+
+  try {
+    const now = ctx.currentTime;
+    const baseFreq = Math.min(1200, 500 + streak * 60);
+    const osc = ctx.createOscillator();
+    const gain = ctx.createGain();
+
+    osc.type = "triangle";
+    osc.frequency.setValueAtTime(baseFreq, now);
+    osc.frequency.exponentialRampToValueAtTime(baseFreq * 1.5, now + 0.2);
+
+    gain.gain.setValueAtTime(0.2, now);
+    gain.gain.exponentialRampToValueAtTime(0.001, now + 0.3);
+
+    osc.connect(gain);
+    gain.connect(ctx.destination);
+
+    osc.start(now);
+    osc.stop(now + 0.3);
+  } catch (e) {
+    console.warn("Audio play error", e);
+  }
+}
+
+/**
  * Safely trigger browser haptic vibration if supported.
  */
 export function triggerVibration(pattern: number | number[]): void {
@@ -157,3 +220,4 @@ export function triggerVibration(pattern: number | number[]): void {
     }
   }
 }
+

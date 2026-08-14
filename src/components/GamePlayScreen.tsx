@@ -1,17 +1,74 @@
 import React, { useEffect, useRef, useState } from "react";
-import type { Card } from "../types/game";
-import { formatCategoryName, getRevealedHintsCount } from "../utils/gameUtils";
-import { playHintSound, playCorrectSound } from "../utils/audio";
+import type { Card, WikiExtract } from "../types/game";
+import { formatCategoryName, generateOpeningClue } from "../utils/gameUtils";
+
+import { playCorrectSound, playTimeoutSound } from "../utils/audio";
 import { fetchWikiSummary } from "../utils/wiki";
 
 interface GamePlayScreenProps {
   card: Card;
-  questionIndex: number; // 0..4
-  totalQuestions: number; // 5
+  questionIndex: number;
+  totalQuestions: number;
   score: number;
   soundEnabled: boolean;
   onCorrectAnswer: (timeSpentSeconds: number) => void;
   onTimeout: () => void;
+}
+
+/**
+ * Highlight answer keywords inside the Wikipedia text so Player 1 does not accidentally speak them out.
+ */
+function renderHighlightedWikiText(text: string, answer: string): React.ReactNode {
+  if (!text || !answer) return text;
+
+  const trimmed = answer.trim();
+  const prefixes = [
+    "Chiến thắng", "Chiến dịch", "Trận", "Khởi nghĩa", "Cách mạng",
+    "Phong trào", "Hiệp định", "Hiệp ước", "Bài hát", "Ca khúc", "Bộ phim", "Hình"
+  ];
+
+  const searchTerms = [trimmed];
+  for (const p of prefixes) {
+    if (trimmed.toLowerCase().startsWith(p.toLowerCase())) {
+      const remainder = trimmed.slice(p.length).trim().replace(/^[-–—]\s*/, "");
+      if (remainder.length >= 2) {
+        searchTerms.push(remainder);
+      }
+    }
+  }
+
+  // Also include "lăng trụ" for "hình lăng trụ" etc.
+  if (trimmed.toLowerCase().startsWith("hình ")) {
+    searchTerms.push(trimmed.slice(5).trim());
+  }
+
+  const escapedTerms = Array.from(new Set(searchTerms))
+    .filter(Boolean)
+    .map((t) => t.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"))
+    .sort((a, b) => b.length - a.length);
+
+  if (escapedTerms.length === 0) return text;
+
+  const regex = new RegExp(`(${escapedTerms.join("|")})`, "gi");
+  const parts = text.split(regex);
+
+  return parts.map((part, idx) => {
+    const isMatch = searchTerms.some(
+      (term) => term.toLowerCase() === part.toLowerCase()
+    );
+    if (isMatch) {
+      return (
+        <mark
+          key={idx}
+          className="wiki-answer-keyword"
+          title="⚠️ ĐÁP ÁN: Đừng đọc lộ từ này!"
+        >
+          {part}
+        </mark>
+      );
+    }
+    return part;
+  });
 }
 
 export const GamePlayScreen: React.FC<GamePlayScreenProps> = ({
@@ -23,9 +80,12 @@ export const GamePlayScreen: React.FC<GamePlayScreenProps> = ({
   onCorrectAnswer,
   onTimeout,
 }) => {
+
   const [timeLeft, setTimeLeft] = useState<number>(100);
   const [isLocked, setIsLocked] = useState<boolean>(false);
-  const prevHintCountRef = useRef<number>(1);
+  const [wikiData, setWikiData] = useState<WikiExtract | null>(null);
+  const [isLoadingWiki, setIsLoadingWiki] = useState<boolean>(true);
+
   const endTimeRef = useRef<number>(0);
   const timerIdRef = useRef<ReturnType<typeof setInterval> | null>(null);
   const soundEnabledRef = useRef(soundEnabled);
@@ -34,20 +94,43 @@ export const GamePlayScreen: React.FC<GamePlayScreenProps> = ({
     soundEnabledRef.current = soundEnabled;
   }, [soundEnabled]);
 
-  // Background fetch wikipedia extract for timeout screen
+  // Fetch Wikipedia summary for real-time dialogue
   useEffect(() => {
-    if (card && card.answer) {
-      fetchWikiSummary(card.answer, card.source_url).catch(() => {});
-    }
+    let isMounted = true;
+    setIsLoadingWiki(true);
+    setWikiData(null);
+
+    fetchWikiSummary(card.answer, card.source_url)
+      .then((data) => {
+        if (isMounted) {
+          setWikiData(data);
+          setIsLoadingWiki(false);
+        }
+      })
+      .catch(() => {
+        if (isMounted) {
+          setWikiData({
+            title: card.answer,
+            extract:
+              "Không tìm thấy dữ liệu tóm tắt từ Wikipedia cho đáp án này.",
+            pageUrl:
+              card.source_url ||
+              `https://vi.wikipedia.org/w/index.php?search=${encodeURIComponent(card.answer)}`,
+          });
+          setIsLoadingWiki(false);
+        }
+      });
+
+    return () => {
+      isMounted = false;
+    };
   }, [card]);
 
   // Reset timer on card change
   useEffect(() => {
     setIsLocked(false);
     setTimeLeft(100);
-    prevHintCountRef.current = 1;
 
-    // Accurate timestamp end time calculation
     const durationMs = 100000; // 100 seconds
     endTimeRef.current = Date.now() + durationMs;
 
@@ -61,13 +144,6 @@ export const GamePlayScreen: React.FC<GamePlayScreenProps> = ({
 
       setTimeLeft(remainingSec);
 
-      // Check hint reveal count change
-      const newCount = getRevealedHintsCount(remainingSec);
-      if (newCount > prevHintCountRef.current) {
-        prevHintCountRef.current = newCount;
-        playHintSound(soundEnabledRef.current);
-      }
-
       // Timeout condition
       if (remainingSec <= 0) {
         if (timerIdRef.current) {
@@ -75,6 +151,7 @@ export const GamePlayScreen: React.FC<GamePlayScreenProps> = ({
           timerIdRef.current = null;
         }
         setIsLocked(true);
+        playTimeoutSound(soundEnabledRef.current);
         onTimeout();
       }
     }, 100);
@@ -88,7 +165,6 @@ export const GamePlayScreen: React.FC<GamePlayScreenProps> = ({
   }, [card, onTimeout]);
 
   const handleCorrectClick = () => {
-    // Priority rule: if timer already hit 0, ignore click
     const remainingMs = endTimeRef.current - Date.now();
     const remainingSec = Math.max(0, Math.ceil(remainingMs / 1000));
 
@@ -96,7 +172,6 @@ export const GamePlayScreen: React.FC<GamePlayScreenProps> = ({
       return;
     }
 
-    // Lock button immediately to avoid double tap
     setIsLocked(true);
 
     if (timerIdRef.current) {
@@ -109,16 +184,29 @@ export const GamePlayScreen: React.FC<GamePlayScreenProps> = ({
     onCorrectAnswer(timeSpent);
   };
 
-  const revealedCount = getRevealedHintsCount(timeLeft);
+  const handleSkipClick = () => {
+    if (isLocked || timeLeft <= 0) return;
+    setIsLocked(true);
+    if (timerIdRef.current) {
+      clearInterval(timerIdRef.current);
+      timerIdRef.current = null;
+    }
+    playTimeoutSound(soundEnabledRef.current);
+    onTimeout();
+  };
+
+  const openingClue = generateOpeningClue(card);
   const isUrgent = timeLeft <= 20;
 
   return (
-    <div className="gameplay-screen fade-in">
+    <div className="gameplay-screen hint-gameplay-compact fade-in">
       <p className="sr-only" role="status" aria-live="polite">
-        Câu {questionIndex + 1} trên {totalQuestions}. Chủ đề {formatCategoryName(card.category)}.
+        Câu {questionIndex + 1} trên {totalQuestions}. Chủ đề{" "}
+        {formatCategoryName(card.category)}.
       </p>
-      {/* Top Status Bar */}
-      <div className="status-bar">
+
+      {/* Top Compact Status Row */}
+      <div className="status-bar compact-status-bar">
         <div className="status-badge category-badge">
           {formatCategoryName(card.category)}
         </div>
@@ -130,76 +218,111 @@ export const GamePlayScreen: React.FC<GamePlayScreenProps> = ({
         </div>
       </div>
 
-      {/* Timer Section */}
-      <div className={`timer-box ${isUrgent ? "urgent" : ""}`}>
-        <div className="timer-circle">
-          <span className="timer-number">{timeLeft}</span>
-          <span className="timer-label">GIÂY</span>
-        </div>
-        {isUrgent && (
-          <div className="urgent-warning" role="status">
-            ⏱️ CÒN DƯỚI 20 GIÂY!
+      {/* Compact Answer & Opening Clue Card */}
+      <div className="compact-answer-timer-card">
+        <div className="answer-left-info">
+          {/* Spoken Opening Prompt for Player 1 */}
+          <div className="opening-clue-box">
+            <span className="opening-clue-tag">
+              📢 GỢI Ý MỞ ĐẦU (ĐỌC CHO BẠN ĐOÁN):
+            </span>
+            <div className="opening-clue-quote">"{openingClue}"</div>
           </div>
-        )}
-      </div>
 
-      {/* Answer Box for Player 1 */}
-      <div className="answer-card">
-        <div className="answer-label">ĐÁP ÁN (Dành cho người cầm máy):</div>
-        <div className="answer-text">{card.answer}</div>
-      </div>
-
-      {/* Hints List (Revealed & Locked) */}
-      <div className="hints-section">
-        <div className="hints-header">
-          <span>DANH SÁCH GỢI Ý</span>
-          <span className="hints-count">
-            Đã mở: {revealedCount}/{card.hints?.length || 5}
-          </span>
+          {/* Answer Display */}
+          <div className="answer-main-display">
+            <span className="answer-badge-tag">🎯 ĐÁP ÁN:</span>
+            <h2 className="compact-answer-title">{card.answer}</h2>
+          </div>
         </div>
-        <div className="hints-list" aria-live="polite" aria-relevant="additions">
-          {(card.hints || []).map((hint, idx) => {
-            const isRevealed = idx < revealedCount;
-            const isLatest = idx === revealedCount - 1 && revealedCount > 1;
-            const unlockAt = 100 - idx * 20;
 
-            if (isRevealed) {
-              return (
-                <div
-                  key={idx}
-                  className={`hint-item hint-revealed ${isLatest ? "hint-latest" : ""}`}
-                >
-                  <span className="hint-num">{idx + 1}</span>
-                  <div className="hint-body">
-                    <span className="hint-content">{hint}</span>
+        {/* Compact Glowing Timer Badge */}
+        <div
+          className={`compact-timer-bubble ${isUrgent ? "urgent-pulse" : ""}`}
+        >
+          <span className="timer-number">{timeLeft}</span>
+          <span className="timer-unit">GIÂY</span>
+        </div>
+      </div>
+
+      {/* Primary Full Wikipedia Dialogue Knowledge Area (Chiếm diện tích chính để đối thoại) */}
+      <div className="wiki-dialogue-card wiki-dialogue-main-card">
+        <div className="wiki-dialogue-header">
+          <div className="wiki-title-left">
+            <span className="wiki-badge-icon">📖</span>
+            <span className="wiki-badge-title">
+              DỮ KIỆN WIKIPEDIA ĐỐI THOẠI
+            </span>
+            <span className="wiki-answer-warning-badge">⚠️ Chữ tô hồng = Đáp án</span>
+          </div>
+          <a
+            href={wikiData?.pageUrl || card.source_url}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="wiki-external-btn"
+            title="Mở bài viết đầy đủ trên Wikipedia"
+          >
+            🔗 Wikipedia ↗
+          </a>
+        </div>
+
+        <div className="wiki-dialogue-body wiki-dialogue-scrollable">
+          {isLoadingWiki ? (
+            <div className="wiki-dialogue-loading">
+              <span className="wiki-spinner" />
+              <span>Đang tải tóm tắt toàn diện từ Wikipedia...</span>
+            </div>
+          ) : (
+            <div className="wiki-content-paragraphs">
+              {(wikiData?.extract || "Không có đoạn tóm tắt.")
+                .split("\n\n")
+                .filter(Boolean)
+                .map((para, i) => (
+                  <p key={i} className="wiki-para-text">
+                    {renderHighlightedWikiText(para, card.answer)}
+                  </p>
+                ))}
+
+              {/* Quick Clue Bullets from Card dataset */}
+              {card.hints && card.hints.length > 0 && (
+                <div className="wiki-clues-sublist">
+                  <div className="wiki-clues-subtitle">
+                    💡 DỮ KIỆN MẤU CHỐT BỔ SUNG:
                   </div>
+                  {card.hints.map((hint, idx) => (
+                    <div key={idx} className="wiki-clue-pill">
+                      <span className="wiki-clue-dot">•</span>
+                      <span>{renderHighlightedWikiText(hint, card.answer)}</span>
+                    </div>
+                  ))}
                 </div>
-              );
-            }
-
-            return (
-              <div key={idx} className="hint-item hint-locked">
-                <span className="hint-num hint-num--locked">🔒</span>
-                <div className="hint-body">
-                  <span className="hint-locked-text">Gợi ý {idx + 1}</span>
-                  <span className="hint-lock-badge">Mở ở mốc {unlockAt}s</span>
-                </div>
-              </div>
-            );
-          })}
+              )}
+            </div>
+          )}
         </div>
       </div>
 
-      {/* Fixed Large Correct Button */}
-      <div className="fixed-bottom-bar">
+
+
+      {/* In-Flow Bottom Action Controls (Bỏ qua / Đúng) */}
+      <div className="hint-action-bar">
+        <button
+          type="button"
+          className="btn btn-skip"
+          onClick={handleSkipClick}
+          disabled={isLocked || timeLeft <= 0}
+          aria-label="Bỏ qua câu hỏi này"
+        >
+          Bỏ qua
+        </button>
         <button
           type="button"
           className="btn btn-correct"
           onClick={handleCorrectClick}
           disabled={isLocked || timeLeft <= 0}
-          aria-label="Đoán Đúng"
+          aria-label="Người chơi đoán đúng"
         >
-          ✓ ĐÚNG!
+          ✓ ĐÚNG
         </button>
       </div>
     </div>

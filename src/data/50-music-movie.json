@@ -1,0 +1,468 @@
+{
+  "version": "1.0",
+  "title": "Vietnamese Movie Music 50 Quiz",
+  "total_quizzes": 50,
+  "total_audio_sources": 20,
+  "audio_note": "YouTube URLs are references for permitted playback/embed. Timestamps are selected as demo playback positions and should be spot-checked before production use.",
+  "sets":[
+  {
+    "id": 1,
+    "question": "Ca khúc này có tên là gì?",
+    "youtube_url": "https://www.youtube.com/watch?v=TD7sBUigDIU",
+    "audio_start": 30,
+    "audio_duration": 30,
+    "options": ["Sao Cha Không", "Sau Lời Từ Khước", "Có Chàng Trai Viết Lên Cây", "Đóa Bạch Trà"],
+    "correct_answer": "Sao Cha Không"
+  },
+  {
+    "id": 2,
+    "question": "Ai là người thể hiện ca khúc này?",
+    "youtube_url": "https://www.youtube.com/watch?v=TD7sBUigDIU",
+    "audio_start": 60,
+    "audio_duration": 30,
+    "options": ["Phan Mạnh Quỳnh", "Bùi Lan Hương", "Đức Phúc", "Hoàng Dũng"],
+    "correct_answer": "Phan Mạnh Quỳnh"
+  },
+  {
+    "id": 3,
+    "question": "Ca khúc này là nhạc phim của bộ phim nào?",
+    "youtube_url": "https://www.youtube.com/watch?v=TD7sBUigDIU",
+    "audio_start": 90,
+    "audio_duration": 30,
+    "options": ["Bố Già", "Mai", "Mắt Biếc", "Ròm"],
+    "correct_answer": "Bố Già"
+  },
+  {
+    "id": 4,
+    "question": "Ca khúc này thuộc dòng nhạc nào gần nhất?",
+    "youtube_url": "https://www.youtube.com/watch?v=TD7sBUigDIU",
+    "audio_start": 120,
+    "audio_duration": 30,
+    "options": ["Pop ballad", "Rap", "EDM", "Rock"],
+    "correct_answer": "Pop ballad"
+  },
+  {
+    "id": 5,
+    "question": "Tên ca sĩ trong đoạn nhạc này là ai?",
+    "youtube_url": "https://www.youtube.com/watch?v=TD7sBUigDIU",
+    "audio_start": 150,
+    "audio_duration": 30,
+    "options": ["Phan Mạnh Quỳnh", "Wowy", "Hoàng Dũng", "Quốc An"],
+    "correct_answer": "Phan Mạnh Quỳnh"
+  },
+
+  {
+    "id": 6,
+    "question": "Ca khúc này có tên là gì?",
+    "youtube_url": "https://www.youtube.com/watch?v=0VC6euBtKkk",
+    "audio_start": 30,
+    "audio_duration": 30,
+    "options": ["Có Chàng Trai Viết Lên Cây", "Sao Cha Không", "Sau Lời Từ Khước", "Nàng Thơ"],
+    "correct_answer": "Có Chàng Trai Viết Lên Cây"
+  },
+  {
+    "id": 7,
+    "question": "Ai thể hiện ca khúc này?",
+    "youtube_url": "https://www.youtube.com/watch?v=0VC6euBtKkk",
+    "audio_start": 60,
+    "audio_duration": 30,
+    "options": ["Phan Mạnh Quỳnh", "Hoàng Dũng", "Đức Phúc", "Wowy"],
+    "correct_answer": "Phan Mạnh Quỳnh"
+  },
+  {
+    "id": 8,
+    "question": "Ca khúc này gắn liền với bộ phim nào?",
+    "youtube_url": "https://www.youtube.com/watch?v=0VC6euBtKkk",
+    "audio_start": 90,
+    "audio_duration": 30,
+    "options": ["Mắt Biếc", "Mai", "Bố Già", "Em Và Trịnh"],
+    "correct_answer": "Mắt Biếc"
+  },
+  {
+    "id": 9,
+    "question": "Ai là tác giả của ca khúc này?",
+    "youtube_url": "https://www.youtube.com/watch?v=0VC6euBtKkk",
+    "audio_start": 120,
+    "audio_duration": 30,
+    "options": ["Phan Mạnh Quỳnh", "Đức Trí", "Nguyễn Hải Phong", "Hoàng Dũng"],
+    "correct_answer": "Phan Mạnh Quỳnh"
+  },
+  {
+    "id": 10,
+    "question": "Ca khúc này thuộc thể loại nào?",
+    "youtube_url": "https://www.youtube.com/watch?v=0VC6euBtKkk",
+    "audio_start": 150,
+    "audio_duration": 30,
+    "options": ["Pop ballad", "Hip hop", "EDM", "Rock"],
+    "correct_answer": "Pop ballad"
+  },
+
+  {
+    "id": 11,
+    "question": "Ca khúc này có tên là gì?",
+    "youtube_url": "https://www.youtube.com/watch?v=FSuRlhFcKc0",
+    "audio_start": 30,
+    "audio_duration": 30,
+    "options": ["Chạy", "Thiên Đàng", "Gác Lại Âu Lo", "Nàng Thơ"],
+    "correct_answer": "Chạy"
+  },
+  {
+    "id": 12,
+    "question": "Ai thể hiện ca khúc này?",
+    "youtube_url": "https://www.youtube.com/watch?v=FSuRlhFcKc0",
+    "audio_start": 60,
+    "audio_duration": 30,
+    "options": ["Wowy", "Đen", "HIEUTHUHAI", "JustaTee"],
+    "correct_answer": "Wowy"
+  },
+  {
+    "id": 13,
+    "question": "Ca khúc này là nhạc chủ đề của phim nào?",
+    "youtube_url": "https://www.youtube.com/watch?v=FSuRlhFcKc0",
+    "audio_start": 90,
+    "audio_duration": 30,
+    "options": ["Ròm", "Lật Mặt 48H", "Bẫy Ngọt Ngào", "Nghề Siêu Dễ"],
+    "correct_answer": "Ròm"
+  },
+  {
+    "id": 14,
+    "question": "Nghệ sĩ trong đoạn nhạc này thuộc phong cách nào nổi bật?",
+    "youtube_url": "https://www.youtube.com/watch?v=FSuRlhFcKc0",
+    "audio_start": 120,
+    "audio_duration": 30,
+    "options": ["Rap/Hip hop", "Bolero", "Opera", "Jazz"],
+    "correct_answer": "Rap/Hip hop"
+  },
+  {
+    "id": 15,
+    "question": "Tên nghệ sĩ nào sau đây gắn với ca khúc này?",
+    "youtube_url": "https://www.youtube.com/watch?v=FSuRlhFcKc0",
+    "audio_start": 150,
+    "audio_duration": 30,
+    "options": ["Wowy", "Phan Mạnh Quỳnh", "Hoàng Dũng", "Quốc An"],
+    "correct_answer": "Wowy"
+  },
+
+  {
+    "id": 16,
+    "question": "Ca khúc này có tên là gì?",
+    "youtube_url": "https://www.youtube.com/watch?v=PM_cQ--A2oA",
+    "audio_start": 30,
+    "audio_duration": 30,
+    "options": ["Đóa Bạch Trà", "Ngày Chưa Giông Bão", "Từ Đó", "Nàng Thơ"],
+    "correct_answer": "Đóa Bạch Trà"
+  },
+  {
+    "id": 17,
+    "question": "Ai thể hiện ca khúc này?",
+    "youtube_url": "https://www.youtube.com/watch?v=PM_cQ--A2oA",
+    "audio_start": 60,
+    "audio_duration": 30,
+    "options": ["Bùi Lan Hương", "Phan Mạnh Quỳnh", "Đức Phúc", "Hoàng Dũng"],
+    "correct_answer": "Bùi Lan Hương"
+  },
+  {
+    "id": 18,
+    "question": "Ca khúc này là OST của bộ phim nào?",
+    "youtube_url": "https://www.youtube.com/watch?v=PM_cQ--A2oA",
+    "audio_start": 90,
+    "audio_duration": 30,
+    "options": ["Gái Già Lắm Chiêu V", "Chị Chị Em Em 2", "Cô Gái Từ Quá Khứ", "Thiên Thần Hộ Mệnh"],
+    "correct_answer": "Gái Già Lắm Chiêu V"
+  },
+  {
+    "id": 19,
+    "question": "Giọng hát trong đoạn nhạc này là của ca sĩ nào?",
+    "youtube_url": "https://www.youtube.com/watch?v=PM_cQ--A2oA",
+    "audio_start": 120,
+    "audio_duration": 30,
+    "options": ["Bùi Lan Hương", "Văn Mai Hương", "Hòa Minzy", "MIN"],
+    "correct_answer": "Bùi Lan Hương"
+  },
+  {
+    "id": 20,
+    "question": "Ca khúc này thuộc nhóm nhạc nào sau đây?",
+    "youtube_url": "https://www.youtube.com/watch?v=PM_cQ--A2oA",
+    "audio_start": 150,
+    "audio_duration": 30,
+    "options": ["Pop/Ballad", "Rap", "EDM", "Rock"],
+    "correct_answer": "Pop/Ballad"
+  },
+
+  {
+    "id": 21,
+    "question": "Ca khúc này có tên là gì?",
+    "youtube_url": "https://www.youtube.com/watch?v=Ta6yfXa2mDY",
+    "audio_start": 30,
+    "audio_duration": 30,
+    "options": ["Sau Lời Từ Khước", "Sao Cha Không", "Từ Đó", "Có Chàng Trai Viết Lên Cây"],
+    "correct_answer": "Sau Lời Từ Khước"
+  },
+  {
+    "id": 22,
+    "question": "Ai thể hiện ca khúc này?",
+    "youtube_url": "https://www.youtube.com/watch?v=Ta6yfXa2mDY",
+    "audio_start": 60,
+    "audio_duration": 30,
+    "options": ["Phan Mạnh Quỳnh", "Bùi Lan Hương", "Đức Phúc", "Hoàng Dũng"],
+    "correct_answer": "Phan Mạnh Quỳnh"
+  },
+  {
+    "id": 23,
+    "question": "Ca khúc này là theme song của bộ phim nào?",
+    "youtube_url": "https://www.youtube.com/watch?v=Ta6yfXa2mDY",
+    "audio_start": 90,
+    "audio_duration": 30,
+    "options": ["Mai", "Nhà Bà Nữ", "Bố Già", "Mắt Biếc"],
+    "correct_answer": "Mai"
+  },
+  {
+    "id": 24,
+    "question": "Ai là tác giả của ca khúc này?",
+    "youtube_url": "https://www.youtube.com/watch?v=Ta6yfXa2mDY",
+    "audio_start": 120,
+    "audio_duration": 30,
+    "options": ["Phan Mạnh Quỳnh", "Đức Trí", "Nguyễn Hải Phong", "Hoàng Dũng"],
+    "correct_answer": "Phan Mạnh Quỳnh"
+  },
+  {
+    "id": 25,
+    "question": "Ca khúc này thuộc phong cách nào?",
+    "youtube_url": "https://www.youtube.com/watch?v=Ta6yfXa2mDY",
+    "audio_start": 150,
+    "audio_duration": 30,
+    "options": ["Pop ballad", "Rap", "Rock", "EDM"],
+    "correct_answer": "Pop ballad"
+  },
+
+  {
+    "id": 26,
+    "question": "Ca khúc này có tên là gì?",
+    "youtube_url": "https://www.youtube.com/watch?v=OusEOkz5SIE",
+    "audio_start": 30,
+    "audio_duration": 30,
+    "options": ["Cảm Ơn Con Nhé", "Ba Kể Con Nghe", "Điều Cha Chưa Nói", "Cha Và Con"],
+    "correct_answer": "Cảm Ơn Con Nhé"
+  },
+  {
+    "id": 27,
+    "question": "Ai thể hiện ca khúc này?",
+    "youtube_url": "https://www.youtube.com/watch?v=OusEOkz5SIE",
+    "audio_start": 60,
+    "audio_duration": 30,
+    "options": ["Quốc An", "Phan Mạnh Quỳnh", "Đức Phúc", "Hoàng Dũng"],
+    "correct_answer": "Quốc An"
+  },
+  {
+    "id": 28,
+    "question": "Ca khúc này là nhạc phim của bộ phim truyền hình nào?",
+    "youtube_url": "https://www.youtube.com/watch?v=OusEOkz5SIE",
+    "audio_start": 90,
+    "audio_duration": 30,
+    "options": ["Về Nhà Đi Con", "Thương Ngày Nắng Về", "Hương Vị Tình Thân", "11 Tháng 5 Ngày"],
+    "correct_answer": "Về Nhà Đi Con"
+  },
+  {
+    "id": 29,
+    "question": "Chủ đề nổi bật của ca khúc này là gì?",
+    "youtube_url": "https://www.youtube.com/watch?v=OusEOkz5SIE",
+    "audio_start": 120,
+    "audio_duration": 30,
+    "options": ["Tình cảm gia đình", "Tuổi trẻ nổi loạn", "Tiệc tùng", "Du lịch"],
+    "correct_answer": "Tình cảm gia đình"
+  },
+  {
+    "id": 30,
+    "question": "Tên ca sĩ nào sau đây gắn với ca khúc này?",
+    "youtube_url": "https://www.youtube.com/watch?v=OusEOkz5SIE",
+    "audio_start": 150,
+    "audio_duration": 30,
+    "options": ["Quốc An", "Wowy", "Bùi Lan Hương", "Hoàng Dũng"],
+    "correct_answer": "Quốc An"
+  },
+
+  {
+    "id": 31,
+    "question": "Ca khúc này có tên là gì?",
+    "youtube_url": "https://www.youtube.com/watch?v=ECxVfrwwTp0",
+    "audio_start": 30,
+    "audio_duration": 30,
+    "options": ["Gác Lại Âu Lo", "Chạy", "Nàng Thơ", "Hết Thương Cạn Nhớ"],
+    "correct_answer": "Gác Lại Âu Lo"
+  },
+  {
+    "id": 32,
+    "question": "Những nghệ sĩ nào thể hiện ca khúc này?",
+    "youtube_url": "https://www.youtube.com/watch?v=ECxVfrwwTp0",
+    "audio_start": 60,
+    "audio_duration": 30,
+    "options": ["Da LAB và Miu Lê", "Đen và MIN", "Phan Mạnh Quỳnh và Bùi Lan Hương", "Wowy và Tóc Tiên"],
+    "correct_answer": "Da LAB và Miu Lê"
+  },
+  {
+    "id": 33,
+    "question": "Ai là nhóm nhạc đứng tên chính trong ca khúc này?",
+    "youtube_url": "https://www.youtube.com/watch?v=ECxVfrwwTp0",
+    "audio_start": 90,
+    "audio_duration": 30,
+    "options": ["Da LAB", "Chillies", "Ngọt", "Cá Hồi Hoang"],
+    "correct_answer": "Da LAB"
+  },
+  {
+    "id": 34,
+    "question": "Ca khúc này thuộc phong cách nào gần nhất?",
+    "youtube_url": "https://www.youtube.com/watch?v=ECxVfrwwTp0",
+    "audio_start": 120,
+    "audio_duration": 30,
+    "options": ["Pop/Rap", "Bolero", "Opera", "Metal"],
+    "correct_answer": "Pop/Rap"
+  },
+  {
+    "id": 35,
+    "question": "Nữ ca sĩ nào góp giọng trong ca khúc này?",
+    "youtube_url": "https://www.youtube.com/watch?v=ECxVfrwwTp0",
+    "audio_start": 150,
+    "audio_duration": 30,
+    "options": ["Miu Lê", "MIN", "Tóc Tiên", "Hòa Minzy"],
+    "correct_answer": "Miu Lê"
+  },
+
+  {
+    "id": 36,
+    "question": "Ca khúc này có tên là gì?",
+    "youtube_url": "https://www.youtube.com/watch?v=Zzn9-ATB9aU",
+    "audio_start": 30,
+    "audio_duration": 30,
+    "options": ["Nàng Thơ", "Bước Qua Mùa Cô Đơn", "Cắt Đôi Nỗi Sầu", "Sau Lời Từ Khước"],
+    "correct_answer": "Nàng Thơ"
+  },
+  {
+    "id": 37,
+    "question": "Ai thể hiện ca khúc này?",
+    "youtube_url": "https://www.youtube.com/watch?v=Zzn9-ATB9aU",
+    "audio_start": 60,
+    "audio_duration": 30,
+    "options": ["Hoàng Dũng", "Phan Mạnh Quỳnh", "Đức Phúc", "Tăng Duy Tân"],
+    "correct_answer": "Hoàng Dũng"
+  },
+  {
+    "id": 38,
+    "question": "Ai là người sáng tác ca khúc này?",
+    "youtube_url": "https://www.youtube.com/watch?v=Zzn9-ATB9aU",
+    "audio_start": 90,
+    "audio_duration": 30,
+    "options": ["Hoàng Dũng", "Vương Anh Tú", "Phan Mạnh Quỳnh", "Đức Trí"],
+    "correct_answer": "Hoàng Dũng"
+  },
+  {
+    "id": 39,
+    "question": "Tên album gắn với ca khúc này là gì?",
+    "youtube_url": "https://www.youtube.com/watch?v=Zzn9-ATB9aU",
+    "audio_start": 120,
+    "audio_duration": 30,
+    "options": ["25", "Yêu", "Gieo", "Từng Ngày Yêu Em"],
+    "correct_answer": "25"
+  },
+  {
+    "id": 40,
+    "question": "Ca khúc này thuộc phong cách nào gần nhất?",
+    "youtube_url": "https://www.youtube.com/watch?v=Zzn9-ATB9aU",
+    "audio_start": 150,
+    "audio_duration": 30,
+    "options": ["Pop ballad", "Rap", "EDM", "Rock"],
+    "correct_answer": "Pop ballad"
+  },
+
+  {
+    "id": 41,
+    "question": "Ca khúc này có tên là gì?",
+    "youtube_url": "https://www.youtube.com/watch?v=DZDYZ9nRHfU",
+    "audio_start": 30,
+    "audio_duration": 30,
+    "options": ["Hết Thương Cạn Nhớ", "Nàng Thơ", "Cắt Đôi Nỗi Sầu", "Sau Lời Từ Khước"],
+    "correct_answer": "Hết Thương Cạn Nhớ"
+  },
+  {
+    "id": 42,
+    "question": "Ai là người thể hiện ca khúc này?",
+    "youtube_url": "https://www.youtube.com/watch?v=DZDYZ9nRHfU",
+    "audio_start": 60,
+    "audio_duration": 30,
+    "options": ["Đức Phúc", "Hoàng Dũng", "Phan Mạnh Quỳnh", "Tăng Duy Tân"],
+    "correct_answer": "Đức Phúc"
+  },
+  {
+    "id": 43,
+    "question": "Ai là tác giả của ca khúc này?",
+    "youtube_url": "https://www.youtube.com/watch?v=DZDYZ9nRHfU",
+    "audio_start": 90,
+    "audio_duration": 30,
+    "options": ["Vương Anh Tú", "Hoàng Dũng", "Phan Mạnh Quỳnh", "Nguyễn Hải Phong"],
+    "correct_answer": "Vương Anh Tú"
+  },
+  {
+    "id": 44,
+    "question": "MV này có lấy cảm hứng từ nhân vật văn học nào?",
+    "youtube_url": "https://www.youtube.com/watch?v=DZDYZ9nRHfU",
+    "audio_start": 120,
+    "audio_duration": 30,
+    "options": ["Chí Phèo", "Tắt Đèn", "Vợ Nhặt", "Lão Hạc"],
+    "correct_answer": "Chí Phèo"
+  },
+  {
+    "id": 45,
+    "question": "Ca khúc này thuộc thể loại nào gần nhất?",
+    "youtube_url": "https://www.youtube.com/watch?v=DZDYZ9nRHfU",
+    "audio_start": 150,
+    "audio_duration": 30,
+    "options": ["Pop ballad", "Rap", "EDM", "Rock"],
+    "correct_answer": "Pop ballad"
+  },
+
+  {
+    "id": 46,
+    "question": "Ca khúc này có tên là gì?",
+    "youtube_url": "https://www.youtube.com/watch?v=llf_L0i9OdA",
+    "audio_start": 30,
+    "audio_duration": 30,
+    "options": ["Nghe Như Tình Yêu", "Không Thể Say", "Mất Kết Nối", "Phải Là Yêu"],
+    "correct_answer": "Nghe Như Tình Yêu"
+  },
+  {
+    "id": 47,
+    "question": "Ai là người thể hiện ca khúc này?",
+    "youtube_url": "https://www.youtube.com/watch?v=llf_L0i9OdA",
+    "audio_start": 60,
+    "audio_duration": 30,
+    "options": ["HIEUTHUHAI", "MONO", "Dương Domic", "Obito"],
+    "correct_answer": "HIEUTHUHAI"
+  },
+  {
+    "id": 48,
+    "question": "Ai là nhà sản xuất được ghi nhận cùng ca khúc này?",
+    "youtube_url": "https://www.youtube.com/watch?v=llf_L0i9OdA",
+    "audio_start": 90,
+    "audio_duration": 30,
+    "options": ["Kewtiie", "Touliver", "Masew", "OnlyC"],
+    "correct_answer": "Kewtiie"
+  },
+  {
+    "id": 49,
+    "question": "Ca khúc này thuộc dòng nhạc nào gần nhất?",
+    "youtube_url": "https://www.youtube.com/watch?v=llf_L0i9OdA",
+    "audio_start": 120,
+    "audio_duration": 30,
+    "options": ["Pop/Rap", "Bolero", "Opera", "Rock"],
+    "correct_answer": "Pop/Rap"
+  },
+  {
+    "id": 50,
+    "question": "Tên nghệ sĩ nào sau đây gắn với ca khúc này?",
+    "youtube_url": "https://www.youtube.com/watch?v=llf_L0i9OdA",
+    "audio_start": 150,
+    "audio_duration": 30,
+    "options": ["HIEUTHUHAI", "Đức Phúc", "Hoàng Dũng", "Wowy"],
+    "correct_answer": "HIEUTHUHAI"
+  }
+]
+}

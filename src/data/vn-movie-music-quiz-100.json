@@ -1,0 +1,1709 @@
+{
+  "version": "1.0",
+  "title": "Vietnamese Movie Music Quiz",
+  "total_quizzes": 100,
+  "total_audio_sources": 20,
+  "audio_note": "YouTube URLs are references for permitted playback/embed. Timestamps are selected as demo playback positions and should be spot-checked before production use.",
+  "sets": [
+    {
+      "video_id": "video_001",
+      "youtube_url": "https://www.youtube.com/watch?v=0VC6euBtKkk",
+      "audio_start": 30,
+      "audio_duration": 30,
+      "metadata": {
+        "song": "Có Chàng Trai Viết Lên Cây",
+        "movie": "Mắt Biếc",
+        "artist": "Phan Mạnh Quỳnh",
+        "director": "Victor Vũ",
+        "release_year": 2019
+      },
+      "questions": [
+        {
+          "id": 1,
+          "question": "Đây là bài hát nào?",
+          "youtube_url": "https://www.youtube.com/watch?v=0VC6euBtKkk",
+          "audio_start": 30,
+          "audio_duration": 30,
+          "options": [
+            "Yêu Là \"Tha Thu\"",
+            "Nắng Thủy Tinh",
+            "Có Chàng Trai Viết Lên Cây",
+            "Cô Ba Sài Gòn"
+          ],
+          "correct_answer": "Có Chàng Trai Viết Lên Cây"
+        },
+        {
+          "id": 2,
+          "question": "Ca khúc này là nhạc phim của bộ phim nào?",
+          "youtube_url": "https://www.youtube.com/watch?v=0VC6euBtKkk",
+          "audio_start": 30,
+          "audio_duration": 30,
+          "options": [
+            "Em Và Trịnh",
+            "Em Chưa 18",
+            "Mắt Biếc",
+            "Mai"
+          ],
+          "correct_answer": "Mắt Biếc"
+        },
+        {
+          "id": 3,
+          "question": "Ai thể hiện ca khúc này?",
+          "youtube_url": "https://www.youtube.com/watch?v=0VC6euBtKkk",
+          "audio_start": 30,
+          "audio_duration": 30,
+          "options": [
+            "Phan Mạnh Quỳnh",
+            "Hà Trần",
+            "Hoàng Dũng",
+            "Ali Hoàng Dương"
+          ],
+          "correct_answer": "Phan Mạnh Quỳnh"
+        },
+        {
+          "id": 4,
+          "question": "Ai là đạo diễn của bộ phim này?",
+          "youtube_url": "https://www.youtube.com/watch?v=0VC6euBtKkk",
+          "audio_start": 30,
+          "audio_duration": 30,
+          "options": [
+            "Võ Thanh Hòa",
+            "Ngô Thanh Vân, Lê Thanh Sơn",
+            "Đinh Tuấn Vũ",
+            "Victor Vũ"
+          ],
+          "correct_answer": "Victor Vũ"
+        },
+        {
+          "id": 5,
+          "question": "Bộ phim gắn với ca khúc này ra mắt năm nào?",
+          "youtube_url": "https://www.youtube.com/watch?v=0VC6euBtKkk",
+          "audio_start": 30,
+          "audio_duration": 30,
+          "options": [
+            "2022",
+            "2024",
+            "2019",
+            "2018"
+          ],
+          "correct_answer": "2019"
+        }
+      ]
+    },
+    {
+      "video_id": "video_002",
+      "youtube_url": "https://www.youtube.com/watch?v=HsgTIMDA6ps",
+      "audio_start": 35,
+      "audio_duration": 30,
+      "metadata": {
+        "song": "Từ Đó",
+        "movie": "Mắt Biếc",
+        "artist": "Phan Mạnh Quỳnh",
+        "director": "Victor Vũ",
+        "release_year": 2019
+      },
+      "questions": [
+        {
+          "id": 6,
+          "question": "Đây là bài hát nào?",
+          "youtube_url": "https://www.youtube.com/watch?v=HsgTIMDA6ps",
+          "audio_start": 35,
+          "audio_duration": 30,
+          "options": [
+            "Sau Lời Từ Khước",
+            "Từ Đó",
+            "Nắng Thủy Tinh",
+            "Cô Ba Sài Gòn"
+          ],
+          "correct_answer": "Từ Đó"
+        },
+        {
+          "id": 7,
+          "question": "Ca khúc này là nhạc phim của bộ phim nào?",
+          "youtube_url": "https://www.youtube.com/watch?v=HsgTIMDA6ps",
+          "audio_start": 35,
+          "audio_duration": 30,
+          "options": [
+            "Ông Ngoại Tuổi 30",
+            "Mai",
+            "Mắt Biếc",
+            "Bố Già"
+          ],
+          "correct_answer": "Mắt Biếc"
+        },
+        {
+          "id": 8,
+          "question": "Ai thể hiện ca khúc này?",
+          "youtube_url": "https://www.youtube.com/watch?v=HsgTIMDA6ps",
+          "audio_start": 35,
+          "audio_duration": 30,
+          "options": [
+            "Ali Hoàng Dương",
+            "Phan Mạnh Quỳnh",
+            "Only C",
+            "Orange"
+          ],
+          "correct_answer": "Phan Mạnh Quỳnh"
+        },
+        {
+          "id": 9,
+          "question": "Ai là đạo diễn của bộ phim này?",
+          "youtube_url": "https://www.youtube.com/watch?v=HsgTIMDA6ps",
+          "audio_start": 35,
+          "audio_duration": 30,
+          "options": [
+            "Lê Thanh Sơn",
+            "Võ Thanh Hòa",
+            "Phan Gia Nhật Linh",
+            "Victor Vũ"
+          ],
+          "correct_answer": "Victor Vũ"
+        },
+        {
+          "id": 10,
+          "question": "Bộ phim gắn với ca khúc này ra mắt năm nào?",
+          "youtube_url": "https://www.youtube.com/watch?v=HsgTIMDA6ps",
+          "audio_start": 35,
+          "audio_duration": 30,
+          "options": [
+            "2019",
+            "2024",
+            "2016",
+            "2025"
+          ],
+          "correct_answer": "2019"
+        }
+      ]
+    },
+    {
+      "video_id": "video_003",
+      "youtube_url": "https://www.youtube.com/watch?v=xwgS5ktvQxk",
+      "audio_start": 30,
+      "audio_duration": 30,
+      "metadata": {
+        "song": "Điều Cha Chưa Nói",
+        "movie": "Bố Già",
+        "artist": "Ali Hoàng Dương",
+        "director": "Trấn Thành",
+        "release_year": 2021
+      },
+      "questions": [
+        {
+          "id": 11,
+          "question": "Đây là bài hát nào?",
+          "youtube_url": "https://www.youtube.com/watch?v=xwgS5ktvQxk",
+          "audio_start": 30,
+          "audio_duration": 30,
+          "options": [
+            "Từ Đó",
+            "Điều Cha Chưa Nói",
+            "Yêu Là \"Tha Thu\"",
+            "Sau Lời Từ Khước"
+          ],
+          "correct_answer": "Điều Cha Chưa Nói"
+        },
+        {
+          "id": 12,
+          "question": "Ca khúc này là nhạc phim của bộ phim nào?",
+          "youtube_url": "https://www.youtube.com/watch?v=xwgS5ktvQxk",
+          "audio_start": 30,
+          "audio_duration": 30,
+          "options": [
+            "Bố Già",
+            "Cô Ba Sài Gòn",
+            "Mắt Biếc",
+            "Bộ Tứ Báo Thủ"
+          ],
+          "correct_answer": "Bố Già"
+        },
+        {
+          "id": 13,
+          "question": "Ai thể hiện ca khúc này?",
+          "youtube_url": "https://www.youtube.com/watch?v=xwgS5ktvQxk",
+          "audio_start": 30,
+          "audio_duration": 30,
+          "options": [
+            "Will",
+            "Trịnh Thăng Bình",
+            "Only C",
+            "Ali Hoàng Dương"
+          ],
+          "correct_answer": "Ali Hoàng Dương"
+        },
+        {
+          "id": 14,
+          "question": "Ai là đạo diễn của bộ phim này?",
+          "youtube_url": "https://www.youtube.com/watch?v=xwgS5ktvQxk",
+          "audio_start": 30,
+          "audio_duration": 30,
+          "options": [
+            "Ngô Thanh Vân, Lê Thanh Sơn",
+            "Trấn Thành",
+            "Victor Vũ",
+            "Đinh Tuấn Vũ"
+          ],
+          "correct_answer": "Trấn Thành"
+        },
+        {
+          "id": 15,
+          "question": "Bộ phim gắn với ca khúc này ra mắt năm nào?",
+          "youtube_url": "https://www.youtube.com/watch?v=xwgS5ktvQxk",
+          "audio_start": 30,
+          "audio_duration": 30,
+          "options": [
+            "2017",
+            "2021",
+            "2025",
+            "2018"
+          ],
+          "correct_answer": "2021"
+        }
+      ]
+    },
+    {
+      "video_id": "video_004",
+      "youtube_url": "https://www.youtube.com/watch?v=3aEGk-fDyXo",
+      "audio_start": 300,
+      "audio_duration": 30,
+      "metadata": {
+        "song": "Diễm Xưa",
+        "movie": "Em Và Trịnh",
+        "artist": "Hoàng Dũng",
+        "director": "Phan Gia Nhật Linh",
+        "release_year": 2022
+      },
+      "questions": [
+        {
+          "id": 16,
+          "question": "Đây là bài hát nào?",
+          "youtube_url": "https://www.youtube.com/watch?v=3aEGk-fDyXo",
+          "audio_start": 300,
+          "audio_duration": 30,
+          "options": [
+            "Diễm Xưa",
+            "Những Dòng Sông Trên Ngón Tay",
+            "Tâm Sự Tuổi 30",
+            "Em Là Tất Cả"
+          ],
+          "correct_answer": "Diễm Xưa"
+        },
+        {
+          "id": 17,
+          "question": "Ca khúc này là nhạc phim của bộ phim nào?",
+          "youtube_url": "https://www.youtube.com/watch?v=3aEGk-fDyXo",
+          "audio_start": 300,
+          "audio_duration": 30,
+          "options": [
+            "Mắt Biếc",
+            "Em Và Trịnh",
+            "Mai",
+            "Ông Ngoại Tuổi 30"
+          ],
+          "correct_answer": "Em Và Trịnh"
+        },
+        {
+          "id": 18,
+          "question": "Ai thể hiện ca khúc này?",
+          "youtube_url": "https://www.youtube.com/watch?v=3aEGk-fDyXo",
+          "audio_start": 300,
+          "audio_duration": 30,
+          "options": [
+            "Will",
+            "Ali Hoàng Dương",
+            "Han Sara",
+            "Hoàng Dũng"
+          ],
+          "correct_answer": "Hoàng Dũng"
+        },
+        {
+          "id": 19,
+          "question": "Ai là đạo diễn của bộ phim này?",
+          "youtube_url": "https://www.youtube.com/watch?v=3aEGk-fDyXo",
+          "audio_start": 300,
+          "audio_duration": 30,
+          "options": [
+            "Phan Gia Nhật Linh",
+            "Ngô Thanh Vân, Lê Thanh Sơn",
+            "Võ Thanh Hòa",
+            "Lê Thanh Sơn"
+          ],
+          "correct_answer": "Phan Gia Nhật Linh"
+        },
+        {
+          "id": 20,
+          "question": "Bộ phim gắn với ca khúc này ra mắt năm nào?",
+          "youtube_url": "https://www.youtube.com/watch?v=3aEGk-fDyXo",
+          "audio_start": 300,
+          "audio_duration": 30,
+          "options": [
+            "2022",
+            "2018",
+            "2019",
+            "2025"
+          ],
+          "correct_answer": "2022"
+        }
+      ]
+    },
+    {
+      "video_id": "video_005",
+      "youtube_url": "https://www.youtube.com/watch?v=3aEGk-fDyXo",
+      "audio_start": 430,
+      "audio_duration": 30,
+      "metadata": {
+        "song": "Dao Ánh's Theme",
+        "movie": "Em Và Trịnh",
+        "artist": "Trần Hữu Tuấn Bách",
+        "director": "Phan Gia Nhật Linh",
+        "release_year": 2022
+      },
+      "questions": [
+        {
+          "id": 21,
+          "question": "Đây là bài hát nào?",
+          "youtube_url": "https://www.youtube.com/watch?v=3aEGk-fDyXo",
+          "audio_start": 430,
+          "audio_duration": 30,
+          "options": [
+            "Dao Ánh's Theme",
+            "Tâm Sự Tuổi 30",
+            "Diễm Xưa",
+            "Vì Yêu Là Nhớ"
+          ],
+          "correct_answer": "Dao Ánh's Theme"
+        },
+        {
+          "id": 22,
+          "question": "Ca khúc này là nhạc phim của bộ phim nào?",
+          "youtube_url": "https://www.youtube.com/watch?v=3aEGk-fDyXo",
+          "audio_start": 430,
+          "audio_duration": 30,
+          "options": [
+            "Em Và Trịnh",
+            "Bộ Tứ Báo Thủ",
+            "Mắt Biếc",
+            "Em Chưa 18"
+          ],
+          "correct_answer": "Em Và Trịnh"
+        },
+        {
+          "id": 23,
+          "question": "Ai thể hiện ca khúc này?",
+          "youtube_url": "https://www.youtube.com/watch?v=3aEGk-fDyXo",
+          "audio_start": 430,
+          "audio_duration": 30,
+          "options": [
+            "Trần Hữu Tuấn Bách",
+            "Mỹ Linh",
+            "Hà Trần",
+            "Will"
+          ],
+          "correct_answer": "Trần Hữu Tuấn Bách"
+        },
+        {
+          "id": 24,
+          "question": "Ai là đạo diễn của bộ phim này?",
+          "youtube_url": "https://www.youtube.com/watch?v=3aEGk-fDyXo",
+          "audio_start": 430,
+          "audio_duration": 30,
+          "options": [
+            "Lê Thanh Sơn",
+            "Phan Gia Nhật Linh",
+            "Đinh Tuấn Vũ",
+            "Võ Thanh Hòa"
+          ],
+          "correct_answer": "Phan Gia Nhật Linh"
+        },
+        {
+          "id": 25,
+          "question": "Bộ phim gắn với ca khúc này ra mắt năm nào?",
+          "youtube_url": "https://www.youtube.com/watch?v=3aEGk-fDyXo",
+          "audio_start": 430,
+          "audio_duration": 30,
+          "options": [
+            "2024",
+            "2017",
+            "2025",
+            "2022"
+          ],
+          "correct_answer": "2022"
+        }
+      ]
+    },
+    {
+      "video_id": "video_006",
+      "youtube_url": "https://www.youtube.com/watch?v=3aEGk-fDyXo",
+      "audio_start": 460,
+      "audio_duration": 30,
+      "metadata": {
+        "song": "Em Còn Nhớ Hay Em Đã Quên",
+        "movie": "Em Và Trịnh",
+        "artist": "Mỹ Linh",
+        "director": "Phan Gia Nhật Linh",
+        "release_year": 2022
+      },
+      "questions": [
+        {
+          "id": 26,
+          "question": "Đây là bài hát nào?",
+          "youtube_url": "https://www.youtube.com/watch?v=3aEGk-fDyXo",
+          "audio_start": 460,
+          "audio_duration": 30,
+          "options": [
+            "Em Là Tất Cả",
+            "Ánh Nắng Của Anh",
+            "Em Còn Nhớ Hay Em Đã Quên",
+            "Không Sao Đâu"
+          ],
+          "correct_answer": "Em Còn Nhớ Hay Em Đã Quên"
+        },
+        {
+          "id": 27,
+          "question": "Ca khúc này là nhạc phim của bộ phim nào?",
+          "youtube_url": "https://www.youtube.com/watch?v=3aEGk-fDyXo",
+          "audio_start": 460,
+          "audio_duration": 30,
+          "options": [
+            "Em Chưa 18",
+            "Em Và Trịnh",
+            "Bộ Tứ Báo Thủ",
+            "Mai"
+          ],
+          "correct_answer": "Em Và Trịnh"
+        },
+        {
+          "id": 28,
+          "question": "Ai thể hiện ca khúc này?",
+          "youtube_url": "https://www.youtube.com/watch?v=3aEGk-fDyXo",
+          "audio_start": 460,
+          "audio_duration": 30,
+          "options": [
+            "Only C",
+            "Mỹ Linh",
+            "Ali Hoàng Dương",
+            "Will"
+          ],
+          "correct_answer": "Mỹ Linh"
+        },
+        {
+          "id": 29,
+          "question": "Ai là đạo diễn của bộ phim này?",
+          "youtube_url": "https://www.youtube.com/watch?v=3aEGk-fDyXo",
+          "audio_start": 460,
+          "audio_duration": 30,
+          "options": [
+            "Ngô Thanh Vân, Lê Thanh Sơn",
+            "Trấn Thành",
+            "Võ Thanh Hòa",
+            "Phan Gia Nhật Linh"
+          ],
+          "correct_answer": "Phan Gia Nhật Linh"
+        },
+        {
+          "id": 30,
+          "question": "Bộ phim gắn với ca khúc này ra mắt năm nào?",
+          "youtube_url": "https://www.youtube.com/watch?v=3aEGk-fDyXo",
+          "audio_start": 460,
+          "audio_duration": 30,
+          "options": [
+            "2021",
+            "2019",
+            "2022",
+            "2016"
+          ],
+          "correct_answer": "2022"
+        }
+      ]
+    },
+    {
+      "video_id": "video_007",
+      "youtube_url": "https://www.youtube.com/watch?v=ckjJkakE6fk",
+      "audio_start": 25,
+      "audio_duration": 30,
+      "metadata": {
+        "song": "Nắng Thủy Tinh",
+        "movie": "Em Và Trịnh",
+        "artist": "Hoàng Dũng",
+        "director": "Phan Gia Nhật Linh",
+        "release_year": 2022
+      },
+      "questions": [
+        {
+          "id": 31,
+          "question": "Đây là bài hát nào?",
+          "youtube_url": "https://www.youtube.com/watch?v=ckjJkakE6fk",
+          "audio_start": 25,
+          "audio_duration": 30,
+          "options": [
+            "Nắng Thủy Tinh",
+            "Từ Đó",
+            "Em Còn Nhớ Hay Em Đã Quên",
+            "Tâm Sự Tuổi 30"
+          ],
+          "correct_answer": "Nắng Thủy Tinh"
+        },
+        {
+          "id": 32,
+          "question": "Ca khúc này là nhạc phim của bộ phim nào?",
+          "youtube_url": "https://www.youtube.com/watch?v=ckjJkakE6fk",
+          "audio_start": 25,
+          "audio_duration": 30,
+          "options": [
+            "Bộ Tứ Báo Thủ",
+            "Em Và Trịnh",
+            "Ông Ngoại Tuổi 30",
+            "Em Chưa 18"
+          ],
+          "correct_answer": "Em Và Trịnh"
+        },
+        {
+          "id": 33,
+          "question": "Ai thể hiện ca khúc này?",
+          "youtube_url": "https://www.youtube.com/watch?v=ckjJkakE6fk",
+          "audio_start": 25,
+          "audio_duration": 30,
+          "options": [
+            "Hà Trần",
+            "Only C",
+            "Hoàng Dũng",
+            "Trần Hữu Tuấn Bách"
+          ],
+          "correct_answer": "Hoàng Dũng"
+        },
+        {
+          "id": 34,
+          "question": "Ai là đạo diễn của bộ phim này?",
+          "youtube_url": "https://www.youtube.com/watch?v=ckjJkakE6fk",
+          "audio_start": 25,
+          "audio_duration": 30,
+          "options": [
+            "Phan Gia Nhật Linh",
+            "Trấn Thành",
+            "Võ Thanh Hòa",
+            "Đinh Tuấn Vũ"
+          ],
+          "correct_answer": "Phan Gia Nhật Linh"
+        },
+        {
+          "id": 35,
+          "question": "Bộ phim gắn với ca khúc này ra mắt năm nào?",
+          "youtube_url": "https://www.youtube.com/watch?v=ckjJkakE6fk",
+          "audio_start": 25,
+          "audio_duration": 30,
+          "options": [
+            "2022",
+            "2016",
+            "2019",
+            "2024"
+          ],
+          "correct_answer": "2022"
+        }
+      ]
+    },
+    {
+      "video_id": "video_008",
+      "youtube_url": "https://www.youtube.com/watch?v=-nnWBhKZeg0",
+      "audio_start": 35,
+      "audio_duration": 30,
+      "metadata": {
+        "song": "Yêu Là \"Tha Thu\"",
+        "movie": "Em Chưa 18",
+        "artist": "Only C",
+        "director": "Lê Thanh Sơn",
+        "release_year": 2017
+      },
+      "questions": [
+        {
+          "id": 36,
+          "question": "Đây là bài hát nào?",
+          "youtube_url": "https://www.youtube.com/watch?v=-nnWBhKZeg0",
+          "audio_start": 35,
+          "audio_duration": 30,
+          "options": [
+            "Yêu Là \"Tha Thu\"",
+            "Từ Đó",
+            "Diễm Xưa",
+            "Những Dòng Sông Trên Ngón Tay"
+          ],
+          "correct_answer": "Yêu Là \"Tha Thu\""
+        },
+        {
+          "id": 37,
+          "question": "Ca khúc này là nhạc phim của bộ phim nào?",
+          "youtube_url": "https://www.youtube.com/watch?v=-nnWBhKZeg0",
+          "audio_start": 35,
+          "audio_duration": 30,
+          "options": [
+            "Ông Ngoại Tuổi 30",
+            "Em Chưa 18",
+            "Chờ Em Đến Ngày Mai",
+            "Mai"
+          ],
+          "correct_answer": "Em Chưa 18"
+        },
+        {
+          "id": 38,
+          "question": "Ai thể hiện ca khúc này?",
+          "youtube_url": "https://www.youtube.com/watch?v=-nnWBhKZeg0",
+          "audio_start": 35,
+          "audio_duration": 30,
+          "options": [
+            "Hà Trần",
+            "Only C",
+            "Đông Nhi",
+            "Han Sara"
+          ],
+          "correct_answer": "Only C"
+        },
+        {
+          "id": 39,
+          "question": "Ai là đạo diễn của bộ phim này?",
+          "youtube_url": "https://www.youtube.com/watch?v=-nnWBhKZeg0",
+          "audio_start": 35,
+          "audio_duration": 30,
+          "options": [
+            "Lê Thanh Sơn",
+            "Ngô Thanh Vân, Lê Thanh Sơn",
+            "Đinh Tuấn Vũ",
+            "Victor Vũ"
+          ],
+          "correct_answer": "Lê Thanh Sơn"
+        },
+        {
+          "id": 40,
+          "question": "Bộ phim gắn với ca khúc này ra mắt năm nào?",
+          "youtube_url": "https://www.youtube.com/watch?v=-nnWBhKZeg0",
+          "audio_start": 35,
+          "audio_duration": 30,
+          "options": [
+            "2017",
+            "2016",
+            "2025",
+            "2018"
+          ],
+          "correct_answer": "2017"
+        }
+      ]
+    },
+    {
+      "video_id": "video_009",
+      "youtube_url": "https://www.youtube.com/watch?v=cdkSV-mBg0s",
+      "audio_start": 30,
+      "audio_duration": 30,
+      "metadata": {
+        "song": "Em Chưa 18",
+        "movie": "Em Chưa 18",
+        "artist": "Will",
+        "director": "Lê Thanh Sơn",
+        "release_year": 2017
+      },
+      "questions": [
+        {
+          "id": 41,
+          "question": "Đây là bài hát nào?",
+          "youtube_url": "https://www.youtube.com/watch?v=cdkSV-mBg0s",
+          "audio_start": 30,
+          "audio_duration": 30,
+          "options": [
+            "Từ Đó",
+            "Cô Ba Sài Gòn",
+            "Sao Cha Không",
+            "Em Chưa 18"
+          ],
+          "correct_answer": "Em Chưa 18"
+        },
+        {
+          "id": 42,
+          "question": "Ca khúc này là nhạc phim của bộ phim nào?",
+          "youtube_url": "https://www.youtube.com/watch?v=cdkSV-mBg0s",
+          "audio_start": 30,
+          "audio_duration": 30,
+          "options": [
+            "Em Và Trịnh",
+            "Em Chưa 18",
+            "Bộ Tứ Báo Thủ",
+            "Chờ Em Đến Ngày Mai"
+          ],
+          "correct_answer": "Em Chưa 18"
+        },
+        {
+          "id": 43,
+          "question": "Ai thể hiện ca khúc này?",
+          "youtube_url": "https://www.youtube.com/watch?v=cdkSV-mBg0s",
+          "audio_start": 30,
+          "audio_duration": 30,
+          "options": [
+            "Hà Trần",
+            "Phan Mạnh Quỳnh",
+            "Trịnh Thăng Bình",
+            "Will"
+          ],
+          "correct_answer": "Will"
+        },
+        {
+          "id": 44,
+          "question": "Ai là đạo diễn của bộ phim này?",
+          "youtube_url": "https://www.youtube.com/watch?v=cdkSV-mBg0s",
+          "audio_start": 30,
+          "audio_duration": 30,
+          "options": [
+            "Victor Vũ",
+            "Lê Thanh Sơn",
+            "Ngô Thanh Vân, Lê Thanh Sơn",
+            "Trấn Thành"
+          ],
+          "correct_answer": "Lê Thanh Sơn"
+        },
+        {
+          "id": 45,
+          "question": "Bộ phim gắn với ca khúc này ra mắt năm nào?",
+          "youtube_url": "https://www.youtube.com/watch?v=cdkSV-mBg0s",
+          "audio_start": 30,
+          "audio_duration": 30,
+          "options": [
+            "2019",
+            "2017",
+            "2016",
+            "2018"
+          ],
+          "correct_answer": "2017"
+        }
+      ]
+    },
+    {
+      "video_id": "video_010",
+      "youtube_url": "https://www.youtube.com/watch?v=kV3famkRaA4",
+      "audio_start": 35,
+      "audio_duration": 30,
+      "metadata": {
+        "song": "Vì Yêu Là Nhớ",
+        "movie": "Ông Ngoại Tuổi 30",
+        "artist": "Han Sara",
+        "director": "Võ Thanh Hòa",
+        "release_year": 2018
+      },
+      "questions": [
+        {
+          "id": 46,
+          "question": "Đây là bài hát nào?",
+          "youtube_url": "https://www.youtube.com/watch?v=kV3famkRaA4",
+          "audio_start": 35,
+          "audio_duration": 30,
+          "options": [
+            "Sau Lời Từ Khước",
+            "Tâm Sự Tuổi 30",
+            "Diễm Xưa",
+            "Vì Yêu Là Nhớ"
+          ],
+          "correct_answer": "Vì Yêu Là Nhớ"
+        },
+        {
+          "id": 47,
+          "question": "Ca khúc này là nhạc phim của bộ phim nào?",
+          "youtube_url": "https://www.youtube.com/watch?v=kV3famkRaA4",
+          "audio_start": 35,
+          "audio_duration": 30,
+          "options": [
+            "Ông Ngoại Tuổi 30",
+            "Mai",
+            "Em Chưa 18",
+            "Em Và Trịnh"
+          ],
+          "correct_answer": "Ông Ngoại Tuổi 30"
+        },
+        {
+          "id": 48,
+          "question": "Ai thể hiện ca khúc này?",
+          "youtube_url": "https://www.youtube.com/watch?v=kV3famkRaA4",
+          "audio_start": 35,
+          "audio_duration": 30,
+          "options": [
+            "Han Sara",
+            "Ali Hoàng Dương",
+            "Captain Boy",
+            "Trịnh Thăng Bình"
+          ],
+          "correct_answer": "Han Sara"
+        },
+        {
+          "id": 49,
+          "question": "Ai là đạo diễn của bộ phim này?",
+          "youtube_url": "https://www.youtube.com/watch?v=kV3famkRaA4",
+          "audio_start": 35,
+          "audio_duration": 30,
+          "options": [
+            "Ngô Thanh Vân, Lê Thanh Sơn",
+            "Đinh Tuấn Vũ",
+            "Lê Thanh Sơn",
+            "Võ Thanh Hòa"
+          ],
+          "correct_answer": "Võ Thanh Hòa"
+        },
+        {
+          "id": 50,
+          "question": "Bộ phim gắn với ca khúc này ra mắt năm nào?",
+          "youtube_url": "https://www.youtube.com/watch?v=kV3famkRaA4",
+          "audio_start": 35,
+          "audio_duration": 30,
+          "options": [
+            "2019",
+            "2017",
+            "2018",
+            "2025"
+          ],
+          "correct_answer": "2018"
+        }
+      ]
+    },
+    {
+      "video_id": "video_011",
+      "youtube_url": "https://www.youtube.com/watch?v=pwCaaico9M8",
+      "audio_start": 40,
+      "audio_duration": 30,
+      "metadata": {
+        "song": "Tâm Sự Tuổi 30",
+        "movie": "Ông Ngoại Tuổi 30",
+        "artist": "Trịnh Thăng Bình",
+        "director": "Võ Thanh Hòa",
+        "release_year": 2018
+      },
+      "questions": [
+        {
+          "id": 51,
+          "question": "Đây là bài hát nào?",
+          "youtube_url": "https://www.youtube.com/watch?v=pwCaaico9M8",
+          "audio_start": 40,
+          "audio_duration": 30,
+          "options": [
+            "Những Dòng Sông Trên Ngón Tay",
+            "Diễm Xưa",
+            "Tâm Sự Tuổi 30",
+            "Nắng Thủy Tinh"
+          ],
+          "correct_answer": "Tâm Sự Tuổi 30"
+        },
+        {
+          "id": 52,
+          "question": "Ca khúc này là nhạc phim của bộ phim nào?",
+          "youtube_url": "https://www.youtube.com/watch?v=pwCaaico9M8",
+          "audio_start": 40,
+          "audio_duration": 30,
+          "options": [
+            "Em Và Trịnh",
+            "Ông Ngoại Tuổi 30",
+            "Em Chưa 18",
+            "Mắt Biếc"
+          ],
+          "correct_answer": "Ông Ngoại Tuổi 30"
+        },
+        {
+          "id": 53,
+          "question": "Ai thể hiện ca khúc này?",
+          "youtube_url": "https://www.youtube.com/watch?v=pwCaaico9M8",
+          "audio_start": 40,
+          "audio_duration": 30,
+          "options": [
+            "Orange",
+            "Trịnh Thăng Bình",
+            "Will",
+            "Only C"
+          ],
+          "correct_answer": "Trịnh Thăng Bình"
+        },
+        {
+          "id": 54,
+          "question": "Ai là đạo diễn của bộ phim này?",
+          "youtube_url": "https://www.youtube.com/watch?v=pwCaaico9M8",
+          "audio_start": 40,
+          "audio_duration": 30,
+          "options": [
+            "Võ Thanh Hòa",
+            "Ngô Thanh Vân, Lê Thanh Sơn",
+            "Lê Thanh Sơn",
+            "Trấn Thành"
+          ],
+          "correct_answer": "Võ Thanh Hòa"
+        },
+        {
+          "id": 55,
+          "question": "Bộ phim gắn với ca khúc này ra mắt năm nào?",
+          "youtube_url": "https://www.youtube.com/watch?v=pwCaaico9M8",
+          "audio_start": 40,
+          "audio_duration": 30,
+          "options": [
+            "2017",
+            "2018",
+            "2025",
+            "2022"
+          ],
+          "correct_answer": "2018"
+        }
+      ]
+    },
+    {
+      "video_id": "video_012",
+      "youtube_url": "https://www.youtube.com/watch?v=1P4DaXgzVnE",
+      "audio_start": 30,
+      "audio_duration": 30,
+      "metadata": {
+        "song": "Ánh Nắng Của Anh",
+        "movie": "Chờ Em Đến Ngày Mai",
+        "artist": "Đức Phúc",
+        "director": "Đinh Tuấn Vũ",
+        "release_year": 2016
+      },
+      "questions": [
+        {
+          "id": 56,
+          "question": "Đây là bài hát nào?",
+          "youtube_url": "https://www.youtube.com/watch?v=1P4DaXgzVnE",
+          "audio_start": 30,
+          "audio_duration": 30,
+          "options": [
+            "Điều Cha Chưa Nói",
+            "Một Nơi Bé Nhỏ Nào Đó",
+            "Ánh Nắng Của Anh",
+            "Không Sao Đâu"
+          ],
+          "correct_answer": "Ánh Nắng Của Anh"
+        },
+        {
+          "id": 57,
+          "question": "Ca khúc này là nhạc phim của bộ phim nào?",
+          "youtube_url": "https://www.youtube.com/watch?v=1P4DaXgzVnE",
+          "audio_start": 30,
+          "audio_duration": 30,
+          "options": [
+            "Em Và Trịnh",
+            "Ông Ngoại Tuổi 30",
+            "Mai",
+            "Chờ Em Đến Ngày Mai"
+          ],
+          "correct_answer": "Chờ Em Đến Ngày Mai"
+        },
+        {
+          "id": 58,
+          "question": "Ai thể hiện ca khúc này?",
+          "youtube_url": "https://www.youtube.com/watch?v=1P4DaXgzVnE",
+          "audio_start": 30,
+          "audio_duration": 30,
+          "options": [
+            "Ali Hoàng Dương",
+            "Captain Boy",
+            "Đức Phúc",
+            "Will"
+          ],
+          "correct_answer": "Đức Phúc"
+        },
+        {
+          "id": 59,
+          "question": "Ai là đạo diễn của bộ phim này?",
+          "youtube_url": "https://www.youtube.com/watch?v=1P4DaXgzVnE",
+          "audio_start": 30,
+          "audio_duration": 30,
+          "options": [
+            "Ngô Thanh Vân, Lê Thanh Sơn",
+            "Lê Thanh Sơn",
+            "Phan Gia Nhật Linh",
+            "Đinh Tuấn Vũ"
+          ],
+          "correct_answer": "Đinh Tuấn Vũ"
+        },
+        {
+          "id": 60,
+          "question": "Bộ phim gắn với ca khúc này ra mắt năm nào?",
+          "youtube_url": "https://www.youtube.com/watch?v=1P4DaXgzVnE",
+          "audio_start": 30,
+          "audio_duration": 30,
+          "options": [
+            "2022",
+            "2019",
+            "2024",
+            "2016"
+          ],
+          "correct_answer": "2016"
+        }
+      ]
+    },
+    {
+      "video_id": "video_013",
+      "youtube_url": "https://www.youtube.com/watch?v=W8sbale1Mao",
+      "audio_start": 25,
+      "audio_duration": 30,
+      "metadata": {
+        "song": "Em Là Tất Cả",
+        "movie": "Chờ Em Đến Ngày Mai",
+        "artist": "Đức Phúc",
+        "director": "Đinh Tuấn Vũ",
+        "release_year": 2016
+      },
+      "questions": [
+        {
+          "id": 61,
+          "question": "Đây là bài hát nào?",
+          "youtube_url": "https://www.youtube.com/watch?v=W8sbale1Mao",
+          "audio_start": 25,
+          "audio_duration": 30,
+          "options": [
+            "Những Dòng Sông Trên Ngón Tay",
+            "Em Là Tất Cả",
+            "Vì Yêu Là Nhớ",
+            "Từ Đó"
+          ],
+          "correct_answer": "Em Là Tất Cả"
+        },
+        {
+          "id": 62,
+          "question": "Ca khúc này là nhạc phim của bộ phim nào?",
+          "youtube_url": "https://www.youtube.com/watch?v=W8sbale1Mao",
+          "audio_start": 25,
+          "audio_duration": 30,
+          "options": [
+            "Ông Ngoại Tuổi 30",
+            "Chờ Em Đến Ngày Mai",
+            "Mắt Biếc",
+            "Bố Già"
+          ],
+          "correct_answer": "Chờ Em Đến Ngày Mai"
+        },
+        {
+          "id": 63,
+          "question": "Ai thể hiện ca khúc này?",
+          "youtube_url": "https://www.youtube.com/watch?v=W8sbale1Mao",
+          "audio_start": 25,
+          "audio_duration": 30,
+          "options": [
+            "Ali Hoàng Dương",
+            "Đông Nhi",
+            "Trịnh Thăng Bình",
+            "Đức Phúc"
+          ],
+          "correct_answer": "Đức Phúc"
+        },
+        {
+          "id": 64,
+          "question": "Ai là đạo diễn của bộ phim này?",
+          "youtube_url": "https://www.youtube.com/watch?v=W8sbale1Mao",
+          "audio_start": 25,
+          "audio_duration": 30,
+          "options": [
+            "Trấn Thành",
+            "Lê Thanh Sơn",
+            "Võ Thanh Hòa",
+            "Đinh Tuấn Vũ"
+          ],
+          "correct_answer": "Đinh Tuấn Vũ"
+        },
+        {
+          "id": 65,
+          "question": "Bộ phim gắn với ca khúc này ra mắt năm nào?",
+          "youtube_url": "https://www.youtube.com/watch?v=W8sbale1Mao",
+          "audio_start": 25,
+          "audio_duration": 30,
+          "options": [
+            "2025",
+            "2021",
+            "2016",
+            "2019"
+          ],
+          "correct_answer": "2016"
+        }
+      ]
+    },
+    {
+      "video_id": "video_014",
+      "youtube_url": "https://www.youtube.com/watch?v=0A0bHyxhlgM",
+      "audio_start": 0,
+      "audio_duration": 30,
+      "metadata": {
+        "song": "Sao Cha Không",
+        "movie": "Bố Già",
+        "artist": "Phan Mạnh Quỳnh",
+        "director": "Trấn Thành",
+        "release_year": 2021
+      },
+      "questions": [
+        {
+          "id": 66,
+          "question": "Đây là bài hát nào?",
+          "youtube_url": "https://www.youtube.com/watch?v=0A0bHyxhlgM",
+          "audio_start": 0,
+          "audio_duration": 30,
+          "options": [
+            "Sao Cha Không",
+            "Những Dòng Sông Trên Ngón Tay",
+            "Diễm Xưa",
+            "Em Là Tất Cả"
+          ],
+          "correct_answer": "Sao Cha Không"
+        },
+        {
+          "id": 67,
+          "question": "Ca khúc này là nhạc phim của bộ phim nào?",
+          "youtube_url": "https://www.youtube.com/watch?v=0A0bHyxhlgM",
+          "audio_start": 0,
+          "audio_duration": 30,
+          "options": [
+            "Em Chưa 18",
+            "Bố Già",
+            "Mai",
+            "Mắt Biếc"
+          ],
+          "correct_answer": "Bố Già"
+        },
+        {
+          "id": 68,
+          "question": "Ai thể hiện ca khúc này?",
+          "youtube_url": "https://www.youtube.com/watch?v=0A0bHyxhlgM",
+          "audio_start": 0,
+          "audio_duration": 30,
+          "options": [
+            "Only C",
+            "Trần Hữu Tuấn Bách",
+            "Phan Mạnh Quỳnh",
+            "Will"
+          ],
+          "correct_answer": "Phan Mạnh Quỳnh"
+        },
+        {
+          "id": 69,
+          "question": "Ai là đạo diễn của bộ phim này?",
+          "youtube_url": "https://www.youtube.com/watch?v=0A0bHyxhlgM",
+          "audio_start": 0,
+          "audio_duration": 30,
+          "options": [
+            "Trấn Thành",
+            "Lê Thanh Sơn",
+            "Phan Gia Nhật Linh",
+            "Victor Vũ"
+          ],
+          "correct_answer": "Trấn Thành"
+        },
+        {
+          "id": 70,
+          "question": "Bộ phim gắn với ca khúc này ra mắt năm nào?",
+          "youtube_url": "https://www.youtube.com/watch?v=0A0bHyxhlgM",
+          "audio_start": 0,
+          "audio_duration": 30,
+          "options": [
+            "2016",
+            "2021",
+            "2025",
+            "2017"
+          ],
+          "correct_answer": "2021"
+        }
+      ]
+    },
+    {
+      "video_id": "video_015",
+      "youtube_url": "https://www.youtube.com/watch?v=oA0bHyxhlgM",
+      "audio_start": 285,
+      "audio_duration": 30,
+      "metadata": {
+        "song": "Sau Lời Từ Khước",
+        "movie": "Mai",
+        "artist": "Phan Mạnh Quỳnh",
+        "director": "Trấn Thành",
+        "release_year": 2024
+      },
+      "questions": [
+        {
+          "id": 71,
+          "question": "Đây là bài hát nào?",
+          "youtube_url": "https://www.youtube.com/watch?v=oA0bHyxhlgM",
+          "audio_start": 285,
+          "audio_duration": 30,
+          "options": [
+            "Ánh Nắng Của Anh",
+            "Chúng Ta Còn Ở Đó Không",
+            "Sau Lời Từ Khước",
+            "Vì Yêu Là Nhớ"
+          ],
+          "correct_answer": "Sau Lời Từ Khước"
+        },
+        {
+          "id": 72,
+          "question": "Ca khúc này là nhạc phim của bộ phim nào?",
+          "youtube_url": "https://www.youtube.com/watch?v=oA0bHyxhlgM",
+          "audio_start": 285,
+          "audio_duration": 30,
+          "options": [
+            "Em Và Trịnh",
+            "Ông Ngoại Tuổi 30",
+            "Mai",
+            "Mắt Biếc"
+          ],
+          "correct_answer": "Mai"
+        },
+        {
+          "id": 73,
+          "question": "Ai thể hiện ca khúc này?",
+          "youtube_url": "https://www.youtube.com/watch?v=oA0bHyxhlgM",
+          "audio_start": 285,
+          "audio_duration": 30,
+          "options": [
+            "Trịnh Thăng Bình",
+            "Han Sara",
+            "Phan Mạnh Quỳnh",
+            "Ali Hoàng Dương"
+          ],
+          "correct_answer": "Phan Mạnh Quỳnh"
+        },
+        {
+          "id": 74,
+          "question": "Ai là đạo diễn của bộ phim này?",
+          "youtube_url": "https://www.youtube.com/watch?v=oA0bHyxhlgM",
+          "audio_start": 285,
+          "audio_duration": 30,
+          "options": [
+            "Trấn Thành",
+            "Phan Gia Nhật Linh",
+            "Võ Thanh Hòa",
+            "Ngô Thanh Vân, Lê Thanh Sơn"
+          ],
+          "correct_answer": "Trấn Thành"
+        },
+        {
+          "id": 75,
+          "question": "Bộ phim gắn với ca khúc này ra mắt năm nào?",
+          "youtube_url": "https://www.youtube.com/watch?v=oA0bHyxhlgM",
+          "audio_start": 285,
+          "audio_duration": 30,
+          "options": [
+            "2016",
+            "2021",
+            "2018",
+            "2024"
+          ],
+          "correct_answer": "2024"
+        }
+      ]
+    },
+    {
+      "video_id": "video_016",
+      "youtube_url": "https://www.youtube.com/watch?v=oA0bHyxhlgM",
+      "audio_start": 547,
+      "audio_duration": 30,
+      "metadata": {
+        "song": "Những Dòng Sông Trên Ngón Tay",
+        "movie": "Mai",
+        "artist": "Hà Trần",
+        "director": "Trấn Thành",
+        "release_year": 2024
+      },
+      "questions": [
+        {
+          "id": 76,
+          "question": "Đây là bài hát nào?",
+          "youtube_url": "https://www.youtube.com/watch?v=oA0bHyxhlgM",
+          "audio_start": 547,
+          "audio_duration": 30,
+          "options": [
+            "Một Nơi Bé Nhỏ Nào Đó",
+            "Sao Cha Không",
+            "Em Là Tất Cả",
+            "Những Dòng Sông Trên Ngón Tay"
+          ],
+          "correct_answer": "Những Dòng Sông Trên Ngón Tay"
+        },
+        {
+          "id": 77,
+          "question": "Ca khúc này là nhạc phim của bộ phim nào?",
+          "youtube_url": "https://www.youtube.com/watch?v=oA0bHyxhlgM",
+          "audio_start": 547,
+          "audio_duration": 30,
+          "options": [
+            "Cô Ba Sài Gòn",
+            "Mai",
+            "Chờ Em Đến Ngày Mai",
+            "Bố Già"
+          ],
+          "correct_answer": "Mai"
+        },
+        {
+          "id": 78,
+          "question": "Ai thể hiện ca khúc này?",
+          "youtube_url": "https://www.youtube.com/watch?v=oA0bHyxhlgM",
+          "audio_start": 547,
+          "audio_duration": 30,
+          "options": [
+            "Trần Hữu Tuấn Bách",
+            "Đông Nhi",
+            "Mỹ Linh",
+            "Hà Trần"
+          ],
+          "correct_answer": "Hà Trần"
+        },
+        {
+          "id": 79,
+          "question": "Ai là đạo diễn của bộ phim này?",
+          "youtube_url": "https://www.youtube.com/watch?v=oA0bHyxhlgM",
+          "audio_start": 547,
+          "audio_duration": 30,
+          "options": [
+            "Phan Gia Nhật Linh",
+            "Trấn Thành",
+            "Ngô Thanh Vân, Lê Thanh Sơn",
+            "Lê Thanh Sơn"
+          ],
+          "correct_answer": "Trấn Thành"
+        },
+        {
+          "id": 80,
+          "question": "Bộ phim gắn với ca khúc này ra mắt năm nào?",
+          "youtube_url": "https://www.youtube.com/watch?v=oA0bHyxhlgM",
+          "audio_start": 547,
+          "audio_duration": 30,
+          "options": [
+            "2018",
+            "2016",
+            "2024",
+            "2019"
+          ],
+          "correct_answer": "2024"
+        }
+      ]
+    },
+    {
+      "video_id": "video_017",
+      "youtube_url": "https://www.youtube.com/watch?v=oA0bHyxhlgM",
+      "audio_start": 861,
+      "audio_duration": 30,
+      "metadata": {
+        "song": "Chúng Ta Còn Ở Đó Không",
+        "movie": "Bộ Tứ Báo Thủ",
+        "artist": "Orange",
+        "director": "Trấn Thành",
+        "release_year": 2025
+      },
+      "questions": [
+        {
+          "id": 81,
+          "question": "Đây là bài hát nào?",
+          "youtube_url": "https://www.youtube.com/watch?v=oA0bHyxhlgM",
+          "audio_start": 861,
+          "audio_duration": 30,
+          "options": [
+            "Sau Lời Từ Khước",
+            "Chúng Ta Còn Ở Đó Không",
+            "Em Chưa 18",
+            "Em Là Tất Cả"
+          ],
+          "correct_answer": "Chúng Ta Còn Ở Đó Không"
+        },
+        {
+          "id": 82,
+          "question": "Ca khúc này là nhạc phim của bộ phim nào?",
+          "youtube_url": "https://www.youtube.com/watch?v=oA0bHyxhlgM",
+          "audio_start": 861,
+          "audio_duration": 30,
+          "options": [
+            "Em Và Trịnh",
+            "Cô Ba Sài Gòn",
+            "Ông Ngoại Tuổi 30",
+            "Bộ Tứ Báo Thủ"
+          ],
+          "correct_answer": "Bộ Tứ Báo Thủ"
+        },
+        {
+          "id": 83,
+          "question": "Ai thể hiện ca khúc này?",
+          "youtube_url": "https://www.youtube.com/watch?v=oA0bHyxhlgM",
+          "audio_start": 861,
+          "audio_duration": 30,
+          "options": [
+            "Mỹ Linh",
+            "Orange",
+            "Ali Hoàng Dương",
+            "Trịnh Thăng Bình"
+          ],
+          "correct_answer": "Orange"
+        },
+        {
+          "id": 84,
+          "question": "Ai là đạo diễn của bộ phim này?",
+          "youtube_url": "https://www.youtube.com/watch?v=oA0bHyxhlgM",
+          "audio_start": 861,
+          "audio_duration": 30,
+          "options": [
+            "Lê Thanh Sơn",
+            "Đinh Tuấn Vũ",
+            "Trấn Thành",
+            "Võ Thanh Hòa"
+          ],
+          "correct_answer": "Trấn Thành"
+        },
+        {
+          "id": 85,
+          "question": "Bộ phim gắn với ca khúc này ra mắt năm nào?",
+          "youtube_url": "https://www.youtube.com/watch?v=oA0bHyxhlgM",
+          "audio_start": 861,
+          "audio_duration": 30,
+          "options": [
+            "2016",
+            "2018",
+            "2021",
+            "2025"
+          ],
+          "correct_answer": "2025"
+        }
+      ]
+    },
+    {
+      "video_id": "video_018",
+      "youtube_url": "https://www.youtube.com/watch?v=oA0bHyxhlgM",
+      "audio_start": 1111,
+      "audio_duration": 30,
+      "metadata": {
+        "song": "Không Sao Đâu",
+        "movie": "Bộ Tứ Báo Thủ",
+        "artist": "Captain Boy",
+        "director": "Trấn Thành",
+        "release_year": 2025
+      },
+      "questions": [
+        {
+          "id": 86,
+          "question": "Đây là bài hát nào?",
+          "youtube_url": "https://www.youtube.com/watch?v=oA0bHyxhlgM",
+          "audio_start": 1111,
+          "audio_duration": 30,
+          "options": [
+            "Tâm Sự Tuổi 30",
+            "Sau Lời Từ Khước",
+            "Không Sao Đâu",
+            "Cô Ba Sài Gòn"
+          ],
+          "correct_answer": "Không Sao Đâu"
+        },
+        {
+          "id": 87,
+          "question": "Ca khúc này là nhạc phim của bộ phim nào?",
+          "youtube_url": "https://www.youtube.com/watch?v=oA0bHyxhlgM",
+          "audio_start": 1111,
+          "audio_duration": 30,
+          "options": [
+            "Bộ Tứ Báo Thủ",
+            "Cô Ba Sài Gòn",
+            "Mai",
+            "Chờ Em Đến Ngày Mai"
+          ],
+          "correct_answer": "Bộ Tứ Báo Thủ"
+        },
+        {
+          "id": 88,
+          "question": "Ai thể hiện ca khúc này?",
+          "youtube_url": "https://www.youtube.com/watch?v=oA0bHyxhlgM",
+          "audio_start": 1111,
+          "audio_duration": 30,
+          "options": [
+            "Captain Boy",
+            "Han Sara",
+            "Trần Hữu Tuấn Bách",
+            "Hoàng Dũng"
+          ],
+          "correct_answer": "Captain Boy"
+        },
+        {
+          "id": 89,
+          "question": "Ai là đạo diễn của bộ phim này?",
+          "youtube_url": "https://www.youtube.com/watch?v=oA0bHyxhlgM",
+          "audio_start": 1111,
+          "audio_duration": 30,
+          "options": [
+            "Trấn Thành",
+            "Victor Vũ",
+            "Đinh Tuấn Vũ",
+            "Võ Thanh Hòa"
+          ],
+          "correct_answer": "Trấn Thành"
+        },
+        {
+          "id": 90,
+          "question": "Bộ phim gắn với ca khúc này ra mắt năm nào?",
+          "youtube_url": "https://www.youtube.com/watch?v=oA0bHyxhlgM",
+          "audio_start": 1111,
+          "audio_duration": 30,
+          "options": [
+            "2021",
+            "2018",
+            "2025",
+            "2024"
+          ],
+          "correct_answer": "2025"
+        }
+      ]
+    },
+    {
+      "video_id": "video_019",
+      "youtube_url": "https://www.youtube.com/watch?v=oA0bHyxhlgM",
+      "audio_start": 1350,
+      "audio_duration": 30,
+      "metadata": {
+        "song": "Một Nơi Bé Nhỏ Nào Đó",
+        "movie": "Bộ Tứ Báo Thủ",
+        "artist": "Orange",
+        "director": "Trấn Thành",
+        "release_year": 2025
+      },
+      "questions": [
+        {
+          "id": 91,
+          "question": "Đây là bài hát nào?",
+          "youtube_url": "https://www.youtube.com/watch?v=oA0bHyxhlgM",
+          "audio_start": 1350,
+          "audio_duration": 30,
+          "options": [
+            "Điều Cha Chưa Nói",
+            "Cô Ba Sài Gòn",
+            "Chúng Ta Còn Ở Đó Không",
+            "Một Nơi Bé Nhỏ Nào Đó"
+          ],
+          "correct_answer": "Một Nơi Bé Nhỏ Nào Đó"
+        },
+        {
+          "id": 92,
+          "question": "Ca khúc này là nhạc phim của bộ phim nào?",
+          "youtube_url": "https://www.youtube.com/watch?v=oA0bHyxhlgM",
+          "audio_start": 1350,
+          "audio_duration": 30,
+          "options": [
+            "Em Và Trịnh",
+            "Ông Ngoại Tuổi 30",
+            "Cô Ba Sài Gòn",
+            "Bộ Tứ Báo Thủ"
+          ],
+          "correct_answer": "Bộ Tứ Báo Thủ"
+        },
+        {
+          "id": 93,
+          "question": "Ai thể hiện ca khúc này?",
+          "youtube_url": "https://www.youtube.com/watch?v=oA0bHyxhlgM",
+          "audio_start": 1350,
+          "audio_duration": 30,
+          "options": [
+            "Trần Hữu Tuấn Bách",
+            "Captain Boy",
+            "Phan Mạnh Quỳnh",
+            "Orange"
+          ],
+          "correct_answer": "Orange"
+        },
+        {
+          "id": 94,
+          "question": "Ai là đạo diễn của bộ phim này?",
+          "youtube_url": "https://www.youtube.com/watch?v=oA0bHyxhlgM",
+          "audio_start": 1350,
+          "audio_duration": 30,
+          "options": [
+            "Võ Thanh Hòa",
+            "Ngô Thanh Vân, Lê Thanh Sơn",
+            "Phan Gia Nhật Linh",
+            "Trấn Thành"
+          ],
+          "correct_answer": "Trấn Thành"
+        },
+        {
+          "id": 95,
+          "question": "Bộ phim gắn với ca khúc này ra mắt năm nào?",
+          "youtube_url": "https://www.youtube.com/watch?v=oA0bHyxhlgM",
+          "audio_start": 1350,
+          "audio_duration": 30,
+          "options": [
+            "2019",
+            "2018",
+            "2025",
+            "2016"
+          ],
+          "correct_answer": "2025"
+        }
+      ]
+    },
+    {
+      "video_id": "video_020",
+      "youtube_url": "https://www.youtube.com/watch?v=mOzTJgqTQeg",
+      "audio_start": 30,
+      "audio_duration": 30,
+      "metadata": {
+        "song": "Cô Ba Sài Gòn",
+        "movie": "Cô Ba Sài Gòn",
+        "artist": "Đông Nhi",
+        "director": "Ngô Thanh Vân, Lê Thanh Sơn",
+        "release_year": 2017
+      },
+      "questions": [
+        {
+          "id": 96,
+          "question": "Đây là bài hát nào?",
+          "youtube_url": "https://www.youtube.com/watch?v=mOzTJgqTQeg",
+          "audio_start": 30,
+          "audio_duration": 30,
+          "options": [
+            "Tâm Sự Tuổi 30",
+            "Sao Cha Không",
+            "Cô Ba Sài Gòn",
+            "Em Còn Nhớ Hay Em Đã Quên"
+          ],
+          "correct_answer": "Cô Ba Sài Gòn"
+        },
+        {
+          "id": 97,
+          "question": "Ca khúc này là nhạc phim của bộ phim nào?",
+          "youtube_url": "https://www.youtube.com/watch?v=mOzTJgqTQeg",
+          "audio_start": 30,
+          "audio_duration": 30,
+          "options": [
+            "Mắt Biếc",
+            "Cô Ba Sài Gòn",
+            "Ông Ngoại Tuổi 30",
+            "Em Chưa 18"
+          ],
+          "correct_answer": "Cô Ba Sài Gòn"
+        },
+        {
+          "id": 98,
+          "question": "Ai thể hiện ca khúc này?",
+          "youtube_url": "https://www.youtube.com/watch?v=mOzTJgqTQeg",
+          "audio_start": 30,
+          "audio_duration": 30,
+          "options": [
+            "Hoàng Dũng",
+            "Đông Nhi",
+            "Mỹ Linh",
+            "Orange"
+          ],
+          "correct_answer": "Đông Nhi"
+        },
+        {
+          "id": 99,
+          "question": "Ai là đạo diễn của bộ phim này?",
+          "youtube_url": "https://www.youtube.com/watch?v=mOzTJgqTQeg",
+          "audio_start": 30,
+          "audio_duration": 30,
+          "options": [
+            "Ngô Thanh Vân, Lê Thanh Sơn",
+            "Phan Gia Nhật Linh",
+            "Võ Thanh Hòa",
+            "Đinh Tuấn Vũ"
+          ],
+          "correct_answer": "Ngô Thanh Vân, Lê Thanh Sơn"
+        },
+        {
+          "id": 100,
+          "question": "Bộ phim gắn với ca khúc này ra mắt năm nào?",
+          "youtube_url": "https://www.youtube.com/watch?v=mOzTJgqTQeg",
+          "audio_start": 30,
+          "audio_duration": 30,
+          "options": [
+            "2017",
+            "2018",
+            "2024",
+            "2021"
+          ],
+          "correct_answer": "2017"
+        }
+      ]
+    }
+  ]
+}
